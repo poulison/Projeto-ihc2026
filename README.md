@@ -17,19 +17,19 @@ Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do T
 
 ## Identificação
 
-**Título do projeto de IHC:** {{TÍTULO DO PROJETO}}  
-**TCC/projeto de origem:** {{TÍTULO ORIGINAL DO TCC}}  
-**Orientador(a):** {{NOME}}  
+**Título do projeto de IHC:** Estoque com ML 
+**TCC/projeto de origem:** Previsão de estoque usando machine learning
+**Orientador(a):** Fagner de Assis Moura Pimentel
 **Disciplina:** Interação Humano-Computador  
-**Instituição:** {{INSTITUIÇÃO}}  
-**Semestre:** {{ANO/SEMESTRE}}
+**Instituição:** FEI
+**Semestre:** oitavo semestre
 
 ### Equipe
 
 | Nome completo | Matrícula | GitHub | Responsabilidade principal |
 |---|---:|---|---|
-| {{Nome 1}} | {{matrícula}} | {{@usuario}} | {{...}} |
-| {{Nome 2}} | {{matrícula}} | {{@usuario}} | {{...}} |
+| Paulo Andre de Oliveira Hirata | 22125072-3 | @poulison | {{...}} |
+| Victor Merker Binda | {{matrícula}} | {{@usuario}} | {{...}} |
 
 ## Relação entre TCC e projeto de IHC
 
