@@ -35,9 +35,9 @@ Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do T
 
 | Item | Descrição |
 |---|---|
-| Tema central do TCC | {{...}} |
-| Resultado técnico esperado do TCC | {{algoritmo, estudo, sistema, modelo, análise, API...}} |
-| O TCC já previa interface? | sim / não / parcialmente |
+| Tema central do TCC | O uso de ML para fazer previsões que envolvem o comportamento e movimentação de um estoque |
+| Resultado técnico esperado do TCC | Sistema |
+| O TCC já previa interface? | sim |
 | Capacidade técnica que pode gerar valor para pessoas | {{...}} |
 | Usuário principal adotado em IHC | {{...}} |
 | Objetivo principal desse usuário | {{...}} |
