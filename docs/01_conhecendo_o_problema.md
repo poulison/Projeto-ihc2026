@@ -2,6 +2,7 @@
 
 **Data:** {{19/08/2026}}  
 **Status:**  🟨 em andamento 
+
 **Responsabilidade:** 1 solução consolidada por equipe
 
 ## Objetivo da atividade
