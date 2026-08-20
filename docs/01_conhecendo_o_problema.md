@@ -1,7 +1,7 @@
 # Entrega 1 — Conhecendo o projeto, o usuário e o problema
 
-**Data:** {{dd/mm/aaaa}}  
-**Status:** ⬜ não iniciada  
+**Data:** {{19/08/2026}}  
+**Status:**  🟨 em andamento 
 **Responsabilidade:** 1 solução consolidada por equipe
 
 ## Objetivo da atividade
@@ -59,21 +59,22 @@ Uma hipótese explicitada é melhor do que uma suposição escondida.
 
 | Nome completo | Matrícula | GitHub |
 |---|---:|---|
-| {{...}} | {{...}} | {{...}} |
+| Paulo Andre de Oliveira Hirata| 22.125.072-3 | @poulison |
+| Victor Merker Binda        |          |   @victorrbb      |
 
 ## 0.2 Título atual do TCC
 
-{{...}}
+Previsão de estoque usando machine learning
 
 ## 0.3 Orientador(a)
 
-{{...}}
+Fagner de Assis Moura Pimentel
 
 ## 0.4 Qual é o resultado principal atualmente previsto no TCC?
 
 Marque e descreva:
 
-- [ ] sistema/aplicação interativa;
+- [x] sistema/aplicação interativa;
 - [ ] algoritmo;
 - [ ] modelo de IA/ML/LLM;
 - [ ] biblioteca/API/framework;
@@ -87,7 +88,7 @@ Marque e descreva:
 
 ## 0.5 O TCC já previa desenvolvimento de interface com usuário?
 
-- [ ] Sim, a interface já faz parte do TCC.
+- [x] Sim, a interface já faz parte do TCC.
 - [ ] Parcialmente; existe alguma interação, mas ainda não está bem definida.
 - [ ] Não. O TCC é predominantemente técnico e não previa interface.
 
@@ -101,11 +102,11 @@ Marque e descreva:
 
 ## 1.1 Explique o TCC em uma frase, sem citar linguagem de programação, framework ou banco de dados.
 
-{{...}}
+Usando as tecnologias atuais para prever o comportamento de um estoque
 
 ## 1.2 Qual situação, atividade ou problema do mundo real motivou o TCC?
 
-{{[F/H/?] ...}}
+[F] F01 - A observação de situações envolvendo ruptura de estoque na loja da família de um dos integrantes.
 
 ## 1.3 Qual é a **capacidade/contribuição central** produzida pelo TCC?
 
@@ -114,12 +115,12 @@ Complete, se ajudar:
 > “Nosso TCC produz, melhora, analisa ou permite `{{capacidade}}`.”
 
 Exemplos: otimizar consultas; classificar imagens; detectar anomalias; comparar modelos; identificar padrões; prever demanda; analisar desempenho; gerar resumos; recomendar configurações.
-
+(Nosso TCC analisa a otimização do controle de estoque e a comparação de diferentes modelos)
 {{...}}
 
 ## 1.4 O que se espera que esteja diferente **para pessoas, organizações ou processos** se essa contribuição for bem-sucedida?
 
-{{[F/H/?] ...}}
+[H] - Acreditamos que conseguiremos uma maior democratização de ferramentas usando ML para pequenos comércios.
 
 ## 1.5 O que é mérito técnico/científico do TCC e o que seria uma possível aplicação prática?
 
