@@ -58,9 +58,9 @@ O TCC busca prever a demanda usando o histórico do estoque para ajudar pequenos
 
 ## 1.4 Mudança esperada
 
-[H]  As previsões podem ajudar o responsável a antecipar reposições e reduzir faltas e excessos.
+[H] **H01** As previsões podem ajudar o responsável a antecipar reposições e reduzir faltas e excessos.
 
-[H]  Uma interface simples pode tornar esse tipo de análise acessível a gestores sem conhecimento de ML.
+[H] **H02** Uma interface simples pode tornar esse tipo de análise acessível a gestores sem conhecimento de ML.
 
 ## 1.5 Mérito técnico e aplicação
 
@@ -75,7 +75,7 @@ O TCC busca prever a demanda usando o histórico do estoque para ajudar pequenos
 
 ## 2.1 Usuário direto
 
-[H]  O usuário principal será o responsável pelo estoque de um pequeno comércio, que consultará previsões e planejará reposições.
+[H] **H03** O usuário principal será o responsável pelo estoque de um pequeno comércio, que consultará previsões e planejará reposições.
 
 ## 2.2 Perfis e responsabilidades
 
@@ -96,7 +96,7 @@ O TCC busca prever a demanda usando o histórico do estoque para ajudar pequenos
 
 ## 2.4 Características relevantes
 
-[H]  O usuário conhece produtos e fornecedores, mas pode não entender métricas de ML. A interface deve usar linguagem comercial e explicar as previsões.
+[H] **H04** O usuário conhece produtos e fornecedores, mas pode não entender métricas de ML. A interface deve usar linguagem comercial e explicar as previsões.
 
 [?] Ainda precisamos conhecer sua experiência tecnológica e necessidades de acessibilidade.
 
@@ -135,7 +135,7 @@ O TCC busca prever a demanda usando o histórico do estoque para ajudar pequenos
 
 ## 4.2 Principais dificuldades
 
-[H]  Consolidar movimentações e perceber tendências manualmente pode ser demorado e sujeito a erros.
+[H] **H05** Consolidar movimentações e perceber tendências manualmente pode ser demorado e sujeito a erros.
 
 ## 4.3 Informações necessárias
 
@@ -179,7 +179,7 @@ O TCC busca prever a demanda usando o histórico do estoque para ajudar pequenos
 
 ## 5.5 Histórico e rastreabilidade
 
-[H]  O usuário pode precisar rever previsões anteriores e comparar o previsto com o realizado.
+[H] **H06**  O usuário pode precisar rever previsões anteriores e comparar o previsto com o realizado.
 
 ## 5.6 Consequências de erro
 
