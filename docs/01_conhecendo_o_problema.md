@@ -17,7 +17,7 @@ As respostas usam **[F]** para fatos, **[H]** para hipóteses e **[?]** para inf
 | Nome completo | Matrícula | GitHub |
 |---|---:|---|
 | Paulo Andre de Oliveira Hirata | 22.125.072-3 | @poulison |
-| Victor Merker Binda | **[?] A preencher** | @victorrbb |
+| Victor Merker Binda | 22.125.075-6 | @victorrbb |
 
 ## 0.2 Título atual do TCC
 
@@ -39,7 +39,7 @@ As respostas usam **[F]** para fatos, **[H]** para hipóteses e **[?]** para inf
 
 - [x] Sim, a interface já faz parte do TCC.
 
-[F] O README prevê um sistema com interface. [?] Os fluxos obrigatórios e as tecnologias ainda serão confirmados com o orientador.
+[F] O README prevê um sistema com interface. Os fluxos obrigatórios e as tecnologias ainda serão confirmados com o orientador.
 
 ---
 
@@ -51,17 +51,16 @@ O TCC busca prever a demanda usando o histórico do estoque para ajudar pequenos
 
 ## 1.2 Problema que motivou o TCC
 
-[F] Um dos integrantes observou situações de ruptura de estoque na loja de sua família. **Fonte:** relato da equipe.
-
+[F] Um dos integrantes observou situações de ruptura de estoque na loja de sua família. 
 ## 1.3 Contribuição central
 
 [F] Analisar movimentações do estoque, gerar previsões de demanda e comparar modelos para entender qual apresenta melhor resultado no contexto estudado.
 
 ## 1.4 Mudança esperada
 
-[H] **H01 —** As previsões podem ajudar o responsável a antecipar reposições e reduzir faltas e excessos.
+[H]  As previsões podem ajudar o responsável a antecipar reposições e reduzir faltas e excessos.
 
-[H] **H02 —** Uma interface simples pode tornar esse tipo de análise acessível a gestores sem conhecimento de ML.
+[H]  Uma interface simples pode tornar esse tipo de análise acessível a gestores sem conhecimento de ML.
 
 ## 1.5 Mérito técnico e aplicação
 
@@ -76,7 +75,7 @@ O TCC busca prever a demanda usando o histórico do estoque para ajudar pequenos
 
 ## 2.1 Usuário direto
 
-[H] **H03 —** O usuário principal será o responsável pelo estoque de um pequeno comércio, que consultará previsões e planejará reposições.
+[H]  O usuário principal será o responsável pelo estoque de um pequeno comércio, que consultará previsões e planejará reposições.
 
 ## 2.2 Perfis e responsabilidades
 
@@ -97,7 +96,7 @@ O TCC busca prever a demanda usando o histórico do estoque para ajudar pequenos
 
 ## 2.4 Características relevantes
 
-[H] **H04 —** O usuário conhece produtos e fornecedores, mas pode não entender métricas de ML. A interface deve usar linguagem comercial e explicar as previsões.
+[H]  O usuário conhece produtos e fornecedores, mas pode não entender métricas de ML. A interface deve usar linguagem comercial e explicar as previsões.
 
 [?] Ainda precisamos conhecer sua experiência tecnológica e necessidades de acessibilidade.
 
@@ -132,11 +131,11 @@ O TCC busca prever a demanda usando o histórico do estoque para ajudar pequenos
 
 ## 4.1 Como é feito hoje?
 
-[F] A equipe já observou uma ruptura na loja. [?] Ainda não sabemos se o controle atual usa sistema, planilha, papel ou contagem manual.
+[F] A equipe já observou o uso da contagem manual do estoque para controle do mesmo.
 
 ## 4.2 Principais dificuldades
 
-[H] **H05 —** Consolidar movimentações e perceber tendências manualmente pode ser demorado e sujeito a erros.
+[H]  Consolidar movimentações e perceber tendências manualmente pode ser demorado e sujeito a erros.
 
 ## 4.3 Informações necessárias
 
@@ -156,7 +155,7 @@ O TCC busca prever a demanda usando o histórico do estoque para ajudar pequenos
 |---|---|---|
 | Relato da equipe | Existência da ruptura | Não informa frequência ou causa |
 | README e título do TCC | Previsão com ML e sistema com interface | Fluxos ainda pouco definidos |
-| [Sebrae](https://sebrae.com.br/Sebrae/Portal%20Sebrae/UFs/PE/Anexos/-controles-financeiros-.pdf) | Importância de evitar falta e excesso | Fonte geral |
+| Artigos e relatórios encontrados sobre o tema | Importância de evitar falta e excesso | Fonte geral |
 
 ---
 
@@ -164,11 +163,11 @@ O TCC busca prever a demanda usando o histórico do estoque para ajudar pequenos
 
 ## 5.1 Onde e quando?
 
-[H] Na loja, durante a conferência do estoque ou o planejamento de pedidos.
+[F] Nos comércios, durante a conferência do estoque ou o planejamento de pedidos.
 
 ## 5.2 Dispositivos
 
-[H] Computador ou notebook; celular para consultas rápidas. [?] Precisamos verificar os equipamentos disponíveis.
+[H] Computador ou notebook; celular para consultas rápidas. 
 
 ## 5.3 Condições físicas
 
@@ -180,7 +179,7 @@ O TCC busca prever a demanda usando o histórico do estoque para ajudar pequenos
 
 ## 5.5 Histórico e rastreabilidade
 
-[H] **H06 —** O usuário pode precisar rever previsões anteriores e comparar o previsto com o realizado.
+[H]  O usuário pode precisar rever previsões anteriores e comparar o previsto com o realizado.
 
 ## 5.6 Consequências de erro
 
@@ -196,16 +195,16 @@ O TCC busca prever a demanda usando o histórico do estoque para ajudar pequenos
 |---|---|---|
 | Planilhas/anotações | Registrar e conferir saldos | [H] para a loja estudada |
 | Experiência do responsável | Estimar procura e compras | [H] |
-| Odoo Inventory | Controle, previsão e reposição | [F] documentação oficial |
-| Zoho Inventory | Dashboard, relatórios e reposição | [F] documentação oficial |
+| preencher | preencher | preencher |
+| preencher | preencher | preencher |
 
 ## 6.2 Produtos da mesma área
 
-[F] O [Odoo Inventory](https://www.odoo.com/app/inventory-features) oferece previsão e reposição. O [Zoho Inventory](https://www.zoho.com/us/inventory/help/reports/inventory-reports.html) oferece dashboard e relatórios de estoque.
+[F] blue yonder
 
 ## 6.3 Interfaces conhecidas
 
-[H] Planilhas, sistemas de vendas e painéis administrativos podem ser familiares. [?] Isso será validado com o público.
+[F] Planilhas, sistemas de vendas e painéis administrativos.
 
 ## 6.4 Pontos positivos
 
@@ -231,7 +230,7 @@ O recorte será identificar risco de falta ou excesso, entender a previsão e pl
 
 ## 7.2 Perfil priorizado
 
-**Responsável pelo estoque de um pequeno comércio**, pois é quem transforma a previsão em decisão de reposição.
+Responsável pelo estoque de um pequeno comércio, pois é quem transforma a previsão em decisão de reposição.
 
 ## 7.3 Objetivo priorizado
 
@@ -337,9 +336,16 @@ As hipóteses também estão em [RASTREABILIDADE.md](../RASTREABILIDADE.md).
 
 # 12. Próximas entregas
 
-As próximas etapas irão validar o público e o processo atual, detalhar tarefas, criar o protótipo e avaliar a interface. Esta entrega poderá ser revisada quando novas evidências aparecerem.
-
----
+Entrega 2: verifica mercado, concorrentes e interfaces profissionais representativas.
+Entrega 3: detalha perfis e contexto.
+Entrega 4: aprofunda situações problemáticas.
+Entrega 5: modela tarefas centrais.
+Entrega 6: experimenta alternativas em baixa fidelidade.
+Entrega 7: investiga hipóteses com dados.
+Entrega 8: define restrições e metas de usabilidade.
+Entregas 9–11: transformam o recorte em modelo de interação e protótipo.
+Entregas 12–14: avaliam a interface construída na disciplina.
+A Entrega 1 é uma fotografia inicial do conhecimento. Ela pode e deve ser revisada quando surgirem evidências.
 
 # 13. Comunicação do projeto
 
@@ -351,14 +357,21 @@ As próximas etapas irão validar o público e o processo atual, detalhar tarefa
 
 # Checklist
 
-- [x] TCC e escopo de IHC estão diferenciados.
-- [x] Usuário, objetivo, problema e contexto foram definidos.
-- [x] Fatos, hipóteses e dúvidas foram identificados.
-- [x] Mercado e alternativas foram levantados inicialmente.
-- [x] O recorte é viável para o semestre.
-
-## Pendências
-
-- [?] Matrícula de Victor Merker Binda.
-- [?] Processo atual de controle da loja.
-- [?] Confirmação do escopo formal com o orientador.
+- [ ] Está clara a diferença entre tema do TCC, escopo formal do TCC e escopo de IHC.
+- [ ] A equipe declarou se o TCC já previa interface.
+- [ ] Se não previa, foi derivado um usuário plausível e um objetivo de uso.
+- [ ] A interface de IHC não foi apresentada como obrigação automática do TCC.
+- [ ] A contribuição do TCC foi descrita sem começar por tecnologias de implementação.
+- [ ] Usuários diretos e stakeholders foram diferenciados.
+- [ ] Foram considerados profissionais que configuram, administram, interpretam ou decidem, quando pertinente.
+- [ ] Objetivo do usuário não foi confundido com objetivo do projeto.
+- [ ] Processo/problema atual foi descrito antes da solução.
+- [ ] Existe situação concreta de uso/problema.
+- [ ] Contexto físico, social/organizacional, dispositivos e consequências de erro foram considerados.
+- [ ] Mercado/alternativas existentes foram levantados inicialmente.
+- [ ] Possibilidades como dashboard, relatório, histórico, filtros e CRUD foram tratadas como hipóteses de solução, não como requisitos automáticos.
+- [ ] Cada possibilidade de interface tem um objetivo/tarefa que poderia justificá-la.
+- [ ] Afirmações relevantes estão marcadas `[F]`, `[H]` ou `[?]`.
+- [ ] Hipóteses prioritárias receberam IDs e foram para a rastreabilidade.
+- [ ] O recorte de IHC é viável para modelar, prototipar e avaliar no semestre.
+- [ ] A equipe consegue explicar problema humano → contribuição computacional → forma de uso.
