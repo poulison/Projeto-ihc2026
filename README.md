@@ -38,11 +38,11 @@ Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do T
 | Tema central do TCC | O uso de ML para fazer previsões que envolvem o comportamento e movimentação de um estoque |
 | Resultado técnico esperado do TCC | Sistema |
 | O TCC já previa interface? | sim |
-| Capacidade técnica que pode gerar valor para pessoas | {{...}} |
-| Usuário principal adotado em IHC | {{...}} |
-| Objetivo principal desse usuário | {{...}} |
-| Interface/recorte explorado na disciplina | {{...}} |
-| Relação com o escopo formal do TCC | parte prevista / extensão conceitual / protótipo demonstrativo / outra |
+| Capacidade técnica que pode gerar valor para pessoas | Analisar o histórico do estoque, prever demanda e comparar modelos para apoiar reposições |
+| Usuário principal adotado em IHC | Responsável pelo controle e reposição do estoque de um pequeno comércio |
+| Objetivo principal desse usuário | Antecipar reposições, evitando falta e excesso de produtos |
+| Interface/recorte explorado na disciplina | Consulta de riscos, interpretação da previsão e planejamento de reposição |
+| Relação com o escopo formal do TCC | Parte prevista e aprofundamento da interface sob a perspectiva de IHC |
 
 > **Importante:** a tabela acima explica a relação entre os dois trabalhos. Ela não altera o compromisso formal do TCC.
 
@@ -100,8 +100,8 @@ O protótipo de IHC pode, portanto, funcionar como uma demonstração do potenci
 
 | # | Entrega | Quantidade mínima / responsabilidade | Status |
 |---:|---|---|---|
-| 1 | [Conhecendo o projeto, o usuário e o problema](docs/01_conhecendo_o_problema.md) | 1 solução consolidada por equipe | ⬜ |
-| 2 | [Público-alvo e análise de concorrência](docs/02_analise_concorrencia.md) | no mínimo 1 concorrente/interface representativa por integrante + síntese | ⬜ |
+| 1 | [Conhecendo o projeto, o usuário e o problema](docs/01_conhecendo_o_problema.md) | 1 solução consolidada por equipe | 🟨 |
+| 2 | [Público-alvo e análise de concorrência](docs/02_analise_concorrencia.md) | no mínimo 1 concorrente/interface representativa por integrante + síntese | 🟨 |
 | 3 | [Personas, empatia, contexto e jornada](docs/03_personas_contexto_jornada.md) | 1 persona por integrante; demais artefatos consolidados | ⬜ |
 | 4 | [Cenários de análise/problema](docs/04_cenarios_problema.md) | 1 solução completa por integrante | ⬜ |
 | 5 | [Análise de tarefas: HTA, GOMS e CTT](docs/05_analise_tarefas.md) | cada integrante: pelo menos 1 HTA + 1 GOMS + 1 CTT | ⬜ |
