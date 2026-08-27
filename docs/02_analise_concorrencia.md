@@ -18,8 +18,8 @@ Consultamos páginas, manuais, imagens oficiais e avaliações públicas. Não c
 
 | Item | Tipo | Motivo | Decisão |
 |---|---|---|---|
-| Odoo Inventory | Interface representativa | Possui previsão e reposição | Analisar como C01 |
-| Zoho Inventory | Interface representativa | Possui dashboard e relatórios | Analisar como C02 |
+| preencher | Interface representativa | preencher | Analisar como C01 |
+| preencher | Interface representativa | preencher | Analisar como C02 |
 | Planilha | Ferramenta cotidiana | Pode ser usada no controle atual | Validar na Entrega 3 |
 | Controle manual | Processo atual possível | Pode explicar parte das dificuldades | Investigar com usuários |
 
@@ -35,19 +35,19 @@ Acreditamos que esse usuário conheça termos como saldo, entrada, saída, estoq
 
 # 2. Concorrentes e interfaces representativas
 
-## C01 — Odoo Inventory
+## C01 — preencher
 
 **Autor:** Paulo Andre de Oliveira Hirata — 22.125.072-3
 
 **Tipo:** concorrente indireto/interface representativa
 
-**Fontes:** [Odoo Inventory](https://www.odoo.com/app/inventory-features), [previsão](https://www.odoo.com/documentation/18.0/applications/inventory_and_mrp/inventory/warehouses_storage/reporting/forecast.html) e [reposição](https://www.odoo.com/documentation/18.0/applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/report.html)
+**Fontes:** preencher
 
 **Acesso:** 26/08/2026
 
 ### Contexto
 
-O Odoo é um sistema empresarial amplo. Seu módulo de estoque reúne produtos, movimentações, previsões e reposições. Ele é maior que nosso projeto, mas realiza tarefas próximas às definidas na Entrega 1.
+preencher
 
 ### Funcionalidades relevantes
 
@@ -58,13 +58,6 @@ O Odoo é um sistema empresarial amplo. Seu módulo de estoque reúne produtos, 
 | Busca e filtros | Filtra produtos, locais e categorias | Facilita catálogos grandes, mas muitos filtros podem confundir |
 | Regras de reposição | Sugere ou gera pedidos por limites e prazos | A automação precisa de revisão e confirmação |
 
-![Painel de reposição do Odoo](../assets/02_concorrencia/c01_odoo_reposicao.png)
-
-*Figura C01.1 — Painel de reposição. Fonte: documentação oficial do Odoo.*
-
-![Gráfico de previsão do Odoo](../assets/02_concorrencia/c01_odoo_previsao.png)
-
-*Figura C01.2 — Estoque atual, entradas, saídas e previsão. Fonte: documentação oficial do Odoo.*
 
 ### Experiência e preço
 
@@ -78,19 +71,19 @@ Mostrar como a previsão foi formada e manter a ação de reposição próxima d
 
 ---
 
-## C02 — Zoho Inventory
+## C02 — 
 
-**Autor:** Victor Merker Binda — **[?] matrícula a preencher**
+**Autor:** Victor Merker Binda — 
 
 **Tipo:** concorrente indireto/interface representativa
 
-**Fontes:** [Zoho Inventory](https://www.zoho.com/us/inventory/), [dashboard](https://www.zoho.com/inventory/help/getting-started/dashboard.html) e [relatórios](https://www.zoho.com/us/inventory/help/reports/inventory-reports.html)
+**Fontes:** 
 
 **Acesso:** 26/08/2026
 
 ### Contexto
 
-O Zoho Inventory gerencia estoque, vendas, compras e armazéns. Seu dashboard resume indicadores e ações pendentes, enquanto os relatórios detalham saldos e movimentações.
+
 
 ### Funcionalidades relevantes
 
@@ -101,19 +94,8 @@ O Zoho Inventory gerencia estoque, vendas, compras e armazéns. Seu dashboard re
 | Relatórios | Apresenta saldos, movimentos e reposições com filtros | Cada relatório responde a uma tarefa específica |
 | Ações pendentes | Leva o usuário do indicador à lista correspondente | Transforma informação em próxima ação |
 
-![Dashboard do Zoho Inventory](../assets/02_concorrencia/c02_zoho_dashboard.png)
-
-*Figura C02.1 — Dashboard e ações pendentes. Fonte: documentação oficial do Zoho.*
-
-![Itens mais vendidos no Zoho Inventory](../assets/02_concorrencia/c02_zoho_mais_vendidos.png)
-
-*Figura C02.2 — Comparação de itens por período. Fonte: documentação oficial do Zoho.*
 
 ### Experiência e preço
-
-Na [Capterra](https://www.capterra.com/p/146241/Zoho-Inventory/reviews/), havia 420 avaliações e nota 4,4/5 em facilidade de uso. Usuários citam organização, busca e relatórios como pontos positivos; configuração e importação aparecem como dificuldades. Algumas avaliações são incentivadas.
-
-O produto oferece plano gratuito limitado e planos pagos por organização. No acesso, os planos anuais começavam em US$ 29 por organização/mês, sujeitos a mudanças e diferenças regionais.
 
 ### Lição principal
 
@@ -172,25 +154,21 @@ Os dois produtos mostram que controlar estoque envolve mais do que olhar o saldo
 
 # Referências
 
-- ODOO. [Inventory Features](https://www.odoo.com/app/inventory-features). Acesso em: 26 ago. 2026.
-- ODOO. [Forecasted Report](https://www.odoo.com/documentation/18.0/applications/inventory_and_mrp/inventory/warehouses_storage/reporting/forecast.html). Acesso em: 26 ago. 2026.
-- ODOO. [Replenishment Report](https://www.odoo.com/documentation/18.0/applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/report.html). Acesso em: 26 ago. 2026.
-- ZOHO. [Dashboard](https://www.zoho.com/inventory/help/getting-started/dashboard.html). Acesso em: 26 ago. 2026.
-- ZOHO. [Inventory Reports](https://www.zoho.com/us/inventory/help/reports/inventory-reports.html). Acesso em: 26 ago. 2026.
-- CAPTERRA. [Odoo Reviews](https://www.capterra.com/p/135618/Odoo/reviews/) e [Zoho Inventory Reviews](https://www.capterra.com/p/146241/Zoho-Inventory/reviews/). Acesso em: 26 ago. 2026.
+
 
 ---
 
 # Checklist
+- [ ] O mapa inicial de alternativas da Entrega 1 foi revisitado e aprofundado.
+- [ ] Hipóteses relevantes sobre mercado/padrões foram atualizadas na rastreabilidade quando surgiram evidências.
+- [ ] Há pelo menos uma análise completa por integrante.
+- [ ] Cada análise contém prints legíveis da interface.
+- [ ] Prints mostram telas/estados relevantes, não apenas logos/homepage.
+- [ ] Foram analisados concorrentes e/ou interfaces representativas ao público.
+- [ ] Em TCC sem interface original, foram investigadas ferramentas profissionais análogas às atividades do usuário escolhido.
+- [ ] Padrões como dashboard, relatório, filtros e CRUD foram analisados como soluções para tarefas, não como requisitos automáticos.
+- [ ] Opiniões de UX têm fonte.
+- [ ] A síntese compara critérios comuns e produz recomendações.
+- [ ] Não há “copiar porque o concorrente faz”; há justificativa de adequação ao público/contexto.
 
-- [x] Alternativas da Entrega 1 foram retomadas.
-- [x] Há uma análise por integrante e prints legíveis.
-- [x] Opiniões e dados possuem fontes.
-- [x] Padrões foram ligados a tarefas reais.
-- [x] A comparação gerou recomendações para o projeto.
 
-## Pendências
-
-- [?] Matrícula de Victor Merker Binda.
-- [?] Confirmar com usuários quais ferramentas fazem parte do processo atual.
-- [?] Avaliar acessibilidade nos protótipos posteriores.
