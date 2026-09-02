@@ -200,7 +200,7 @@ O TCC busca prever a demanda usando o histórico do estoque para ajudar pequenos
 
 ## 6.2 Produtos da mesma área
 
-[F] blue yonder
+[F] blue yonder e Netstock
 
 ## 6.3 Interfaces conhecidas
 
