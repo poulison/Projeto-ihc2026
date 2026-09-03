@@ -98,7 +98,6 @@ O TCC busca prever a demanda usando o histórico do estoque para ajudar pequenos
 
 [H] **H04** O usuário conhece produtos e fornecedores, mas pode não entender métricas de ML. A interface deve usar linguagem comercial e explicar as previsões.
 
-[?] Ainda precisamos conhecer sua experiência tecnológica e necessidades de acessibilidade.
 
 ---
 
