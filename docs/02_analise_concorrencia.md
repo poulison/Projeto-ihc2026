@@ -63,9 +63,9 @@ O produto é indireto em relação ao projeto porque possui escopo, custo e comp
 
 | Funcionalidade | Como é realizada | Evidência/print | Observação de IHC |
 |---|---|---|---|
-| Previsão de demanda | Combina métodos estatísticos, ML, IA e sinais internos ou externos para estimar a demanda | [`assets/02_concorrencia/blue_yonder_interface.webp`](assets/02_concorrencia/blue_yonder_interface.webp) | A automação reduz trabalho repetitivo, mas a origem e a atualização dos dados precisam estar visíveis para gerar confiança |
+| Previsão de demanda | Combina métodos estatísticos, ML, IA e sinais internos ou externos para estimar a demanda | Colocar a imagem | A automação reduz trabalho repetitivo, mas a origem e a atualização dos dados precisam estar visíveis para gerar confiança |
 | Explicação dos fatores | A abordagem divulgada como *glass box* apresenta fatores causais associados às previsões | [Página oficial de Demand Planning](https://blueyonder.com/solutions/supply-chain-planning/demand-planning) | Explicar por que o valor mudou permite avaliar a recomendação sem exigir conhecimento do algoritmo |
-| Alertas e recomendações | A experiência pública destaca acontecimentos, riscos, indicadores e ações possíveis | [`assets/02_concorrencia/blue_yonder_interface.webp`](assets/02_concorrencia/blue_yonder_interface.webp) | O encadeamento “o que aconteceu → por que importa → o que fazer” reduz a distância entre informação e ação |
+| Alertas e recomendações | A experiência pública destaca acontecimentos, riscos, indicadores e ações possíveis | Colocar a imagem | O encadeamento “o que aconteceu → por que importa → o que fazer” reduz a distância entre informação e ação |
 | Planejamento de cenários | Permite comparar alternativas e avaliar impactos antes da decisão | [Página oficial de Demand Planning](https://blueyonder.com/solutions/supply-chain-planning/demand-planning) | O cenário ativo e as diferenças entre alternativas devem estar claramente identificados |
 | Visão multidimensional | Organiza a análise por produto, local, cliente e período | [Página oficial de Demand Planning](https://blueyonder.com/solutions/supply-chain-planning/demand-planning) | É útil para catálogos complexos, mas dimensões demais podem aumentar a carga cognitiva |
 
@@ -114,7 +114,7 @@ Entre os dois produtos analisados, o Netstock é o mais próximo da proposta do 
 
 | Funcionalidade | Como é realizada | Evidência/print | Observação de IHC |
 |---|---|---|---|
-| Painel de exceções | Resume indicadores e prioriza produtos com risco de ruptura, excesso ou outros desvios | [`assets/02_concorrencia/netstock_interface.png`](assets/02_concorrencia/netstock_interface.png) | Direciona a atenção, mas o motivo da prioridade precisa estar explícito |
+| Painel de exceções | Resume indicadores e prioriza produtos com risco de ruptura, excesso ou outros desvios | Colocar imagem | Direciona a atenção, mas o motivo da prioridade precisa estar explícito |
 | Classificação de produtos | Agrupa itens por valor de vendas, velocidade e perfil de risco | [Página oficial de Inventory Optimization](https://www.netstock.com/solutions/inventory-optimization/) | A classificação facilita a priorização, desde que siglas e categorias tenham explicação |
 | Previsão de demanda | Gera previsões por produto, grupo, canal ou cliente, considerando tendências e sazonalidade | [Página oficial de Inventory Optimization](https://www.netstock.com/solutions/inventory-optimization/) | A previsão deve ser comparável às vendas realizadas e apresentada em linguagem operacional |
 | Estoque de segurança | Calcula proteção contra riscos de oferta e demanda e considera o nível de serviço desejado | [Página oficial de Inventory Optimization](https://www.netstock.com/solutions/inventory-optimization/) | O valor precisa ter explicação, parâmetros visíveis e possibilidade de conferência |
