@@ -99,7 +99,7 @@ O Blue Yonder opera como plataforma SaaS corporativa. O fabricante não divulga 
 
 ### Análise C02 — Netstock
 
-**Autor(a):** Victor Merker Binda  
+**Autor(a):** Victor Merker Binda 22.125.076-5 
 **Tipo:** indireto / análogo  
 **Link oficial:** https://www.netstock.com/solutions/inventory-optimization/  
 **Data de acesso:** 02/09/2026
