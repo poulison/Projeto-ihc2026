@@ -2,7 +2,7 @@
 
 **Data:** 26/08/2026
 
-**Status:** 🟨 em andamento
+**Status:**  🟩 concluída
 
 **Responsabilidade:** cada integrante analisa ao menos uma interface; a equipe produz a comparação.
 
