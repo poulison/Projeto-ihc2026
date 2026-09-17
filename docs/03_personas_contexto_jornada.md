@@ -75,7 +75,7 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 
 ### Persona P02 — Rafael Costa
 
-**Autor(a):** Victor Merker Binda — matrícula a inserir  
+**Autor(a):** Victor Merker Binda — 22.125.075-6 
 **Tipo:** secundária — persona de expectativa/proto-persona a validar  
 **Base de evidências:** tarefas previstas no módulo de cadastro operacional e hipótese de divisão de trabalho no pequeno negócio; ainda sem validação da existência ou frequência desse papel  
 **Hipóteses da Entrega 1 relacionadas:** H03, H04 e H06  
