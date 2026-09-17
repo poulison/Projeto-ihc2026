@@ -45,7 +45,7 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 **Hipóteses da Entrega 1 relacionadas:** H01, H02, H03, H04 e H05  
 **Frase-síntese:** “Preciso saber o que comprar sem deixar dinheiro parado nem descobrir a falta quando o cliente já está esperando.”
 
-<img width="1040" height="360" alt="image" src="https://github.com/user-attachments/assets/0d3a940d-ab69-48f5-a515-10967b9b8145" />
+<img width="1040" height="360" alt="image" src="https://github.com/user-attachments/assets/632327fe-9381-4c97-91fa-4b9940028b5f" />
 
 
 | Campo | Descrição |
