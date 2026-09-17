@@ -1,7 +1,7 @@
 # Entrega 4 — Cenários de análise/problema
 
 **Data:** {{dd/mm/aaaa}}  
-**Status:** ⬜ não iniciada  
+**Status:** 🟨 iniciada
 **Responsabilidade:** 1 solução completa por integrante
 
 ## Objetivo da atividade
@@ -24,7 +24,7 @@ Se o integrante escolher um novo problema/situação, explique por que ele passo
 
 ## Cenário C01 — {{título}}
 
-**Autor(a):** {{nome — matrícula}}  
+**Autor(a):** Paulo Andre de Oliveira Hirata 22.125.072-3 
 **Persona(s) relacionada(s):** {{P01}}  
 **Necessidade relacionada:** {{R01}}  
 **Situação concreta da Entrega 1 relacionada:** {{seção 4.4 / H01 / outra ou “nova situação justificada”}}  
