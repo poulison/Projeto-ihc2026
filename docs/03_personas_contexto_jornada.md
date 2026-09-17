@@ -50,7 +50,7 @@ Antes de criar personas, retome os tipos de usuários, características relevant
 
 | Campo | Descrição |
 |---|---|
-| Faixa etária / contexto relevante | Senhora de 65 anos, idade fictícia dentro do recorte de 60 a 70 anos. Tem longa vivência no comércio e passou a incluir vendas online com apoio operacional. A baixa familiaridade digital e a rotina dividida entre atendimento e gestão são os fatores que orientam o design. **[H07]** |
+| Faixa etária / contexto relevante | Senhora de 65 anos. Tem longa vivência no comércio e passou a incluir vendas online com apoio operacional. A baixa familiaridade digital e a rotina dividida entre atendimento e gestão são os fatores que orientam o design. **[H07]** |
 | Ocupação/papel | Proprietária de um pequeno comércio que também vende pela internet. Conhece os clientes e fornecedores, define as compras e controla o orçamento. Pode contar com Rafael para registros e tarefas digitais, mas continua responsável pela decisão de reposição. **[H01/H05/H06/H07]** |
 | Conhecimento do domínio | Tem experiência prática com produtos, negociação, giro de mercadorias e épocas de maior procura. Reconhece problemas pela observação das prateleiras e pelas anotações. Não costuma expressar esse conhecimento em métricas estatísticas ou relatórios analíticos. **[H03/H04/H07]** |
 | Experiência tecnológica | Usa o celular principalmente para ligações, mensagens e áudios. Faz anotações em caderno e utiliza calculadora; tem pouca prática com computador, planilhas, filtros e gráficos. Precisa de orientação no primeiro uso e aprende melhor repetindo um caminho curto com instruções visíveis. **[H03/H04/H07]** |
