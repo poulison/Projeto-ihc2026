@@ -17,12 +17,13 @@ Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do T
 
 ## Identificação
 
-**Título do projeto de IHC:** Estoque com ML 
-**TCC/projeto de origem:** Previsão de estoque usando machine learning
-**Orientador(a):** Fagner de Assis Moura Pimentel
-**Disciplina:** Interação Humano-Computador  
-**Instituição:** FEI
-**Semestre:** oitavo semestre
+**Equipe:** 14   
+**Título do projeto de IHC:** Estoque com ML   
+**TCC/projeto de origem:** Previsão de estoque usando machine learning  
+**Orientador(a):** Fagner de Assis Moura Pimentel  
+**Disciplina:** Interação Humano-Computador    
+**Instituição:** FEI  
+**Semestre:** oitavo semestre  
 
 ### Equipe
 
