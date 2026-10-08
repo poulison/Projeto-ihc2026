@@ -1,7 +1,7 @@
 # Entrega 4 — Cenários de análise/problema
 
 **Data:** 05/10/2026  
-**Status:** 🟨 iniciada
+**Status:** 🟩 concluída
 **Responsabilidade:** 1 solução completa da atividade por integrante: Paulo Andre de Oliveira Hirata — C01; Victor Merker Binda — C02.
 
 ## Objetivo da atividade
