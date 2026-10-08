@@ -173,50 +173,6 @@ Uma demanda de separação de pedidos interrompe a conferência. **[NOVO — C02
 
 Na análise posterior, a prioridade é entender a precisão do registro, a prevenção e a recuperação de erros, o esforço de retomada e a comunicação entre os papéis. A facilidade de Rafael com tecnologia não elimina problemas de significado, responsabilidade ou qualidade das fontes. Também será necessário verificar se negócios reais possuem esse papel auxiliar e como realizam a tarefa quando o proprietário trabalha sozinho.
 
-## Síntese e relação com os conceitos das aulas
-
-Os cenários representam objetivos diferentes e complementares. **C01 trata da decisão comercial sob incerteza e pressão de prazo; C02 trata da confiabilidade da informação operacional.** Uma falha na segunda atividade pode prejudicar a primeira, mas corrigir um registro não é suficiente, por si só, para decidir a quantidade de reposição. Da mesma forma, enviar um pedido não comprova que a reposição foi adequada.
-
-### Qualidade de uso em IHC
-
-Os critérios abaixo orientam o que deverá ser investigado nas próximas etapas. Não constituem resultados de teste nem especificações de telas.
-
-| Critério | Relação com os cenários | O que investigar ou observar |
-|---|---|---|
-| Usabilidade | Em C01, interessa conseguir reunir e compreender a informação para decidir; em C02, concluir uma correção sem introduzir novo erro. Eficácia não equivale a rapidez, e eficiência deve considerar o retrabalho. | Conclusão correta da tarefa, tempo de trabalho e de retomada, erros, ajuda solicitada, facilidade de aprendizado/recordação e satisfação relatada. |
-| Experiência do usuário | Mariana pode sentir insegurança sobre a compra; Rafael pode se frustrar com a releitura e a dúvida sobre os registros. Esses sentimentos são hipóteses, não diagnósticos ou depoimentos. | Como os participantes descrevem confiança, esforço, preocupação e frustração antes, durante e depois da atividade; o que causa essas percepções. |
-| Acessibilidade | A tarefa precisa ser analisada considerando diferentes condições de percepção, movimento, compreensão e aprendizado. Nem a idade de Mariana comprova deficiência, nem a idade de Rafael garante ausência de barreiras. | Barreiras reais de leitura, entendimento e operação nos recursos atuais, adaptações já utilizadas e necessidades declaradas pelos participantes. |
-| Comunicabilidade | Ao usar uma ferramenta, a pessoa precisa compreender sua finalidade e a lógica de sua operação. Ambiguidades como saldo físico/disponível e conferência parcial/concluída indicam significados que deverão ser investigados para a futura comunicação pela interface. | Como cada pessoa explica os termos, o efeito de suas ações e o que considera concluído; onde sua interpretação difere da lógica do recurso utilizado. |
-
-### Abordagens teóricas aplicadas à análise
-
-- **Processamento humano de informação:** as interrupções e a comparação entre fontes, presentes em C01-Q6 e C02-Q6, orientam a investigação sobre quais informações precisam ser mantidas mentalmente e como a atividade é retomada. Não se atribui um limite de memória específico a nenhuma persona.
-- **Percepção e princípios da Gestalt:** em C02-Q3, a relação entre identificação, quantidade e situação de uma venda pode ser examinada nos registros atuais. Proximidade, similaridade, região comum e conectividade ajudam a formular perguntas sobre o que é percebido como relacionado, sem determinar antecipadamente um layout.
-- **Lei de Hick-Hyman:** será pertinente ao estudo de escolhas delimitadas e da organização das alternativas. A compra de Mariana envolve incerteza comercial e não deve ser reduzida à contagem de opções nem ter seu tempo estimado pela fórmula sem dados da tarefa.
-- **Lei de Fitts:** poderá orientar a observação de ações de apontar e selecionar nos recursos digitais efetivamente utilizados. Sem medidas dos alvos, distâncias e condições de uso, não se conclui que esse seja o motivo das dificuldades descritas nem se prescreve uma posição de botão nesta etapa.
-
-As decisões de interface registradas na Entrega 3 permanecem como propostas anteriores. Nesta entrega, não são usadas como prova do problema nem inseridas artificialmente na rotina atual. A análise de tarefas e os futuros cenários de interação deverão confrontar essas propostas com o que vier a ser observado.
-
-## Matriz de rastreabilidade desta entrega
-
-Os identificadores C01 e C02 abaixo designam **cenários da Entrega 4**, não as análises de concorrentes com a mesma numeração na Entrega 2.
-
-| Cenário | Autoria | Persona | Necessidade | Origem recuperada e continuidade | Questões que aprofundam o problema |
-|---|---|---|---|---|---|
-| Entrega 4 / C01 | Paulo Andre de Oliveira Hirata | P01; participação eventual de P02 | **R04-01:** decidir o que, quando e quanto repor com controle da compra. | H01/H02/H03/H05, conforme retomada na Entrega 3; H06 como dependência a investigar; H07 da revisão de Mariana; jornada, etapas 1 e 2. | C01-Q1 a C01-Q8: prazo, tempo disponível, saldo, fontes, apoio, alternativas, interrupção e avaliação posterior. |
-| Entrega 4 / C02 | Victor Merker Binda | P02; P01 como fonte e destinatária | **R04-02:** manter saldo e movimentações confiáveis, corrigindo divergências sem duplicação ou omissão. | H03/H06, no contexto de H02, conforme retomada na Entrega 3; persona P02, objetivos, dores e comportamentos. | C02-Q1 a C02-Q8: conjunto de registros, ambiente, identificação, papéis, estratégia, retomada, correção e pendências. |
-
-Esta matriz estabelece os vínculos locais entre problema, persona e necessidade. A equipe ainda deverá conferir a correspondência com a Entrega 1 original e incorporar os vínculos à matriz central, reutilizando os IDs de necessidades que já existirem. Nenhuma hipótese foi considerada confirmada apenas por aparecer nas narrativas.
-
-## Referências e materiais utilizados
-
-- **CC8122 — Cenário Análise Problema.** Material de aula baseado em Barbosa e Silva (2010), arquivo `CC8122-Cenario Analise Problema.pdf`. Páginas 3–4: definição e elementos do cenário; páginas 5–7: exemplos e atividade.
-- **CC8122 — Refinamento Cenário Análise Problema.** Material de aula baseado em Barbosa e Silva (2010), arquivo `CC8122-Refinamento Cenario Analise Problema.pdf`. Páginas 7–10: taxonomia e questões por elemento; páginas 11–13: relação entre perguntas, narrativa refinada e procedimento de análise.
-- **CC8122 — Qualidade de Uso.** Material de aula baseado em Barbosa e Silva (2010), arquivo `CC8122-Qualidade de Uso.pdf`. Páginas 2–6 e 8–11: critérios de qualidade, usabilidade, experiência do usuário, acessibilidade e comunicabilidade.
-- **CC8122 — Abordagens Teóricas.** Material editado por Plinio Aquino, baseado em Barbosa e Silva (2010), arquivo `CC8122-Abordagens Teoricas (1).pdf`. Páginas 3–9: leis de Hick-Hyman e Fitts e processamento humano de informação; páginas 12–13: percepção e contexto; páginas 28–34: Gestalt.
-- **Entrega 3 — Personas, mapa de empatia, contexto de uso e jornada**, arquivo `03_personas_contexto_jornada_atualizado.md`: personas P01/P02, hipóteses recuperadas, revisão H07, contexto e etapas anteriores ao uso na jornada.
-- **Entrega 2 — Público-alvo e análise de concorrência**, arquivo `02_analise_concorrencia.md`: continuidade do domínio, do público e das necessidades estudadas; não utilizada como evidência de comportamento dos usuários fictícios.
-- **Texto do TCC**, arquivo `versao_textual_artigo_tcc1.md`: delimitação do problema de previsão de demanda e reposição. A base experimental Olist não é tratada como pesquisa com as personas nem como validação destes cenários.
 
 ## Checklist
 
