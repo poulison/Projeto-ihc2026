@@ -8,7 +8,7 @@
 
 Descrever situações atuais em que o responsável por um pequeno comércio digital e seu auxiliar tentam realizar atividades de reposição e controle de estoque, mas encontram dificuldades. Os cenários tornam explícitos os atores, os objetivos, o contexto, o planejamento, as ações, os eventos, a avaliação e as consequências dos problemas, sem antecipar a interface do TCC.
 
-O trabalho permanece relacionado ao tema **Previsão de Demanda e Recomendação de Reposição de Estoque para Microempreendedores Digitais Utilizando Machine Learning**. Nesta entrega, porém, o foco está na atividade humana que motiva o projeto, e não na execução do algoritmo ou nas funcionalidades da futura aplicação.
+O trabalho se relaciona à **previsão de demanda com aprendizado de máquina para apoiar o planejamento de reposição em pequenos comércios**. A formulação anterior incluía recomendação de quantidade e momento; essa capacidade permanece pendente de confirmação no escopo formal do TCC. A participação de vendas online é um refinamento hipotético da Entrega 3. Nesta entrega, porém, o foco está na atividade humana que motiva o projeto, e não na execução do algoritmo ou nas funcionalidades da futura aplicação.
 
 > **Regra central:** os cenários contam a história do problema antes da adoção da solução do TCC. Caderno, calculadora, planilha e mensagens aparecem como recursos da rotina atual hipotética; não como componentes de uma nova interface.
 
@@ -21,15 +21,15 @@ O trabalho permanece relacionado ao tema **Previsão de Demanda e Recomendação
 
 **Nota metodológica:** não foram fornecidos resultados de entrevistas ou observações de usuários para esta entrega. As narrativas, os sentimentos, os produtos, os horários, as quantidades e as respostas incorporadas no refinamento são construções hipotéticas para análise. A expressão **evidência no cenário** identifica um trecho da narrativa, não uma comprovação empírica. As fontes indicadas nas questões são formas propostas de obter respostas reais, ainda não executadas.
 
-**Rastreabilidade:** H01–H06 são retomadas conforme registradas na seção “Entradas da Entrega 1” da Entrega 3; o arquivo original da Entrega 1 não estava disponível para conferência direta. H07 pertence à revisão posterior da persona Mariana. As necessidades **R04-01** e **R04-02** recebem identificadores locais nesta entrega, derivados das personas; não substituem eventuais IDs já existentes na matriz central. Os detalhes novos são marcados como **[NOVO — Cxx-Qn: ...]**, permanecendo hipotéticos até a coleta de dados.
+**Rastreabilidade:** a Entrega 1 original foi conferida nesta revisão. C01 se relaciona ao relato de ruptura e contagem manual (seção 4), ao planejamento de reposições (seção 3) e às lacunas sobre processo e dados (seção 10). C02 aprofunda as lacunas sobre movimentações e divergências, sem atribuir duplicidade a um caso realmente observado. Acúmulo de tarefas, apoio operacional e pouca familiaridade digital são refinamentos hipotéticos da Entrega 3. As necessidades **R04-01** e **R04-02** foram integradas à [matriz central](../RASTREABILIDADE.md). Os detalhes **[NOVO — Cxx-Qn: ...]** indicam refinamento narrativo e permanecem hipotéticos.
 
 ## Cenário C01 — Decidir a reposição antes do prazo do fornecedor com informações dispersas
 
 **Autor(a):** Paulo Andre de Oliveira Hirata — 22.125.072-3  
 **Persona(s) relacionada(s):** P01 — Mariana Alves; P02 — Rafael Costa, como apoio eventual  
 **Necessidade relacionada:** R04-01 — decidir quais produtos repor, em que momento e em qual quantidade, considerando disponibilidade, procura, prazo de entrega e dinheiro disponível, mantendo o controle da decisão.  
-**Situação concreta da Entrega 1 relacionada:** aprofundamento de H01, H02, H03 e H05, recuperadas pela Entrega 3; correspondência concreta com a conferência manual e a pressão do fornecedor nas etapas 1 e 2 da jornada. A localização no documento original da Entrega 1 deverá ser conferida pela equipe.  
-**Hipóteses ainda presentes:** H01 — perfil responsável pela reposição; H02 — acúmulo de tarefas e pouco tempo; H03 — uso de registros manuais e ferramentas dispersas; H05 — controle humano da compra; H06 — apoio operacional eventual; H07 — pouca familiaridade digital de Mariana. As condições específicas deste episódio também são hipotéticas.
+**Situação da Entrega 1 relacionada:** relato de ruptura e contagem manual, seção 4; objetivo de planejar reposições, seção 3; lacunas de processo/dados, seção 10. O prazo do fornecedor e a dispersão dos registros são refinamentos hipotéticos associados às etapas 1 e 2 da jornada da Entrega 3.
+**Hipóteses ainda presentes:** perfil responsável pela reposição; acúmulo de tarefas e pouco tempo; uso de registros manuais e ferramentas dispersas; controle humano da compra; apoio operacional eventual; pouca familiaridade digital de Mariana. As condições específicas deste episódio também são hipotéticas.
 
 ### 1. Cenário inicial
 
@@ -104,8 +104,8 @@ Na análise posterior, devem ser priorizadas a compreensão das informações, a
 **Autor(a):** Victor Merker Binda — 22.125.075-6  
 **Persona(s) relacionada(s):** P02 — Rafael Costa; P01 — Mariana Alves, como fonte de informações e destinatária da conferência    
 **Necessidade relacionada:** R04-02 — manter registros de movimentação e um saldo de estoque confiáveis, identificar a origem das divergências e retomar a conferência sem omitir ou duplicar lançamentos.    
-**Situação concreta da Entrega 1 relacionada:** aprofundamento de H03 e H06, recuperadas pela Entrega 3, no contexto de H02. A situação é detalhada na persona P02, especialmente em objetivos, dores e comportamentos relacionados a registros, interrupções e divergências. A localização no documento original da Entrega 1 deverá ser conferida pela equipe.    
-**Hipóteses ainda presentes:** H02 — tarefas operacionais concorrentes; H03 — registros distribuídos entre planilha, caderno e marketplace; H06 — participação de auxiliar. A duplicidade e os demais detalhes deste episódio são hipóteses de refinamento, não ocorrências observadas.  
+**Situação da Entrega 1 relacionada:** lacunas sobre registro de movimentações, tratamento de divergências e divisão de responsabilidades, seções 2, 4 e 10. A duplicidade específica é uma construção hipotética da Entrega 4, derivada da persona P02.
+**Hipóteses ainda presentes:** tarefas operacionais concorrentes; registros distribuídos entre planilha, caderno e marketplace; participação de auxiliar. A duplicidade e os demais detalhes deste episódio são hipóteses de refinamento, não ocorrências observadas.  
 
 ### 1. Cenário inicial
 
@@ -172,7 +172,6 @@ Uma demanda de separação de pedidos interrompe a conferência. **[NOVO — C02
 | Comunicar conclusão e pendências. | Quem depende do resultado, como distingue dado confirmado de estimativa e o que precisa saber sobre uma correção posterior. | R04-02: impede que uma conferência parcial seja interpretada como validação de todo o estoque. |
 
 Na análise posterior, a prioridade é entender a precisão do registro, a prevenção e a recuperação de erros, o esforço de retomada e a comunicação entre os papéis. A facilidade de Rafael com tecnologia não elimina problemas de significado, responsabilidade ou qualidade das fontes. Também será necessário verificar se negócios reais possuem esse papel auxiliar e como realizam a tarefa quando o proprietário trabalha sozinho.
-
 
 ## Checklist
 
