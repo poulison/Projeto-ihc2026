@@ -1,222 +1,211 @@
 # Entrega 2 — Público-alvo e análise de concorrência
 
-**Data:** 26/08/2026
+**Data original:** 26/08/2026  
+**Consulta registrada na versão original:** 02/09/2026  
+**Revisão e nova consulta às fontes oficiais:** 13/10/2026  
+**Status:** 🟦 revisada após feedback
+**Responsabilidade:** Paulo Andre de Oliveira Hirata — C01; Victor Merker Binda — C02.
 
-**Status:**  🟩 concluída
+## Método, evidências e escopo da revisão
 
-**Responsabilidade:** cada integrante analisa ao menos uma interface; a equipe produz a comparação.
+O conjunto adotado é **C01 — Blue Yonder Demand Planning** e **C02 — Netstock**, conforme a análise textual e a decisão da equipe nesta revisão. Odoo e Zoho não sustentam as conclusões atuais. Os arquivos antigos foram preservados em uma pasta histórica, com a divergência registrada na [matriz](../RASTREABILIDADE.md).
 
-Objetivo da atividade
+Esta é uma **análise documental de interfaces divulgadas publicamente**, não um teste de usabilidade ou uso autenticado dos produtos. As figuras são capturas publicadas pelos fornecedores; os destaques e desfoques das imagens Netstock pertencem à documentação original. As datas exibidas nos dados de demonstração não indicam a data desta revisão.
 
-Compreender soluções do mesmo domínio **e também interfaces familiares ao público-alvo**. O objetivo não é copiar telas, mas identificar convenções, padrões, affordances percebidas, problemas recorrentes, expectativas e oportunidades de design.
+Cada conclusão distingue:
 
-> **Concorrente não precisa ser idêntico ao produto.** Pode atuar na mesma área, resolver objetivo semelhante ou disputar a mesma necessidade. Quando não houver concorrente direto, use produtos análogos e softwares que o público já utiliza.
+- **Observação visual:** elemento legível em uma figura identificada.
+- **Descrição documental:** capacidade ou procedimento informado pelo fabricante, com link.
+- **Inferência/proposta da equipe:** interpretação de IHC ou aplicação candidata ao projeto; não é resultado medido com usuários.
 
-### Para TCCs que não previam interface
+## Entrada da Entrega 1
 
-Não procure apenas um “concorrente do algoritmo”. Investigue **interfaces profissionais que materializam atividades semelhantes** às que o usuário escolhido precisaria realizar.
+| Item inicial | Situação naquela etapa | Tratamento nesta entrega |
+|---|---|---|
+| Blue Yonder | Produto citado, sem fonte registrada na Entrega 1 | Investigar como C01; documentar fontes e figuras |
+| Netstock | Produto citado, sem fonte registrada na Entrega 1 | Investigar como C02; documentar fontes e figuras |
+| Planilhas/anotações e experiência comercial | [H] Alternativas possíveis na loja | Manter como hipóteses de prática atual |
+| Sistema de vendas/PDV | [?] Existência e uso desconhecidos | Investigar ferramentas e responsáveis com o público |
 
-Exemplos:
-
-- TCC de banco de dados → consoles de administração, ferramentas para DBA, monitoramento e análise de consultas;
-- TCC de LLM/ML → painéis de experimentos, gestão de modelos/datasets, comparação de métricas, revisão de resultados;
-- TCC de análise de dados → dashboards, ferramentas de BI, filtros, relatórios e exploração;
-- TCC de infraestrutura/API → portais administrativos, observabilidade, logs, gestão de credenciais e uso;
-- TCC de cibersegurança → consoles de alertas, triagem, histórico e auditoria.
-
-A pergunta é: **“que convenções esse perfil já conhece para executar tarefas equivalentes?”**
-
-## Entrada obrigatória da Entrega 1
-
-Retome o mapa inicial de alternativas e produtos citado na Entrega 1. Aqui a equipe deixa de trabalhar apenas com impressão inicial e passa a **investigar sistematicamente** cada solução.
-
-| Item citado na Entrega 1 | Tipo | Por que foi citado | Status inicial | Decisão nesta entrega |
-|---|---|---|---|---|
-| Blue Yonder Demand Planning | concorrente indireto / interface profissional análoga | É uma referência consolidada em previsão de demanda, planejamento de estoque e apoio à reposição em cadeias de suprimentos complexas | F | analisar como C01 |
-| Netstock | concorrente indireto / interface profissional análoga | Oferece previsão de demanda, otimização de estoque e recomendações de reposição para pequenas e médias empresas | F | analisar como C02 |
-
-Se uma hipótese da Entrega 1 for confirmada ou refutada durante esta análise, atualize `H01`, `H02`... em [`../RASTREABILIDADE.md`](../RASTREABILIDADE.md).
-
+A existência de uma solução de mercado não confirma o usuário prioritário, o esforço do processo atual ou os benefícios esperados do nosso produto.
 
 ## 1. Público-alvo desta análise
 
-O público-alvo é o **responsável pelo estoque de um pequeno comércio**, muitas vezes o próprio proprietário, que acumula atividades de compra, venda e controle operacional. Ele precisa acompanhar o saldo dos produtos, identificar riscos de ruptura ou excesso e decidir o que, quando e quanto repor.
+[H] O perfil provisório é o responsável pelo estoque de pequeno comércio, que pode ser proprietário, gerente ou outro funcionário. O acúmulo de compra, venda e controle operacional é uma hipótese. A distribuição de responsabilidades ainda precisa ser investigada.
 
-Esse usuário tende a reconhecer termos cotidianos como produto, saldo, entrada, saída, estoque mínimo, fornecedor e prazo de entrega, mas pode não dominar conceitos como erro de previsão, *machine learning*, *fill rate* ou estoque de segurança calculado. A interface deve, portanto, traduzir resultados técnicos em informações operacionais, explicar os alertas e manter o usuário no controle da decisão de reposição.
+[H] Familiaridade com linguagem comercial e dificuldade com métricas de ML orientam a análise, sem serem características já comprovadas do público. O objetivo de negócio proposto é evitar falta e excesso. O recorte do TCC confirmado documentalmente é previsão e comparação de modelos; o cálculo de quantidade e momento de reposição ainda requer confirmação de escopo e regras.
 
-## 2. Concorrentes diretos/indiretos
+## 2. Concorrentes e interfaces profissionais análogas
 
 ### Análise C01 — Blue Yonder Demand Planning
 
-**Autor(a):** Paulo Andre de Oliveira Hirata — 22.125.072-3  
-**Tipo:** indireto / análogo  
-**Link oficial:** https://blueyonder.com/solutions/supply-chain-planning/demand-planning  
-**Data de acesso:** 02/09/2026
+**Autor:** Paulo Andre de Oliveira Hirata — 22.125.072-3  
+**Tipo:** concorrente indireto/interface profissional análoga  
+**Fonte principal:** [Demand Planning](https://blueyonder.com/solutions/supply-chain-planning/demand-planning).
 
 #### Contexto e proposta
 
-O Blue Yonder Demand Planning integra uma plataforma corporativa de planejamento e execução da cadeia de suprimentos. A solução combina métodos estatísticos, aprendizado de máquina e inteligência artificial para gerar previsões, analisar fatores que afetam a demanda, apoiar planejamento colaborativo e reduzir faltas e excessos de estoque. É voltada principalmente a organizações com grande volume de dados, várias localidades e cadeias de suprimentos complexas.
+A página oficial descreve previsão com métodos estatísticos, ML e IA, planejamento multidimensional e explicação de fatores de demanda. Essas são capacidades declaradas pelo fornecedor. A equipe usa o produto como referência de apresentação e interpretação de previsões; sua adequação a microcomércios não foi testada.
 
-O produto é indireto em relação ao projeto porque possui escopo, custo e complexidade superiores à realidade do microempreendedor brasileiro. Mesmo assim, funciona como referência de como transformar previsões em informações explicáveis, alertas e ações de planejamento.
+#### Figuras e observações de IHC
 
-#### Funcionalidades relevantes
+##### Figura C01.1 — Explicação da previsão
 
-| Funcionalidade | Como é realizada | Evidência/print | Observação de IHC |
-|---|---|---|---|
-| Previsão de demanda | Combina métodos estatísticos, ML, IA e sinais internos ou externos para estimar a demanda | <img width="280" height="200" alt="image" src="https://github.com/user-attachments/assets/1a2ecc9f-0174-4021-90b3-f3bab6378f03" /> | A automação reduz trabalho repetitivo, mas a origem e a atualização dos dados precisam estar visíveis para gerar confiança |
-| Explicação dos fatores | A abordagem divulgada como *glass box* apresenta fatores causais associados às previsões | [Página oficial de Demand Planning](https://blueyonder.com/solutions/supply-chain-planning/demand-planning) | Explicar por que o valor mudou permite avaliar a recomendação sem exigir conhecimento do algoritmo |
-| Alertas e recomendações | A experiência pública destaca acontecimentos, riscos, indicadores e ações possíveis | <img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/29c54c35-96f0-4f58-a667-cad2009a50f7" /> | O encadeamento “o que aconteceu → por que importa → o que fazer” reduz a distância entre informação e ação |
-| Planejamento de cenários | Permite comparar alternativas e avaliar impactos antes da decisão | [Página oficial de Demand Planning](https://blueyonder.com/solutions/supply-chain-planning/demand-planning) | O cenário ativo e as diferenças entre alternativas devem estar claramente identificados |
-| Visão multidimensional | Organiza a análise por produto, local, cliente e período | [Página oficial de Demand Planning](https://blueyonder.com/solutions/supply-chain-planning/demand-planning) | É útil para catálogos complexos, mas dimensões demais podem aumentar a carga cognitiva |
+![Tela de explicação da previsão com filtros por cliente, item, local e tempo, gráfico e legenda](../assets/02_concorrencia/c01_blue_yonder_explicabilidade.jpg)
 
-#### Experiência do usuário e opiniões
+**Origem:** captura publicada na página oficial de Demand Planning, arquivo original identificado no [registro de fontes](../assets/02_concorrencia/README.md).
 
-Na data da consulta, o G2 apresentava nota geral de **4,1/5 em 30 avaliações** para o Blue Yonder Demand Planning. Há relatos favoráveis sobre economia de tempo, possibilidade de ajustar dados e facilidade depois do aprendizado inicial. Também aparecem relatos de curva de aprendizagem, necessidade de treinamento e dificuldade em alguns procedimentos de grande escala. Parte das avaliações é antiga e menciona a marca anterior do produto, devendo ser interpretada com cautela.
+**Observação visual:** o painel esquerdo reúne cliente, item, localização e período; a área central combina séries e fatores com legenda extensa. Há rótulos técnicos como “EXPLAIN_TREND1”. **Interpretação da equipe:** concentrar filtros e resultado pode facilitar a conferência do recorte, mas quantidade de séries e nomenclatura podem exigir conhecimento especializado. **Aplicação candidata:** explicar a estimativa em linguagem comercial, com poucos detalhes iniciais e possibilidade de aprofundamento — RC02, RC05, RC06 e RC07. A captura não comprova compreensão, facilidade de uso ou redução de tempo.
 
-O Gartner Peer Insights apresentava **4,6/5 em 224 avaliações** para o Blue Yonder Supply Chain Planning. Esse resultado se refere ao conjunto mais amplo de planejamento da cadeia de suprimentos, e não apenas ao módulo de previsão. As opiniões públicas ajudam a identificar padrões percebidos, mas não substituem um teste de usabilidade com o público do projeto.
+##### Figura C01.2 — Planejamento de consenso
+
+![Tela de planejamento com gráficos por produto e canal, navegação lateral e tabela por localização e período](../assets/02_concorrencia/c01_blue_yonder_consenso.jpg)
+
+**Origem:** captura publicada na mesma página oficial.
+
+**Observação visual:** gráficos ocupam a parte superior; a tabela reúne local, item, cliente, medidas e períodos. O menu lateral oferece várias áreas de análise. **Interpretação da equipe:** a proximidade permite comparar representações, enquanto a densidade pode dificultar localizar a informação relevante. **Aplicação candidata:** limitar as informações ao problema da reposição e apresentar rótulos claros — RC02, RC07 e RC12. Esta tela mostra medidas de previsão e ajustes; não comprova, isoladamente, comparação de demanda prevista com vendas efetivamente realizadas.
+
+##### Figura C01.3 — Configuração do método
+
+![Janela de configuração do método de previsão, seleção de variáveis, parâmetros técnicos e botões Cancel e Save](../assets/02_concorrencia/c01_blue_yonder_configuracao.jpg)
+
+**Origem:** captura publicada na mesma página oficial.
+
+**Observação visual:** a janela exibe variáveis, “Epoch”, “Batch Size”, “Learning Rate” e ações “Cancel” e “Save”. **Interpretação da equipe:** esse vocabulário corresponde a configuração técnica e não deve ser exigido do comerciante apenas porque existe no concorrente. **Aplicação candidata:** separar configuração dos modelos da consulta comercial — RC07 e RC12. Os botões visíveis não demonstram confirmação de compra, desfazer ou recuperação de erro.
+
+#### Capacidades e alcance da evidência
+
+| Aspecto | Evidência | O que podemos concluir |
+|---|---|---|
+| Explicação de fatores | Figura C01.1 e página oficial | Existe apresentação de fatores; compreensão pelo público não foi testada |
+| Comparação de medidas e períodos | Figura C01.2 | Há visualizações e tabela; não se infere o comportamento de todos os comandos |
+| Configuração técnica | Figura C01.3 | Há parâmetros especializados; isso não os torna necessários na interface do TCC |
+| Insights e ações | [Estratégia de experiência do fabricante](https://blueyonder.com/why-blue-yonder/user-experience) | O fabricante propõe explicar acontecimentos e orientar atenção; a sequência exata não foi testada |
+
+#### Experiência do usuário e opiniões públicas
+
+**Registro histórico da análise original, com consulta declarada pela equipe em 02/09/2026:** G2 — 4,1/5 em 30 avaliações; Gartner Peer Insights — 4,6/5 em 224 avaliações. O segundo valor se refere ao conjunto Supply Chain Planning, não apenas ao módulo de demanda. A equipe registrou relatos sobre economia de tempo e possibilidade de ajustes, além de aprendizagem e treinamento. Parte dos relatos era antiga e mencionava a marca anterior.
+
+Fontes do registro: [G2](https://www.g2.com/products/blue-yonder-demand-planning/reviews) e [Gartner](https://www.gartner.com/reviews/market/supply-chain-planning-solutions/vendor/blue-yonder/product/blue-yonder-supply-chain-planning/likes-dislikes). Esses valores são preservados como dados da versão entregue, não como levantamento atualizado nesta revisão. A ausência de capturas históricas limita sua auditoria. As opiniões de terceiros não comprovam usabilidade para o público do projeto.
+
+Os pontos positivos e riscos discutidos aqui são interpretações das figuras: filtros junto aos resultados, contraste entre resumo e detalhamento, alta densidade e linguagem técnica. Aprendizagem, satisfação e eficiência exigem avaliação com tarefas e participantes.
 
 #### Preço/modelo de negócio
 
-O Blue Yonder opera como plataforma SaaS corporativa. O fabricante não divulga um preço fixo nas páginas consultadas e direciona o interessado ao contato comercial. O valor tende a depender dos módulos, integrações, quantidade de usuários e escala de implantação. Esse modelo reforça seu posicionamento corporativo e dificulta a adoção por pequenos negócios.
-
-#### Padrões e tendências percebidos
-
-- Visão inicial orientada a riscos, oportunidades e indicadores relevantes.
-- Explicação dos fatores que influenciam a previsão para aumentar confiança.
-- Automação de tarefas repetitivas com manutenção do controle humano.
-- Uso de detalhamento progressivo: primeiro o resumo, depois causas e dados.
-- Integração entre planejamento de demanda, oferta e execução.
-
-#### Pontos positivos, limitações e lições
-
-| Ponto | Evidência | Implicação para nosso projeto |
-|---|---|---|
-| Alertas são associados a contexto e indicadores | Imagem oficial de experiência e descrição de recomendações acionáveis | Mostrar risco, impacto e próxima ação na mesma sequência |
-| A previsão pode apresentar seus fatores | Descrição oficial da abordagem *glass box* | Explicar a recomendação em linguagem simples, sem expor complexidade técnica desnecessária |
-| A plataforma possui grande amplitude funcional | Vários módulos, dimensões e fluxos de planejamento descritos pelo fabricante | Evitar reproduzir a densidade de uma plataforma corporativa; manter apenas o necessário para reposição |
-| O aprendizado pode exigir treinamento | Relatos públicos no G2 | Usar terminologia cotidiana, ajuda contextual e fluxo curto |
-| Preço e implantação não são transparentes ao pequeno negócio | Ausência de preço fixo e direcionamento ao contato comercial | Priorizar ferramentas abertas, baixo custo operacional e configuração simples |
+Na página oficial consultada há direcionamento para contato comercial, sem valor fixo apresentado para o produto. [?] Custo total, implantação e condições para um microcomércio não foram apurados. A equipe não conclui inviabilidade financeira apenas pela ausência de preço público.
 
 ### Análise C02 — Netstock
 
-**Autor(a):** Victor Merker Binda 22.125.076-5 
-**Tipo:** indireto / análogo  
-**Link oficial:** https://www.netstock.com/solutions/inventory-optimization/  
-**Data de acesso:** 02/09/2026
+**Autor:** Victor Merker Binda — 22.125.075-6  
+**Tipo:** concorrente indireto/interface profissional análoga  
+**Fontes principais:** [Executive Dashboard](https://www.netstock.com/executive-dashboard/), [Dashboard KPIs Explained](https://help.netstock.com/en/articles/12136304-dashboard-kpis-explained) e [Access the Full Stock Holding Report](https://help.netstock.com/en/articles/12470747-how-to-access-the-full-stock-holding-report).
+
+**Identificação:** matrícula padronizada conforme Entrega 1, Entrega 3 e README; não houve consulta a cadastro acadêmico externo.
 
 #### Contexto e proposta
 
-O Netstock é uma plataforma SaaS de previsão de demanda, otimização de estoque e reposição integrada a sistemas ERP. A solução reúne indicadores em painéis, classifica itens por importância e risco, calcula estoque de segurança e gera pedidos recomendados. Seu princípio de “gestão por exceção” procura mostrar primeiro os itens que exigem atenção, em vez de obrigar o usuário a verificar todo o catálogo.
+A documentação descreve painéis de indicadores e listas de exceções para orientar a atenção, além de relatórios para aprofundamento. A página institucional apresenta previsão, recomendações de pedidos e integração com ERP. Essas capacidades são informadas pelo fabricante, sem demonstração de desempenho no comércio estudado.
 
-Entre os dois produtos analisados, o Netstock é o mais próximo da proposta do TCC porque atende pequenas e médias empresas e aproxima previsão, risco e decisão de compra. Ainda assim, é uma solução proprietária, voltada ao mercado internacional e normalmente dependente de integração com um sistema de gestão.
+#### Figura C02.1 — Painel de estoque
 
-#### Funcionalidades relevantes
+![Captura oficial do painel Netstock com valor de estoque, comparação com modelo e lista resumida de produtos](../assets/02_concorrencia/c02_netstock_painel.png)
 
-| Funcionalidade | Como é realizada | Evidência/print | Observação de IHC |
-|---|---|---|---|
-| Painel de exceções | Resume indicadores e prioriza produtos com risco de ruptura, excesso ou outros desvios |<img width="1536" height="1195" alt="image" src="https://github.com/user-attachments/assets/495640e1-e4ab-4b8a-9d27-656686650118" />| Direciona a atenção, mas o motivo da prioridade precisa estar explícito |
-| Classificação de produtos | Agrupa itens por valor de vendas, velocidade e perfil de risco | [Página oficial de Inventory Optimization](https://www.netstock.com/solutions/inventory-optimization/) | A classificação facilita a priorização, desde que siglas e categorias tenham explicação |
-| Previsão de demanda | Gera previsões por produto, grupo, canal ou cliente, considerando tendências e sazonalidade | [Página oficial de Inventory Optimization](https://www.netstock.com/solutions/inventory-optimization/) | A previsão deve ser comparável às vendas realizadas e apresentada em linguagem operacional |
-| Estoque de segurança | Calcula proteção contra riscos de oferta e demanda e considera o nível de serviço desejado | [Página oficial de Inventory Optimization](https://www.netstock.com/solutions/inventory-optimization/) | O valor precisa ter explicação, parâmetros visíveis e possibilidade de conferência |
-| Reposição recomendada | Calcula e prioriza pedidos conforme previsão, política de estoque e prazo de entrega | [Página oficial de Inventory Ordering](https://www.netstock.com/solutions/inventory-ordering/) | A quantidade sugerida deve ficar próxima do produto e exigir confirmação antes do registro |
-| Integração com ERP | Processa dados do sistema de gestão e pode devolver pedidos ou recomendações | [Página oficial de Inventory Optimization](https://www.netstock.com/solutions/inventory-optimization/) | O projeto não deve tornar um ERP obrigatório, pois parte do público pode depender de cadastro próprio ou planilha |
+**Origem:** primeira captura do artigo oficial “How To: Access the Full Stock Holding Report”. A documentação amplia o painel e desfoca áreas externas ao exemplo.
 
+**Observação visual:** valor atual, comparação com modelo, variação percentual e lista de cinco itens estão reunidos no mesmo painel. **Interpretação da equipe:** há uma hierarquia entre visão agregada e produtos; a concentração pode orientar uma consulta inicial. **Aplicação candidata:** começar com resumo e itens relevantes — RC01 e RC12. A lista dessa figura é de valor de estoque: não é evidência de que esses cinco itens sejam os de maior risco de ruptura. A priorização por exceção de RC04 tem suporte documental específico na explicação de KPIs.
 
-#### Experiência do usuário e opiniões
+#### Figura C02.2 — Relatório de estoque
 
-Na data da consulta, o Capterra apresentava nota geral de **4,8/5 em 75 avaliações**, com **4,7/5 em facilidade de uso**. Usuários destacavam a interface intuitiva, a visibilidade dos níveis de estoque, a identificação rápida de problemas e o apoio à reposição. Entre as limitações relatadas estavam o esforço inicial de configuração, a dependência da qualidade dos dados e restrições de personalização em relatórios e painéis. Algumas avaliações foram incentivadas ou encaminhadas pelo fornecedor, aspecto que deve ser considerado na interpretação.
+![Relatório Netstock com identificação dos produtos, saldo, valor, modelo, cobertura, situação, pedidos e filtros](../assets/02_concorrencia/c02_netstock_relatorio.png)
 
-No G2, o Netstock apresentava **4,6/5 em 171 avaliações**. A síntese pública destacava facilidade de uso e transformação de dados complexos em informações acionáveis, mas também registrava pedidos por maior flexibilidade de relatórios e funcionalidades.
+**Origem:** terceira captura do mesmo artigo oficial; ampliações e desfoques já constam na fonte.
+
+**Observação visual:** há código, descrição, saldo, valor, comparação com modelo, cobertura, situação e pedidos na mesma tabela; o comando “Filter” aparece no topo. Situações como “Surplus orders” são escritas em etiquetas coloridas. **Interpretação da equipe:** proximidade ajuda a comparação, mas muitas colunas e abreviações podem aumentar esforço de leitura. **Aplicação candidata:** selecionar campos essenciais, traduzir termos e combinar estado textual com outros sinais — RC02, RC06, RC07, RC10 e RC12. Não foram testados filtros, exportação ou confirmação de pedidos.
+
+#### Capacidades e alcance da evidência
+
+| Aspecto | Evidência | O que podemos concluir |
+|---|---|---|
+| Resumo seguido de detalhamento | Figuras C02.1/C02.2 e artigo de acesso ao relatório | A documentação descreve passagem do painel para lista e detalhe de item; não foi executada em sessão de uso |
+| Gestão por exceção | Artigo “Dashboard KPIs Explained” | O fabricante descreve listas dos itens que mais contribuem para cada indicador |
+| Situação e dados próximos | Figura C02.2 | Há comparação tabular e etiquetas; eficácia com nosso público não foi medida |
+| Previsão, pedidos e ERP | Página “Executive Dashboard” | Capacidades declaradas; não implicam que o nosso TCC as possua |
+
+#### Experiência do usuário e opiniões públicas
+
+**Registro histórico da análise original, com consulta declarada pela equipe em 02/09/2026:** Capterra — 4,8/5 em 75 avaliações e 4,7/5 em facilidade de uso; G2 — 4,6/5 em 171 avaliações. A equipe registrou opiniões favoráveis à visibilidade do estoque e à identificação de problemas, além de limitações de configuração e personalização. Também registrou que algumas avaliações eram incentivadas ou encaminhadas pelo fornecedor.
+
+Fontes do registro: [Capterra](https://www.capterra.com/p/152724/NETSTOCK/) e [G2](https://www.g2.com/products/netstock/reviews). São dados preservados da versão entregue, sem nova apuração das notas nesta revisão; faltam capturas históricas para auditoria. Esses relatos não permitem afirmar que o produto é intuitivo ou rápido para Mariana ou para participantes ainda não pesquisados.
+
+Como inferência da equipe, resumo e detalhamento podem ajudar a investigação; densidade, abreviações e distinção entre estoque real e valor de referência merecem teste de compreensão.
 
 #### Preço/modelo de negócio
 
-O Netstock funciona como plataforma SaaS proprietária e oferece diferentes pacotes. O site apresenta a opção “Get Pricing”, mas não exibe um valor único nas páginas analisadas. O custo depende do pacote e do contexto da organização. Assim, embora o produto esteja mais próximo de pequenas e médias empresas do que o Blue Yonder, as fontes públicas não permitem concluir que seja financeiramente acessível ao microempreendedor brasileiro.
+A página consultada oferece “Get Pricing”. [?] Não foi apurado um orçamento aplicável ao comércio estudado. Integração, configuração e adequação financeira precisam ser verificadas antes de qualquer conclusão de adoção.
 
-#### Padrões e tendências percebidos
+## 3. Interfaces possivelmente familiares ao público
 
-- Gestão por exceção, priorizando produtos que exigem ação.
-- Painel com indicadores operacionais e financeiros de estoque.
-- Navegação do resumo geral para detalhes do produto e do pedido.
-- Recomendação prescritiva, informando o que e quanto repor.
-- Integração entre dados do ERP, previsão e geração de pedidos.
-
-#### Pontos positivos, limitações e lições
-
-| Ponto | Evidência | Implicação para nosso projeto |
-|---|---|---|
-| O painel prioriza problemas de estoque | Imagem e descrição oficial do *Executive Dashboard* | Organizar a tela inicial por risco, evitando exigir revisão manual de todos os produtos |
-| A recomendação é aproximada da ação de compra | Descrição oficial de pedidos recomendados | Levar o usuário do alerta ao produto e à confirmação da reposição em poucos passos |
-| A interface é considerada intuitiva por parte dos usuários | Avaliações públicas no Capterra e G2 | Manter hierarquia clara, indicadores resumidos e detalhamento progressivo |
-| Configuração e qualidade dos dados afetam a experiência | Limitações recorrentes relatadas nas avaliações | Validar entradas e avisar quando o histórico for insuficiente ou inconsistente |
-| Relatórios podem ter personalização limitada | Relatos públicos no Capterra e G2 | Oferecer filtros essenciais sem criar um construtor complexo de relatórios |
-| A integração com ERP é central ao produto | Descrição oficial da plataforma | Disponibilizar cadastro e importação simples para usuários sem ERP |
-
-## 3. Softwares que o público-alvo usa no cotidiano
-
-Analise interfaces que moldam a expectativa do público, mesmo que não sejam concorrentes.
-
-| Software | Por que o público usa | Padrões relevantes | Prints | O que aprender |
-|---|---|---|---|---|
-| Planilha eletrônica | Registrar produtos, compras, vendas e contagens de estoque | Tabela, linha e coluna, ordenação, filtros e importação de arquivo | Não coletado; uso ainda deve ser validado com o público | Oferecer importação simples e apresentar listas em uma estrutura familiar |
-| Sistema de vendas/PDV | Registrar vendas, localizar produtos e atualizar o saldo | Busca por produto, código, quantidade e confirmação da operação | Não coletado; depende do sistema utilizado por cada participante | Reduzir digitação, manter busca visível e confirmar alterações importantes |
-| Aplicativo de mensagens | Comunicar faltas, pedidos e informações a funcionários ou fornecedores | Avisos curtos, indicador de pendência e acesso direto à conversa | Não coletado; uso ainda deve ser validado com o público | Escrever alertas curtos, indicar urgência e deixar a próxima ação evidente |
-
-## 3.1 Padrões de interface relevantes ao escopo de IHC
-
-Registre somente padrões encontrados nas soluções analisadas e que possam ter relação com objetivos reais da equipe.
-
-| Padrão observado | Produto(s) | Para qual tarefa serve | Vantagem percebida | Risco/limitação | Aplicável ao nosso escopo? |
-|---|---|---|---|---|---|
-| dashboard | Blue Yonder e Netstock | Identificar riscos e acompanhar indicadores | Reúne o estado geral e direciona a atenção | Muitos indicadores podem esconder o que exige ação | sim, com poucos indicadores operacionais |
-| relatório | Netstock | Conferir estoque, pedidos e desempenho | Permite aprofundar a análise sem sobrecarregar a visão inicial | Relatórios extensos ou rígidos dificultam a interpretação | sim, limitado às informações necessárias à reposição |
-| histórico + filtros | Blue Yonder e Netstock | Analisar produto, local e período | Facilita localizar dados e comparar comportamentos | Excesso de filtros aumenta a carga cognitiva | sim, com produto, categoria, risco e período |
-| administração/CRUD | Não confirmado nas telas públicas analisadas | Manter produtos, vendas e parâmetros | Evita dependência de intervenção técnica | Cadastro longo ou técnico pode afastar o usuário | sim, somente para dados essenciais do projeto |
-| comparação de resultados | Blue Yonder e Netstock | Comparar demanda prevista, realizada e cenários | Ajuda a compreender variações e avaliar recomendações | Comparações sem período ou legenda podem induzir a erro | sim |
-| alerta acionável | Blue Yonder e Netstock | Identificar um risco e decidir a próxima ação | Aproxima informação, explicação e decisão | Automação sem confirmação pode causar compra incorreta | sim, com explicação e confirmação humana |
-
-> O objetivo não é concluir “todo concorrente tem dashboard, então teremos um”. O padrão só será adotado se apoiar uma tarefa rastreável.
-
-## 4. Síntese comparativa da equipe
-
-| Critério | C01 — Blue Yonder | C02 — Netstock | Oportunidade para o projeto |
+| Interface | Possível atividade | Convenções a investigar | Estado/evidência |
 |---|---|---|---|
-| Navegação | Plataforma ampla, multidimensional e voltada a diferentes papéis | Painéis focados em indicadores, exceções e pedidos | Criar fluxo curto: risco → detalhe → decisão |
-| Feedback/estado | Expõe fatores da demanda, riscos, oportunidades e indicadores | Mostra classificação, situação do estoque e pedidos recomendados | Informar motivo do risco, período analisado e data de atualização |
-| Prevenção/recuperação de erro | A transparência favorece a conferência, mas a complexidade exige treinamento | As recomendações dependem de configuração e dados corretos | Validar entradas, sinalizar histórico insuficiente e pedir confirmação antes da reposição |
-| Terminologia | Técnica e corporativa | Mais operacional, mas ainda utiliza métricas de planejamento | Usar linguagem cotidiana e explicar termos sob demanda |
-| Acessibilidade | O fabricante declara acessibilidade como princípio, mas a conformidade específica não foi verificada | Não foi encontrada comprovação suficiente nas páginas analisadas | Não depender somente de cor; combinar texto, ícone, contraste e ordem de prioridade |
-| Eficiência | Automatiza análises, cenários e recomendações em escala corporativa | Aplica gestão por exceção e prioriza pedidos | Mostrar primeiro poucos alertas acionáveis e oferecer busca simples |
+| Planilha | Registrar ou conferir movimentações | Linhas, colunas, ordenação e filtros | [H] Uso e familiaridade do público não confirmados; sem print de prática real |
+| Sistema de vendas/PDV | Localizar produto e registrar venda | Código, quantidade e retorno da operação | [?] Não sabemos qual sistema existe nem quem o utiliza |
+| Aplicativo de mensagens | Trocar informações e pedidos | Conversas, avisos e pendências | [H] Uso comercial e frequência ainda não verificados |
 
-## 5. Recomendações derivadas
+Importação, tabelas ou alertas não se tornam requisitos pela suposição de familiaridade.
 
-Liste recomendações com origem explícita.
+## 3.1 Padrões, características específicas e decisões próprias
 
-- **RC01:** Organizar a navegação no fluxo visão de riscos → detalhe do produto e da previsão → decisão de reposição — derivada de C01/C02.
-- **RC02:** Exibir saldo atual, demanda prevista, período analisado, data de atualização e quantidade recomendada — derivada de C01/C02.
-- **RC03:** Explicar cada alerta no formato “o que ocorreu, por que importa e qual ação é sugerida” — derivada de C01.
-- **RC04:** Priorizar produtos por risco de ruptura ou excesso, aplicando gestão por exceção — derivada de C02.
-- **RC05:** Permitir comparar vendas realizadas e previstas e consultar os principais fatores considerados — derivada de C01/C02.
-- **RC06:** Oferecer poucos filtros úteis, como risco, produto, categoria e período — derivada de C01/C02.
-- **RC07:** Traduzir métricas técnicas para linguagem comercial e fornecer explicações adicionais sob demanda — derivada de C01/C02 e do perfil do público.
-- **RC08:** Validar os dados de entrada, avisar quando o histórico for insuficiente e não apresentar a previsão como certeza — derivada das avaliações de C01/C02.
-- **RC09:** Exigir confirmação antes de registrar uma reposição e permitir revisar a quantidade sugerida — derivada de C02.
-- **RC10:** Combinar cor com texto, ícone e prioridade para comunicar estados — derivada da análise de acessibilidade de C01/C02.
-- **RC11:** Permitir cadastro próprio e importação simples, sem tornar um ERP obrigatório — derivada da limitação identificada em C02.
-- **RC12:** Manter apenas as informações necessárias à decisão do pequeno comerciante — derivada da diferença de escala entre C01 e o público do projeto.
+| Categoria | Elemento | Evidência | Aplicação candidata e limite |
+|---|---|---|---|
+| Recorrência nas duas interfaces analisadas | Gráficos e dados tabulares/numéricos | C01.2, C02.1 e C02.2 | Comparar informações; dois produtos não representam todo o mercado |
+| Recorrência nas duas interfaces | Controles para delimitar consulta | C01.1 e comando Filter em C02.2 | Investigar filtros úteis; funcionamento não testado |
+| Característica específica | Explicação de fatores da previsão | C01.1 | Investigar explicações compreensíveis e tecnicamente disponíveis |
+| Característica específica documentada | Lista de exceções por indicador | Documentação de KPIs do Netstock | Investigar quais prioridades fazem sentido no comércio |
+| Decisão própria | Confirmar e revisar registro de reposição | Risco hipotético de erro de decisão | RC09; nenhum print comprova confirmação de compra |
+| Decisão própria | Não depender de cor | Fundamento de acessibilidade; C02.2 mostra texto junto à cor | RC10; não equivale a auditoria de conformidade dos produtos |
+| Decisão própria condicionada | Cadastro/importação sem ERP obrigatório | Lacuna sobre dados atuais | RC11; depende da investigação, sem justificativa para CRUD completo |
 
-## Referências
+## 4. Síntese comparativa
 
-- BLUE YONDER. [Demand Planning](https://blueyonder.com/solutions/supply-chain-planning/demand-planning). Acesso em: 02 set. 2026.
-- BLUE YONDER. [User Experience Strategy](https://blueyonder.com/why-blue-yonder/user-experience). Acesso em: 02 set. 2026.
-- G2. [Blue Yonder Demand Planning Reviews](https://www.g2.com/products/blue-yonder-demand-planning/reviews). Acesso em: 02 set. 2026.
-- GARTNER PEER INSIGHTS. [Blue Yonder Supply Chain Planning Reviews and Ratings](https://www.gartner.com/reviews/market/supply-chain-planning-solutions/vendor/blue-yonder/product/blue-yonder-supply-chain-planning/likes-dislikes). Acesso em: 02 set. 2026.
-- NETSTOCK. [Inventory Optimization](https://www.netstock.com/solutions/inventory-optimization/). Acesso em: 02 set. 2026.
-- NETSTOCK. [Executive Dashboard](https://www.netstock.com/executive-dashboard/). Acesso em: 02 set. 2026.
-- NETSTOCK. [Inventory Ordering](https://www.netstock.com/solutions/inventory-ordering/). Acesso em: 02 set. 2026.
-- CAPTERRA. [Netstock Software Reviews](https://www.capterra.com/p/152724/NETSTOCK/). Acesso em: 02 set. 2026.
-- G2. [Netstock Reviews](https://www.g2.com/products/netstock/reviews). Acesso em: 02 set. 2026.
+| Critério | C01 — Blue Yonder | C02 — Netstock | Interpretação para o projeto |
+|---|---|---|---|
+| Organização | Filtros, navegação ampla, gráficos e tabelas | Painel resumido e relatório detalhado | Investigar entrada simples e acesso ao detalhe |
+| Informação de estado | Medidas, períodos e fatores da previsão | Estoque, referência e situações por item | Explicitar significado, unidade e data disponível |
+| Terminologia | Nomes de variáveis e parâmetros técnicos | Abreviações e indicadores de estoque | Usar vocabulário a validar com o público |
+| Prevenção/recuperação de erro | Não testadas | Não testadas | Propor revisão e correção com base na tarefa, sem atribuir comportamento não observado |
+| Acessibilidade | Conformidade não avaliada | Há texto e cor em etiquetas; conformidade não avaliada | Avaliar contraste, compreensão e alternativas de interação futuramente |
+| Eficiência | Nenhum tempo medido | Nenhum tempo medido | Organização sugere possibilidades; eficiência precisa de teste |
 
----
+## 5. Recomendações candidatas e sua origem
+
+Todas as recomendações dependem de tarefas e dados do público. Figuras de mercado não validam necessidades locais.
+
+| ID | Recomendação | Origem correta | Validação/dependência |
+|---|---|---|---|
+| RC01 | Organizar consulta de prioridades → detalhe → decisão | C02.1/C02.2 e procedimento documentado; decisão final é adaptação da equipe | Verificar sequência útil ao responsável |
+| RC02 | Apresentar dados disponíveis com unidade, período e atualização | C01.1/C01.2/C02.2; atualização explícita é proposta da equipe | Quantidade de compra calculada somente se capacidade for confirmada |
+| RC03 | Explicar o aviso, sua relevância e possível próxima ação | Estratégia pública de UX da Blue Yonder, não sequência testada em print | Investigar compreensão e suporte técnico à explicação |
+| RC04 | Priorizar itens por exceção relevante | Descrição de listas por KPI na documentação Netstock | Definir critério; não confundir alto valor de estoque com ruptura |
+| RC05 | Investigar comparação de previsto e realizado e explicação de fatores | Fatores observados em C01.1; comparação com realizado é hipótese da Entrega 1 | Confirmar necessidade comercial e disponibilidade de histórico |
+| RC06 | Oferecer poucos filtros úteis e opcionais | C01.1 e C02.2 mostram controles; limitação de quantidade é proposta da equipe | Verificar volume, critérios e familiaridade |
+| RC07 | Traduzir termos técnicos para linguagem comercial | Vocabulário observado em C01.1/C01.3/C02.2 e hipótese sobre público | Testar termos com participantes |
+| RC08 | Informar dados insuficientes e limites da previsão | Inferência da equipe sobre dependência de dados na proposta de ML | Não foi observado fluxo de validação de entradas nos concorrentes |
+| RC09 | Permitir revisar, corrigir e confirmar um registro de reposição | Proposta da equipe para controle humano e prevenção de erro | Depende da necessidade de registro; não comprovada como comportamento do Netstock |
+| RC10 | Comunicar estado com texto e sinais adicionais, sem depender de cor | Princípio de acessibilidade; combinação texto/cor observável em C02.2 | Ícones/prioridade são propostas; conformidade dos concorrentes não verificada |
+| RC11 | Investigar cadastro ou importação que não exijam ERP | Lacuna sobre dados da loja e integração descrita pelo Netstock | Escolher entrada conforme fontes reais, sem exigir ambos os fluxos |
+| RC12 | Limitar densidade ao necessário à tarefa | C01.2/C01.3/C02.2 mostram amplitude e densidade; recorte da Entrega 1 | Validar quais campos ajudam a decisão |
+
+## Referências e proveniência
+
+- BLUE YONDER. [Demand Planning](https://blueyonder.com/solutions/supply-chain-planning/demand-planning). Fonte das figuras C01.1–C01.3 e da proposta comercial.
+- BLUE YONDER. [User Experience Strategy](https://blueyonder.com/why-blue-yonder/user-experience). Declarações de estratégia, distintas de observação de comportamento.
+- NETSTOCK. [Executive Dashboard](https://www.netstock.com/executive-dashboard/). Proposta de painéis e capacidades.
+- NETSTOCK. [Dashboard KPIs Explained](https://help.netstock.com/en/articles/12136304-dashboard-kpis-explained). Listas de exceções e finalidade dos indicadores.
+- NETSTOCK. [How To: Access the Full Stock Holding Report](https://help.netstock.com/en/articles/12470747-how-to-access-the-full-stock-holding-report). Figuras C02.1/C02.2 e procedimento de detalhamento.
+- [G2 — Blue Yonder](https://www.g2.com/products/blue-yonder-demand-planning/reviews).
+- [Gartner — Blue Yonder Supply Chain Planning](https://www.gartner.com/reviews/market/supply-chain-planning-solutions/vendor/blue-yonder/product/blue-yonder-supply-chain-planning/likes-dislikes).
+- [Capterra — Netstock](https://www.capterra.com/p/152724/NETSTOCK/).
+- [G2 — Netstock](https://www.g2.com/products/netstock/reviews).
 
 # Checklist
 - [ ] O mapa inicial de alternativas da Entrega 1 foi revisitado e aprofundado.
