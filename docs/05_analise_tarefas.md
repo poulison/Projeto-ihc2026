@@ -52,9 +52,9 @@ Os mesmos IDs são mantidos nas três técnicas para facilitar a comparação. T
 
 ### Diagrama
 
-![HTA T01 — objetivo, quatro subobjetivos e operações com planos](../assets/05_tarefas/hta_t01.svg)
+![HTA T01 — objetivo, quatro subobjetivos e operações com planos](../assets/05_tarefas/hta_t01.png)
 
-[Abrir diagrama vetorial](../assets/05_tarefas/hta_t01.svg). Os painéis inferiores detalham os nós da visão geral pelos mesmos IDs. As folhas sublinhadas são operações; os planos determinam a execução, não a posição isolada das caixas.
+[Abrir imagem PNG em tamanho original](../assets/05_tarefas/hta_t01.png). A árvore segue o modelo dos slides 5–6 de `CC8122-HTA.pdf`: objetivos em caixas retangulares, planos dentro dos objetivos e operações terminais sublinhadas. As setas ligam os níveis da decomposição; os planos indicam a ordem de execução.
 
 ### Decomposição e planos
 
@@ -109,9 +109,9 @@ O modelo separa quatro dificuldades que no cenário se misturam: identificar o i
 
 ### Diagrama
 
-![HTA T02 — investigação, desfecho e comunicação da conferência](../assets/05_tarefas/hta_t02.svg)
+![HTA T02 — investigação, desfecho e comunicação da conferência](../assets/05_tarefas/hta_t02.png)
 
-[Abrir diagrama vetorial](../assets/05_tarefas/hta_t02.svg). Os mesmos IDs ligam visão geral, subárvores e tabela. Folhas sublinhadas representam operações no nível de análise escolhido.
+[Abrir imagem PNG em tamanho original](../assets/05_tarefas/hta_t02.png). Os mesmos IDs relacionam os nós da árvore à tabela. Conforme os slides 5–6 de `CC8122-HTA.pdf`, os planos aparecem nas caixas dos objetivos e uma linha sob a caixa identifica cada operação terminal.
 
 ### Decomposição e planos
 
@@ -263,9 +263,9 @@ Mariana identifica um produto, examina a base disponível, define planejamento, 
 
 ### Diagrama
 
-![CTT T01 — tipos de tarefa, alternativas, passagem de informação e suspensão](../assets/05_tarefas/ctt_t01.svg)
+![CTT T01 — tipos de tarefa, alternativas, passagem de informação e suspensão](../assets/05_tarefas/ctt_t01.png)
 
-[Abrir diagrama vetorial](../assets/05_tarefas/ctt_t01.svg). A árvore está dividida em visão geral e detalhamentos dos mesmos nós. A legenda de tipos está escrita nas caixas; cores são apenas um reforço. Os prefixos A, U, S e I substituem os pictogramas de categoria por rótulos explícitos, preservando os tipos e operadores temporais apresentados em aula.
+[Abrir imagem PNG em tamanho original](../assets/05_tarefas/ctt_t01.png). A árvore utiliza os pictogramas dos slides 23–24 de `CC8122-GOMS-CTT.pdf`: nuvem para tarefa abstrata, pessoa para tarefa do usuário, computador para tarefa do sistema e pessoa-computador com seta dupla para interação. As linhas inclinadas decompõem a tarefa; os operadores entre nós irmãos indicam as relações temporais. A, U, S e I identificam os nós na tabela e nas expressões abaixo.
 
 ```text
 A0 Executar T01 com possibilidade de pausa
@@ -326,9 +326,9 @@ Rafael localiza os registros de um produto, investiga a diferença e confirma um
 
 ### Diagrama
 
-![CTT T02 — investigação, correção ou pendência e comunicação após confirmação](../assets/05_tarefas/ctt_t02.svg)
+![CTT T02 — investigação, correção ou pendência e comunicação após confirmação](../assets/05_tarefas/ctt_t02.png)
 
-[Abrir diagrama vetorial](../assets/05_tarefas/ctt_t02.svg). IDs são locais a este modelo. As mesmas convenções de tipos de T01 são utilizadas.
+[Abrir imagem PNG em tamanho original](../assets/05_tarefas/ctt_t02.png). IDs são locais a este modelo. A árvore utiliza a mesma notação dos slides 23–24 de `CC8122-GOMS-CTT.pdf`: nuvem, pessoa, computador e pessoa-computador representam os quatro tipos de tarefa, e os operadores entre irmãos indicam sua relação temporal.
 
 ```text
 A0 Executar T02 com possibilidade de pausa
@@ -412,6 +412,7 @@ As tarefas abaixo serão priorizadas no protótipo e no planejamento do teste de
 Os enunciados dirigidos aos participantes e os critérios finais de sucesso serão preparados na entrega de testes, sem instruir a pessoa sobre qual botão usar. Observar: conclusão e compreensão do estado, erros de produto/unidade, alterações sem base, pedidos de ajuda, releituras e retomada. Tempo pode ser coletado como medida exploratória; não há meta numérica ou ganho comprovado definido aqui. Entrevistas/observação anteriores ao teste devem verificar a plausibilidade dos papéis e do processo.
 
 Permanecem a investigar a plausibilidade dos papéis e processos, os dados disponíveis para previsão e as permissões de correção. As propostas serão revistas com usuários e com o orientador; não representam resultados de avaliação já realizada.
+
 
 
 ## Checklist
