@@ -1,7 +1,7 @@
 # Entrega 7 — Coleta de dados, necessidades e aspectos éticos
 
-**Data:** {{dd/mm/aaaa}}  
-**Status:** ⬜ não iniciada
+**Data:**  21/10/2026
+**Status:** 🟨 em andamento Responsabilidade: 1 solução integrada por equipe
 
 ## Objetivo da atividade
 
