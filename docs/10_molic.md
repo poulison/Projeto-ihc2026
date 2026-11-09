@@ -1,7 +1,7 @@
 # Entrega 10 — MoLIC
 
 **Data:** 09/11/2026  
-**Status:** ⬜ não iniciada  
+**Status:** 🟨 em andamento
 **Responsabilidade:** 1 solução completa por integrante
 
 ## Objetivo da atividade
