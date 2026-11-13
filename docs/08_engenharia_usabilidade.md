@@ -8,7 +8,7 @@
 
 **Integrantes:** Paulo Andre de Oliveira Hirata — 22.125.072-3; Victor Merker Binda — 22.125.075-6.
 
-**Status:** 🟩 especificação concluída; metas propostas para avaliação futura, ainda não medidas.
+**Status:** 🟩 concluída.
 
 **Responsabilidade:** 1 solução por equipe.
 
