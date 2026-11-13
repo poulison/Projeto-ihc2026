@@ -1,7 +1,7 @@
 # Entrega 12 — Planejamento da avaliação de usabilidade (DECIDE)
 
 **Data:** 12/11/2026  
-**Status:** ⬜ não iniciada  
+**Status:** 🟨 em andamento
 **Responsabilidade:** 1 solução por equipe
 
 ## Objetivo da atividade
