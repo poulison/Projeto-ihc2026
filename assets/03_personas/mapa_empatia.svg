@@ -1,5 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360">
-<rect width="100%" height="100%" fill="#f6f8fa" stroke="#8c959f" stroke-width="4"/>
-<text x="480" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#24292f">PLACEHOLDER DE ARTEFATO</text>
-<text x="480" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#57606a">Substitua este arquivo pela evidência real da equipe.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1500" viewBox="0 0 1500 1500" role="img"><title>Mapa de empatia de Mariana Alves — hipóteses</title><rect width="100%" height="100%" fill="#f5f7fb"/>
+<rect x="0" y="0" width="1500" height="145" rx="0" fill="#162d4d" stroke="#162d4d"/>
+<text x="48" y="58" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="start">Mapa de empatia • Mariana Alves (P01)</text>
+<text x="48" y="101" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#cce1f7" text-anchor="start">Construção hipotética da equipe • sentimentos e falas não foram coletados com usuários</text>
+<rect x="390" y="175" width="720" height="205" rx="12" fill="#ffffff" stroke="#d9e1ed"/>
+<text x="414" y="217" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#126270" text-anchor="start">PENSA E SENTE</text>
+<text x="414" y="258" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#22324b" text-anchor="start">Receia faltar produto ou comprar demais; teme clicar</text>
+<text x="414" y="289.9" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#22324b" text-anchor="start">errado; confia no conhecimento comercial e quer</text>
+<text x="414" y="321.79999999999995" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#22324b" text-anchor="start">autonomia.</text>
+<rect x="40" y="420" width="480" height="300" rx="12" fill="#ffffff" stroke="#d9e1ed"/>
+<text x="64" y="462" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#126270" text-anchor="start">OUVE</text>
+<text x="64" y="503" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#22324b" text-anchor="start">Clientes perguntando por produtos;</text>
+<text x="64" y="534.9" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#22324b" text-anchor="start">fornecedores informando prazos;</text>
+<text x="64" y="566.8" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#22324b" text-anchor="start">orientações de quem ajuda no</text>
+<text x="64" y="598.6999999999999" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#22324b" text-anchor="start">sistema; áudios e pedidos no</text>
+<text x="64" y="630.5999999999999" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#22324b" text-anchor="start">celular.</text>
+<rect x="980" y="420" width="480" height="300" rx="12" fill="#ffffff" stroke="#d9e1ed"/>
+<text x="1004" y="462" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#126270" text-anchor="start">VÊ</text>
+<text x="1004" y="503" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#22324b" text-anchor="start">Caderno e prateleiras; pedidos em</text>
+<text x="1004" y="534.9" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#22324b" text-anchor="start">mensagens; menus e termos pouco</text>
+<text x="1004" y="566.8" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#22324b" text-anchor="start">familiares; pessoas que apoiam o uso</text>
+<text x="1004" y="598.6999999999999" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#22324b" text-anchor="start">das ferramentas digitais.</text>
+<rect x="390" y="770" width="720" height="235" rx="12" fill="#ffffff" stroke="#d9e1ed"/>
+<text x="414" y="812" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#126270" text-anchor="start">FALA E FAZ</text>
+<text x="414" y="853" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#22324b" text-anchor="start">“Mostre como faço, que quero aprender.” Anota vendas e</text>
+<text x="414" y="884.9" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#22324b" text-anchor="start">faltas; confere produtos; pede demonstração; revisa a</text>
+<text x="414" y="916.8" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#22324b" text-anchor="start">quantidade antes de decidir.</text>
+<rect x="40" y="1050" width="690" height="290" rx="12" fill="#ffffff" stroke="#d9e1ed"/>
+<text x="64" y="1092" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#126270" text-anchor="start">DORES</text>
+<text x="64" y="1133" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#22324b" text-anchor="start">Falta de mercadoria e dinheiro parado; perder-se em</text>
+<text x="64" y="1164.9" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#22324b" text-anchor="start">menus e siglas; medo de apagar dados ou comprar por</text>
+<text x="64" y="1196.8000000000002" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#22324b" text-anchor="start">engano; dependência de ajuda.</text>
+<rect x="770" y="1050" width="690" height="290" rx="12" fill="#ffffff" stroke="#d9e1ed"/>
+<text x="794" y="1092" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#126270" text-anchor="start">NECESSIDADES</text>
+<text x="794" y="1133" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#22324b" text-anchor="start">Entender o que, quando e quanto repor; aprender o</text>
+<text x="794" y="1164.9" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#22324b" text-anchor="start">caminho de consulta; corrigir e confirmar com</text>
+<text x="794" y="1196.8000000000002" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#22324b" text-anchor="start">segurança; acompanhar a compra e ganhar autonomia.</text>
+<rect x="560" y="445" width="380" height="245" rx="12" fill="#dcebf7" stroke="#d9e1ed"/>
+<text x="750" y="510" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#22324b" text-anchor="middle">Mariana Alves</text>
+<text x="750" y="557" font-family="Arial, sans-serif" font-size="23" font-weight="normal" fill="#22324b" text-anchor="middle">65 anos • comerciante</text>
+<text x="750" y="602" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#22324b" text-anchor="middle">Persona de expectativa</text>
+<text x="750" y="643" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#22324b" text-anchor="middle">P01 • primária</text>
+<text x="45" y="1400" font-family="Arial, sans-serif" font-size="20" font-weight="normal" fill="#22324b" text-anchor="start">Autoria: equipe 14 • Dimensões e semântica conforme a tabela da Entrega 3.</text>
+<text x="45" y="1440" font-family="Arial, sans-serif" font-size="19" font-weight="normal" fill="#52637b" text-anchor="start">Revisão: 12/11/2026 • Idade não comprova dificuldade tecnológica ou deficiência.</text>
 </svg>

@@ -1,7 +1,8 @@
 # Entrega 5 — Análise de tarefas: HTA, GOMS e CTT
 
-**Data:** 13/10/2026   
-**Status:** 🟨 em andamento
+**Data:** 13/10/2026
+**Status:** 🟩 concluída
+**Revisão:** 12/11/2026 — correções do feedback do professor
 **Responsabilidade:** cada integrante modela pelo menos 1 HTA, 1 GOMS e 1 CTT. As três técnicas podem abordar a mesma funcionalidade ou funcionalidades distintas, conforme a orientação da disciplina.
 
 ## Objetivo da atividade
@@ -62,7 +63,7 @@ Em HTA, `>` indica sequência e `/` alternativa condicionada, conforme a notaç�
 
 | ID | Objetivo/operação | Plano/ordem | Problema ou decisão de design derivada |
 |---|---|---|---|
-| 0 | Registrar o desfecho da análise de um produto | 1 > 2 > 3 > 4; aplicar as regras de retorno e pausa abaixo | Um registro salvo precisa indicar se há decisão ou pendência, sem sugerir pedido enviado |
+| 0 | Registrar o desfecho da análise de um produto | **Plano:** 1 > 2 > 3 > 4; aplicar as regras de retorno e pausa abaixo | **Input:** necessidade de analisar um item antes do prazo do fornecedor, identificação do produto, registros disponíveis e restrições comerciais conhecidas. **Feedback:** retorno de gravação e registro consultável com produto, base, motivo e desfecho salvo (planejamento, adiamento ou pendência); não significa pedido enviado. |
 | 1 | Identificar o produto correto | (1.1 / 1.2) > 1.3 | Duas formas de acesso servem à mesma identificação |
 | 1.1 | Selecionar o item na lista de análise | Se estiver visível e reconhecível | Lista curta pode reduzir procura; prioridade ainda é proposta |
 | 1.2 | Buscar o produto pelo nome | Se não estiver visível ou houver dúvida; refinar a busca se necessário | Não exigir domínio de filtros avançados |
@@ -117,7 +118,7 @@ O modelo separa quatro dificuldades que no cenário se misturam: identificar o i
 
 | ID | Objetivo/operação | Plano/ordem | Problema ou decisão de design derivada |
 |---|---|---|---|
-| 0 | Registrar e comunicar o desfecho de uma divergência | 1 > 2 > 3 > 4; aplicar retornos e pausa abaixo | Investigar é diferente de substituir um número |
+| 0 | Registrar e comunicar o desfecho de uma divergência | **Plano:** 1 > 2 > 3 > 4; aplicar retornos e pausa abaixo | **Input:** diferença percebida entre contagem e registro de um produto/unidade, fontes do episódio e condição de autorização a verificar. **Feedback:** correção fundamentada ou pendência gravada e conferida, histórico explicável e recebimento da comunicação do alcance por Mariana; comunicação não confirmada permanece pendente. |
 | 1 | Delimitar o produto e os registros | (1.1 / 1.2) > 1.3 | O acesso depende da identificação disponível |
 | 1.1 | Localizar pelo identificador do pedido | Quando houver identificador confiável | O vínculo com a origem reduz ambiguidade |
 | 1.2 | Localizar por produto, data e quantidade | Quando a anotação não tiver identificador; restringir até reconhecer o episódio | Mesmo nome ou quantidade não comprova mesma venda |
@@ -132,7 +133,7 @@ O modelo separa quatro dificuldades que no cenário se misturam: identificar o i
 | 4 | Concluir o registro e comunicar seu alcance | 4.1 > 4.2 > 4.3 | Não declarar todos os registros conferidos após resolver um item |
 | 4.1 | Revisar e confirmar correção ou pendência | Conferir produto, fontes, motivo, alteração pretendida e saldo resultante quando aplicável | Confirmar antes de alterar dado que sustentará a decisão de Mariana |
 | 4.2 | Conferir confirmação, histórico e situação do item | Aguardar gravação e verificar o resultado; se corrigido, comparar com a contagem | Solicitação de correção não equivale a correção efetivada |
-| 4.3 | Informar Mariana sobre resultado e registros restantes | Comunicar o item conferido/pendente e o alcance parcial da verificação | Evitar que a proprietária interprete o conjunto inteiro como confiável |
+| 4.3 | Informar Mariana sobre resultado e registros restantes | Comunicar o item conferido/pendente e o alcance parcial; conferir o retorno de recebimento e entendimento | Sem retorno, comunicação permanece pendente; não declarar G0 concluído apenas pela emissão da informação |
 
 **Regras de retorno:** inconsistência de identidade retorna a 1; evidência contraditória retorna a 2; falta de confirmação leva a 3.2. O caminho 3.1 cobre a duplicidade descrita em E4-C02; outras causas exigem investigação e um procedimento apropriado, sem aplicar a mesma correção automaticamente. Após gravar, diferença ainda não explicada deve ser registrada como pendência; não repetir o ajuste até os números coincidirem.
 
@@ -155,49 +156,85 @@ No percurso do cenário, o pedido foi enviado, Mariana confirma que sua anotaç�
 
 **Autor(a):** Paulo Andre de Oliveira Hirata — 22.125.072-3.
 
-### Goal
+### Modelo textual hierarquicamente indentado
 
-`G0: registrar o desfecho da análise de reposição de um produto.`
+Nível semântico: cada OPERATOR é uma leitura, comparação de um atributo, seleção, preenchimento ou confirmação. Não se estima KLM nem tempo de raciocínio novo. O modelo descreve uso rotineiro por pessoa familiarizada com o procedimento; lacunas exigem pendência ou investigação fora da rotina. IDs de operadores são locais a cada meta/método.
 
-- `G1`: identificar o produto correto.
-- `G2`: avaliar a base da decisão e suas limitações.
-- `G3`: estabelecer o desfecho do item.
-- `G4`: salvar e conferir o registro.
+```text
+GOAL G0: registrar e conferir um desfecho de reposição de um produto
+    METHOD M0: executar G1 > G2 > G3 > G4
+        GOAL G1: localizar e confirmar a identidade do produto
+            SELECTION RULE SR1:
+                usar M1.A se o item estiver visível e reconhecível na lista;
+                usar M1.B se estiver ausente ou se houver ambiguidade.
+            METHOD M1.A: localizar pela lista
+                OPERATOR 1: ler o nome de um candidato
+                OPERATOR 2: ler sua variação
+                OPERATOR 3: selecionar o candidato
+                OPERATOR 4: ler a identificação no detalhe aberto
+                OPERATOR 5: comparar nome com o item procurado
+                OPERATOR 6: comparar variação com o item procurado
+                OPERATOR 7: comparar unidade de venda com a pretendida
+            METHOD M1.B: localizar pela busca
+                OPERATOR 1: preencher o nome conhecido na busca
+                OPERATOR 2: executar a consulta
+                OPERATOR 3: ler o nome de um resultado
+                OPERATOR 4: ler sua variação
+                OPERATOR 5: selecionar o candidato
+                OPERATOR 6: ler a identificação no detalhe aberto
+                OPERATOR 7: comparar nome com o item procurado
+                OPERATOR 8: comparar variação com o item procurado
+                OPERATOR 9: comparar unidade de venda com a pretendida
+            SELECTION RULE SR2:
+                se a identidade não corresponder, refinar a busca e repetir;
+                se não for possível distinguir o item, interromper G1,
+                explicitar a lacuna e não registrar no primeiro candidato.
+        GOAL G2: estabelecer a base disponível para a decisão
+            METHOD M2: examinar separadamente dados e limites
+                OPERATOR 1: ler a quantidade física informada
+                OPERATOR 2: ler a quantidade comprometida informada
+                OPERATOR 3: ler a quantidade disponível informada
+                OPERATOR 4: verificar se disponível corresponde a físico menos comprometido
+                OPERATOR 5: ler a unidade da quantidade
+                OPERATOR 6: ler o período do histórico de procura
+                OPERATOR 7: ler a data da última atualização
+                OPERATOR 8: ler o valor da estimativa, se existir
+                OPERATOR 9: ler o horizonte da estimativa, se existir
+                OPERATOR 10: ler o aviso de limite ou de ausência de informação
+                OPERATOR 11: recordar o prazo conhecido do fornecedor
+                OPERATOR 12: comparar o horizonte com esse prazo
+                OPERATOR 13: recordar a restrição comercial de recursos
+                OPERATOR 14: identificar se falta um dado indispensável
+                OPERATOR 15: reconhecer se a base permite decidir ou exige pendência
+        GOAL G3: preparar o desfecho sustentado pela base
+            METHOD M3: registrar o resultado da decisão comercial
+                OPERATOR 1: selecionar o desfecho pertinente
+                OPERATOR 2: preencher a quantidade humana, se for planejamento
+                OPERATOR 3: preencher o motivo
+                OPERATOR 4: preencher a próxima verificação, se for pendência
+                OPERATOR 5: conferir o desfecho preenchido
+            CONDITION:
+                planejamento se a usuária decidir comprar com base suficiente;
+                adiamento se decidir não comprar neste ciclo;
+                pendência se uma lacuna impedir decisão sustentada.
+                São desfechos distintos, não métodos alternativos equivalentes.
+        GOAL G4: salvar e verificar o registro
+            METHOD M4: revisar antes de confirmar e conferir depois
+                OPERATOR 1: ler o produto no resumo
+                OPERATOR 2: conferir sua unidade
+                OPERATOR 3: conferir o desfecho
+                OPERATOR 4: conferir a quantidade, quando houver
+                OPERATOR 5: conferir o motivo
+                OPERATOR 6: confirmar o salvamento
+                OPERATOR 7: ler o retorno da gravação
+                OPERATOR 8: consultar o registro retornado
+                OPERATOR 9: comparar seu produto com o resumo
+                OPERATOR 10: comparar seu desfecho com o resumo
+                OPERATOR 11: verificar que o estado é salvo, e não pedido enviado
+```
 
-O nível é de operações semânticas de interação e operações cognitivas delimitadas, pois ainda não há interface detalhada. O GOMS representa a rotina após familiarização; não prevê o desempenho inicial de Mariana nem supõe que idade determine habilidade. Não se aplicam tempos KLM a controles que ainda não foram definidos.
+Os dois métodos de G1 atingem a mesma meta e terminam verificando a identidade. A análise não reduz toda a decisão comercial a um operador: G2 explicita os dados elementares consultados, e a condição de G3 representa o julgamento do domínio. Erros de revisão retornam ao campo correspondente; falha de gravação não conclui G4. A última operação verifica o estado alcançado.
 
-### Métodos, operadores e regras de seleção
-
-| Operador | Tipo | Ação delimitada |
-|---|---|---|
-| O1 | Cognitivo/perceptivo | Reconhecer um nome e uma variação apresentados |
-| O2 | Interação | Selecionar um item exibido |
-| O3 | Interação | Informar um termo de busca |
-| O4 | Interação | Acionar a busca |
-| O5 | Cognitivo/perceptivo | Conferir a identidade e a unidade do produto aberto |
-| O6 | Interação | Consultar o quadro de dados do item |
-| O7 | Cognitivo | Comparar saldo físico, compromissos e disponibilidade apresentados |
-| O8 | Cognitivo | Interpretar período, unidade, atualização e limitações da procura/previsão |
-| O9 | Cognitivo | Confrontar a base com prazo, recursos e informação ainda ausente |
-| O10 | Interação | Informar o desfecho e seus campos correspondentes |
-| O11 | Cognitivo | Conferir o resumo antes de confirmar |
-| O12 | Interação | Confirmar o salvamento |
-| O13 | Cognitivo/perceptivo | Ler o retorno e conferir o estado efetivamente salvo |
-
-O7–O9 representam avaliações humanas no nível escolhido, não uma fórmula ou duração conhecida. Consulta adicional a pessoas/fontes, erros e aprendizagem ficam fora da rotina GOMS; aparecem nos planos da HTA e nos limites do CTT.
-
-**Método comum de G0:** realizar G1 por um dos métodos abaixo; executar G2 (`O6 > O7 > O8 > O9`); realizar G3, escolhendo o desfecho e executando O10; executar G4 (`O11 > O12 > O13`). Ao final, produto e desfecho devem coincidir com o resumo revisado.
-
-| Método alternativo para G1 | Sequência de operadores | Resultado comum |
-|---|---|---|
-| M1 — localizar pela lista de análise | O1 reconhecer item visível > O2 selecioná-lo > O5 conferir identidade/unidade | Produto correto aberto para análise |
-| M2 — localizar pela busca | O3 informar nome > O4 buscar > O1 reconhecer correspondência > O2 selecionar resultado > O5 conferir identidade/unidade | Produto correto aberto para análise |
-
-**SR1:** escolher M1 se o item estiver visível e reconhecível na lista; escolher M2 se não estiver visível ou se o nome/variação precisar ser procurado. Se ambas as condições permitirem acesso, adotar M1 como regra provisória a avaliar no protótipo. Resultado ambíguo exige refinar o termo e repetir a busca; sem correspondência, não prosseguir sobre outro produto.
-
-Assim, há duas sequências completas possíveis para G0: `M1 > G2 > G3 > G4` e `M2 > G2 > G3 > G4`. M1 e M2 são alternativas para a **mesma submeta G1**, como no exemplo de localização de rua da aula; G2–G4 são a sequência comum e não são apresentados como alternativas entre si.
-
-**Critérios de G3:** planejar compra quando Mariana decidir comprar com base que considera suficiente; adiar quando decidir não comprar no ciclo; registrar pendência quando faltar informação indispensável. Esses critérios são decisões do domínio, não métodos GOMS concorrentes nem um cálculo automatizado. Quantidade de compra, se informada, é revisada pela usuária.
 
 ---
 
@@ -207,47 +244,87 @@ Assim, há duas sequências completas possíveis para G0: `M1 > G2 > G3 > G4` e 
 
 **Autor(a):** Victor Merker Binda — 22.125.075-6.
 
-### Goal
+### Modelo textual hierarquicamente indentado
 
-`G0: registrar e comunicar um desfecho fundamentado para a divergência de um produto.`
+O modelo descreve uma conferência rotineira; confirmação da origem e autorização não são presumidas quando faltarem. Cada leitura/comparação trata um atributo por vez. Não se estima o tempo de esperar Mariana ou de investigar uma causa inédita.
 
-- `G1`: localizar os registros relevantes ao episódio.
-- `G2`: determinar o que as fontes permitem concluir.
-- `G3`: preparar uma correção justificada ou uma pendência.
-- `G4`: confirmar, conferir e comunicar o resultado.
+```text
+GOAL G0: registrar, comunicar e verificar um desfecho fundamentado da divergência
+    METHOD M0: executar G1 > G2 > G3 > G4
+        GOAL G1: localizar e confirmar o episódio correto
+            SELECTION RULE SR1:
+                usar M1.A se houver identificador confiável e pesquisável;
+                usar M1.B se faltar ID ou a correspondência do ID for rejeitada.
+            METHOD M1.A: localizar pelo identificador
+                OPERATOR 1: ler o identificador da fonte
+                OPERATOR 2: preencher o identificador na consulta
+                OPERATOR 3: executar a consulta
+                OPERATOR 4: abrir o registro candidato
+                OPERATOR 5: comparar seu identificador com a fonte
+                OPERATOR 6: comparar seu produto com o item investigado
+                OPERATOR 7: comparar sua unidade com a unidade contada
+            METHOD M1.B: localizar pelos atributos disponíveis
+                OPERATOR 1: ler o nome do produto na fonte
+                OPERATOR 2: preencher o nome na consulta
+                OPERATOR 3: preencher a data conhecida
+                OPERATOR 4: executar a consulta
+                OPERATOR 5: ler a quantidade de um candidato
+                OPERATOR 6: comparar essa quantidade com a fonte
+                OPERATOR 7: abrir o registro candidato
+                OPERATOR 8: comparar seu produto com o item investigado
+                OPERATOR 9: comparar sua data com a fonte
+                OPERATOR 10: comparar sua unidade com a unidade contada
+            SELECTION RULE SR2:
+                se os atributos forem insuficientes, acrescentar outro conhecido
+                e repetir a consulta; se a ambiguidade persistir, registrar a
+                lacuna e seguir pendente, sem tratar G1 como localização concluída.
+        GOAL G2: estabelecer o que as fontes permitem concluir
+            METHOD M2: verificar atributos e registrar a evidência
+                OPERATOR 1: abrir o pedido de origem
+                OPERATOR 2: ler seu identificador
+                OPERATOR 3: ler sua situação (enviado, cancelado ou outra)
+                OPERATOR 4: ler sua quantidade
+                OPERATOR 5: abrir uma transcrição candidata
+                OPERATOR 6: comparar seu produto com o pedido
+                OPERATOR 7: comparar sua unidade com o pedido
+                OPERATOR 8: comparar sua data com o pedido
+                OPERATOR 9: comparar sua quantidade com o pedido
+                OPERATOR 10: repetir 5 a 9 para a outra transcrição candidata
+                OPERATOR 11: consultar a confirmação de origem obtida com Mariana
+                OPERATOR 12: ler a contagem física conferida
+                OPERATOR 13: comparar o saldo registrado com essa contagem
+                OPERATOR 14: registrar a referência da evidência ou a falta dela
+                OPERATOR 15: verificar se a conclusão está confirmada ou apenas suspeita
+        GOAL G3: preparar correção justificada ou pendência
+            METHOD M3: preencher o desfecho permitido pela investigação
+                OPERATOR 1: selecionar o tipo de desfecho
+                OPERATOR 2: indicar a transcrição indevida, se comprovada
+                OPERATOR 3: preencher o motivo
+                OPERATOR 4: preencher a próxima verificação, se pendente
+                OPERATOR 5: conferir a evidência vinculada ao desfecho
+            CONDITION:
+                corrigir somente se duplicidade e autorização estiverem confirmadas;
+                na ausência de origem, evidência ou autorização, registrar pendência.
+                Igualar oito a dez sem causa confirmada não é método equivalente.
+        GOAL G4: confirmar, conferir, comunicar e verificar o alcance
+            METHOD M4: fechar o registro e a comunicação
+                OPERATOR 1: ler o produto no resumo
+                OPERATOR 2: conferir a unidade comercial
+                OPERATOR 3: conferir o motivo
+                OPERATOR 4: conferir o saldo resultante, se corrigido
+                OPERATOR 5: confirmar a gravação
+                OPERATOR 6: ler o retorno
+                OPERATOR 7: consultar o histórico do item
+                OPERATOR 8: conferir a alteração ou a pendência registrada
+                OPERATOR 9: identificar os registros ainda não conferidos
+                OPERATOR 10: informar Mariana sobre o desfecho do item
+                OPERATOR 11: informar as verificações restantes
+                OPERATOR 12: ouvir ou ler o retorno de recebimento de Mariana
+                OPERATOR 13: verificar se esse retorno reconhece o alcance parcial
+```
 
-### Métodos, operadores e regras de seleção
+Os percursos de localização fecham com conferência do registro aberto. A comunicação integra G0, por isso a tarefa termina com verificação do recebimento e do alcance, e não apenas com envio. Se Mariana não puder receber/confirmar, registrar comunicação pendente: a gravação pode ter terminado, mas G0 ainda não está completo. O meio de comunicação é o disponível no contexto, sem presumir funcionalidade de mensagens no sistema. Erros e falhas seguem as regras de retorno da HTA.
 
-| Operador | Tipo | Ação delimitada |
-|---|---|---|
-| O1 | Cognitivo/perceptivo | Ler um identificador ou um atributo da fonte |
-| O2 | Interação | Preencher um campo de busca/filtro |
-| O3 | Interação | Executar a consulta |
-| O4 | Cognitivo | Comparar uma correspondência por item, unidade, data, quantidade e situação |
-| O5 | Interação | Abrir o registro candidato e seus vínculos |
-| O6 | Interação | Consultar os detalhes dos registros relacionados |
-| O7 | Cognitivo | Comparar as transcrições com a fonte e a contagem já obtida |
-| O8 | Interação | Registrar evidência, confirmação obtida ou lacuna |
-| O9 | Interação | Preparar a correção ou marcar pendência com motivo |
-| O10 | Cognitivo | Conferir o resumo e o efeito previsto sobre o saldo/histórico |
-| O11 | Interação | Confirmar a gravação |
-| O12 | Cognitivo/perceptivo | Conferir a confirmação, o histórico e a situação do item |
-| O13 | Ação humana externa | Comunicar a Mariana o desfecho e as verificações restantes |
-
-O modelo descreve a rotina de um usuário familiarizado com o procedimento. Para o percurso rotineiro de correção, a confirmação externa e a recontagem já precisam estar disponíveis em G2; quando não estiverem, a pendência é um desfecho possível. O tempo de obter uma resposta de Mariana ou realizar investigação inédita não é estimado por esses operadores.
-
-**Método comum de G0:** realizar G1 por M1 ou M2; executar G2 (`O6 > O7 > O8`); realizar G3 por O9, conforme a evidência; executar G4 (`O10 > O11 > O12 > O13`). A rotina só termina após registro conferido e comunicação do alcance parcial.
-
-| Método alternativo para G1 | Sequência de operadores | Resultado comum |
-|---|---|---|
-| M1 — localizar por identificador | O1 ler identificador confiável > O2 informá-lo > O3 consultar > O4 conferir correspondência > O5 abrir o registro e os vínculos | Episódio correto localizado para comparação das fontes |
-| M2 — localizar por atributos do episódio | O1 ler produto, data e quantidade > O2 preencher nome/data disponíveis > O3 consultar > O4 comparar candidatos > O5 abrir a correspondência reconhecida | Mesmo episódio correto localizado, ainda que a anotação não tenha ID |
-
-**SR1:** usar M1 quando houver identificador confiável e pesquisável. Usar M2 quando ele faltar ou quando o resultado do identificador não corresponder à fonte após conferência. Se ambas as vias forem possíveis, priorizar M1 por vincular diretamente a origem; essa preferência é proposta a testar.
-
-**SR2:** em M2, se os atributos não distinguirem as correspondências, acrescentar um atributo disponível e repetir a consulta; não escolher arbitrariamente a primeira linha. Se a ambiguidade persistir, a investigação não sustenta correção: registrar a lacuna no episódio e seguir pelo desfecho pendente. Nesse caso G1 não atingiu a localização inequívoca prevista pelo método; trata-se de uma exceção, não de sucesso do método.
-
-As alternativas completas de execução rotineira são `M1 > G2 > G3 > G4` e `M2 > G2 > G3 > G4`. A escolha entre correção e pendência em G3 depende da suficiência da evidência e da autorização. **Alterar diretamente oito para dez não é um terceiro método equivalente:** não alcança a meta de explicar a origem e preservar histórico.
 
 ---
 
@@ -263,12 +340,14 @@ Mariana identifica um produto, examina a base disponível, define planejamento, 
 
 ### Diagrama
 
-![CTT T01 — tipos de tarefa, alternativas, passagem de informação e suspensão](../assets/05_tarefas/ctt_t01.png)
+![CTT T01 — gatilho externo, análise e suspensão/retomada](../assets/05_tarefas/ctt_t01.svg)
 
-[Abrir imagem PNG em tamanho original](../assets/05_tarefas/ctt_t01.png). A árvore utiliza os pictogramas dos slides 23–24 de `CC8122-GOMS-CTT.pdf`: nuvem para tarefa abstrata, pessoa para tarefa do usuário, computador para tarefa do sistema e pessoa-computador com seta dupla para interação. As linhas inclinadas decompõem a tarefa; os operadores entre nós irmãos indicam as relações temporais. A, U, S e I identificam os nós na tabela e nas expressões abaixo.
+[Abrir imagem PNG em tamanho original](../assets/05_tarefas/ctt_t01.png). [Fonte SVG editável](../assets/05_tarefas/ctt_t01.svg). A árvore utiliza os tipos e pictogramas dos slides 23–24 de `CC8122-GOMS-CTT.pdf`: nuvem para tarefa abstrata, pessoa para tarefa do usuário, computador para tarefa do sistema e pessoa-computador para interação. As linhas inclinadas decompõem a tarefa; os operadores entre nós irmãos indicam as relações temporais. A, U, S e I identificam os nós na tabela e nas expressões abaixo.
 
 ```text
-A0 Executar T01 com possibilidade de pausa
+A0 Iniciar e realizar T01 no contexto
+  = U3 >> A6
+A6 Executar T01 com possibilidade de pausa
   = A1 |> U0
 A1 Analisar e registrar
   = A2 []>> A3 []>> A4 []>> A5
@@ -282,11 +361,14 @@ A5 Concluir o registro
   = I7 []>> S2 []>> I8
 ```
 
+**Gatilho inicial:** U3 antecede qualquer interação. A0 habilita A6 apenas após esse acontecimento externo; U0 representa outra ação externa, eventual e posterior, que suspende A1. Gatilho e interrupção têm papéis distintos.
+
 ### Legenda e relações temporais usadas
 
 | Nó | Tipo | Conteúdo e critério de término |
 |---|---|---|
-| A0–A5 | Abstrata | Composição de tarefas; os IDs e seus nomes estão nas expressões acima |
+| A0–A6 | Abstrata | Composição de tarefas; os IDs e seus nomes estão nas expressões acima |
+| U3 | Usuário — externa inicial | Perceber necessidade de avaliar o produto antes do prazo do fornecedor; decidir iniciar a análise (E4-C01-Q1) |
 | U0 | Usuário | Atender cliente no balcão; a demanda externa terminou e Mariana pode retomar a análise |
 | I1 | Interação | Selecionar na lista e conferir identidade/unidade; produto correto identificado |
 | I2 | Interação | Buscar, selecionar e conferir identidade/unidade; mesmo resultado de I1 |
@@ -306,7 +388,7 @@ I1/I2 são macrotarefas de interação: seu detalhe operacional está nos métod
 |---|---|---|
 | `[]` | Escolha: iniciar uma alternativa desabilita as demais naquele ponto da execução | I1 ou I2 levam ao mesmo produto; I4, I5 ou I6 definem um único desfecho |
 | `[]>>` | A tarefa seguinte começa após a anterior e recebe sua informação | A2 passa a identidade do produto a A3; I7 passa o registro confirmado a S2; S2 passa a confirmação a I8 |
-| `\|>` | Suspensão/retomada: uma atividade pode interromper a primeira, que depois continua do ponto suspenso | A1 pode ser suspensa por U0, atendimento ao cliente |
+| `\|>` | Suspensão/retomada: uma atividade pode interromper a primeira, que depois continua do ponto suspenso | A1 pode ser suspensa por U0 dentro de A6, atendimento ao cliente |
 
 Conferir informação e confirmar a decisão têm dependência; não há justificativa para representá-las como concorrentes. A pausa é eventual: U0 não é uma etapa obrigatória entre selecionar e salvar. O operador de suspensão descreve a retomada lógica, enquanto preservar o rascunho e verificar dados desatualizados são requisitos para torná-la viável.
 
@@ -326,12 +408,14 @@ Rafael localiza os registros de um produto, investiga a diferença e confirma um
 
 ### Diagrama
 
-![CTT T02 — investigação, correção ou pendência e comunicação após confirmação](../assets/05_tarefas/ctt_t02.png)
+![CTT T02 — gatilho externo, investigação e comunicação verificada](../assets/05_tarefas/ctt_t02.svg)
 
-[Abrir imagem PNG em tamanho original](../assets/05_tarefas/ctt_t02.png). IDs são locais a este modelo. A árvore utiliza a mesma notação dos slides 23–24 de `CC8122-GOMS-CTT.pdf`: nuvem, pessoa, computador e pessoa-computador representam os quatro tipos de tarefa, e os operadores entre irmãos indicam sua relação temporal.
+[Abrir imagem PNG em tamanho original](../assets/05_tarefas/ctt_t02.png). [Fonte SVG editável](../assets/05_tarefas/ctt_t02.svg). IDs são locais a este modelo. A árvore utiliza a mesma notação dos slides 23–24 de `CC8122-GOMS-CTT.pdf`: nuvem, pessoa, computador e pessoa-computador representam os quatro tipos de tarefa, e os operadores entre irmãos indicam sua relação temporal.
 
 ```text
-A0 Executar T02 com possibilidade de pausa
+A0 Iniciar e realizar T02 no contexto
+  = U3 >> A6
+A6 Executar T02 com possibilidade de pausa
   = A1 |> U0
 A1 Investigar e registrar
   = A2 []>> A3 []>> A4 []>> A5
@@ -342,14 +426,17 @@ A3 Investigar a diferença
 A4 Revisar e confirmar desfecho
   = I5 [] I6
 A5 Verificar e comunicar resultado
-  = S1 []>> I7 >> U2
+  = S1 []>> I7 >> U2 >> U4
 ```
+
+**Gatilho inicial:** U3 antecede qualquer interação. A0 habilita A6 apenas após esse acontecimento externo; U0 representa outra ação externa, eventual e posterior, que suspende A1. Gatilho e interrupção têm papéis distintos.
 
 ### Legenda e relações temporais usadas
 
 | Nó | Tipo | Conteúdo e critério de término |
 |---|---|---|
-| A0–A5 | Abstrata | Composição das tarefas identificadas nas expressões |
+| A0–A6 | Abstrata | Composição das tarefas identificadas nas expressões |
+| U3 | Usuário — externa inicial | Perceber diferença entre contagem física e registro do produto/unidade; decidir investigar sua origem (E4-C02-Q3) |
 | U0 | Usuário | Atender demanda de embalagem; finalizar a interrupção externa |
 | I1 | Interação | Localizar pelo identificador e conferir produto/unidade e registros candidatos |
 | I2 | Interação | Localizar por atributos e conferir produto/unidade e registros candidatos |
@@ -361,6 +448,7 @@ A5 Verificar e comunicar resultado
 | S1 | Sistema | Validar e persistir o desfecho; aplicar a correção confirmada, se houver, preservando o histórico; produzir confirmação |
 | I7 | Interação | Conferir retorno, saldo, histórico e situação do item; identificar o restante não conferido |
 | U2 | Usuário | Informar Mariana sobre o item corrigido ou pendente e as verificações restantes |
+| U4 | Usuário | Conferir o retorno de Mariana e se o alcance parcial foi compreendido; sem retorno, comunicação permanece pendente |
 
 I1/I2 incluem conferência de candidatos, mas não concluem que houve duplicidade. A identificação e a investigação são metas diferentes. Em U1, perceber que a confirmação está indisponível permite registrar uma lacuna em I4 e seguir por I6; não equivale a confirmação positiva.
 
@@ -371,13 +459,13 @@ I1/I2 incluem conferência de candidatos, mas não concluem que houve duplicidad
 | `[]` | Alternativas de execução naquele ponto | I1 ou I2 localizam o episódio; I5 ou I6 confirmam desfechos diferentes |
 | `>>` | A segunda tarefa só começa quando a primeira termina | I3 precede a confirmação externa/recontagem U1; I7 precede a comunicação U2 |
 | `[]>>` | Sequência com transferência explícita de informação | A3 fornece evidências/lacunas a A4; A4 fornece o desfecho confirmado a A5; S1 fornece o registro persistido a I7 |
-| `\|>` | Suspender e depois retomar o trabalho | A1 é suspensa por U0, a demanda de embalagem |
+| `\|>` | Suspender e depois retomar o trabalho | A1 é suspensa por U0 dentro de A6, a demanda de embalagem |
 
 `>>` expressa a ordem mínima; não afirma que a pessoa esquece as informações anteriores. `[]>>` destaca o resultado que precisa ser transmitido como entrada do próximo diálogo/processamento. Em particular, a confirmação externa não pode ser obtida em paralelo com uma correção que depende dela.
 
 Não se usou concorrência (`|||`), concorrência comunicante (`|[]|`), independência de ordem (`|=|`) ou desativação (`[>`) apenas para preencher a notação. A embalagem suspende o trabalho e permite retomada; não o abandona definitivamente. Tampouco se usou repetição gráfica: cada árvore cobre um episódio, e o plano da HTA determina quando iniciar o próximo. Essa escolha evita representar os quatorze registros como quatorze vendas independentes ou como um único item já resolvido.
 
-**Fronteira de exceções:** a árvore pressupõe obtenção de confirmação em S1 para chegar a I7 e U2. Falha de validação/gravação interrompe esse percurso e aciona a recuperação definida na HTA; não se comunica correção bem-sucedida. Divergência ainda presente após a gravação exige nova investigação e comunicação explícita, não repetição cega do ajuste. Interrupções durante processamento não desfazem uma gravação já concluída: a retomada deve consultar seu estado.
+**Fronteira de exceções:** a árvore pressupõe obtenção de confirmação em S1 para chegar a I7, U2 e U4. Falha de validação/gravação interrompe esse percurso e aciona a recuperação definida na HTA; não se comunica correção bem-sucedida. Divergência ainda presente após a gravação exige nova investigação e comunicação explícita, não repetição cega do ajuste. Interrupções durante processamento não desfazem uma gravação já concluída: a retomada deve consultar seu estado.
 
 ---
 
@@ -417,13 +505,23 @@ Permanecem a investigar a plausibilidade dos papéis e processos, os dados dispo
 
 ## Checklist
 
-- [ ] Cada integrante produziu ao menos 1 HTA, 1 GOMS e 1 CTT.
-- [ ] Cada artefato identifica autor e tarefa.
-- [ ] Diagramas são legíveis e possuem fonte editável quando possível.
-- [ ] HTA contém planos, não apenas árvore de tópicos.
-- [ ] GOMS distingue Goals, Operators, Methods e Selection Rules.
-- [ ] CTT usa operadores temporais e tipos de tarefa coerentes.
-- [ ] Há texto explicando cada diagrama.
-- [ ] Tarefas estão ligadas a cenários/personas na rastreabilidade.
-- [ ] Em TCC técnico, as tarefas descrevem o que a pessoa faz com a contribuição/resultados, não passos internos do código.
-- [ ] CRUDs, relatórios, filtros e atividades administrativas foram escolhidos por relevância ao objetivo do usuário.
+- [x] Cada integrante produziu ao menos 1 HTA, 1 GOMS e 1 CTT.
+- [x] Cada artefato identifica autor e tarefa.
+- [x] Diagramas são legíveis e possuem fonte editável quando possível.
+- [x] HTA contém planos, não apenas árvore de tópicos.
+- [x] GOMS distingue Goals, Operators, Methods e Selection Rules.
+- [x] CTT usa operadores temporais e tipos de tarefa coerentes.
+- [x] Há texto explicando cada diagrama.
+- [x] Tarefas estão ligadas a cenários/personas na rastreabilidade.
+- [x] Em TCC técnico, as tarefas descrevem o que a pessoa faz com a contribuição/resultados, não passos internos do código.
+- [x] CRUDs, relatórios, filtros e atividades administrativas foram escolhidos por relevância ao objetivo do usuário.
+
+## Conferência após o feedback
+
+- HTA: Input, Feedback e Plano aparecem explicitamente apenas na tarefa zero de cada tabela auxiliar; as tarefas filhas mantêm operações, condições, problemas e recomendações.
+- GOMS: dois modelos em texto indentado, métodos alternativos para a mesma meta de localização, operadores delimitados e fechamento verificável, inclusive após comunicar o resultado de T02.
+- CTT: dois diagramas atualizados e editáveis, com U3 como gatilho externo inicial, distinto de U0 (interrupção); expressões e legendas correspondem às figuras.
+- Rastreabilidade: P01/E4-C01/R04-01 → T01 e P02/E4-C02/R04-02 → T02 ligados aos três modelos; não permanecem como modelos pendentes.
+- Os antigos SVGs de template foram movidos para `assets/historico/2026-11-12_placeholders/05_tarefas/`, fora da pasta ativa.
+
+A conclusão é da modelagem exigida na atividade. Validar o público, as permissões, o vocabulário e o comportamento real continua sendo trabalho de pesquisa e avaliação; nenhuma validação empírica foi inventada nesta revisão.

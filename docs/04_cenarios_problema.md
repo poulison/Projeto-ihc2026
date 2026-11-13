@@ -1,7 +1,8 @@
 # Entrega 4 — Cenários de análise/problema
 
-**Data:** 05/10/2026  
-**Status:** 🟩 concluída
+**Data:** 05/10/2026
+**Status:** 🟩 concluída — revisada após feedback
+**Revisão:** 12/11/2026
 **Responsabilidade:** 1 solução completa da atividade por integrante: Paulo Andre de Oliveira Hirata — C01; Victor Merker Binda — C02.
 
 ## Objetivo da atividade
@@ -25,9 +26,9 @@ O trabalho se relaciona à **previsão de demanda com aprendizado de máquina pa
 
 ## Cenário C01 — Decidir a reposição antes do prazo do fornecedor com informações dispersas
 
-**Autor(a):** Paulo Andre de Oliveira Hirata — 22.125.072-3  
-**Persona(s) relacionada(s):** P01 — Mariana Alves; P02 — Rafael Costa, como apoio eventual  
-**Necessidade relacionada:** R04-01 — decidir quais produtos repor, em que momento e em qual quantidade, considerando disponibilidade, procura, prazo de entrega e dinheiro disponível, mantendo o controle da decisão.  
+**Autor(a):** Paulo Andre de Oliveira Hirata — 22.125.072-3
+**Persona(s) relacionada(s):** P01 — Mariana Alves; P02 — Rafael Costa, como apoio eventual
+**Necessidade relacionada:** R04-01 — decidir quais produtos repor, em que momento e em qual quantidade, considerando disponibilidade, procura, prazo de entrega e dinheiro disponível, mantendo o controle da decisão.
 **Situação da Entrega 1 relacionada:** relato de ruptura e contagem manual, seção 4; objetivo de planejar reposições, seção 3; lacunas de processo/dados, seção 10. O prazo do fornecedor e a dispersão dos registros são refinamentos hipotéticos associados às etapas 1 e 2 da jornada da Entrega 3.
 **Hipóteses ainda presentes:** perfil responsável pela reposição; acúmulo de tarefas e pouco tempo; uso de registros manuais e ferramentas dispersas; controle humano da compra; apoio operacional eventual; pouca familiaridade digital de Mariana. As condições específicas deste episódio também são hipotéticas.
 
@@ -53,6 +54,18 @@ As perguntas abaixo investigam lacunas do cenário inicial. A classificação se
 | C01-Q6 | **Exploratória — como? / ações e eventos:** como ela retoma a comparação depois de uma interrupção e identifica quais registros já conferiu? | Investiga o ponto de perda de continuidade e a necessidade de repetir ações; esse mecanismo não aparece no cenário inicial. | Acompanhar a sequência de consulta e anotar como a pessoa marca ou recupera o ponto em que parou. |
 | C01-Q7 | **Verificação / ação e precondição:** a quantidade fisicamente presente pode ser usada diretamente como quantidade disponível para novos pedidos? | Verifica uma relação específica que pode tornar a compra insuficiente ou a promessa ao cliente incorreta. | Conferir um mesmo produto na prateleira e nos pedidos pendentes de retirada ou envio, com autorização. |
 | C01-Q8 | **Exploratória — como? / avaliação e consequências:** como Mariana distingue pedido enviado, entrega combinada e reposição que realmente atendeu à necessidade? | Separa a conclusão de uma ação do alcance do objetivo, identificando evidências posteriores de falta ou excesso. | Acompanhar a confirmação do fornecedor, o recebimento e os registros de vendas/faltas até o próximo ciclo de compra. |
+
+**Cobertura explícita dos sete elementos:**
+
+| Elemento | Questões que o investigam | O que precisa ficar claro |
+|---|---|---|
+| Contexto/ambiente | C01-Q2 e Q3 | Tempo, espaço, equipamentos, registros e restrições |
+| Atores | C01-Q4 | Quem age, de quem depende e quem recebe o resultado |
+| Objetivos | C01-Q1 e Q8 | Por que agir e qual resultado realmente atende à necessidade |
+| Planejamento | C01-Q5 | Alternativas, ordem e critério para escolher o próximo passo |
+| Ações | C01-Q3, Q6 e Q7 | O que a pessoa consulta, compara, registra e retoma |
+| Eventos | C01-Q1 e Q6 | Gatilho da atividade e interrupções que mudam sua execução |
+| Avaliação | C01-Q7 e Q8 | Precondições, verificação do desfecho e limites da conclusão |
 
 ### 3. Cenário refinado
 
@@ -99,13 +112,13 @@ Mariana conta os produtos na prateleira, abre o caderno de anotações e procura
 
 Na análise posterior, devem ser priorizadas a compreensão das informações, a segurança da decisão, a autonomia de Mariana e a redução do esforço de retomada. Sua familiaridade com mensagens não demonstra domínio de planilhas, e a idade não comprova limitações perceptuais ou motoras. Essas condições precisam ser investigadas, sem atribuir dificuldades à pessoa quando também podem decorrer da organização dos registros e do trabalho.
 
-## Cenário C02 — Reconciliar uma divergência de estoque após registros duplicados e interrupções
+## Cenário C02 — Investigar uma divergência de estoque sob interrupções
 
-**Autor(a):** Victor Merker Binda — 22.125.075-6  
-**Persona(s) relacionada(s):** P02 — Rafael Costa; P01 — Mariana Alves, como fonte de informações e destinatária da conferência    
-**Necessidade relacionada:** R04-02 — manter registros de movimentação e um saldo de estoque confiáveis, identificar a origem das divergências e retomar a conferência sem omitir ou duplicar lançamentos.    
+**Autor(a):** Victor Merker Binda — 22.125.075-6
+**Persona(s) relacionada(s):** P02 — Rafael Costa; P01 — Mariana Alves, como fonte de informações e destinatária da conferência
+**Necessidade relacionada:** R04-02 — manter registros de movimentação e um saldo de estoque confiáveis, identificar a origem das divergências e retomar a conferência sem omitir ou duplicar lançamentos.
 **Situação da Entrega 1 relacionada:** lacunas sobre registro de movimentações, tratamento de divergências e divisão de responsabilidades, seções 2, 4 e 10. A duplicidade específica é uma construção hipotética da Entrega 4, derivada da persona P02.
-**Hipóteses ainda presentes:** tarefas operacionais concorrentes; registros distribuídos entre planilha, caderno e marketplace; participação de auxiliar. A duplicidade e os demais detalhes deste episódio são hipóteses de refinamento, não ocorrências observadas.  
+**Hipóteses ainda presentes:** existência de um auxiliar separado e uso operacional recorrente (classificado como primário provisório na E3); tarefas operacionais concorrentes; registros distribuídos entre planilha, caderno e marketplace; participação de auxiliar. A duplicidade e os demais detalhes deste episódio são hipóteses de refinamento, não ocorrências observadas.
 
 ### 1. Cenário inicial
 
@@ -127,6 +140,18 @@ Uma demanda de separação de pedidos interrompe a conferência. Quando retorna,
 | C02-Q6 | **Exploratória — como? / ações e eventos:** em que ponto a interrupção acontece e quais indícios permitem saber o que foi conferido ou alterado antes de sair? | Localiza a ruptura de continuidade e o retrabalho, informação ausente da descrição genérica de uma pausa. | Observar a retomada e verificar que marcações, notas ou versões do arquivo são efetivamente usadas. |
 | C02-Q7 | **Verificação / ação e precondição:** igualar o saldo da planilha à contagem física, sem localizar o lançamento responsável, permite considerar a divergência resolvida? | Verifica se a igualdade numérica também recupera a confiabilidade do histórico ou apenas esconde a diferença. | Reconciliar um caso com documentos de origem e conferir se a alteração preserva uma explicação para as movimentações. |
 | C02-Q8 | **Exploratória — como? / avaliação e consequências:** quais verificações indicam que a correção terminou e como Rafael diferencia itens conferidos de pendências ao informar Mariana? | Define o término da tarefa e a comunicação do resultado, evitando tratar a correção de um item como conclusão de todo o estoque. | Acompanhar o fechamento da conferência, a comunicação à proprietária e uma consulta posterior aos registros corrigidos. |
+
+**Cobertura explícita dos sete elementos:**
+
+| Elemento | Questões que o investigam | O que precisa ficar claro |
+|---|---|---|
+| Contexto/ambiente | C02-Q2 e Q3 | Tempo, espaço, equipamentos, registros e restrições |
+| Atores | C02-Q4 | Quem age, de quem depende e quem recebe o resultado |
+| Objetivos | C02-Q1 e Q8 | Por que agir e qual resultado realmente atende à necessidade |
+| Planejamento | C02-Q5 | Alternativas, ordem e critério para escolher o próximo passo |
+| Ações | C02-Q3, Q6 e Q7 | O que a pessoa consulta, compara, registra e retoma |
+| Eventos | C02-Q1 e Q6 | Gatilho da atividade e interrupções que mudam sua execução |
+| Avaliação | C02-Q7 e Q8 | Precondições, verificação do desfecho e limites da conclusão |
 
 ### 3. Cenário refinado
 
@@ -173,18 +198,25 @@ Uma demanda de separação de pedidos interrompe a conferência. **[NOVO — C02
 
 Na análise posterior, a prioridade é entender a precisão do registro, a prevenção e a recuperação de erros, o esforço de retomada e a comunicação entre os papéis. A facilidade de Rafael com tecnologia não elimina problemas de significado, responsabilidade ou qualidade das fontes. Também será necessário verificar se negócios reais possuem esse papel auxiliar e como realizam a tarefa quando o proprietário trabalha sozinho.
 
+## Limites e continuidade após o feedback
+
+O título de C02 descreve a diferença a investigar, sem declarar sua causa. A duplicidade é uma descoberta da versão refinada, em C02-Q7, e permanece um exemplo hipotético. Horários, quantidades, datas e produtos de ambos os cenários tornam os episódios analisáveis; não são parâmetros obrigatórios do sistema nem características medidas do público. Se o proprietário concentrar as tarefas hoje atribuídas a Rafael, reinterpretar C02 para esse arranjo, mantendo a necessidade de apurar evidências e comunicar pendências. A classificação revisada de P02 na E3 não confirma por si só sua existência.
+
 ## Checklist
 
-- [ ] Há um cenário completo por integrante, com autoria identificada.
-- [ ] Cada cenário tem título, ator, objetivo, contexto e problema.
-- [ ] Cada cenário possui origem rastreável nas hipóteses retomadas pela Entrega 3; a conferência direta com a Entrega 1 está explicitada como pendência.
-- [ ] O texto descreve a situação atual hipotética, sem antecipar a solução.
-- [ ] O recorte técnico do TCC foi relacionado a uma prática humana plausível, e não à “falta de uma tela”.
-- [ ] Questões de refinamento acrescentam informação nova e utilizam a taxonomia da aula.
-- [ ] O refinamento mostra claramente o que foi adicionado e identifica a pergunta correspondente.
-- [ ] Contexto, atores, objetivos, planejamento, ações, eventos e avaliação estão presentes e explicitados.
-- [ ] Cenários são diferentes o suficiente para cobrir objetivos/problemas relevantes.
-- [ ] Cada cenário está ligado a persona e necessidade na matriz local de rastreabilidade.
-- [ ] Respostas hipotéticas, possíveis consequências e sentimentos não foram apresentados como dados coletados.
-- [ ] Correspondência com a Entrega 1 original e com os IDs da matriz central conferida pela equipe.
-- [ ] Cenários e respostas de refinamento confrontados com entrevistas, observação ou registros de usuários reais.
+- [x] Há um cenário completo por integrante, com autoria identificada.
+- [x] Cada cenário tem título, ator, objetivo, contexto e problema.
+- [x] Cada cenário possui origem rastreável na Entrega 1 e nas hipóteses retomadas pela Entrega 3, com seções e necessidades identificadas.
+- [x] O texto descreve a situação atual hipotética, sem antecipar a solução.
+- [x] O recorte técnico do TCC foi relacionado a uma prática humana plausível, e não à “falta de uma tela”.
+- [x] Questões de refinamento acrescentam informação nova e utilizam a taxonomia da aula.
+- [x] O refinamento mostra claramente o que foi adicionado e identifica a pergunta correspondente.
+- [x] Contexto, atores, objetivos, planejamento, ações, eventos e avaliação estão presentes e explicitados.
+- [x] Cenários são diferentes o suficiente para cobrir objetivos/problemas relevantes.
+- [x] Cada cenário está ligado a persona e necessidade na matriz local de rastreabilidade.
+- [x] Respostas hipotéticas, possíveis consequências e sentimentos não foram apresentados como dados coletados.
+- [x] Correspondência com a Entrega 1 original e com os IDs da matriz central conferida pela equipe.
+
+### Validação futura — não realizada nesta entrega documental
+
+- [ ] Confrontar cenários e respostas de refinamento com entrevistas, observação ou registros de usuários reais. A elaboração e revisão dos cenários estão concluídas; a validação empírica permanece pendente.

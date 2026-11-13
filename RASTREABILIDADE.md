@@ -1,6 +1,6 @@
 # Matriz de rastreabilidade de IHC
 
-**Revisão:** 13/10/2026. Esta matriz distingue o que foi registrado pela equipe, o que foi observado em fontes de mercado e o que ainda é hipótese. Nenhuma entrevista, teste com usuário ou confirmação do orientador foi realizada para esta revisão.
+**Revisão:** 12/11/2026. Esta matriz distingue o que foi registrado pela equipe, o que foi observado em fontes de mercado e o que ainda é hipótese. Nenhuma entrevista, teste com usuário ou confirmação do orientador foi realizada para esta revisão.
 
 As hipóteses usam **descrições por extenso**, conforme a simplificação adotada pela equipe. O histórico dos códigos anteriores está na seção 6, para não apagar sua evolução. Os IDs de personas, cenários, perguntas de refinamento e recomendações permanecem. Sempre cite a entrega junto a C01/C02: em E2 são concorrentes; em E4 são cenários.
 
@@ -44,8 +44,8 @@ Os identificadores locais da Entrega 4 foram incorporados sem criar uma segunda 
 
 | Necessidade | Capacidade relacionada | Persona | Cenário | Objetivo/tarefa candidata | Modelagem e interface | Validação |
 |---|---|---|---|---|---|---|
-| R04-01 — decidir reposição considerando disponibilidade, procura, prazo e recursos | Previsão como apoio; recomendação calculada condicional | P01 — Mariana | [E4-C01](docs/04_cenarios_problema.md) | Apurar disponibilidade, comparar informações e alternativas, decidir e avaliar resultado | HTA/GOMS/CTT e telas: PENDENTES; não produzidos nesta revisão | Necessidade e cenário hipotéticos |
-| R04-02 — manter saldo e histórico explicáveis e comunicar pendências | Qualidade dos dados utilizados na previsão; capacidade operacional a delimitar | P02 — Rafael; P01 depende do resultado | [E4-C02](docs/04_cenarios_problema.md) | Investigar divergência, confirmar fonte, corrigir com justificativa e distinguir pendências | HTA/GOMS/CTT e telas: PENDENTES | Papel auxiliar e procedimento a investigar |
+| R04-01 — decidir reposição considerando disponibilidade, procura, prazo e recursos | Previsão como apoio; recomendação calculada condicional | P01 — Mariana | [E4-C01](docs/04_cenarios_problema.md) | Apurar disponibilidade, comparar informações e alternativas, decidir e avaliar resultado | [T01 — HTA](docs/05_analise_tarefas.md#t01-hta), [GOMS](docs/05_analise_tarefas.md#t01-goms) e [CTT](docs/05_analise_tarefas.md#t01-ctt) produzidos; autoria: Paulo; cobertura de interface parcial na E6 | Necessidade e cenário hipotéticos |
+| R04-02 — manter saldo e histórico explicáveis e comunicar pendências | Qualidade dos dados utilizados na previsão; capacidade operacional a delimitar | P02 — Rafael; P01 depende do resultado | [E4-C02](docs/04_cenarios_problema.md) | Investigar divergência, confirmar fonte, corrigir com justificativa e distinguir pendências | [T02 — HTA](docs/05_analise_tarefas.md#t02-hta), [GOMS](docs/05_analise_tarefas.md#t02-goms) e [CTT](docs/05_analise_tarefas.md#t02-ctt) produzidos; autoria: Victor; cobertura de interface parcial na E6 | Papel auxiliar e procedimento a investigar |
 
 MoLIC, Figma, heurísticas e tarefas de teste ainda não foram ligados a esses cenários. Campos futuros não são tratados como artefatos já existentes.
 
@@ -76,6 +76,8 @@ Não foram atribuídos IDs de telas antes de existir um modelo de interação. F
 | 13/10/2026 | Substituir códigos de hipóteses por descrições | Simplificação solicitada pela equipe; conflito de significados entre E1/E3 | E1–E4; matriz; histórico abaixo |
 | 13/10/2026 | Integrar P01/P02 e R04-01/R04-02 | Continuidade com cenários enviados | E3, E4 e seção 3 desta matriz |
 | 13/10/2026 | Padronizar matrícula de Victor como 22.125.075-6 | Concordância entre README, E1 e E3 | E2 |
+
+**Revisão de 12/11/2026:** P02 classificada como persona primária do recorte operacional, por objetivo e uso direto previstos; existência/recorrência continuam hipóteses. E3 passa a preservar visuais locais e a separar contexto de solução. C02 deixa de antecipar duplicidade no título; ambas as tabelas de perguntas explicitam os sete elementos. E5 inclui Input/Feedback/Plano na tarefa zero, GOMS indentado, CTT com gatilho inicial e fechamento da comunicação; modelagem concluída, pesquisa futura não realizada.
 
 ## 6. Histórico de correspondência dos identificadores retirados
 

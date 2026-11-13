@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1410" viewBox="0 0 2000 1410" role="img"><title>CTT T01 — gatilho externo e tarefa interrompível</title><rect width="100%" height="100%" fill="#f5f7fb"/>
+<text x="45" y="50" font-family="Arial, sans-serif" font-size="34" font-weight="bold" fill="#22324b" text-anchor="start">CTT T01 • Decisão de reposição</text>
+<text x="45" y="88" font-family="Arial, sans-serif" font-size="20" font-weight="normal" fill="#22324b" text-anchor="start">Autoria: Paulo Andre de Oliveira Hirata — 22.125.072-3</text>
+<path d="M1000 250 L400 320" fill="none" stroke="#71819a" stroke-width="2"/>
+<path d="M1000 250 L1250 320" fill="none" stroke="#71819a" stroke-width="2"/>
+<path d="M1250 485 L1030 535" fill="none" stroke="#71819a" stroke-width="2"/>
+<path d="M1250 485 L1780 535" fill="none" stroke="#71819a" stroke-width="2"/>
+<path d="M1030 660 L250 760" fill="none" stroke="#71819a" stroke-width="2"/>
+<path d="M1030 660 L750 760" fill="none" stroke="#71819a" stroke-width="2"/>
+<path d="M1030 660 L1250 760" fill="none" stroke="#71819a" stroke-width="2"/>
+<path d="M1030 660 L1750 760" fill="none" stroke="#71819a" stroke-width="2"/>
+<path d="M250 890 L177.5 1015" fill="none" stroke="#71819a" stroke-width="2"/>
+<path d="M250 890 L322.5 1015" fill="none" stroke="#71819a" stroke-width="2"/>
+<path d="M750 890 L605.0 1015" fill="none" stroke="#71819a" stroke-width="2"/>
+<path d="M750 890 L750.0 1015" fill="none" stroke="#71819a" stroke-width="2"/>
+<path d="M750 890 L895.0 1015" fill="none" stroke="#71819a" stroke-width="2"/>
+<path d="M1250 890 L1105.0 1015" fill="none" stroke="#71819a" stroke-width="2"/>
+<path d="M1250 890 L1250.0 1015" fill="none" stroke="#71819a" stroke-width="2"/>
+<path d="M1250 890 L1395.0 1015" fill="none" stroke="#71819a" stroke-width="2"/>
+<path d="M1750 890 L1605.0 1015" fill="none" stroke="#71819a" stroke-width="2"/>
+<path d="M1750 890 L1750.0 1015" fill="none" stroke="#71819a" stroke-width="2"/>
+<path d="M1750 890 L1895.0 1015" fill="none" stroke="#71819a" stroke-width="2"/>
+<rect x="825.0" y="125" width="350" height="125" rx="12" fill="#ffffff" stroke="#a9add5"/>
+<path d="M977 171 C957 170 958 146 976 147 C976 126 1003 124 1010 143 C1034 135 1044 171 1020 171 Z" fill="#edeafa" stroke="#5262a8" stroke-width="2"/>
+<text x="1000" y="202" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">A0</text>
+<text x="1000" y="226" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="middle">Iniciar e realizar T01</text>
+<text x="1000" y="240" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#444b76" text-anchor="middle">U3 &gt;&gt; A6</text>
+<rect x="215.0" y="320" width="370" height="140" rx="12" fill="#ffffff" stroke="#dfb27c"/>
+<circle cx="390" cy="339" r="8" fill="none" stroke="#ba641e" stroke-width="3"/>
+<path d="M390 348 L390 370" fill="none" stroke="#ba641e" stroke-width="3"/>
+<path d="M375 358 L405 358" fill="none" stroke="#ba641e" stroke-width="3"/>
+<path d="M390 370 L377 384" fill="none" stroke="#ba641e" stroke-width="3"/>
+<path d="M390 370 L403 384" fill="none" stroke="#ba641e" stroke-width="3"/>
+<text x="400" y="397" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">U3</text>
+<text x="400" y="421" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">Perceber necessidade antes do prazo</text>
+<text x="400" y="442" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">do fornecedor</text>
+<rect x="1075.0" y="320" width="350" height="165" rx="12" fill="#ffffff" stroke="#a9add5"/>
+<path d="M1227 366 C1207 365 1208 341 1226 342 C1226 321 1253 319 1260 338 C1284 330 1294 366 1270 366 Z" fill="#edeafa" stroke="#5262a8" stroke-width="2"/>
+<text x="1250" y="397" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">A6</text>
+<text x="1250" y="421" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="middle">Executar com possibilidade de</text>
+<text x="1250" y="442" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="middle">pausa</text>
+<text x="1250" y="475" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#444b76" text-anchor="middle">A1 |&gt; U0</text>
+<rect x="785.0" y="535" width="490" height="125" rx="12" fill="#ffffff" stroke="#a9add5"/>
+<path d="M1007 581 C987 580 988 556 1006 557 C1006 536 1033 534 1040 553 C1064 545 1074 581 1050 581 Z" fill="#edeafa" stroke="#5262a8" stroke-width="2"/>
+<text x="1030" y="612" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">A1</text>
+<text x="1030" y="636" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="middle">Analisar e registrar</text>
+<text x="1030" y="650" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#444b76" text-anchor="middle">A2 []&gt;&gt; A3 []&gt;&gt; A4 []&gt;&gt; A5</text>
+<rect x="1620.0" y="535" width="320" height="125" rx="12" fill="#ffffff" stroke="#dfb27c"/>
+<circle cx="1770" cy="554" r="8" fill="none" stroke="#ba641e" stroke-width="3"/>
+<path d="M1770 563 L1770 585" fill="none" stroke="#ba641e" stroke-width="3"/>
+<path d="M1755 573 L1785 573" fill="none" stroke="#ba641e" stroke-width="3"/>
+<path d="M1770 585 L1757 599" fill="none" stroke="#ba641e" stroke-width="3"/>
+<path d="M1770 585 L1783 599" fill="none" stroke="#ba641e" stroke-width="3"/>
+<text x="1780" y="612" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">U0</text>
+<text x="1780" y="636" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">Atender cliente no balcão</text>
+<rect x="22.5" y="760" width="455" height="130" rx="12" fill="#ffffff" stroke="#a9add5"/>
+<path d="M227 806 C207 805 208 781 226 782 C226 761 253 759 260 778 C284 770 294 806 270 806 Z" fill="#edeafa" stroke="#5262a8" stroke-width="2"/>
+<text x="250" y="837" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">A2</text>
+<text x="250" y="861" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="middle">Localizar produto</text>
+<text x="250" y="880" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#444b76" text-anchor="middle">I1 [] I2</text>
+<rect x="111.0" y="1015" width="133" height="170" rx="12" fill="#ffffff" stroke="#83b1d7"/>
+<circle cx="167.5" cy="1034" r="8" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M167.5 1043 L167.5 1065" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M152.5 1053 L182.5 1053" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M167.5 1065 L154.5 1079" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M167.5 1065 L180.5 1079" fill="none" stroke="#1766aa" stroke-width="3"/>
+<rect x="187.5" y="1031" width="38" height="28" rx="2" fill="#e4f3f4" stroke="#1766aa"/>
+<path d="M206.5 1059 L206.5 1071" fill="none" stroke="#1766aa" stroke-width="2"/>
+<path d="M192.5 1071 L220.5 1071" fill="none" stroke="#1766aa" stroke-width="2"/>
+<text x="177.5" y="1092" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">I1</text>
+<text x="177.5" y="1116" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">Selecionar e</text>
+<text x="177.5" y="1137" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">conferir</text>
+<text x="177.5" y="1158" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">item</text>
+<rect x="256.0" y="1015" width="133" height="170" rx="12" fill="#ffffff" stroke="#83b1d7"/>
+<circle cx="312.5" cy="1034" r="8" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M312.5 1043 L312.5 1065" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M297.5 1053 L327.5 1053" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M312.5 1065 L299.5 1079" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M312.5 1065 L325.5 1079" fill="none" stroke="#1766aa" stroke-width="3"/>
+<rect x="332.5" y="1031" width="38" height="28" rx="2" fill="#e4f3f4" stroke="#1766aa"/>
+<path d="M351.5 1059 L351.5 1071" fill="none" stroke="#1766aa" stroke-width="2"/>
+<path d="M337.5 1071 L365.5 1071" fill="none" stroke="#1766aa" stroke-width="2"/>
+<text x="322.5" y="1092" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">I2</text>
+<text x="322.5" y="1116" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">Buscar e</text>
+<text x="322.5" y="1137" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">conferir</text>
+<text x="322.5" y="1158" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">item</text>
+<rect x="522.5" y="760" width="455" height="130" rx="12" fill="#ffffff" stroke="#a9add5"/>
+<path d="M727 806 C707 805 708 781 726 782 C726 761 753 759 760 778 C784 770 794 806 770 806 Z" fill="#edeafa" stroke="#5262a8" stroke-width="2"/>
+<text x="750" y="837" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">A3</text>
+<text x="750" y="861" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="middle">Examinar a base</text>
+<text x="750" y="880" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#444b76" text-anchor="middle">S1 []&gt;&gt; I3 []&gt;&gt; U1</text>
+<rect x="538.5" y="1015" width="133" height="170" rx="12" fill="#ffffff" stroke="#80bbb8"/>
+<rect x="585.0" y="1031" width="38" height="28" rx="2" fill="#e4f3f4" stroke="#14746f"/>
+<path d="M604.0 1059 L604.0 1071" fill="none" stroke="#14746f" stroke-width="2"/>
+<path d="M590.0 1071 L618.0 1071" fill="none" stroke="#14746f" stroke-width="2"/>
+<text x="605.0" y="1092" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">S1</text>
+<text x="605.0" y="1116" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">Reunir dados</text>
+<text x="605.0" y="1137" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">e sinalizar</text>
+<text x="605.0" y="1158" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">limites</text>
+<rect x="683.5" y="1015" width="133" height="170" rx="12" fill="#ffffff" stroke="#83b1d7"/>
+<circle cx="740.0" cy="1034" r="8" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M740.0 1043 L740.0 1065" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M725.0 1053 L755.0 1053" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M740.0 1065 L727.0 1079" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M740.0 1065 L753.0 1079" fill="none" stroke="#1766aa" stroke-width="3"/>
+<rect x="760.0" y="1031" width="38" height="28" rx="2" fill="#e4f3f4" stroke="#1766aa"/>
+<path d="M779.0 1059 L779.0 1071" fill="none" stroke="#1766aa" stroke-width="2"/>
+<path d="M765.0 1071 L793.0 1071" fill="none" stroke="#1766aa" stroke-width="2"/>
+<text x="750.0" y="1092" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">I3</text>
+<text x="750.0" y="1116" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">Consultar</text>
+<text x="750.0" y="1137" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">base e</text>
+<text x="750.0" y="1158" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">avisos</text>
+<rect x="828.5" y="1015" width="133" height="170" rx="12" fill="#ffffff" stroke="#dfb27c"/>
+<circle cx="885.0" cy="1034" r="8" fill="none" stroke="#ba641e" stroke-width="3"/>
+<path d="M885.0 1043 L885.0 1065" fill="none" stroke="#ba641e" stroke-width="3"/>
+<path d="M870.0 1053 L900.0 1053" fill="none" stroke="#ba641e" stroke-width="3"/>
+<path d="M885.0 1065 L872.0 1079" fill="none" stroke="#ba641e" stroke-width="3"/>
+<path d="M885.0 1065 L898.0 1079" fill="none" stroke="#ba641e" stroke-width="3"/>
+<text x="895.0" y="1092" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">U1</text>
+<text x="895.0" y="1116" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">Ponderar</text>
+<text x="895.0" y="1137" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">prazo e</text>
+<text x="895.0" y="1158" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">recursos</text>
+<rect x="1022.5" y="760" width="455" height="130" rx="12" fill="#ffffff" stroke="#a9add5"/>
+<path d="M1227 806 C1207 805 1208 781 1226 782 C1226 761 1253 759 1260 778 C1284 770 1294 806 1270 806 Z" fill="#edeafa" stroke="#5262a8" stroke-width="2"/>
+<text x="1250" y="837" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">A4</text>
+<text x="1250" y="861" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="middle">Definir desfecho</text>
+<text x="1250" y="880" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#444b76" text-anchor="middle">I4 [] I5 [] I6</text>
+<rect x="1038.5" y="1015" width="133" height="170" rx="12" fill="#ffffff" stroke="#83b1d7"/>
+<circle cx="1095.0" cy="1034" r="8" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M1095.0 1043 L1095.0 1065" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M1080.0 1053 L1110.0 1053" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M1095.0 1065 L1082.0 1079" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M1095.0 1065 L1108.0 1079" fill="none" stroke="#1766aa" stroke-width="3"/>
+<rect x="1115.0" y="1031" width="38" height="28" rx="2" fill="#e4f3f4" stroke="#1766aa"/>
+<path d="M1134.0 1059 L1134.0 1071" fill="none" stroke="#1766aa" stroke-width="2"/>
+<path d="M1120.0 1071 L1148.0 1071" fill="none" stroke="#1766aa" stroke-width="2"/>
+<text x="1105.0" y="1092" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">I4</text>
+<text x="1105.0" y="1116" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">Preencher</text>
+<text x="1105.0" y="1137" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">planejamento</text>
+<rect x="1183.5" y="1015" width="133" height="170" rx="12" fill="#ffffff" stroke="#83b1d7"/>
+<circle cx="1240.0" cy="1034" r="8" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M1240.0 1043 L1240.0 1065" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M1225.0 1053 L1255.0 1053" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M1240.0 1065 L1227.0 1079" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M1240.0 1065 L1253.0 1079" fill="none" stroke="#1766aa" stroke-width="3"/>
+<rect x="1260.0" y="1031" width="38" height="28" rx="2" fill="#e4f3f4" stroke="#1766aa"/>
+<path d="M1279.0 1059 L1279.0 1071" fill="none" stroke="#1766aa" stroke-width="2"/>
+<path d="M1265.0 1071 L1293.0 1071" fill="none" stroke="#1766aa" stroke-width="2"/>
+<text x="1250.0" y="1092" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">I5</text>
+<text x="1250.0" y="1116" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">Preencher</text>
+<text x="1250.0" y="1137" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">adiamento</text>
+<rect x="1328.5" y="1015" width="133" height="170" rx="12" fill="#ffffff" stroke="#83b1d7"/>
+<circle cx="1385.0" cy="1034" r="8" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M1385.0 1043 L1385.0 1065" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M1370.0 1053 L1400.0 1053" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M1385.0 1065 L1372.0 1079" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M1385.0 1065 L1398.0 1079" fill="none" stroke="#1766aa" stroke-width="3"/>
+<rect x="1405.0" y="1031" width="38" height="28" rx="2" fill="#e4f3f4" stroke="#1766aa"/>
+<path d="M1424.0 1059 L1424.0 1071" fill="none" stroke="#1766aa" stroke-width="2"/>
+<path d="M1410.0 1071 L1438.0 1071" fill="none" stroke="#1766aa" stroke-width="2"/>
+<text x="1395.0" y="1092" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">I6</text>
+<text x="1395.0" y="1116" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">Preencher</text>
+<text x="1395.0" y="1137" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">pendência</text>
+<rect x="1522.5" y="760" width="455" height="130" rx="12" fill="#ffffff" stroke="#a9add5"/>
+<path d="M1727 806 C1707 805 1708 781 1726 782 C1726 761 1753 759 1760 778 C1784 770 1794 806 1770 806 Z" fill="#edeafa" stroke="#5262a8" stroke-width="2"/>
+<text x="1750" y="837" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">A5</text>
+<text x="1750" y="861" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="middle">Concluir o registro</text>
+<text x="1750" y="880" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#444b76" text-anchor="middle">I7 []&gt;&gt; S2 []&gt;&gt; I8</text>
+<rect x="1538.5" y="1015" width="133" height="170" rx="12" fill="#ffffff" stroke="#83b1d7"/>
+<circle cx="1595.0" cy="1034" r="8" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M1595.0 1043 L1595.0 1065" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M1580.0 1053 L1610.0 1053" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M1595.0 1065 L1582.0 1079" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M1595.0 1065 L1608.0 1079" fill="none" stroke="#1766aa" stroke-width="3"/>
+<rect x="1615.0" y="1031" width="38" height="28" rx="2" fill="#e4f3f4" stroke="#1766aa"/>
+<path d="M1634.0 1059 L1634.0 1071" fill="none" stroke="#1766aa" stroke-width="2"/>
+<path d="M1620.0 1071 L1648.0 1071" fill="none" stroke="#1766aa" stroke-width="2"/>
+<text x="1605.0" y="1092" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">I7</text>
+<text x="1605.0" y="1116" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">Revisar e</text>
+<text x="1605.0" y="1137" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">confirmar</text>
+<rect x="1683.5" y="1015" width="133" height="170" rx="12" fill="#ffffff" stroke="#80bbb8"/>
+<rect x="1730.0" y="1031" width="38" height="28" rx="2" fill="#e4f3f4" stroke="#14746f"/>
+<path d="M1749.0 1059 L1749.0 1071" fill="none" stroke="#14746f" stroke-width="2"/>
+<path d="M1735.0 1071 L1763.0 1071" fill="none" stroke="#14746f" stroke-width="2"/>
+<text x="1750.0" y="1092" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">S2</text>
+<text x="1750.0" y="1116" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">Persistir e</text>
+<text x="1750.0" y="1137" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">confirmar</text>
+<rect x="1828.5" y="1015" width="133" height="170" rx="12" fill="#ffffff" stroke="#83b1d7"/>
+<circle cx="1885.0" cy="1034" r="8" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M1885.0 1043 L1885.0 1065" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M1870.0 1053 L1900.0 1053" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M1885.0 1065 L1872.0 1079" fill="none" stroke="#1766aa" stroke-width="3"/>
+<path d="M1885.0 1065 L1898.0 1079" fill="none" stroke="#1766aa" stroke-width="3"/>
+<rect x="1905.0" y="1031" width="38" height="28" rx="2" fill="#e4f3f4" stroke="#1766aa"/>
+<path d="M1924.0 1059 L1924.0 1071" fill="none" stroke="#1766aa" stroke-width="2"/>
+<path d="M1910.0 1071 L1938.0 1071" fill="none" stroke="#1766aa" stroke-width="2"/>
+<text x="1895.0" y="1092" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">I8</text>
+<text x="1895.0" y="1116" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">Conferir</text>
+<text x="1895.0" y="1137" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">registro</text>
+<text x="1895.0" y="1158" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">salvo</text>
+<rect x="787" y="363" width="76" height="32" rx="4" fill="#f5f7fb" stroke="#f5f7fb"/>
+<text x="825" y="386" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#444b76" text-anchor="middle">&gt;&gt;</text>
+<rect x="1367" y="577" width="76" height="32" rx="4" fill="#f5f7fb" stroke="#f5f7fb"/>
+<text x="1405" y="600" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#444b76" text-anchor="middle">|&gt;</text>
+<rect x="462" y="800" width="76" height="32" rx="4" fill="#f5f7fb" stroke="#f5f7fb"/>
+<text x="500" y="823" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#444b76" text-anchor="middle">[]&gt;&gt;</text>
+<rect x="962" y="800" width="76" height="32" rx="4" fill="#f5f7fb" stroke="#f5f7fb"/>
+<text x="1000" y="823" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#444b76" text-anchor="middle">[]&gt;&gt;</text>
+<rect x="1462" y="800" width="76" height="32" rx="4" fill="#f5f7fb" stroke="#f5f7fb"/>
+<text x="1500" y="823" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#444b76" text-anchor="middle">[]&gt;&gt;</text>
+<rect x="212.0" y="975" width="76" height="32" rx="4" fill="#f5f7fb" stroke="#f5f7fb"/>
+<text x="250.0" y="998" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#444b76" text-anchor="middle">[]</text>
+<rect x="639.5" y="975" width="76" height="32" rx="4" fill="#f5f7fb" stroke="#f5f7fb"/>
+<text x="677.5" y="998" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#444b76" text-anchor="middle">[]&gt;&gt;</text>
+<rect x="784.5" y="975" width="76" height="32" rx="4" fill="#f5f7fb" stroke="#f5f7fb"/>
+<text x="822.5" y="998" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#444b76" text-anchor="middle">[]&gt;&gt;</text>
+<rect x="1139.5" y="975" width="76" height="32" rx="4" fill="#f5f7fb" stroke="#f5f7fb"/>
+<text x="1177.5" y="998" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#444b76" text-anchor="middle">[]</text>
+<rect x="1284.5" y="975" width="76" height="32" rx="4" fill="#f5f7fb" stroke="#f5f7fb"/>
+<text x="1322.5" y="998" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#444b76" text-anchor="middle">[]</text>
+<rect x="1639.5" y="975" width="76" height="32" rx="4" fill="#f5f7fb" stroke="#f5f7fb"/>
+<text x="1677.5" y="998" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#444b76" text-anchor="middle">[]&gt;&gt;</text>
+<rect x="1784.5" y="975" width="76" height="32" rx="4" fill="#f5f7fb" stroke="#f5f7fb"/>
+<text x="1822.5" y="998" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#444b76" text-anchor="middle">[]&gt;&gt;</text>
+<rect x="35" y="1220" width="1930" height="150" rx="12" fill="#e8eef6" stroke="#d9e1ed"/>
+<text x="60" y="1255" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#22324b" text-anchor="start">TIPOS: nuvem = abstrata (A); pessoa = usuário (U); computador = sistema (S); pessoa + computador = interação (I).</text>
+<text x="60" y="1293" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#22324b" text-anchor="start">RELAÇÕES entre irmãos: &gt;&gt; sequência; []&gt;&gt; sequência com informação; [] escolha; |&gt; suspensão e retomada.</text>
+<text x="60" y="1332" font-family="Arial, sans-serif" font-size="20" font-weight="normal" fill="#22324b" text-anchor="start">U3 é externo e inicial. U0 é externo e eventual. Estados e exceções estão definidos na legenda e na HTA.</text>
+</svg>

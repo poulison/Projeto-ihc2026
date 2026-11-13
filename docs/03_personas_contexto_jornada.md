@@ -1,7 +1,8 @@
 # Entrega 3 — Personas, mapa de empatia, contexto de uso e jornada
 
-**Data:** 02/09/2026 
-**Status:** 🟩 concluída
+**Data:** 02/09/2026
+**Status:** 🟩 concluída — revisada após feedback
+**Revisão:** 12/11/2026
 **Responsabilidade:** 1 persona por integrante; 1 mapa de empatia, 1 contexto de uso consolidado e 1 jornada por equipe (salvo orientação diferente do docente).
 ## Objetivo da atividade
 
@@ -35,7 +36,7 @@ As hipóteses abaixo são descritas por extenso. A versão anterior reutilizava 
 | Registros distribuídos entre ferramentas — possibilidade da Entrega 1 | [H] | Nenhuma ferramenta da loja confirmada | Investigar caderno, planilha, marketplace e PDV, sem exigir importação |
 | Familiaridade com métricas de ML — Entrega 1, seção 2.4 | [H] | Vocabulário do público não pesquisado | Testar linguagem operacional e explicações |
 | Controle humano da decisão — refinamento desta entrega | [H] Necessidade; decisão provisória de design | Risco de compra inadequada e distinção entre previsão e decisão | Revisão pelo usuário é proposta própria, não comportamento comprovado nos concorrentes |
-| Apoio de auxiliar — refinamento dos papéis possíveis da Entrega 1 | [?]/[H] | Papel separado não confirmado | P02 é secundária e depende de confirmação no público |
+| Apoio de auxiliar — refinamento dos papéis possíveis da Entrega 1 | [?]/[H] | Papel separado não confirmado | P02 é primária no recorte operacional proposto; existência do papel e recorrência de uso permanecem hipóteses |
 | Pouca familiaridade digital de Mariana — nova hipótese desta entrega | [H] | Perfil construído pela equipe | Não inferir limitação por idade nem generalizar para o público |
 | Histórico de previsões — Entrega 1, seção 5.5 | [H] | Necessidade comercial não validada | Investigar consulta posterior; não confundir com avaliação técnica do TCC |
 
@@ -45,14 +46,14 @@ As hipóteses abaixo são descritas por extenso. A versão anterior reutilizava 
 
 ### Persona P01 — Mariana Alves
 
-**Autor(a):** Paulo Andre de Oliveira Hirata — 22.125.072-3 
-**Tipo:** primária — persona de expectativa/proto-persona a validar  
-**Base de construção:** recorte registrado na Entrega 1, referências documentais da Entrega 2 e orientação da equipe para representar uma senhora com pouca experiência tecnológica. Não houve entrevista, questionário ou observação; referências à literatura/artigo do TCC sem fonte anexada não são tratadas como evidência verificada.  
-**Hipóteses relacionadas:** usuário prioritário, compreensão dos resultados e conhecimento comercial, retomados da Entrega 1; acúmulo de tarefas, registros distribuídos, controle humano e apoio operacional refinados nesta entrega.  
-**Hipótese acrescentada na construção da persona:** pouca familiaridade digital no perfil de Mariana  
+**Autor(a):** Paulo Andre de Oliveira Hirata — 22.125.072-3
+**Tipo:** primária — persona de expectativa/proto-persona a validar
+**Base de construção:** recorte registrado na Entrega 1, referências documentais da Entrega 2 e orientação da equipe para representar uma senhora com pouca experiência tecnológica. Não houve entrevista, questionário ou observação; referências à literatura/artigo do TCC sem fonte anexada não são tratadas como evidência verificada.
+**Hipóteses relacionadas:** usuário prioritário, compreensão dos resultados e conhecimento comercial, retomados da Entrega 1; acúmulo de tarefas, registros distribuídos, controle humano e apoio operacional refinados nesta entrega.
+**Hipótese acrescentada na construção da persona:** pouca familiaridade digital no perfil de Mariana
 **Frase-síntese:** “Conheço meus produtos, mas preciso que o sistema me mostre, com clareza, o que comprar e como confirmar.”
 
-<img width="1040" height="360" alt="image" src="https://github.com/user-attachments/assets/8050653e-8b8a-47c2-9976-6d1c802c6616" />
+![P01 — Mariana Alves, persona primária de expectativa](../assets/03_personas/persona_p01.svg)
 
 | Campo | Descrição |
 |---|---|
@@ -86,18 +87,18 @@ As hipóteses abaixo são descritas por extenso. A versão anterior reutilizava 
 
 ### Persona P02 — Rafael Costa
 
-**Autor(a):** Victor Merker Binda — 22.125.075-6 
-**Tipo:** secundária — persona de expectativa/proto-persona a validar  
-**Base de construção:** hipótese de divisão de trabalho e de necessidade de conferir registros. Módulo de cadastro é possibilidade de solução, não evidência da existência ou frequência desse papel.  
-**Hipóteses relacionadas:** registros distribuídos, familiaridade com métricas e apoio operacional. O papel auxiliar é um refinamento ainda não validado.  
+**Autor(a):** Victor Merker Binda — 22.125.075-6
+**Tipo:** primária no recorte operacional — persona de expectativa/proto-persona a validar
+**Base de construção:** hipótese de divisão de trabalho e de necessidade de conferir registros. Módulo de cadastro é possibilidade de solução, não evidência da existência ou frequência desse papel.
+**Hipóteses relacionadas:** registros distribuídos, familiaridade com métricas e apoio operacional. O papel auxiliar é um refinamento ainda não validado.
 **Frase-síntese:** “Se eu registrar tudo corretamente agora, a decisão de compra não será baseada em um saldo desatualizado depois.”
 
-<img width="1040" height="360" alt="image" src="https://github.com/user-attachments/assets/280b932f-848b-49ad-b4e5-c4d84e900da0" />
+![P02 — Rafael Costa, persona primária de expectativa](../assets/03_personas/persona_p02.svg)
 
 | Campo | Descrição |
 |---|---|
 | Idade / contexto relevante | 22 anos, adulto jovem, colaborador de uma operação pequena. O fator relevante é executar várias tarefas operacionais sob interrupção, não sua idade. |
-| Ocupação/papel | Auxiliar operacional ou administrativo. Registra produtos e vendas, confere estoque físico, corrige divergências e comunica itens críticos à proprietária. Não assume sozinho a decisão financeira de compra.  |
+| Ocupação/papel | Auxiliar operacional ou administrativo. Registra produtos e vendas, confere estoque físico, investiga divergências, corrige apenas o que estiver fundamentado e autorizado e comunica itens críticos à proprietária. Não assume sozinho a decisão financeira de compra.  |
 | Conhecimento do domínio | Conhece códigos, nomes, variações dos produtos e a rotina de entrada e saída. Pode conhecer menos sobre contratos, caixa e critérios de reposição definidos pela proprietária.  |
 | Experiência tecnológica | Tem familiaridade com formulários, busca, marketplace e planilhas. Aprende fluxos operacionais com rapidez, mas não precisa conhecer o funcionamento do modelo preditivo.  |
 | Objetivos | Registrar dados sem retrabalho; localizar produtos rapidamente; corrigir erros; terminar a conferência do estoque; informar situações críticas com dados confiáveis.  |
@@ -107,6 +108,8 @@ As hipóteses abaixo são descritas por extenso. A versão anterior reutilizava 
 | Restrições/acessibilidade | Pode usar computador compartilhado, realizar a tarefa em blocos curtos e sofrer interrupções por separação de pedidos ou atendimento. Necessidades específicas de acessibilidade ainda são desconhecidas.  |
 | Ambiente típico de uso | Bancada administrativa ou área próxima ao armazenamento de produtos, com alternância entre contagem física, embalagem, computador e comunicação por celular.  |
 | Comportamentos relevantes | Pesquisa pelo nome ou código, registra atividades em sequência, deixa uma tarefa incompleta quando surge um pedido urgente e precisa retomar do ponto anterior. Confere totais antes de encerrar.  |
+
+**Retrato do cotidiano — narrativa hipotética:** Rafael começou ajudando a separar encomendas e aprendeu com Mariana os nomes, as variações e as unidades comerciais dos produtos. Aos poucos passou a transcrever vendas e conferir o estoque, por ter familiaridade com planilhas e consultas online. Trabalha numa bancada compartilhada, alternando registros no computador, contagem física e embalagem. Quando uma anotação é ambígua, procura sua origem e confirma com quem a escreveu, em vez de substituir o saldo para fazê-lo coincidir. Sua autonomia é operacional: pode propor ou realizar uma correção somente quando houver evidência e autorização; a compra permanece com Mariana. Ao ser interrompido, precisa reconhecer quais registros já verificou e comunicar o que ficou pendente. Quer que seu trabalho tenha um resultado conferível e que a proprietária não interprete um item corrigido como todo o estoque validado. Essa história integra o perfil a uma rotina possível; não é biografia de pessoa entrevistada nem prova da existência do cargo no público.
 
 **Propostas de design influenciadas por P02:**
 
@@ -122,14 +125,21 @@ As hipóteses abaixo são descritas por extenso. A versão anterior reutilizava 
 
 **Mariana (P01)** tem 65 anos, conhece o comércio e decide as compras, mas possui pouca experiência com sistemas digitais. Precisa compreender a recomendação, aprender um caminho simples e ganhar autonomia para usá-lo. **Rafael (P02)** tem maior familiaridade com formulários, planilhas e registros e precisa de rapidez, prevenção de erros, retomada e rastreabilidade. Quando presente, pode apoiar a configuração inicial e os cadastros, sem assumir a decisão financeira de Mariana. A diferença entre as personas está nas tarefas, no conhecimento e na experiência tecnológica, além da idade.
 
-A persona prioritária é **P01**, porque o objetivo central do TCC é apoiar a decisão de reposição do microempreendedor. P02 é secundária e somente deverá permanecer no projeto se a existência desse papel for confirmada no público pesquisado. Mesmo sendo secundária, sua experiência afeta diretamente a qualidade da previsão: dados incompletos ou incorretos podem gerar recomendações inadequadas.
+**Classificação e justificativa do conjunto:** as duas personas são primárias no recorte de IHC proposto: P01 orienta a decisão comercial e P02 orienta a conferência operacional. A revisão de P02 não decorre de sua influência indireta na previsão: ela decorre da hipótese de que Rafael utiliza diretamente e de forma recorrente a interface para atingir seu próprio objetivo de conferir e registrar um desfecho rastreável, representado por T02 na E5. A recorrência é esperada quando surgem registros e divergências, mas sua frequência não foi medida. P01 utiliza a análise a cada ciclo de reposição, também com frequência ainda não medida.
+
+| Persona primária | Objetivo próprio e uso direto previsto | Por que exige atenção específica do design |
+|---|---|---|
+| P01 — Mariana | Interpretar disponibilidade e estimativa, ponderar prazo/recursos e registrar uma decisão de reposição (T01) | Precisa de linguagem comercial, aprendizagem e revisão; uma interface centrada apenas em lançamentos não apoia sua decisão |
+| P02 — Rafael | Localizar a origem de divergências e registrar correção autorizada ou pendência, comunicando o alcance (T02) | Precisa de vínculo com fontes, identificação de unidade, retomada e histórico; uma interface centrada apenas na previsão não permite conferir os dados |
+
+Há, portanto, duas personas primárias e nenhuma secundária nesta composição. A classificação é uma decisão de projeto sustentada por objetivos distintos e pelos modelos de tarefas, **não uma validação empírica do público**. P01 continua como foco da jornada e da decisão de compra; isso não torna P02 secundária. Antes de consolidar permissões, importação ou papéis separados, investigar se o auxiliar existe e realiza esse uso direto. Se o proprietário acumular as atividades, adaptar os papéis e os modelos ao arranjo observado, sem criar outro cargo ou persona apenas para manter a contagem.
 
 ## 2. Mapa de empatia — equipe
 
-**Persona escolhida:** P01 — Mariana Alves  
+**Persona escolhida:** P01 — Mariana Alves
 **Justificativa:** é a principal beneficiária da contribuição do TCC e toma a decisão de compra. O perfil de uma comerciante de 65 anos com pouca familiaridade digital permite explorar como tornar as recomendações compreensíveis e favorecer a autonomia. O mapa aprofunda sua relação cotidiana com o problema e com a tecnologia, permanecendo hipotético até a validação com pessoas reais.
 
-<img width="3600" height="2780" alt="image" src="https://github.com/user-attachments/assets/7b975259-8580-467b-8d94-49f3f079d947" />
+![Mapa de empatia hipotético de Mariana](../assets/03_personas/mapa_empatia.svg)
 
 O mapa segue a organização do modelo fornecido pelo professor: pensa e sente acima da persona, ouve à esquerda, vê à direita, fala e faz abaixo e, na base, dores e necessidades. A idade de 65 anos corresponde ao perfil fictício definido nesta revisão; as falas, influências, sentimentos e comportamentos são hipóteses, não depoimentos coletados.
 
@@ -144,26 +154,40 @@ O mapa segue a organização do modelo fornecido pelo professor: pensa e sente a
 
 ## 3. Contexto de uso — consolidação
 
-| Dimensão | Descrição | Implicação de design |
-|---|---|---|
-| Usuários | P01, Mariana, 65 anos, comerciante experiente e iniciante no uso de sistemas; P02, possível auxiliar com maior familiaridade digital, responsável por cadastros e conferências. Ambos são personas de expectativa. | Oferecer uma consulta guiada e compreensível a P01, mantendo um fluxo eficiente de registro para P02. |
-| Tarefas | Com apoio inicial quando necessário, cadastrar produtos e vendas ou importar registros; conferir saldo; consultar prioridades; entender a sugestão; revisar quantidades; salvar uma lista; contatar o fornecedor e acompanhar a reposição. | Separar preparação dos dados da decisão comercial e permitir que Mariana repita a consulta com autonomia crescente. |
-| Equipamentos | Celular familiar para mensagens e consultas simples; caderno e calculadora para conferência; computador compartilhado para cadastros, com apoio quando necessário. Planilha/CSV pode ser preparada por Rafael. **[H: registros distribuídos; apoio operacional; pouca familiaridade digital]** | Criar uma aplicação web responsiva, com texto legível, rótulos claros e poucas ações por etapa; deixar a importação como alternativa, sem exigir domínio de planilhas. |
-| Ambiente físico | Casa, escritório pequeno ou área administrativa junto ao estoque, com ruído, circulação, separação de pedidos e interrupções. **[H]** | Salvar progresso, confirmar ações, manter o estado da análise e evitar tarefas longas sem retorno intermediário. |
-| Ambiente social/organizacional | Mariana alterna atendimento e gestão e pode solicitar ajuda a Rafael no primeiro uso ou em cadastros. Sua experiência comercial orienta a decisão final. A disponibilidade desse apoio varia e precisa ser investigada. **[H: acúmulo de tarefas; apoio operacional; pouca familiaridade digital]** | Tornar a ajuda acessível e a operação repetível; mostrar responsável e data dos dados e manter a decisão de compra com Mariana. |
-| Papéis/permissões/governança | P01 pode cadastrar, analisar, ajustar e confirmar a reposição. P02 pode cadastrar e corrigir registros, mas a confirmação financeira permanece com P01. **[H]** | Investigar se existem papéis distintos antes de propor controle de acesso; avaliar histórico e confirmação conforme tarefas reais. |
-| Volume de dados/histórico | Catálogo com diversos produtos, ritmos de venda diferentes e possibilidade de itens com menos de 30 dias ou histórico esparso. [H] Sete dias é um horizonte ilustrativo para a jornada; horizonte real e suficiência do histórico dependem de confirmação técnica. | Priorizar por exceção, permitir busca/filtros, informar insuficiência do histórico e não ocultar a maior incerteza dos itens novos ou irregulares. |
+| Dimensão | Contexto de uso hipotético |
+|---|---|
+| Usuários | P01, Mariana, 65 anos, comerciante experiente e iniciante no uso de sistemas; P02, possível auxiliar com maior familiaridade digital, responsável por cadastros e conferências. Ambos são personas de expectativa. |
+| Tarefas | Com apoio inicial quando necessário, cadastrar produtos e vendas ou importar registros; conferir saldo; consultar prioridades; entender a sugestão; revisar quantidades; salvar uma lista; contatar o fornecedor e acompanhar a reposição. |
+| Equipamentos | Celular familiar para mensagens e consultas simples; caderno e calculadora para conferência; computador compartilhado para cadastros, com apoio quando necessário. Planilha/CSV pode ser preparada por Rafael. **[H: registros distribuídos; apoio operacional; pouca familiaridade digital]** |
+| Ambiente físico | Casa, escritório pequeno ou área administrativa junto ao estoque, com ruído, circulação, separação de pedidos e interrupções. **[H]** |
+| Ambiente social/organizacional | Mariana alterna atendimento e gestão e pode solicitar ajuda a Rafael no primeiro uso ou em cadastros. Sua experiência comercial orienta a decisão final. A disponibilidade desse apoio varia e precisa ser investigada. **[H: acúmulo de tarefas; apoio operacional; pouca familiaridade digital]** |
+| Papéis/permissões/governança | P01 pode cadastrar, analisar, ajustar e confirmar a reposição. P02 pode cadastrar e corrigir registros, mas a confirmação financeira permanece com P01. **[H]** |
+| Volume de dados/histórico | Catálogo com diversos produtos, ritmos de venda diferentes e possibilidade de itens com menos de 30 dias ou histórico esparso. [H] Sete dias é um horizonte ilustrativo para a jornada; horizonte real e suficiência do histórico dependem de confirmação técnica. |
 
 ### Narrativa consolidada do contexto
 
 Mariana, 65 anos, reserva alguns minutos entre o atendimento e o contato com fornecedores para conferir o caderno e observar o estoque. Seu negócio também recebe pedidos pela internet, com apoio operacional quando necessário. Ela usa ligações e mensagens no celular com mais segurança do que planilhas ou sistemas de gestão. Ao perceber que um item está acabando, quer decidir a compra sem comprometer o dinheiro disponível, mas pode hesitar diante de menus ou comandos desconhecidos.
 
-No primeiro uso do produto do TCC, Mariana recebe uma demonstração curta e, se Rafael estiver presente, conta com seu apoio para preparar os cadastros. Ela confere as informações comerciais e aprende o caminho para consultar os produtos prioritários. A aplicação mostra quantidades e explicações simples, oferece ajuda durante a tarefa e deixa explícito quando a lista foi salva. Mariana usa sua experiência para revisar a sugestão, confirma a quantidade e faz o pedido ao fornecedor pelo canal habitual. Nos usos seguintes, repete o mesmo caminho e consulta a ajuda quando precisar. Depois da entrega, compara a lista com os produtos recebidos e acompanha as vendas para avaliar faltas ou sobras. Toda essa narrativa é hipotética e deverá ser validada com usuários.
+[H] Na rotina considerada, Mariana consulta anotações e pode pedir a Rafael que reúna registros digitais. A disponibilidade desse apoio varia. O contexto não pressupõe aplicação web, tutoriais, importação ou gravação automática: esses recursos pertencem às alternativas de solução. As decisões comerciais podem continuar fora do sistema, em ligações e mensagens com fornecedores. A existência das ferramentas e a divisão de trabalho precisam de investigação.
+
+### Implicações de design derivadas do contexto
+
+As propostas abaixo são consequências a investigar e prototipar, separadas da descrição do contexto. Não são características observadas nem requisitos já validados.
+
+| Origem no contexto | Implicação de design proposta, a validar |
+|---|---|
+| Usuários | Oferecer uma consulta guiada e compreensível a P01, mantendo um fluxo eficiente de registro para P02. |
+| Tarefas | Separar preparação dos dados da decisão comercial e permitir que Mariana repita a consulta com autonomia crescente. |
+| Equipamentos | Criar uma aplicação web responsiva, com texto legível, rótulos claros e poucas ações por etapa; deixar a importação como alternativa, sem exigir domínio de planilhas. |
+| Ambiente físico | Salvar progresso, confirmar ações, manter o estado da análise e evitar tarefas longas sem retorno intermediário. |
+| Ambiente social/organizacional | Tornar a ajuda acessível e a operação repetível; mostrar responsável e data dos dados e manter a decisão de compra com Mariana. |
+| Papéis/permissões/governança | Investigar se existem papéis distintos antes de propor controle de acesso; avaliar histórico e confirmação conforme tarefas reais. |
+| Volume de dados/histórico | Priorizar por exceção, permitir busca/filtros, informar insuficiência do histórico e não ocultar a maior incerteza dos itens novos ou irregulares. |
 
 ## 4. Jornada do usuário — equipe
 
-**Persona:** P01 — Mariana Alves  
-**Objetivo da jornada:** apoiar Mariana, uma comerciante de 65 anos com pouca experiência tecnológica, a aprender uma consulta simples e decidir o que, quando e quanto repor, com controle financeiro e autonomia crescente.  
+**Persona:** P01 — Mariana Alves
+**Objetivo da jornada:** apoiar Mariana, uma comerciante de 65 anos com pouca experiência tecnológica, a aprender uma consulta simples e decidir o que, quando e quanto repor, com controle financeiro e autonomia crescente.
 **Início e fim da jornada:** começa **antes do uso**, quando vendas, mensagens de clientes ou o prazo do fornecedor despertam a preocupação com falta ou excesso; termina **depois do uso**, quando Mariana acompanha a chegada e as vendas posteriores para avaliar o resultado da decisão.
 
 | Etapa | Situação/ação | Objetivo | Pensamento/emoção | Dor | Oportunidade de design | Evidência |
@@ -198,13 +222,17 @@ As próximas entregas devem preservar a distinção entre hipótese e evidência
 - a validação futura de P01, P02, mapa de empatia, contexto e jornada com microempreendedores reais.
 
 
-- [ ] Existe pelo menos uma persona por integrante.
-- [ ] As personas não são apenas diferenças demográficas superficiais.
-- [ ] Está claro o que é dado real e o que é hipótese/proto-persona.
-- [ ] A persona não “validou por ficção” uma hipótese da Entrega 1; afirmações continuam marcadas como hipótese quando não há evidência.
-- [ ] Objetivos e dores têm consequência para o design.
-- [ ] Contexto de uso está coerente com a Entrega 1.
-- [ ] Em TCC sem interface original, a persona possui relação explícita com a contribuição técnica.
-- [ ] Papéis administrativos, técnicos e decisórios só foram criados quando possuem objetivos/tarefas diferentes.
-- [ ] Jornada possui etapas, dores e oportunidades e não é apenas wireflow.
-- [ ] IDs das personas foram adicionados à rastreabilidade.
+## Checklist
+
+- [x] Existe pelo menos uma persona por integrante.
+- [x] As personas não são apenas diferenças demográficas superficiais.
+- [x] Está claro o que é dado real e o que é hipótese/proto-persona.
+- [x] A persona não “validou por ficção” uma hipótese da Entrega 1; afirmações continuam marcadas como hipótese quando não há evidência.
+- [x] Objetivos e dores têm consequência para o design.
+- [x] Contexto de uso está coerente com a Entrega 1.
+- [x] Em TCC sem interface original, a persona possui relação explícita com a contribuição técnica.
+- [x] Papéis administrativos, técnicos e decisórios só foram criados quando possuem objetivos/tarefas diferentes.
+- [x] Jornada possui etapas, dores e oportunidades e não é apenas wireflow.
+- [x] IDs das personas foram adicionados à rastreabilidade.
+
+**Revisão de 12/11/2026:** classificação fundamentada de P02, narrativa biográfica hipotética, separação entre contexto e solução e três artefatos SVG locais coerentes com o texto. A conclusão refere-se à entrega documental; pesquisa primária e confirmação do escopo continuam pendentes.

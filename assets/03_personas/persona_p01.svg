@@ -1,5 +1,95 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360">
-<rect width="100%" height="100%" fill="#f6f8fa" stroke="#8c959f" stroke-width="4"/>
-<text x="480" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#24292f">PLACEHOLDER DE ARTEFATO</text>
-<text x="480" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#57606a">Substitua este arquivo pela evidência real da equipe.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1871" viewBox="0 0 1240 1871" role="img"><title>P01 — Mariana Alves: persona primária de expectativa</title><rect width="100%" height="100%" fill="#f5f7fb"/>
+<rect x="0" y="0" width="1240" height="235" rx="0" fill="#162d4d" stroke="#162d4d"/>
+<text x="46" y="48" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#a8d3f8" text-anchor="start">ENTREGA 03  /  PERSONA P01</text>
+<text x="46" y="105" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="start">Mariana Alves</text>
+<text x="46" y="143" font-family="Arial, sans-serif" font-size="22" font-weight="normal" fill="#ffffff" text-anchor="start">65 anos | Decisão comercial de reposição</text>
+<text x="46" y="181" font-family="Arial, sans-serif" font-size="19" font-weight="normal" fill="#cce1f7" text-anchor="start">Primária no recorte proposto • Perfil hipotético, sem pesquisa primária</text>
+<text x="46" y="213" font-family="Arial, sans-serif" font-size="17" font-weight="normal" fill="#cce1f7" text-anchor="start">Autoria: Paulo Andre de Oliveira Hirata — 22.125.072-3</text>
+<rect x="36" y="263" width="568" height="226" rx="12" fill="#ffffff" stroke="#d9e1ed"/>
+<text x="58" y="297" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#126270" text-anchor="start">Faixa etária / contexto relevante</text>
+<text x="58" y="331" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">Senhora de 65 anos, idade fictícia dentro do</text>
+<text x="58" y="357.1" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">recorte de 60 a 70 anos. Tem longa vivência no</text>
+<text x="58" y="383.20000000000005" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">comércio e passou a incluir vendas online com apoio</text>
+<text x="58" y="409.30000000000007" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">operacional. A baixa familiaridade digital e a</text>
+<text x="58" y="435.4000000000001" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">rotina dividida entre atendimento e gestão são os</text>
+<text x="58" y="461.5000000000001" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">fatores que orientam o design.</text>
+<rect x="636" y="263" width="568" height="226" rx="12" fill="#ffffff" stroke="#d9e1ed"/>
+<text x="658" y="297" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#126270" text-anchor="start">Ocupação/papel</text>
+<text x="658" y="331" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">Proprietária de um pequeno comércio que também</text>
+<text x="658" y="357.1" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">vende pela internet. Conhece os clientes e</text>
+<text x="658" y="383.20000000000005" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">fornecedores, define as compras e controla o</text>
+<text x="658" y="409.30000000000007" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">orçamento. Pode contar com Rafael para registros e</text>
+<text x="658" y="435.4000000000001" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">tarefas digitais, mas continua responsável pela</text>
+<text x="658" y="461.5000000000001" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">decisão de reposição.</text>
+<rect x="36" y="509" width="568" height="226" rx="12" fill="#ffffff" stroke="#d9e1ed"/>
+<text x="58" y="543" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#126270" text-anchor="start">Conhecimento do domínio</text>
+<text x="58" y="577" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">Tem experiência prática com produtos, negociação,</text>
+<text x="58" y="603.1" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">giro de mercadorias e épocas de maior procura.</text>
+<text x="58" y="629.2" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">Reconhece problemas pela observação das prateleiras</text>
+<text x="58" y="655.3000000000001" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">e pelas anotações. Não costuma expressar esse</text>
+<text x="58" y="681.4000000000001" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">conhecimento em métricas estatísticas ou relatórios</text>
+<text x="58" y="707.5000000000001" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">analíticos.</text>
+<rect x="636" y="509" width="568" height="226" rx="12" fill="#ffffff" stroke="#d9e1ed"/>
+<text x="658" y="543" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#126270" text-anchor="start">Experiência tecnológica</text>
+<text x="658" y="577" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">Usa o celular principalmente para ligações,</text>
+<text x="658" y="603.1" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">mensagens e áudios. Faz anotações em caderno e</text>
+<text x="658" y="629.2" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">utiliza calculadora; tem pouca prática com</text>
+<text x="658" y="655.3000000000001" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">computador, planilhas, filtros e gráficos. Precisa</text>
+<text x="658" y="681.4000000000001" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">de orientação no primeiro uso e aprende melhor</text>
+<text x="658" y="707.5000000000001" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">repetindo um caminho curto com instruções visíveis.</text>
+<rect x="36" y="755" width="568" height="226" rx="12" fill="#ffffff" stroke="#d9e1ed"/>
+<text x="58" y="789" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#126270" text-anchor="start">Objetivos</text>
+<text x="58" y="823" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">Saber o que, quando e quanto comprar; evitar faltar</text>
+<text x="58" y="849.1" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">produto ou comprometer o caixa; consultar as</text>
+<text x="58" y="875.2" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">recomendações com autonomia crescente; conseguir</text>
+<text x="58" y="901.3000000000001" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">revisar e confirmar uma lista sem depender de ajuda</text>
+<text x="58" y="927.4000000000001" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">a cada compra.</text>
+<rect x="636" y="755" width="568" height="226" rx="12" fill="#ffffff" stroke="#d9e1ed"/>
+<text x="658" y="789" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#126270" text-anchor="start">Necessidades</text>
+<text x="658" y="823" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">Orientação inicial passo a passo; poucas opções por</text>
+<text x="658" y="849.1" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">vez; nomes de produtos e unidades claros; botões</text>
+<text x="658" y="875.2" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">com rótulos como “Ver sugestão” e “Salvar lista”;</text>
+<text x="658" y="901.3000000000001" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">explicações curtas; ajuda no ponto da dúvida;</text>
+<text x="658" y="927.4000000000001" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">resumo antes da confirmação e retorno visível após</text>
+<text x="658" y="953.5000000000001" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">salvar.</text>
+<rect x="36" y="1001" width="568" height="201" rx="12" fill="#ffffff" stroke="#d9e1ed"/>
+<text x="58" y="1035" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#126270" text-anchor="start">Dores/frustrações</text>
+<text x="58" y="1069" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">Faltar mercadoria ou acumular itens parados; não</text>
+<text x="58" y="1095.1" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">saber por onde começar em um sistema novo; recear</text>
+<text x="58" y="1121.1999999999998" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">apagar registros ou comprar por engano; perder-se</text>
+<text x="58" y="1147.2999999999997" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">em menus e siglas; não entender um gráfico;</text>
+<text x="58" y="1173.3999999999996" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">precisar pedir ajuda para repetir tarefas simples.</text>
+<rect x="636" y="1001" width="568" height="201" rx="12" fill="#ffffff" stroke="#d9e1ed"/>
+<text x="658" y="1035" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#126270" text-anchor="start">Motivadores</text>
+<text x="658" y="1069" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">Manter o negócio organizado, preservar a confiança</text>
+<text x="658" y="1095.1" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">dos clientes, proteger o dinheiro disponível e</text>
+<text x="658" y="1121.1999999999998" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">sentir que consegue usar a ferramenta sem abrir mão</text>
+<text x="658" y="1147.2999999999997" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">de sua experiência e da decisão final.</text>
+<rect x="36" y="1222" width="568" height="251" rx="12" fill="#ffffff" stroke="#d9e1ed"/>
+<text x="58" y="1256" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#126270" text-anchor="start">Restrições/acessibilidade</text>
+<text x="58" y="1290" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">Pouca familiaridade com navegação e termos</text>
+<text x="58" y="1316.1" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">digitais, insegurança ao experimentar e</text>
+<text x="58" y="1342.1999999999998" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">interrupções no atendimento. A interface deve ter</text>
+<text x="58" y="1368.2999999999997" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">texto legível, bom contraste e áreas de toque</text>
+<text x="58" y="1394.3999999999996" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">confortáveis. Não há evidência de deficiência</text>
+<text x="58" y="1420.4999999999995" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">visual, motora ou cognitiva específica; essas</text>
+<text x="58" y="1446.5999999999995" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">necessidades serão investigadas.</text>
+<rect x="636" y="1222" width="568" height="251" rx="12" fill="#ffffff" stroke="#d9e1ed"/>
+<text x="658" y="1256" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#126270" text-anchor="start">Ambiente típico de uso</text>
+<text x="658" y="1290" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">Balcão ou pequena área administrativa próxima ao</text>
+<text x="658" y="1316.1" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">estoque, com caderno e calculadora à mão. Usa um</text>
+<text x="658" y="1342.1999999999998" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">celular familiar para consultas simples e pode</text>
+<text x="658" y="1368.2999999999997" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">recorrer ao computador com apoio inicial. Clientes,</text>
+<text x="658" y="1394.3999999999996" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">chamadas e recebimento de mercadorias interrompem a</text>
+<text x="658" y="1420.4999999999995" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">atividade.</text>
+<rect x="36" y="1493" width="568" height="226" rx="12" fill="#ffffff" stroke="#d9e1ed"/>
+<text x="58" y="1527" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#126270" text-anchor="start">Comportamentos relevantes</text>
+<text x="58" y="1561" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">Confere produtos fisicamente, anota vendas e</text>
+<text x="58" y="1587.1" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">faltas, pede demonstração antes de usar uma função</text>
+<text x="58" y="1613.1999999999998" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">nova e repete caminhos conhecidos. Prefere ler</text>
+<text x="58" y="1639.2999999999997" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">quantidades e frases curtas; consulta ajuda quando</text>
+<text x="58" y="1665.3999999999996" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">não entende e revisa o resultado antes de</text>
+<text x="58" y="1691.4999999999995" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">confirmar.</text>
+<text x="40" y="1819" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="start">Hipóteses de projeto: validar repertório, divisão do trabalho, frequência e autorização.</text>
+<text x="40" y="1847" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#52637b" text-anchor="start">Revisão após feedback • 12/11/2026 • Fonte: ficha e narrativa da Entrega 3.</text>
 </svg>
