@@ -2,7 +2,7 @@
 
 **Data:** 13/10/2026  
 **Status:** 🟦 revisada após feedback  
-**Revisão:** 12/11/2026 — correções do feedback do professor  
+**Revisão:** 12/11/2026 — correções do feedback do professor · 25/11/2026 — fim da T02 alinhado às Entregas 9, 10 e 14  
 **Responsabilidade:** cada integrante modela pelo menos 1 HTA, 1 GOMS e 1 CTT. As três técnicas podem abordar a mesma funcionalidade ou funcionalidades distintas, conforme a orientação da disciplina.
 
 ## Objetivo da atividade
@@ -104,7 +104,7 @@ O modelo separa quatro dificuldades que no cenário se misturam: identificar o i
 
 ### Descrição da tarefa
 
-**Objetivo 0:** deixar uma divergência de um produto com desfecho explicável, corrigido ou pendente, e comunicar o alcance da conferência. **Início:** Rafael identifica diferença entre registros e contagem e delimita o item/episódio a investigar. **Conclusão:** correção fundamentada ou pendência foi registrada e conferida, e Mariana recebeu a informação sobre o item e o que ainda falta verificar.
+**Objetivo 0:** deixar uma divergência de um produto com desfecho explicável, corrigido ou pendente, e comunicar o alcance da conferência. **Início:** Rafael identifica diferença entre registros e contagem e delimita o item/episódio a investigar. **Conclusão:** correção fundamentada ou pendência foi registrada e conferida, e Rafael informou Mariana, fora do sistema, sobre o item e o que ainda falta verificar. Saber se Mariana recebeu e entendeu a informação é uma boa prática, mas não faz parte do critério de conclusão da T02.
 
 **Contexto:** computador compartilhado, fontes distribuídas e interrupções para embalagem. O caso estudado envolve um conjunto de três potes como **uma unidade de venda**, saldo registrado de oito e contagem de dez. Duas transcrições podem representar a mesma saída de duas unidades. Sem confirmação de origem, a diferença numérica não autoriza correção.
 
@@ -118,7 +118,7 @@ O modelo separa quatro dificuldades que no cenário se misturam: identificar o i
 
 | ID | Objetivo/operação | Plano/ordem | Problema ou decisão de design derivada |
 |---|---|---|---|
-| 0 | Registrar e comunicar o desfecho de uma divergência | **Plano:** 1 > 2 > 3 > 4; aplicar retornos e pausa abaixo | **Input:** diferença percebida entre contagem e registro de um produto/unidade, fontes do episódio e condição de autorização a verificar. **Feedback:** correção fundamentada ou pendência gravada e conferida, histórico explicável e recebimento da comunicação do alcance por Mariana; comunicação não confirmada permanece pendente. |
+| 0 | Registrar e comunicar o desfecho de uma divergência | **Plano:** 1 > 2 > 3 > 4; aplicar retornos e pausa abaixo | **Input:** diferença percebida entre contagem e registro de um produto/unidade, fontes do episódio e condição de autorização a verificar. **Feedback:** correção fundamentada ou pendência gravada e conferida, histórico explicável e alcance parcial comunicado a Mariana fora do sistema. |
 | 1 | Delimitar o produto e os registros | (1.1 / 1.2) > 1.3 | O acesso depende da identificação disponível |
 | 1.1 | Localizar pelo identificador do pedido | Quando houver identificador confiável | O vínculo com a origem reduz ambiguidade |
 | 1.2 | Localizar por produto, data e quantidade | Quando a anotação não tiver identificador; restringir até reconhecer o episódio | Mesmo nome ou quantidade não comprova mesma venda |
@@ -133,7 +133,7 @@ O modelo separa quatro dificuldades que no cenário se misturam: identificar o i
 | 4 | Concluir o registro e comunicar seu alcance | 4.1 > 4.2 > 4.3 | Não declarar todos os registros conferidos após resolver um item |
 | 4.1 | Revisar e confirmar correção ou pendência | Conferir produto, fontes, motivo, alteração pretendida e saldo resultante quando aplicável | Confirmar antes de alterar dado que sustentará a decisão de Mariana |
 | 4.2 | Conferir confirmação, histórico e situação do item | Aguardar gravação e verificar o resultado; se corrigido, comparar com a contagem | Solicitação de correção não equivale a correção efetivada |
-| 4.3 | Informar Mariana sobre resultado e registros restantes | Comunicar o item conferido/pendente e o alcance parcial; conferir o retorno de recebimento e entendimento | Sem retorno, comunicação permanece pendente; não declarar G0 concluído apenas pela emissão da informação |
+| 4.3 | Informar Mariana sobre resultado e registros restantes | Comunicar o item conferido/pendente e o alcance parcial pelo meio disponível, fora do sistema | O sistema apoia com o resumo do alcance, sem enviar mensagem. Não declarar todos os registros conferidos. Verificar o recebimento é boa prática, não critério de conclusão |
 
 **Regras de retorno:** inconsistência de identidade retorna a 1; evidência contraditória retorna a 2; falta de confirmação leva a 3.2. O caminho 3.1 cobre a duplicidade descrita em E4-C02; outras causas exigem investigação e um procedimento apropriado, sem aplicar a mesma correção automaticamente. Após gravar, diferença ainda não explicada deve ser registrada como pendência; não repetir o ajuste até os números coincidirem.
 
@@ -306,7 +306,7 @@ GOAL G0: registrar, comunicar e verificar um desfecho fundamentado da divergênc
                 corrigir somente se duplicidade e autorização estiverem confirmadas;
                 na ausência de origem, evidência ou autorização, registrar pendência.
                 Igualar oito a dez sem causa confirmada não é método equivalente.
-        GOAL G4: confirmar, conferir, comunicar e verificar o alcance
+        GOAL G4: confirmar, conferir e comunicar o alcance
             METHOD M4: fechar o registro e a comunicação
                 OPERATOR 1: ler o produto no resumo
                 OPERATOR 2: conferir a unidade comercial
@@ -319,11 +319,9 @@ GOAL G0: registrar, comunicar e verificar um desfecho fundamentado da divergênc
                 OPERATOR 9: identificar os registros ainda não conferidos
                 OPERATOR 10: informar Mariana sobre o desfecho do item
                 OPERATOR 11: informar as verificações restantes
-                OPERATOR 12: ouvir ou ler o retorno de recebimento de Mariana
-                OPERATOR 13: verificar se esse retorno reconhece o alcance parcial
 ```
 
-Os percursos de localização fecham com conferência do registro aberto. A comunicação integra G0, por isso a tarefa termina com verificação do recebimento e do alcance, e não apenas com envio. Se Mariana não puder receber/confirmar, registrar comunicação pendente: a gravação pode ter terminado, mas G0 ainda não está completo. O meio de comunicação é o disponível no contexto, sem presumir funcionalidade de mensagens no sistema. Erros e falhas seguem as regras de retorno da HTA.
+Os percursos de localização fecham com conferência do registro aberto. A comunicação do alcance integra G0 e acontece fora do sistema. A tarefa termina quando Rafael informa o item e as verificações restantes; confirmar que Mariana recebeu e entendeu é boa prática, mas não é critério de conclusão. Assim, o fim da T02 coincide com a M02 da Entrega 10 (O02 termina em O08, com O10 como consulta opcional) e com o critério da UT03 na Entrega 14. O meio de comunicação é o disponível no contexto, sem presumir funcionalidade de mensagens no sistema. Erros e falhas seguem as regras de retorno da HTA.
 
 
 ---
@@ -408,7 +406,7 @@ Rafael localiza os registros de um produto, investiga a diferença e confirma um
 
 ### Diagrama
 
-![CTT T02 — gatilho externo, investigação e comunicação verificada](../assets/05_tarefas/ctt_t02.svg)
+![CTT T02 — gatilho externo, investigação e comunicação do alcance](../assets/05_tarefas/ctt_t02.svg)
 
 [Abrir imagem PNG em tamanho original](../assets/05_tarefas/ctt_t02.png). [Fonte SVG editável](../assets/05_tarefas/ctt_t02.svg). IDs são locais a este modelo. A árvore utiliza a mesma notação dos slides 23–24 de `CC8122-GOMS-CTT.pdf`: nuvem, pessoa, computador e pessoa-computador representam os quatro tipos de tarefa, e os operadores entre irmãos indicam sua relação temporal.
 
@@ -426,7 +424,7 @@ A3 Investigar a diferença
 A4 Revisar e confirmar desfecho
   = I5 [] I6
 A5 Verificar e comunicar resultado
-  = S1 []>> I7 >> U2 >> U4
+  = S1 []>> I7 >> U2
 ```
 
 **Gatilho inicial:** U3 antecede qualquer interação. A0 habilita A6 apenas após esse acontecimento externo; U0 representa outra ação externa, eventual e posterior, que suspende A1. Gatilho e interrupção têm papéis distintos.
@@ -448,7 +446,6 @@ A5 Verificar e comunicar resultado
 | S1 | Sistema | Validar e persistir o desfecho; aplicar a correção confirmada, se houver, preservando o histórico; produzir confirmação |
 | I7 | Interação | Conferir retorno, saldo, histórico e situação do item; identificar o restante não conferido |
 | U2 | Usuário | Informar Mariana sobre o item corrigido ou pendente e as verificações restantes |
-| U4 | Usuário | Conferir o retorno de Mariana e se o alcance parcial foi compreendido; sem retorno, comunicação permanece pendente |
 
 I1/I2 incluem conferência de candidatos, mas não concluem que houve duplicidade. A identificação e a investigação são metas diferentes. Em U1, perceber que a confirmação está indisponível permite registrar uma lacuna em I4 e seguir por I6; não equivale a confirmação positiva.
 
@@ -465,7 +462,7 @@ I1/I2 incluem conferência de candidatos, mas não concluem que houve duplicidad
 
 Não se usou concorrência (`|||`), concorrência comunicante (`|[]|`), independência de ordem (`|=|`) ou desativação (`[>`) apenas para preencher a notação. A embalagem suspende o trabalho e permite retomada; não o abandona definitivamente. Tampouco se usou repetição gráfica: cada árvore cobre um episódio, e o plano da HTA determina quando iniciar o próximo. Essa escolha evita representar os quatorze registros como quatorze vendas independentes ou como um único item já resolvido.
 
-**Fronteira de exceções:** a árvore pressupõe obtenção de confirmação em S1 para chegar a I7, U2 e U4. Falha de validação/gravação interrompe esse percurso e aciona a recuperação definida na HTA; não se comunica correção bem-sucedida. Divergência ainda presente após a gravação exige nova investigação e comunicação explícita, não repetição cega do ajuste. Interrupções durante processamento não desfazem uma gravação já concluída: a retomada deve consultar seu estado.
+**Fronteira de exceções:** a árvore pressupõe obtenção de confirmação em S1 para chegar a I7 e U2. Falha de validação/gravação interrompe esse percurso e aciona a recuperação definida na HTA; não se comunica correção bem-sucedida. Divergência ainda presente após a gravação exige nova investigação e comunicação explícita, não repetição cega do ajuste. Interrupções durante processamento não desfazem uma gravação já concluída: a retomada deve consultar seu estado.
 
 ---
 
@@ -520,6 +517,7 @@ Permanecem a investigar a plausibilidade dos papéis e processos, os dados dispo
 
 - HTA: Input, Feedback e Plano aparecem explicitamente apenas na tarefa zero de cada tabela auxiliar; as tarefas filhas mantêm operações, condições, problemas e recomendações.
 - GOMS: dois modelos em texto indentado, métodos alternativos para a mesma meta de localização, operadores delimitados e fechamento verificável, inclusive após comunicar o resultado de T02.
+- Revisão de 25/11/2026: a T02 passa a terminar quando Rafael comunica o alcance a Mariana, fora do sistema. A verificação do recebimento (antigo operador G4.12–13 e nó U4 do CTT) saiu do critério de conclusão, para coincidir com a M02 (E10) e com a UT03 (E12 e E14).
 - CTT: dois diagramas atualizados e editáveis, com U3 como gatilho externo inicial, distinto de U0 (interrupção); expressões e legendas correspondem às figuras.
 - Rastreabilidade: P01/E4-C01/R04-01 → T01 e P02/E4-C02/R04-02 → T02 ligados aos três modelos; não permanecem como modelos pendentes.
 - Os antigos SVGs de template foram movidos para `assets/historico/2026-11-12_placeholders/05_tarefas/`, fora da pasta ativa.

@@ -201,7 +201,7 @@ Adotamos o **Ciclo de Vida da Engenharia de Usabilidade de Deborah Mayhew**. No 
 | Guia de estilo | Seção 2.3, com as decisões mínimas | Iniciado; atualizado em cada nível de design |
 | **Fase 2 · Design, testes e desenvolvimento** | | |
 | Nível 1 · modelo conceitual e mockups | Cartões da E6; modelo conceitual e DCC (E9); MoLIC M01/M02 (E10) | Concluído |
-| Nível 1 · avaliação iterativa do modelo conceitual | Walkthrough da E6 com W01 (23/11) | Concluído, sem mudanças estruturais |
+| Nível 1 · avaliação iterativa do modelo conceitual | Walkthrough da E6 com W01 (24/11) | Concluído, sem mudanças estruturais |
 | Níveis 2 e 3 · padrões de tela e projeto detalhado | Protótipo navegável no Figma, com 28 estados (E11) | Concluído; revisado em 25/11 |
 | Níveis 2 e 3 · avaliação iterativa | Plano DECIDE (E12), inspeção heurística (E13), observação com usuários (E14) | **Etapa atual**: E13 em andamento, E14 prevista |
 | **Fase 3 · Instalação** | Acompanhamento do uso real | Fora do escopo da disciplina |
