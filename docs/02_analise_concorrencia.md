@@ -208,16 +208,16 @@ Todas as recomendações dependem de tarefas e dados do público. Figuras de mer
 - [G2 — Netstock](https://www.g2.com/products/netstock/reviews).
 
 # Checklist
-- [ ] O mapa inicial de alternativas da Entrega 1 foi revisitado e aprofundado.
-- [ ] Hipóteses relevantes sobre mercado/padrões foram atualizadas na rastreabilidade quando surgiram evidências.
-- [ ] Há pelo menos uma análise completa por integrante.
-- [ ] Cada análise contém prints legíveis da interface.
-- [ ] Prints mostram telas/estados relevantes, não apenas logos/homepage.
-- [ ] Foram analisados concorrentes e/ou interfaces representativas ao público.
-- [ ] Em TCC sem interface original, foram investigadas ferramentas profissionais análogas às atividades do usuário escolhido.
-- [ ] Padrões como dashboard, relatório, filtros e CRUD foram analisados como soluções para tarefas, não como requisitos automáticos.
-- [ ] Opiniões de UX têm fonte.
-- [ ] A síntese compara critérios comuns e produz recomendações.
-- [ ] Não há “copiar porque o concorrente faz”; há justificativa de adequação ao público/contexto.
+- [x] O mapa inicial de alternativas da Entrega 1 foi revisitado e aprofundado.
+- [x] Hipóteses relevantes sobre mercado/padrões foram atualizadas na rastreabilidade quando surgiram evidências.
+- [x] Há pelo menos uma análise completa por integrante.
+- [x] Cada análise contém prints legíveis da interface.
+- [x] Prints mostram telas/estados relevantes, não apenas logos/homepage.
+- [x] Foram analisados concorrentes e/ou interfaces representativas ao público.
+- [x] Em TCC sem interface original, foram investigadas ferramentas profissionais análogas às atividades do usuário escolhido.
+- [x] Padrões como dashboard, relatório, filtros e CRUD foram analisados como soluções para tarefas, não como requisitos automáticos.
+- [x] Opiniões de UX têm fonte.
+- [x] A síntese compara critérios comuns e produz recomendações.
+- [x] Não há “copiar porque o concorrente faz”; há justificativa de adequação ao público/contexto.
 
 

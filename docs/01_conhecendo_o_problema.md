@@ -326,21 +326,21 @@ Concorrência, personas, cenários e tarefas aprofundam esta base. Prototipaçã
 
 # Checklist
 
-- [ ] Está clara a diferença entre tema do TCC, escopo formal do TCC e escopo de IHC.
-- [ ] A equipe declarou se o TCC já previa interface.
-- [ ] Se não previa, foi derivado um usuário plausível e um objetivo de uso.
-- [ ] A interface de IHC não foi apresentada como obrigação automática do TCC.
-- [ ] A contribuição do TCC foi descrita sem começar por tecnologias de implementação.
-- [ ] Usuários diretos e stakeholders foram diferenciados.
-- [ ] Foram considerados profissionais que configuram, administram, interpretam ou decidem, quando pertinente.
-- [ ] Objetivo do usuário não foi confundido com objetivo do projeto.
-- [ ] Processo/problema atual foi descrito antes da solução.
-- [ ] Existe situação concreta de uso/problema.
-- [ ] Contexto físico, social/organizacional, dispositivos e consequências de erro foram considerados.
-- [ ] Mercado/alternativas existentes foram levantados inicialmente.
-- [ ] Possibilidades como dashboard, relatório, histórico, filtros e CRUD foram tratadas como hipóteses de solução, não como requisitos automáticos.
-- [ ] Cada possibilidade de interface tem um objetivo/tarefa que poderia justificá-la.
-- [ ] Afirmações relevantes estão marcadas `[F]`, `[H]` ou `[?]`.
-- [ ] Hipóteses prioritárias receberam IDs e foram para a rastreabilidade.
-- [ ] O recorte de IHC é viável para modelar, prototipar e avaliar no semestre.
-- [ ] A equipe consegue explicar problema humano → contribuição computacional → forma de uso.
+- [x] Está clara a diferença entre tema do TCC, escopo formal do TCC e escopo de IHC.
+- [x] A equipe declarou se o TCC já previa interface.
+- [x] Se não previa, foi derivado um usuário plausível e um objetivo de uso.
+- [x] A interface de IHC não foi apresentada como obrigação automática do TCC.
+- [x] A contribuição do TCC foi descrita sem começar por tecnologias de implementação.
+- [x] Usuários diretos e stakeholders foram diferenciados.
+- [x] Foram considerados profissionais que configuram, administram, interpretam ou decidem, quando pertinente.
+- [x] Objetivo do usuário não foi confundido com objetivo do projeto.
+- [x] Processo/problema atual foi descrito antes da solução.
+- [x] Existe situação concreta de uso/problema.
+- [x] Contexto físico, social/organizacional, dispositivos e consequências de erro foram considerados.
+- [x] Mercado/alternativas existentes foram levantados inicialmente.
+- [x] Possibilidades como dashboard, relatório, histórico, filtros e CRUD foram tratadas como hipóteses de solução, não como requisitos automáticos.
+- [x] Cada possibilidade de interface tem um objetivo/tarefa que poderia justificá-la.
+- [x] Afirmações relevantes estão marcadas `[F]`, `[H]` ou `[?]`.
+- [ ] Hipóteses prioritárias receberam IDs e foram para a rastreabilidade. *As hipóteses estão na [rastreabilidade](../RASTREABILIDADE.md), mas identificadas por descrição, e não por ID. A equipe trocou os IDs por descrições em 13/10/2026; a correspondência com os IDs antigos está na seção 6 da matriz.*
+- [x] O recorte de IHC é viável para modelar, prototipar e avaliar no semestre.
+- [x] A equipe consegue explicar problema humano → contribuição computacional → forma de uso.
