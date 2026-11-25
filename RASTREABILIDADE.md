@@ -139,6 +139,7 @@ F01–F06 na Entrega 1 identificam ações candidatas, não telas. Os IDs Fxx de
 | 25/11/2026 | Retirar o teste piloto do plano e trocá-lo por uma conferência do protótipo e dos materiais antes da primeira sessão; registrar que os dois participantes já foram identificados | Decisão da equipe | E8 (limites das metas), E11, E12, E14 (passos 2 e 4, fluxograma, conclusão e checklist) |
 | 25/11/2026 | Registrar as sessões da E14 (U01 e U02) e os achados AU01–AU03; ligar AU02 e AU03 a O04/O05 e AU01 a O09 | Sessões com dois participantes aproximados, sem termo assinado; UT05 e pós-teste em conjunto | E14 (seções C–G), seções 2 e 3.1 desta matriz |
 | 25/11/2026 | Registrar o aceite dos dois participantes, obtido depois da sessão e gravado em vídeo | Vídeos conferidos pela equipe e guardados fora do repositório | E14 (passo 3, conclusão e checklist) |
+| 25/11/2026 | Registrar o termo escrito assinado pelos dois participantes | Confirmação por mensagem; vias guardadas fora do repositório | E14 (passo 3, conclusão e checklist) |
 | 25/11/2026 | Dar IDs estáveis HP01–HP15 às hipóteses e lacunas, com correspondência aos códigos antigos | Recomendação do professor (IDs estáveis); checklist da E1 | Seções 2 e 6 desta matriz; E1, seção 10 |
 | 25/11/2026 | Revisão final contra os feedbacks E1–E11: mover as capturas de Odoo e Zoho para o histórico, completar a tabela da equipe no README e anotar os itens abertos da E8 | Feedback E1 (identificação) e E2 (divergência de imagens) | E2, README, E8, `assets/historico/2026-10-13_concorrencia/` |
 
