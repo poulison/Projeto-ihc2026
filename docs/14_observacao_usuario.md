@@ -25,7 +25,7 @@ Tarefas podem envolver, por exemplo, interpretar um dashboard, configurar uma an
 
 [Abrir o fluxograma em tamanho original](../assets/14_testes/fluxograma_avaliacao.png).
 
-O fluxo organiza as atividades de preparação, coleta, interpretação, consolidação e relato apresentadas na aula. Uma recusa de consentimento encerra a participação sem coleta. O percurso será repetido para o segundo participante. O diagrama representa o **procedimento previsto**, não etapas já executadas. Em 25/11/2026 a equipe decidiu não fazer teste piloto; a etapa 2 passou a ser a conferência do protótipo e dos materiais antes da primeira sessão.
+O fluxo organiza as atividades de preparação, coleta, interpretação, consolidação e relato apresentadas na aula. Uma recusa de consentimento encerra a participação sem coleta. O percurso será repetido para o segundo participante. O diagrama representa o **procedimento previsto**, não etapas já executadas. O piloto interno da equipe aconteceu antes, durante o desenvolvimento, e não aparece no diagrama (ver passo 4). A etapa 2 é a conferência do protótipo e dos materiais antes da primeira sessão.
 
 ## B. Procedimento de preparação e execução — equipe
 
@@ -73,9 +73,9 @@ No pré-teste, perguntar quais atividades de estoque a pessoa realiza, com que f
 - **Local e período de armazenamento:** planeja-se pasta local protegida por senha, fora do repositório e sem compartilhamento público, sob responsabilidade de Paulo, com acesso da dupla. Aceites em subpasta separada. Descartar notas individuais, chave e aceites em até 30 dias após a divulgação da correção final da atividade; manter somente a síntese desidentificada no projeto. Confirmar o local antes do recrutamento.
 - **Voluntariedade:** permitir pausa, recusa de pergunta e desistência, sem penalidade. Se houver retirada de consentimento, excluir os registros individuais ainda identificáveis e refazer a consolidação antes da publicação. Não transformar a retirada em falha de usabilidade. Oferecer leitura em voz alta ou formato acessível sem revelar soluções.
 
-### Passo 4 — Conferência antes das sessões (sem piloto)
+### Passo 4 — Piloto interno e conferência antes das sessões
 
-**Decisão de 25/11/2026:** a equipe não fará teste piloto. Sem piloto, o roteiro não é ensaiado com uma pessoa antes da coleta. Instruções ambíguas, duração real e divergências de classificação só aparecerão nas sessões finais e serão registradas como dificuldades do procedimento, não do participante.
+**Piloto interno, sem registro.** Antes de 25/11/2026, durante o desenvolvimento, Paulo e Victor fizeram um piloto interno: ensaiaram as tarefas da E14 no protótipo, um no papel de participante. O piloto não foi gravado nem anotado; data exata, duração, dúvidas e ajustes decorrentes não foram registrados. Ele usou o protótipo anterior às correções C01–C05 (28 quadros). Conforme a orientação desta entrega, um integrante pode participar do piloto apenas para validar roteiro e equipamentos, sem contar na amostra final. Como foi feito pelos autores, o piloto não mostra se as instruções são claras para quem não conhece o projeto e não calibra a duração. Instruções ambíguas, duração real e divergências de classificação que aparecerem nas sessões finais são registradas como dificuldades do procedimento, não do participante.
 
 **Conferência no dia da primeira sessão, antes de receber a pessoa:**
 
@@ -211,7 +211,7 @@ Problema previsto e não observado não significa problema inexistente: dois par
     - Participantes aproximados: não trabalham com estoque.
     - UT05 e o pós-teste foram feitos com as duas pessoas juntas; uma pode ter influenciado a outra.
     - Tempos estimados, não cronometrados por tarefa.
-    - Consentimento obtido só depois da sessão (em vídeo e por termo assinado em 25/11/2026), e não antes das tarefas; sem piloto e sem gravação da sessão.
+    - Consentimento obtido só depois da sessão (em vídeo e por termo assinado em 25/11/2026), e não antes das tarefas; piloto apenas interno, sem registro, e sem gravação da sessão.
     - Autores do projeto como moderadores e observadores.
     - Dados e decisões simulados no Figma.
     - Os resultados não permitem generalizar para o comércio, demonstrar aprendizagem ou validar o algoritmo.
@@ -224,7 +224,7 @@ Problema previsto e não observado não significa problema inexistente: dois par
 - [x] O teste avalia a interação; não confunde usabilidade do protótipo com desempenho técnico do TCC.
 - [x] Tarefas administrativas/analíticas usadas no teste são rastreáveis a objetivos e cenários.
 - [x] Há consentimento e anonimização. *Anonimização por código (U01, U02); aceite em vídeo e termo escrito assinado em 25/11/2026, depois da sessão, guardados fora do repositório.*
-- [ ] Foi realizado teste piloto. *Não realizado, por decisão da equipe em 25/11/2026; substituído pela conferência descrita no passo 4 e registrado como limitação.*
+- [x] Foi realizado teste piloto. *Piloto interno, feito por Paulo e Victor antes de 25/11/2026 com as tarefas da E14, sem gravação nem anotações (passo 4). Registrado como limitação.*
 - [x] Tarefas têm critérios de sucesso definidos antes do teste.
 - [x] Moderadores não ensinaram o caminho durante a tarefa.
 - [x] Resultados discriminados por tarefa. *UT01–UT04 têm registros por pessoa. UT05 e o pós-teste têm registros conjuntos.*
