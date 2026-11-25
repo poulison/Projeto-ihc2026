@@ -2,7 +2,7 @@
 
 **Data:** 21/10/2026  
 **Revisão:** 25/11/2026  
-**Status:** 🟩 concluída com ressalva. O walkthrough cognitivo simulado foi documentado em 25/11/2026, sem participante. A sessão de 23/11/2026 com pessoa externa (W01) continua sem observações registradas.  
+**Status:** 🟦 revisada após feedback. O walkthrough cognitivo simulado foi documentado em 25/11/2026, sem participante. A sessão de 23/11/2026 com pessoa externa (W01) continua sem observações registradas.  
 **Responsabilidade:** 1 solução integrada por equipe — Equipe 14  
 **Integrantes:** Paulo Andre de Oliveira Hirata — 22.125.072-3; Victor Merker Binda — 22.125.075-6.  
 **Projeto:** Previsão de estoque em pequenos comércios usando machine learning — Estoque Inteligente.

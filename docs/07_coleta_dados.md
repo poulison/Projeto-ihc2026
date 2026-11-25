@@ -6,7 +6,7 @@
 
 **Equipe:** 14 — Estoque com ML
 
-**Status:** planejamento e instrumentos revisados. O questionário I01 foi publicado online em 25/11/2026, com acesso externo testado (ver o link no instrumento I01). A equipe ainda não registrou piloto, coleta ou análise de respostas.
+**Status:** 🟦 revisada após feedback. O questionário I01 foi publicado online em 25/11/2026, com acesso externo testado (ver o link no instrumento I01). A equipe ainda não registrou piloto, coleta ou análise de respostas.
 
 **Responsabilidade:** 1 solução integrada por equipe, com partes individuais conforme o modelo da atividade.
 
