@@ -1,7 +1,7 @@
 # Entrega 12 — Planejamento da avaliação de usabilidade (DECIDE)
 
 **Data:** 12/11/2026  
-**Status:** 🟩 planejamento concluído em 25/11/2026. O piloto e as sessões com participantes serão realizados na Entrega 14.
+**Status:** 🟩 concluído
 
 **Responsabilidade:** 1 solução por equipe
 
