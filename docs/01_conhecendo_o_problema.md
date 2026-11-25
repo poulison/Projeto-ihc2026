@@ -282,19 +282,19 @@ As prioridades abaixo são **provisórias de investigação/prototipação**, n�
 
 ## 10. Hipóteses e dúvidas prioritárias
 
-| Hipótese/dúvida | Tipo | Por que importa | Como investigar |
-|---|---|---|---|
-| Benefício das previsões para antecipar reposições | [H] | Sustenta o valor de uso | Entrevista e teste de conceito; avaliar decisões e resultados |
-| Compreensão dos resultados por gestores sem formação em ML | [H] | Orienta apresentação e explicação | Teste de interpretação com participantes reais |
-| Responsável pelo estoque como usuário prioritário | [H] | Define quem participará do projeto e da avaliação | Entrevistar e observar papéis; persona organiza hipóteses, não as valida |
-| Conhecimento comercial sem domínio de métricas de ML | [H] | Orienta vocabulário | Investigar termos, exemplos e interpretações |
-| Esforço e falhas na consolidação manual | [H] | Pode justificar apoio ao processo | Observar casos, interrupções, retrabalho e correções |
-| Necessidade de histórico de previsões | [H] | Pode justificar consulta posterior | Investigar decisões reais e necessidade de comparação |
-| Processo e dados atuais | [?] | Define viabilidade e entrada de dados | Examinar registros autorizados, ferramentas, responsáveis e periodicidade |
-| Escopo formal do TCC | [?] | Evita prometer cálculo de reposição sem suporte | Confirmar fluxos, dados, horizonte e regras com o orientador |
-| Percepção de incerteza e confiança na previsão | [?] | Evita decisão apoiada em falsa certeza | Pedir interpretação de exemplos e critérios para aceitar ou rejeitar estimativas |
+| ID | Hipótese/dúvida | Tipo | Por que importa | Como investigar |
+|---|---|---|---|---|
+| HP01 | Benefício das previsões para antecipar reposições | [H] | Sustenta o valor de uso | Entrevista e teste de conceito; avaliar decisões e resultados |
+| HP02 | Compreensão dos resultados por gestores sem formação em ML | [H] | Orienta apresentação e explicação | Teste de interpretação com participantes reais |
+| HP03 | Responsável pelo estoque como usuário prioritário | [H] | Define quem participará do projeto e da avaliação | Entrevistar e observar papéis; persona organiza hipóteses, não as valida |
+| HP04 | Conhecimento comercial sem domínio de métricas de ML | [H] | Orienta vocabulário | Investigar termos, exemplos e interpretações |
+| HP05 | Esforço e falhas na consolidação manual | [H] | Pode justificar apoio ao processo | Observar casos, interrupções, retrabalho e correções |
+| HP06 | Necessidade de histórico de previsões | [H] | Pode justificar consulta posterior | Investigar decisões reais e necessidade de comparação |
+| HP07 | Processo e dados atuais | [?] | Define viabilidade e entrada de dados | Examinar registros autorizados, ferramentas, responsáveis e periodicidade |
+| HP08 | Escopo formal do TCC | [?] | Evita prometer cálculo de reposição sem suporte | Confirmar fluxos, dados, horizonte e regras com o orientador |
+| HP15 | Percepção de incerteza e confiança na previsão | [?] | Evita decisão apoiada em falsa certeza | Pedir interpretação de exemplos e critérios para aceitar ou rejeitar estimativas |
 
-Origem, evolução e impacto são preservados por descrição na [matriz](../RASTREABILIDADE.md).
+Os IDs são os mesmos da [matriz de rastreabilidade](../RASTREABILIDADE.md), que guarda origem, evolução e impacto de cada hipótese.
 
 ## 11. Síntese da equipe
 
@@ -341,6 +341,6 @@ Concorrência, personas, cenários e tarefas aprofundam esta base. Prototipaçã
 - [x] Possibilidades como dashboard, relatório, histórico, filtros e CRUD foram tratadas como hipóteses de solução, não como requisitos automáticos.
 - [x] Cada possibilidade de interface tem um objetivo/tarefa que poderia justificá-la.
 - [x] Afirmações relevantes estão marcadas `[F]`, `[H]` ou `[?]`.
-- [ ] Hipóteses prioritárias receberam IDs e foram para a rastreabilidade. *As hipóteses estão na [rastreabilidade](../RASTREABILIDADE.md), mas identificadas por descrição, e não por ID. A equipe trocou os IDs por descrições em 13/10/2026; a correspondência com os IDs antigos está na seção 6 da matriz.*
+- [x] Hipóteses prioritárias receberam IDs e foram para a rastreabilidade.
 - [x] O recorte de IHC é viável para modelar, prototipar e avaliar no semestre.
 - [x] A equipe consegue explicar problema humano → contribuição computacional → forma de uso.
