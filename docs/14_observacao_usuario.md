@@ -67,7 +67,7 @@ No pré-teste, perguntar quais atividades de estoque a pessoa realiza, com que f
 - **Consentimento.** O moderador apresenta o [termo da equipe](../assets/14_testes/termo_consentimento.md), esclarece dúvidas, entrega uma cópia e obtém o aceite antes do pré-teste. Victor é o contato para dúvidas e retirada.
 - **Desvio em 25/11/2026:** as sessões ocorreram **sem termo assinado**. Nenhum nome foi registrado nas fichas ou no repositório; os participantes aparecem só como U01 e U02.
 - **Aceite obtido depois da sessão (25/11/2026):** as duas pessoas gravaram, cada uma, um vídeo declarando que têm 18 anos ou mais, que participaram do teste em 25/11/2026, que concordam com o uso das anotações sem identificação, que a participação foi voluntária e que podem retirar o consentimento pelo contato do Victor. A equipe conferiu os dois vídeos. Eles ficam na pasta privada da dupla, fora do repositório, e seguem o mesmo prazo de descarte das fichas.
-- **Termo escrito (25/11/2026):** a equipe telefonou para as duas pessoas, que concordaram em assinar também o termo de consentimento escrito. As vias assinadas ficarão na pasta privada, junto com os vídeos; a data da assinatura será registrada aqui quando ocorrer.
+- **Termo escrito assinado (25/11/2026):** depois de contato por telefone, os dois participantes assinaram o termo de consentimento escrito em 25/11/2026 e confirmaram a assinatura à equipe por mensagem. As vias assinadas (ou fotos delas) ficam na pasta privada, junto com os vídeos, e seguem o mesmo prazo de descarte. Os nomes não aparecem no repositório.
 - **Registro da sessão.** O observador cronometra as tentativas e anota na ficha o quadro, a ação, o instante e a consequência. Identifica falas literais somente quando pôde anotá-las com segurança.
 - **Identificação:** usar U01 e U02 nas notas e no relatório. Manter aceites e eventual chave de identificação separados. Esses códigos representam pseudonimização enquanto existir vínculo identificável; retirar detalhes que permitam reconhecer a pessoa na versão pública.
 - **Local e período de armazenamento:** planeja-se pasta local protegida por senha, fora do repositório e sem compartilhamento público, sob responsabilidade de Paulo, com acesso da dupla. Aceites em subpasta separada. Descartar notas individuais, chave e aceites em até 30 dias após a divulgação da correção final da atividade; manter somente a síntese desidentificada no projeto. Confirmar o local antes do recrutamento.
@@ -206,7 +206,7 @@ Problema previsto e não observado não significa problema inexistente: dois par
     - Participantes aproximados: não trabalham com estoque e já conheciam o projeto.
     - UT05 e o pós-teste foram feitos com as duas pessoas juntas; uma pode ter influenciado a outra.
     - Tempos estimados, não cronometrados por tarefa.
-    - Consentimento obtido só depois da sessão, em vídeo, e não por termo assinado antes; sem piloto e sem gravação da sessão.
+    - Consentimento obtido só depois da sessão (em vídeo e por termo assinado em 25/11/2026), e não antes das tarefas; sem piloto e sem gravação da sessão.
     - Autores do projeto como moderadores e observadores.
     - Dados e decisões simulados no Figma.
     - Os resultados não permitem generalizar para o comércio, demonstrar aprendizagem ou validar o algoritmo.
@@ -218,7 +218,7 @@ Problema previsto e não observado não significa problema inexistente: dois par
 - [x] Se foram usados participantes proxy, a justificativa e a limitação estão explícitas.
 - [x] O teste avalia a interação; não confunde usabilidade do protótipo com desempenho técnico do TCC.
 - [x] Tarefas administrativas/analíticas usadas no teste são rastreáveis a objetivos e cenários.
-- [x] Há consentimento e anonimização. *Anonimização por código (U01, U02); aceite registrado em vídeo depois da sessão, guardado fora do repositório.*
+- [x] Há consentimento e anonimização. *Anonimização por código (U01, U02); aceite em vídeo e termo escrito assinado em 25/11/2026, depois da sessão, guardados fora do repositório.*
 - [ ] Foi realizado teste piloto. *Não realizado, por decisão da equipe em 25/11/2026; substituído pela conferência descrita no passo 4 e registrado como limitação.*
 - [x] Tarefas têm critérios de sucesso definidos antes do teste.
 - [x] Moderadores não ensinaram o caminho durante a tarefa.
