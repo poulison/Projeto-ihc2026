@@ -79,7 +79,7 @@ Mariana confirma que anotou a mesma venda online de dois conjuntos. O pedido foi
 
 | Tópico > subtópico | Falas e signos envolvidos | Intenção/efeito esperado |
 |---|---|---|
-| O01 Registrar a decisão de reposição | **U:** “Preciso decidir sobre a garrafa antes do meio-dia.” **D:** “Vamos conferir o item e a base da decisão.” | Iniciar T01 com a decisão sob controle de Mariana. |
+| O01 Tomar uma decisão de reposição fundamentada e recuperável | **U:** “Preciso decidir sobre a garrafa antes do meio-dia.” **D:** “Vamos conferir o item e a base da decisão.” | Iniciar T01 com a decisão sob controle de Mariana. |
 | > O03 Identificar o produto e a unidade | **U:** “É a garrafa azul de 500 ml, vendida por unidade.” **D:** “A análise é dessa variação.” **Signos:** produto, unidade de venda. | Evitar a associação com outra garrafa. |
 | > O04 Avaliar a base da reposição | **D:** “Há seis garrafas na loja, duas comprometidas e quatro livres. Neste exemplo, a estimativa é vender cinco unidades nos próximos três dias.” **U:** “Cinco é uma previsão de vendas, não a quantidade que preciso comprar.” **Signos:** contagem física, quantidade comprometida, quantidade disponível, vendas confirmadas, horizonte, previsão de demanda, atualização da base. | Distinguir disponibilidade e demanda futura. Cinco unidades e três dias são valores fictícios deste diálogo, não um resultado medido nem horizonte fixo do TCC. |
 | > O04 Entender a ausência de resultado | **D:** “Para este horizonte não há previsão disponível. Posso mostrar as vendas confirmadas e seu período.” **U:** “Então não sei quanto vou vender; não significa que a previsão seja zero.” | Corrigir a ambiguidade observada em E6-P07 sem responsabilizar Mariana por uma seleção já feita. |
@@ -92,7 +92,7 @@ Mariana confirma que anotou a mesma venda online de dois conjuntos. O pedido foi
 
 | Tópico > subtópico | Falas e signos envolvidos | Intenção/efeito esperado |
 |---|---|---|
-| O02 Registrar e comunicar o desfecho da divergência | **U:** “Preciso explicar por que o saldo não bate.” **D:** “Qual item e quais registros você está conferindo?” | Delimitar um episódio, sem iniciar compra nem ajuste automático. |
+| O02 Tornar o saldo do item confiável e explicável | **U:** “Preciso explicar por que o saldo não bate.” **D:** “Qual item e quais registros você está conferindo?” | Delimitar um episódio, sem iniciar compra nem ajuste automático. |
 | > O03 Identificar o produto e a unidade | **U:** “Conjunto de três potes, vendido por conjunto.” **D:** “Saldo registrado: oito conjuntos. Contagem: dez conjuntos.” | Comparar quantidades na mesma unidade comercial. |
 | > O06 Explicar a diferença de saldo | **U:** “Quais linhas podem corresponder a este pedido?” **D:** “Há duas transcrições de uma saída de dois conjuntos. A anotação não tem identificador; a coincidência é um indício.” **Signos:** evidência de origem, situação da evidência. | Separar a suspeita de duplicidade da comprovação de que foi uma única venda. |
 | > O09 Retomar o trabalho interrompido | **U:** “Voltei da embalagem. Já corrigi algo?” **D:** “Ainda não. Você comparou estas linhas; falta confirmar a anotação com Mariana.” | Distinguir investigação em andamento de correção efetivada. |
@@ -103,36 +103,54 @@ Mariana confirma que anotou a mesma venda online de dois conjuntos. O pedido foi
 
 ## 3. Mapa de objetivos
 
-Os mapas representam **para quê** uma pessoa usa o sistema. A ligação indica que um objetivo instrumental apoia um objetivo final; não indica ordem de execução, navegação entre telas ou operador temporal. Os IDs permanecem os mesmos nos mapas individuais e no consolidado.
+Os mapas representam **para quê** uma pessoa usa o sistema, e não a decomposição da tarefa. A classificação segue a teoria da disciplina:
 
-**Paulo — P01 / CI01 / T01.** Identificar o item, avaliar a base, escolher o desfecho, retomar e conferir o que foi salvo apoiam a decisão de Mariana.
+- **Objetivo final** — resultado prático que leva a pessoa a iniciar a conversa com o sistema.
+- **Objetivo instrumental** — meio para alcançar outro objetivo. Pode ser:
+  - **direto**, quando apoia o objetivo durante a mesma interação;
+  - **indireto**, quando prepara condições para que outro objetivo seja alcançado depois.
 
-![Mapa individual de Mariana: O03, O04, O05, O08 e O09 apoiam O01](../assets/09_modelo_conceitual/mapa_ci01.png)
+Seta contínua indica instrumental direto; seta tracejada indica instrumental indireto. A ligação não representa ordem de execução, navegação entre telas nem operador temporal. Os IDs permanecem os mesmos nos mapas individuais e no consolidado.
 
-**Victor — P02 / CI02 / T02.** Identificar o item, explicar a diferença, fundamentar o tratamento, retomar, conferir o registro e comunicar seu alcance apoiam a conferência de Rafael.
+### Revisão após o feedback
 
-![Mapa individual de Rafael: O03, O06, O07, O08, O09 e O10 apoiam O02](../assets/09_modelo_conceitual/mapa_ci02.png)
+Na versão anterior, O01 e O02 começavam por “registrar”, e os demais objetivos estavam agrupados como “objetivos de apoio”. Registrar é uma operação da interface. Por isso, a pergunta foi refeita para cada persona: **para que a pessoa usa o sistema?**
 
-**Consolidação.** “Localizar a garrafa” e “localizar o conjunto” foram reunidos em **O03**: o critério é reconhecer o produto correto na sua unidade. “Ver se a decisão ficou salva” e “ver se a correção foi gravada” compartilham **O08**, mas cada registro mantém seu desfecho próprio. A recuperação após uma pausa é **O09** nos dois casos. Já **O04** e **O06** ficam separados: interpretar uma estimativa não prova a origem de uma divergência. O resultado de uma conferência pode apoiar uma reposição futura do mesmo item; não há dependência obrigatória entre os dois episódios fictícios.
+- **O01 — Mariana.** Ela não quer “registrar” por si só. Quer decidir a reposição com base em disponibilidade, procura, prazo e caixa e depois conseguir recuperar essa decisão. A própria abertura do diálogo confirma isso: “Preciso decidir sobre a garrafa antes do meio-dia.” O registro passou a ser o meio que torna a decisão recuperável (O08).
+- **O02 — Rafael.** Ele não quer apenas registrar e comunicar. Quer que o saldo do item volte a ser confiável e que a diferença possa ser explicada. Isso vale tanto para a correção quanto para a pendência. A abertura é “Preciso explicar por que o saldo não bate”. Comunicar o alcance a Mariana deixou de fazer parte do objetivo final e virou um instrumental indireto (O10). A comunicação acontece fora do sistema e prepara a próxima decisão de reposição.
 
-![Mapa consolidado dos objetivos de Mariana e Rafael, com os objetivos comuns representados uma única vez](../assets/09_modelo_conceitual/mapa_objetivos.png)
+Cada elemento restante passou pelo teste sugerido no feedback: *ele expressa um resultado que o usuário deseja alcançar ou apenas uma etapa necessária para executar a tarefa?* Etapas como “revisar antes de confirmar” e “registrar o rascunho” continuam na HTA da E5 e não viraram objetivos. Foram mantidos apenas os resultados que a pessoa reconhece como algo que precisa obter: o item certo, uma base compreendida, uma escolha, uma explicação, uma justificativa, a certeza do que ficou salvo e a continuidade após a pausa.
 
-[Versões vetoriais dos três mapas](../assets/09_modelo_conceitual/README.md).
+**Paulo — P01 / CI01 / T01.** Cinco instrumentais diretos apoiam O01.
+
+![Mapa individual de Mariana: O03, O04, O05, O08 e O09 são instrumentais diretos de O01](../assets/09_modelo_conceitual/mapa_ci01.png)
+
+**Victor — P02 / CI02 / T02.** Cinco instrumentais diretos apoiam O02. O10 é instrumental indireto de O01, o objetivo de Mariana no próximo ciclo.
+
+![Mapa individual de Rafael: O03, O06, O07, O08 e O09 são instrumentais diretos de O02; O10 é instrumental indireto de O01](../assets/09_modelo_conceitual/mapa_ci02.png)
+
+**Consolidação.** “Localizar a garrafa” e “localizar o conjunto” foram reunidos em **O03**: o critério é reconhecer o produto correto na sua unidade. “Ver se a decisão ficou salva” e “ver se a correção foi gravada” compartilham **O08**, mas cada registro mantém seu desfecho próprio. A recuperação após uma pausa é **O09** nos dois casos. Já **O04** e **O06** ficam separados: interpretar uma estimativa não prova a origem de uma divergência. A única ligação entre os dois papéis é **O10 → O01**: o resultado de uma conferência pode apoiar uma reposição futura do mesmo item, sem dependência obrigatória entre os dois episódios fictícios.
+
+![Mapa consolidado: O01 e O02 como objetivos finais; O03, O08 e O09 comuns; O04 e O05 apoiam O01; O06 e O07 apoiam O02; O10 é indireto de O01](../assets/09_modelo_conceitual/mapa_objetivos.png)
+
+[Fontes SVG editáveis dos três mapas](../assets/09_modelo_conceitual/README.md).
 
 ### Dicionário de objetivos
 
-| ID | Objetivo | Persona(s) | Cenário(s) | Prioridade |
-|---|---|---|---|---|
-| O01 | Registrar a decisão de reposição — final: planejamento, adiamento ou pendência conferido para um item | P01 | CI01 | Essencial — resultado de T01 |
-| O02 | Registrar e comunicar o desfecho da divergência — final: correção ou pendência explicada, com alcance definido | P02; P01 recebe o resultado | CI02 | Essencial — resultado de T02 |
-| O03 | Identificar o produto e a unidade | P01, P02 | CI01, CI02 | Essencial — evita trabalhar sobre o item errado |
-| O04 | Avaliar a base da reposição | P01 | CI01 | Essencial — disponibilidade, procura, prazo e limites |
-| O05 | Escolher o desfecho da reposição | P01 | CI01 | Essencial — preserva a decisão comercial |
-| O06 | Explicar a diferença de saldo | P02 | CI02 | Essencial — identificar causa ou reconhecer lacuna |
-| O07 | Fundamentar correção ou pendência | P02 | CI02 | Essencial — impede ajuste sem causa e autorização |
-| O08 | Conferir o registro salvo | P01, P02 | CI01, CI02 | Essencial — condição de término |
-| O09 | Retomar o trabalho interrompido | P01, P02 | CI01, CI02 | Essencial quando houver pausa — E8-MU07 |
-| O10 | Comunicar o alcance da conferência | P02 comunica; P01 recebe | CI02 | Essencial — evita anunciar fechamento global |
+| ID | Objetivo | Classificação | Persona(s) | Cenário(s) | Justificativa da classificação |
+|---|---|---|---|---|---|
+| O01 | Tomar uma decisão de reposição fundamentada e recuperável | **Final** | P01 | CI01 | É o que leva Mariana ao sistema. Termina com planejamento, adiamento ou pendência conferidos para um item. Não inclui enviar o pedido ao fornecedor. |
+| O02 | Tornar o saldo do item confiável e explicável | **Final** | P02; P01 depende do resultado | CI02 | É o que leva Rafael ao sistema. Termina com uma correção fundamentada ou com uma pendência explicada. Em ambos os casos, o saldo deixa de ser uma incógnita. |
+| O03 | Identificar o produto e a unidade | Instrumental **direto** de O01 e O02 | P01, P02 | CI01, CI02 | Sem o item e a unidade corretos, nada do que se decide ou corrige na mesma conversa tem validade. |
+| O04 | Avaliar a base da reposição | Instrumental **direto** de O01 | P01 | CI01 | É o que torna a decisão **fundamentada**: disponibilidade, procura, previsão, prazo e limites, avaliados durante a própria análise. |
+| O05 | Escolher o desfecho da reposição | Instrumental **direto** de O01 | P01 | CI01 | Concretiza a decisão como planejar, adiar ou deixar pendente. Preserva a decisão comercial com Mariana. |
+| O06 | Explicar a diferença de saldo | Instrumental **direto** de O02 | P02 | CI02 | Torna o saldo **explicável**: identifica a causa ou reconhece a lacuna antes de qualquer alteração. |
+| O07 | Fundamentar correção ou pendência | Instrumental **direto** de O02 | P02 | CI02 | Torna o saldo **confiável**: impede ajuste sem causa confirmada e sem autorização. |
+| O08 | Conferir o registro salvo | Instrumental **direto** de O01 e O02 | P01, P02 | CI01, CI02 | Torna a decisão **recuperável** e a correção verificável. É a condição de término de ambas as conversas. |
+| O09 | Retomar o trabalho interrompido | Instrumental **direto** de O01 e O02, quando houver pausa | P01, P02 | CI01, CI02 | Garante a continuidade do mesmo episódio sem repetir uma gravação. Não existe sem interrupção. Ver E8-MU07. |
+| O10 | Comunicar o alcance da conferência | Instrumental **indireto** de O01 | P02 comunica; P01 recebe | CI02 | Ocorre depois da conversa e fora do sistema. Não conclui O02. Prepara a próxima decisão de reposição de Mariana com um saldo cujo alcance é conhecido. O sistema apenas fornece o resumo. |
+
+**Observação sobre pendências.** Quando O05 ou O07 terminam em pendência, o registro também prepara uma decisão posterior, que é um efeito indireto. A classificação de O05 e O07 continua **direta**, porque o papel principal de cada um é concluir O01 ou O02 na própria conversa. Uma pendência conferida também satisfaz o objetivo final.
 
 ## 4. Esquema conceitual de signos
 

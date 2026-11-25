@@ -23,11 +23,11 @@ Exemplos de conversas:
 
 Modele também rupturas plausíveis: entrada inválida, falha de processamento, ausência de resultado, permissão insuficiente, filtro sem resultados, conflito de alteração, cancelamento ou necessidade de recuperação.
 
-## M01 — Registrar a decisão de reposição de um item
+## M01 — Decidir a reposição de um item
 
 **Autor(a):** Paulo Andre de Oliveira Hirata — 22.125.072-3.  
 **Cenário de interação de origem:** CI01 — Decidir a reposição da garrafa antes do prazo do fornecedor (E4-C01 / R04-01).  
-**Objetivo(s):** O01 — Registrar a decisão de reposição. Objetivos de apoio: O03 — Identificar o produto e a unidade; O04 — Avaliar a base da reposição; O05 — Escolher o desfecho da reposição; O08 — Conferir o registro salvo; O09 — Retomar o trabalho interrompido.  
+**Objetivo(s):** objetivo final O01 — Tomar uma decisão de reposição fundamentada e recuperável. Instrumentais diretos: O03 — Identificar o produto e a unidade; O04 — Avaliar a base da reposição; O05 — Escolher o desfecho da reposição; O08 — Conferir o registro salvo; O09 — Retomar o trabalho interrompido. Classificação conforme o [mapa revisado da E9](09_modelo_conceitual.md#3-mapa-de-objetivos).  
 **Tarefa(s) relacionada(s):** Mariana Alves, proprietária; T01 — analisar um produto e registrar uma decisão de reposição.  
 **Signos relevantes:** produto, unidade de venda, contagem física, quantidade comprometida, quantidade disponível, vendas confirmadas, atualização da base, horizonte, previsão de demanda, sugestão de reposição, prazo do fornecedor, desfecho da reposição, quantidade planejada, motivo, próxima verificação, ponto de retomada e estado do registro.
 
@@ -76,11 +76,11 @@ A conversa começa quando Mariana identifica a garrafa e termina quando confere 
 - [ ] O MoLIC representa a conversa usuário–sistema, não o fluxo interno do algoritmo.
 - [ ] Processamento, filtros, administração, relatórios e históricos incluem retornos/rupturas quando relevantes.
 
-## M02 — Registrar e comunicar o desfecho de uma divergência
+## M02 — Explicar a diferença no saldo de um item
 
 **Autor(a):** Victor Merker Binda — 22.125.075-6.  
 **Cenário de interação de origem:** CI02 — Explicar a diferença no saldo dos conjuntos de potes (E4-C02 / R04-02).  
-**Objetivo(s):** O02 — Registrar e comunicar o desfecho da divergência. Objetivos de apoio: O03 — Identificar o produto e a unidade; O06 — Explicar a diferença de saldo; O07 — Fundamentar correção ou pendência; O08 — Conferir o registro salvo; O09 — Retomar o trabalho interrompido; O10 — Comunicar o alcance da conferência.  
+**Objetivo(s):** objetivo final O02 — Tornar o saldo do item confiável e explicável. Instrumentais diretos: O03 — Identificar o produto e a unidade; O06 — Explicar a diferença de saldo; O07 — Fundamentar correção ou pendência; O08 — Conferir o registro salvo; O09 — Retomar o trabalho interrompido. Instrumental indireto: O10 — Comunicar o alcance da conferência, que prepara O01 de Mariana. Classificação conforme o [mapa revisado da E9](09_modelo_conceitual.md#3-mapa-de-objetivos).  
 **Tarefa(s) relacionada(s):** Rafael Costa, auxiliar operacional; T02 — investigar a divergência de um item e registrar seu desfecho. Mariana é fonte externa e destinatária do resultado, não uma segunda voz do sistema.  
 **Signos relevantes:** produto, unidade de venda, saldo registrado, contagem física, evidência de origem, situação da evidência, correção da transcrição, desfecho da conferência, motivo, próxima verificação, ponto de retomada, estado do registro, responsável e data, alcance da conferência.
 
@@ -135,8 +135,8 @@ O diagrama acompanha um único episódio: Rafael investiga a diferença, registr
 
 | Objetivo | MoLIC que cobre | Lacunas/duplicidades | Decisão |
 |---|---|---|---|
-| O01 · Registrar a decisão de reposição | M01 | Previsão salva não é decisão salva. | Encerrar após Mariana conferir o desfecho do item; não enviar pedido. |
-| O02 · Registrar e comunicar o desfecho da divergência | M02 | Saldo igual à contagem não explica a causa. | Exigir justificativa, estado salvo e alcance antes de comunicar. |
+| O01 · Tomar uma decisão de reposição fundamentada e recuperável (final) | M01 | Previsão salva não é decisão salva. | Encerrar após Mariana conferir o desfecho do item; não enviar pedido. |
+| O02 · Tornar o saldo do item confiável e explicável (final) | M02 | Saldo igual à contagem não explica a causa. | Exigir justificativa, estado salvo e alcance antes de comunicar. |
 | O03 · Identificar o produto e a unidade | Ambos | Mesmo conceito; itens e unidades diferentes. | Reutilizar o padrão de identificação, sem ligar os episódios entre si. |
 | O04 · Avaliar a base da reposição | M01 | Confundir ausência, zero, demanda e sugestão mudaria a decisão. | Explicitar parcelas, período, horizonte e limitações. |
 | O05 · Escolher o desfecho da reposição | M01 | Quantidade obrigatória em todos os casos induziria uma compra. | Pedir quantidade apenas para planejar; pedir próxima verificação quando pendente. |

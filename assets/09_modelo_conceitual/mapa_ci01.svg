@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="960" viewBox="0 0 1500 960" role="img" aria-labelledby="title desc">
+<title id="title">Mariana Alves · Decisão de reposição — mapa de objetivos</title>
+<desc id="desc">Paulo Andre de Oliveira Hirata · Equipe 14. Mapa individual de objetivos da Entrega 9.</desc>
+<defs><marker id="tip" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#4d6070"/></marker></defs>
+<rect width="1500" height="960" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="48" y="52" font-size="18" font-weight="700" fill="#146356" text-anchor="start">ENTREGA 9 / MAPA INDIVIDUAL / CI01</text>
+<text x="48" y="104" font-size="44" font-weight="700" fill="#16324a" text-anchor="start">Mariana Alves · Decisão de reposição</text>
+<text x="48" y="146" font-size="21" font-weight="400" fill="#55697a" text-anchor="start">Paulo Andre de Oliveira Hirata · Equipe 14</text>
+<rect x="60" y="210" width="640" height="104" rx="10" fill="#eef6f3" stroke="#146356" stroke-width="2"/>
+<text x="84" y="240" font-size="15" font-weight="700" fill="#146356" text-anchor="start">O03 · INSTRUMENTAL DIRETO</text>
+<text x="84" y="274" font-size="24" font-weight="400" fill="#16324a" text-anchor="start">Identificar o produto e a unidade</text>
+<line x1="700" y1="262.0" x2="770" y2="262.0" stroke="#4d6070" stroke-width="2.5"/>
+<rect x="60" y="332" width="640" height="104" rx="10" fill="#eef6f3" stroke="#146356" stroke-width="2"/>
+<text x="84" y="362" font-size="15" font-weight="700" fill="#146356" text-anchor="start">O04 · INSTRUMENTAL DIRETO</text>
+<text x="84" y="396" font-size="24" font-weight="400" fill="#16324a" text-anchor="start">Avaliar a base da reposição</text>
+<line x1="700" y1="384.0" x2="770" y2="384.0" stroke="#4d6070" stroke-width="2.5"/>
+<rect x="60" y="454" width="640" height="104" rx="10" fill="#eef6f3" stroke="#146356" stroke-width="2"/>
+<text x="84" y="484" font-size="15" font-weight="700" fill="#146356" text-anchor="start">O05 · INSTRUMENTAL DIRETO</text>
+<text x="84" y="518" font-size="24" font-weight="400" fill="#16324a" text-anchor="start">Escolher o desfecho da reposição</text>
+<line x1="700" y1="506.0" x2="770" y2="506.0" stroke="#4d6070" stroke-width="2.5"/>
+<rect x="60" y="576" width="640" height="104" rx="10" fill="#eef6f3" stroke="#146356" stroke-width="2"/>
+<text x="84" y="606" font-size="15" font-weight="700" fill="#146356" text-anchor="start">O08 · INSTRUMENTAL DIRETO</text>
+<text x="84" y="640" font-size="24" font-weight="400" fill="#16324a" text-anchor="start">Conferir o registro salvo</text>
+<line x1="700" y1="628.0" x2="770" y2="628.0" stroke="#4d6070" stroke-width="2.5"/>
+<rect x="60" y="698" width="640" height="104" rx="10" fill="#eef6f3" stroke="#146356" stroke-width="2"/>
+<text x="84" y="728" font-size="15" font-weight="700" fill="#146356" text-anchor="start">O09 · INSTRUMENTAL DIRETO</text>
+<text x="84" y="762" font-size="24" font-weight="400" fill="#16324a" text-anchor="start">Retomar o trabalho interrompido</text>
+<line x1="700" y1="750.0" x2="770" y2="750.0" stroke="#4d6070" stroke-width="2.5"/>
+<line x1="770" y1="262.0" x2="770" y2="750.0" stroke="#4d6070" stroke-width="2.5"/>
+<path d="M770 506.0 H956" fill="none" stroke="#4d6070" stroke-width="2.5" marker-end="url(#tip)"/>
+<rect x="960" y="411.0" width="480" height="190" rx="10" fill="#146356"/>
+<text x="984" y="445.0" font-size="16" font-weight="700" fill="#e3efec" text-anchor="start">O01 · OBJETIVO FINAL</text>
+<text x="984" y="481.0" font-size="26" font-weight="700" fill="white" text-anchor="start">Tomar uma decisão de reposição</text>
+<text x="984" y="513.0" font-size="26" font-weight="700" fill="white" text-anchor="start">fundamentada e recuperável</text>
+<line x1="60" y1="850" x2="120" y2="850" stroke="#4d6070" stroke-width="2.5" marker-end="url(#tip)"/>
+<text x="135" y="856" font-size="18" font-weight="400" fill="#55697a" text-anchor="start">instrumental direto: apoia o objetivo final na mesma interação</text>
+<line x1="60" y1="884" x2="120" y2="884" stroke="#4d6070" stroke-width="2.5" stroke-dasharray="9 7" marker-end="url(#tip)"/>
+<text x="135" y="890" font-size="18" font-weight="400" fill="#55697a" text-anchor="start">instrumental indireto: prepara condições para que o objetivo seja alcançado depois</text>
+<text x="60" y="930" font-size="17" font-weight="400" fill="#55697a" text-anchor="start">A posição dos objetivos não indica sequência de execução, navegação entre telas nem operador temporal.</text>
+</g>
+</svg>
