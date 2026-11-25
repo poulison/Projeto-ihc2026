@@ -20,23 +20,23 @@ As hipóteses usam **descrições por extenso**, conforme a simplificação adot
 
 ## 2. Hipóteses, lacunas e sua evolução
 
-| Descrição estável | Origem | Evidência ou desenvolvimento posterior | Estado atual | Por que importa / impacto | Como investigar |
-|---|---|---|---|---|---|
-| Benefício das previsões para antecipar reposições | E1, 1.4 | E2 documenta recursos de mercado; E4-C01 explora decisão sob incerteza | [H] Aberta; mercado e narrativa não comprovam redução de rupturas | Sustenta valor de uso; não prometer ganho medido | Teste de conceito e acompanhamento de decisões reais |
-| Compreensão dos resultados sem formação em ML | E1, 1.4 | E2-C01.1 mostra fatores com nomenclatura técnica; P01 explora pouca familiaridade digital. No walkthrough da E6, W01 relatou dúvida sobre o significado de alguns dados e não conhecia o termo “SKU” (evidência formativa de uma pessoa). Na E14, dois participantes sem experiência com estoque explicaram disponibilidade, previsão e saldo sem ajuda (participantes aproximados, sem generalização) | [H] Aberta | Orienta apresentação e ajuda; exige teste de interpretação | Testar explicações com participantes |
-| Responsável pelo estoque como usuário prioritário | E1, 2.1 | P01 representa esse papel provisoriamente | [H] Aberta | Define recrutamento e tarefas | Entrevistar responsáveis e observar divisão do trabalho |
-| Conhecimento comercial e familiaridade com métricas | E1, 2.4 | E2 evidencia termos de produtos; nenhum dado sobre vocabulário do público | [H] Aberta | Não presumir compreensão nem desconhecimento | Investigar exemplos, termos e experiência |
-| Esforço e falhas na consolidação manual | E1, 4.2 | E4 descreve repetição e duplicidade hipotéticas | [H] Aberta | Tarefas manuais não são prova de ineficiência | Observar registros, tempos, interrupções e correções |
-| Necessidade de histórico de previsões e decisões | E1, 5.5 | E3 inclui acompanhamento posterior como hipótese | [H] Aberta | Justifica histórico apenas se útil ao usuário | Investigar uso de decisões anteriores e comparação com realizado |
-| Processo e dados atuais | E1, 4.1 e 10 | Apenas relatos de contagem e ruptura; demais detalhes são hipotéticos | [?] Aberta | Determina entrada de dados, qualidade e viabilidade | Examinar amostras autorizadas e responsabilidades |
-| Escopo formal do TCC | E1, 0.5 e 7.3 | Referências posteriores a sete dias e recomendação não têm confirmação anexada | [?] Aberta | Condiciona fluxos e o que a interface pode afirmar | Confirmar com orientador e documento técnico |
-| Acúmulo de tarefas e interrupções | Contexto E1; refinamento E3 | E4-C01/C02 exemplificam pausa e retomada | [H] Aberta | Orienta investigação de continuidade do trabalho | Observar frequência, ponto de interrupção e retomada |
-| Registros distribuídos entre ferramentas | Alternativas E1; refinamento E3 | Caderno, mensagens, planilha e marketplace aparecem em E4 | [H] Aberta | Não torna integração/importação um requisito | Identificar ferramentas realmente utilizadas |
-| Controle humano da decisão | Refinamento E3 | E2-RC09 é proposta própria; E4-C01 diferencia envio e resultado | [H] Necessidade; decisão provisória de design | Manter revisão e distinguir lista de pedido | Investigar responsabilidades e critérios comerciais |
-| Apoio operacional de um auxiliar | Papéis possíveis E1; P02 em E3 | E4-C02 explora reconciliação de registros | [H] Aberta | P02 não deve se tornar papel obrigatório | Confirmar existência do auxiliar e casos de proprietário sozinho |
-| Pouca familiaridade digital de Mariana | Construção de P01 em E3 | Narrativa e jornada hipotéticas | [H] Aberta | Idade não comprova limitação; orienta proposta a testar | Pesquisar repertório, aprendizagem e acessibilidade |
-| Vendas online no pequeno comércio | Refinamento E3 | Marketplace integra E4 como recurso hipotético | [H] Aberta | Evita restringir indevidamente o público sem evidência | Confirmar canais de venda e registros |
-| Percepção de incerteza e confiança | E1 revisada, seção 5.6 | Nenhum dado primário | [?] Aberta | Evita tratar previsão como garantia | Testar interpretação e critérios de rejeição da estimativa |
+| ID | Descrição estável | Origem | Evidência ou desenvolvimento posterior | Estado atual | Por que importa / impacto | Como investigar |
+|---|---|---|---|---|---|---|
+| HP01 | Benefício das previsões para antecipar reposições | E1, 1.4 | E2 documenta recursos de mercado; E4-C01 explora decisão sob incerteza | [H] Aberta; mercado e narrativa não comprovam redução de rupturas | Sustenta valor de uso; não prometer ganho medido | Teste de conceito e acompanhamento de decisões reais |
+| HP02 | Compreensão dos resultados sem formação em ML | E1, 1.4 | E2-C01.1 mostra fatores com nomenclatura técnica; P01 explora pouca familiaridade digital. No walkthrough da E6, W01 relatou dúvida sobre o significado de alguns dados e não conhecia o termo “SKU” (evidência formativa de uma pessoa). Na E14, dois participantes sem experiência com estoque explicaram disponibilidade, previsão e saldo sem ajuda (participantes aproximados, sem generalização) | [H] Aberta | Orienta apresentação e ajuda; exige teste de interpretação | Testar explicações com participantes |
+| HP03 | Responsável pelo estoque como usuário prioritário | E1, 2.1 | P01 representa esse papel provisoriamente | [H] Aberta | Define recrutamento e tarefas | Entrevistar responsáveis e observar divisão do trabalho |
+| HP04 | Conhecimento comercial e familiaridade com métricas | E1, 2.4 | E2 evidencia termos de produtos; nenhum dado sobre vocabulário do público | [H] Aberta | Não presumir compreensão nem desconhecimento | Investigar exemplos, termos e experiência |
+| HP05 | Esforço e falhas na consolidação manual | E1, 4.2 | E4 descreve repetição e duplicidade hipotéticas | [H] Aberta | Tarefas manuais não são prova de ineficiência | Observar registros, tempos, interrupções e correções |
+| HP06 | Necessidade de histórico de previsões e decisões | E1, 5.5 | E3 inclui acompanhamento posterior como hipótese | [H] Aberta | Justifica histórico apenas se útil ao usuário | Investigar uso de decisões anteriores e comparação com realizado |
+| HP07 | Processo e dados atuais | E1, 4.1 e 10 | Apenas relatos de contagem e ruptura; demais detalhes são hipotéticos | [?] Aberta | Determina entrada de dados, qualidade e viabilidade | Examinar amostras autorizadas e responsabilidades |
+| HP08 | Escopo formal do TCC | E1, 0.5 e 7.3 | Referências posteriores a sete dias e recomendação não têm confirmação anexada | [?] Aberta | Condiciona fluxos e o que a interface pode afirmar | Confirmar com orientador e documento técnico |
+| HP09 | Acúmulo de tarefas e interrupções | Contexto E1; refinamento E3 | E4-C01/C02 exemplificam pausa e retomada | [H] Aberta | Orienta investigação de continuidade do trabalho | Observar frequência, ponto de interrupção e retomada |
+| HP10 | Registros distribuídos entre ferramentas | Alternativas E1; refinamento E3 | Caderno, mensagens, planilha e marketplace aparecem em E4 | [H] Aberta | Não torna integração/importação um requisito | Identificar ferramentas realmente utilizadas |
+| HP11 | Controle humano da decisão | Refinamento E3 | E2-RC09 é proposta própria; E4-C01 diferencia envio e resultado | [H] Necessidade; decisão provisória de design | Manter revisão e distinguir lista de pedido | Investigar responsabilidades e critérios comerciais |
+| HP12 | Apoio operacional de um auxiliar | Papéis possíveis E1; P02 em E3 | E4-C02 explora reconciliação de registros | [H] Aberta | P02 não deve se tornar papel obrigatório | Confirmar existência do auxiliar e casos de proprietário sozinho |
+| HP13 | Pouca familiaridade digital de Mariana | Construção de P01 em E3 | Narrativa e jornada hipotéticas | [H] Aberta | Idade não comprova limitação; orienta proposta a testar | Pesquisar repertório, aprendizagem e acessibilidade |
+| HP14 | Vendas online no pequeno comércio | Refinamento E3 | Marketplace integra E4 como recurso hipotético | [H] Aberta | Evita restringir indevidamente o público sem evidência | Confirmar canais de venda e registros |
+| HP15 | Percepção de incerteza e confiança | E1 revisada, seção 5.6 | Nenhum dado primário | [?] Aberta | Evita tratar previsão como garantia | Testar interpretação e critérios de rejeição da estimativa |
 
 ## 3. Necessidades, personas e cenários
 
@@ -139,23 +139,24 @@ F01–F06 na Entrega 1 identificam ações candidatas, não telas. Os IDs Fxx de
 | 25/11/2026 | Retirar o teste piloto do plano e trocá-lo por uma conferência do protótipo e dos materiais antes da primeira sessão; registrar que os dois participantes já foram identificados | Decisão da equipe | E8 (limites das metas), E11, E12, E14 (passos 2 e 4, fluxograma, conclusão e checklist) |
 | 25/11/2026 | Registrar as sessões da E14 (U01 e U02) e os achados AU01–AU03; ligar AU02 e AU03 a O04/O05 e AU01 a O09 | Sessões com dois participantes aproximados, sem termo assinado; UT05 e pós-teste em conjunto | E14 (seções C–G), seções 2 e 3.1 desta matriz |
 | 25/11/2026 | Registrar o aceite dos dois participantes, obtido depois da sessão e gravado em vídeo | Vídeos conferidos pela equipe e guardados fora do repositório | E14 (passo 3, conclusão e checklist) |
+| 25/11/2026 | Dar IDs estáveis HP01–HP15 às hipóteses e lacunas, com correspondência aos códigos antigos | Recomendação do professor (IDs estáveis); checklist da E1 | Seções 2 e 6 desta matriz; E1, seção 10 |
 
 **Revisão de 12/11/2026:** P02 classificada como persona primária do recorte operacional, por objetivo e uso direto previstos; existência/recorrência continuam hipóteses. E3 passa a preservar visuais locais e a separar contexto de solução. C02 deixa de antecipar duplicidade no título; ambas as tabelas de perguntas explicitam os sete elementos. E5 inclui Input/Feedback/Plano na tarefa zero, GOMS indentado, CTT com gatilho inicial e fechamento da comunicação; modelagem concluída, pesquisa futura não realizada.
 
 ## 6. Histórico de correspondência dos identificadores retirados
 
-Este registro é **histórico**, não o esquema ativo de referência. O professor recomendou IDs estáveis; a equipe optou por descrições para simplificar a leitura. A aceitação acadêmica dessa mudança de formato não foi confirmada. Origem, estado e evolução continuam documentados.
+Este registro é **histórico**. O professor recomendou IDs estáveis. Em 13/10/2026 a equipe trocou os códigos antigos por descrições; em 25/11/2026 as hipóteses voltaram a ter IDs estáveis, **HP01–HP15** (seção 2). O prefixo HP evita repetir H01–H07, que tinham sentidos diferentes na E1 e na E3. A última coluna indica o ID atual de cada sentido antigo.
 
 | Código antigo | Sentido na Entrega 1 | Sentido utilizado na Entrega 3 anterior | Tratamento atual |
 |---|---|---|---|
-| H01 | Benefício das previsões | Usuário prioritário | Duas hipóteses distintas preservadas por descrição |
-| H02 | Compreensão sem formação em ML | Acúmulo de tarefas/pouco tempo | Distinção preservada; nenhuma confirmada |
-| H03 | Usuário prioritário | Registros distribuídos | Distinção preservada; conferir processos reais |
-| H04 | Conhecimento comercial sem métricas de ML | Familiaridade com termos técnicos | Tema equivalente; permanece hipótese |
-| H05 | Esforço e erros manuais | Controle humano da compra | Distinção preservada; controle humano é refinamento |
-| H06 | Histórico de previsões | Participação de auxiliar | Distinção preservada; auxiliar não substitui histórico |
-| H07 | Não existia | Pouca familiaridade digital de Mariana | Registrada como hipótese acrescentada em E3 |
-| Q01/Q02 | Processo/dados; escopo formal | Não preservados como referências centrais | Lacunas mantidas por descrição |
+| H01 | Benefício das previsões | Usuário prioritário | Duas hipóteses distintas: HP01 (E1) e HP03 (E3) |
+| H02 | Compreensão sem formação em ML | Acúmulo de tarefas/pouco tempo | HP02 (E1) e HP09 (E3); nenhuma confirmada |
+| H03 | Usuário prioritário | Registros distribuídos | HP03 (E1) e HP10 (E3); conferir processos reais |
+| H04 | Conhecimento comercial sem métricas de ML | Familiaridade com termos técnicos | Tema equivalente: HP04; permanece hipótese |
+| H05 | Esforço e erros manuais | Controle humano da compra | HP05 (E1) e HP11 (E3); controle humano é refinamento |
+| H06 | Histórico de previsões | Participação de auxiliar | HP06 (E1) e HP12 (E3) |
+| H07 | Não existia | Pouca familiaridade digital de Mariana | HP13, acrescentada em E3 |
+| Q01/Q02 | Processo/dados; escopo formal | Não preservados como referências centrais | HP07 e HP08 |
 | F01 em E3 | Em E1 era ação candidata de identificar riscos | Foi usado como fato sobre previsão e recomendação | Referência ambígua retirada de E3; previsão é proposta registrada e recomendação é pendência |
 
 
