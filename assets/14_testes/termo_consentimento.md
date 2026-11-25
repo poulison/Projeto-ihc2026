@@ -1,13 +1,13 @@
 # Termo de consentimento — teste de usabilidade do Estoque Inteligente
 
-**Versão do modelo:** 15/11/2026. Preparado para uso; ainda não assinado.  
+**Versão do modelo:** 25/11/2026, alinhada à modalidade de registro da Entrega 12. Preparado para uso; ainda não assinado.  
 **Atividade:** projeto Estoque com ML, Equipe 14, disciplina de Interação Humano-Computador, FEI.  
 **Responsáveis:** Paulo Andre de Oliveira Hirata e Victor Merker Binda.
 
-**Antes de utilizar:** o responsável deve inserir abaixo seu contato de atendimento, entregar uma cópia à pessoa e conferir a modalidade de registro definida no planejamento. Este modelo corresponde a sessões **sem gravação**. A aula solicita gravação; se essa modalidade for adotada, atualizar o termo e explicar finalidade, acesso e descarte antes de obter o aceite. Não utilizar o presente aceite para autorizar gravação posteriormente.
+**Antes de utilizar:** ler o termo com a pessoa, esclarecer dúvidas e entregar uma cópia. Este modelo corresponde à modalidade definida na [Entrega 12](../../docs/12_planejamento_avaliacao.md#c-participantes-ambiente-e-aspectos-práticos): gravação apenas da janela do Figma e do áudio, com câmeras desligadas. Não iniciar a gravação antes do aceite.
 
-**Responsável pelo convite:** ________________________________________  
-**Contato para dúvidas e retirada da participação:** ______________________________
+**Responsável pelo convite:** Victor Merker Binda  
+**Contato para dúvidas e retirada da participação:** victor.merker.bindaa@gmail.com
 
 ## Convite e objetivo
 
@@ -21,11 +21,13 @@ Os produtos, registros e previsões são fictícios. Nenhuma compra, venda ou al
 
 ## Registros e privacidade
 
-Não haverá gravação de tela, áudio ou vídeo. A equipe anotará ações, tempos, dificuldades, pedidos de ajuda, respostas e notas de satisfação. Não solicitaremos documentos de identidade, dados de clientes, senhas ou informações comerciais reais.
+**Gravação.** Depois do seu aceite e das perguntas iniciais, a equipe gravará somente a janela do protótipo no Figma e o áudio da conversa entre você e o moderador, com as câmeras desligadas. A gravação vai da leitura da primeira tarefa até o fim das perguntas finais e serve para conferir ações, tempos, pedidos de ajuda e explicações. Você pode pedir para pausar a gravação a qualquer momento. Se não concordar com a gravação, a sessão será encerrada sem coleta, sem nenhum prejuízo para você.
+
+A equipe também anotará ações, tempos, dificuldades, pedidos de ajuda, respostas e notas de satisfação. Não solicitaremos documentos de identidade, dados de clientes, senhas ou informações comerciais reais.
 
 Seu nome e assinatura ficarão apenas neste aceite, guardado separadamente. As notas usarão um código, como U01 ou U02. Enquanto existir uma ligação entre o código e seu nome, os dados poderão ser identificados pela equipe; essa ligação não será publicada.
 
-Paulo e Victor terão acesso aos registros individuais em pasta local protegida por senha, fora do repositório público. O relatório acadêmico poderá ser compartilhado com o docente e publicado no repositório do projeto, contendo apenas resultados sem nomes e sem detalhes que permitam reconhecer você ou seu estabelecimento. Relatos poderão ser resumidos para reduzir a possibilidade de identificação. Registros individuais e aceites serão descartados em até 30 dias após a divulgação da correção final da atividade.
+Paulo e Victor terão acesso aos registros individuais, inclusive à gravação, em pasta local protegida por senha, fora do repositório público. Se for necessário para a correção, a gravação poderá ser exibida de forma privada ao docente da disciplina, sem ser publicada. O relatório acadêmico poderá ser compartilhado com o docente e publicado no repositório do projeto, contendo apenas resultados sem nomes e sem detalhes que permitam reconhecer você ou seu estabelecimento. Relatos poderão ser resumidos para reduzir a possibilidade de identificação. Gravações, registros individuais e aceites serão descartados em até 30 dias após a divulgação da correção final da atividade.
 
 ## Participação voluntária
 
@@ -38,6 +40,8 @@ Se retirar o consentimento enquanto seus registros ainda puderem ser identificad
 ## Declaração de aceite
 
 Declaro que tenho 18 anos ou mais, que li ou ouvi a leitura deste termo, pude esclarecer minhas dúvidas e recebi uma cópia. Compreendo os procedimentos, os registros previstos e meu direito de interromper a participação. Concordo voluntariamente em participar nas condições descritas.
+
+( ) Concordo com a gravação da janela do Figma e do áudio, nas condições acima.
 
 **Código da sessão:** __________________  
 **Local e data:** __________________________________________  

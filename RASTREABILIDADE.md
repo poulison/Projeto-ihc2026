@@ -129,6 +129,7 @@ F01–F06 na Entrega 1 identificam ações candidatas, não telas. Os IDs Fxx de
 | 25/11/2026 | Publicar o questionário I01 e registrar o link, com acesso sem login e saltos verificados | Feedback E7. A publicação não é evidência sobre as hipóteses, que continuam abertas | E7, instrumento I01 |
 | 25/11/2026 | Mapear as etapas do ciclo de Mayhew para os artefatos e indicar a etapa atual | Feedback E8 | E8, seção 4 |
 | 25/11/2026 | Alinhar mais rótulos do Figma aos signos da E9 (F01, F02B, F02P, F03, F05P, F05PS, F06E, F06R, F12E, F12N, F12P) e verificar as 57 ligações no modo de apresentação | Revisão final das E9–E11 | E11; capturas f01.png e f13.png |
+| 25/11/2026 | Concluir o plano DECIDE: declarar o que é avaliado e o que é simulado, nomear a seção C, atualizar a versão do Figma e adotar a gravação da janela do Figma e do áudio no termo e na E14 | Revisão da E12; contradição de gravação entre E12, E14 e termo | E12, E14 (passo 3), termo de consentimento |
 
 **Revisão de 12/11/2026:** P02 classificada como persona primária do recorte operacional, por objetivo e uso direto previstos; existência/recorrência continuam hipóteses. E3 passa a preservar visuais locais e a separar contexto de solução. C02 deixa de antecipar duplicidade no título; ambas as tabelas de perguntas explicitam os sete elementos. E5 inclui Input/Feedback/Plano na tarefa zero, GOMS indentado, CTT com gatilho inicial e fechamento da comunicação; modelagem concluída, pesquisa futura não realizada.
 

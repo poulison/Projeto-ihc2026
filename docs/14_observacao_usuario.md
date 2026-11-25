@@ -63,8 +63,8 @@ No pré-teste, perguntar quais atividades de estoque a pessoa realiza, com que f
 
 ### Passo 3 — Consentimento e privacidade
 
-- **Termo/registro de consentimento:** [modelo adaptado ao Estoque Inteligente](../assets/14_testes/termo_consentimento.md). Ler, esclarecer dúvidas, entregar uma cópia e obter aceite antes do pré-teste. O contato do responsável será registrado na cópia de uso antes do convite; nenhum aceite foi obtido nesta preparação.
-- **Gravação de tela/áudio/vídeo:** não prevista, conforme E12. Um observador registrará ações, tempos e respostas. Não ligar gravação automática. A orientação de fechamento da aula (*Teste Usabilidade Observacao Usuario*, p. 16) solicita gravação do processo: **a compatibilidade da opção sem gravação com essa exigência precisa ser resolvida pela equipe com o docente antes da coleta**. Se for necessária gravação, revisar este plano e o termo antes de convidar os participantes; a participação não autoriza gravação implicitamente.
+- **Termo/registro de consentimento:** [modelo adaptado ao Estoque Inteligente](../assets/14_testes/termo_consentimento.md). Ler, esclarecer dúvidas, entregar uma cópia e obter aceite antes do pré-teste. O termo já traz Victor como responsável pelo convite e seu contato; nenhum aceite foi obtido nesta preparação.
+- **Gravação de tela/áudio/vídeo:** conforme a [E12](12_planejamento_avaliacao.md#c-participantes-ambiente-e-aspectos-práticos), gravar apenas a janela do Figma e o áudio, com câmeras desligadas, da leitura da primeira tarefa até o fim do pós-teste. Isso atende à orientação de fechamento da aula (*Teste Usabilidade Observacao Usuario*, p. 16), que pede gravação do processo. O aceite da gravação é um item próprio do termo; sem ele, agradecer e encerrar sem coleta. O observador continua preenchendo as fichas.
 - **Identificação:** usar U01 e U02 nas notas e no relatório. Manter aceites e eventual chave de identificação separados. Esses códigos representam pseudonimização enquanto existir vínculo identificável; retirar detalhes que permitam reconhecer a pessoa na versão pública.
 - **Local e período de armazenamento:** planeja-se pasta local protegida por senha, fora do repositório e sem compartilhamento público, sob responsabilidade de Paulo, com acesso da dupla. Aceites em subpasta separada. Descartar notas individuais, chave e aceites em até 30 dias após a divulgação da correção final da atividade; manter somente a síntese desidentificada no projeto. Confirmar o local antes do recrutamento.
 - **Voluntariedade:** permitir pausa, recusa de pergunta e desistência, sem penalidade. Se houver retirada de consentimento, excluir os registros individuais ainda identificáveis e refazer a consolidação antes da publicação. Não transformar a retirada em falha de usabilidade. Oferecer leitura em voz alta ou formato acessível sem revelar soluções.
@@ -128,7 +128,7 @@ Somente a coluna **Cenário/instrução apresentada** será lida ao participante
 | UT02 | NR | — | Não observado | — | Não medido | Não coletada | Sessão não realizada. |
 | UT05/M01 | NR | — | Não observado | — | Não medido | Não coletada | Sessão não realizada. |
 
-**Link da gravação (se autorizado):** não há; o plano vigente prevê notas, sem gravação.  
+**Link da gravação (se autorizado):** a sessão ainda não ocorreu. A gravação fica na pasta privada; não publicar o link.  
 **Resposta pós-teste:** não coletada. Perfil efetivo, data, versão, consentimento e condições de uso serão registrados na sessão, sem nome no relatório público.
 
 ### U02 — responsável por conferência, a recrutar
@@ -139,7 +139,7 @@ Somente a coluna **Cenário/instrução apresentada** será lida ao participante
 | UT04 | NR | — | Não observado | — | Não medido | Não coletada | Sessão não realizada. |
 | UT05/M02 | NR | — | Não observado | — | Não medido | Não coletada | Sessão não realizada. |
 
-**Link da gravação (se autorizado):** não há; o plano vigente prevê notas, sem gravação.  
+**Link da gravação (se autorizado):** a sessão ainda não ocorreu. A gravação fica na pasta privada; não publicar o link.  
 **Resposta pós-teste:** não coletada. A relação com P02 depende da experiência real confirmada no recrutamento; Rafael é uma persona, não um participante do teste.
 
 ## D. Consolidação por tarefa
@@ -191,7 +191,7 @@ Ao consolidar, usar o ID real da E13 e da E14, a versão e a cobertura da tarefa
 2. **Problemas recorrentes e perfis:** ainda não há ocorrências ou recorrências observadas. A rodada prevê um participante de reposição e um de conferência; repetições da mesma pessoa não aumentarão artificialmente a amostra.
 3. **Surpresas:** não há descobertas de uso a relatar antes da execução. Expectativas da equipe permanecem hipóteses.
 4. **Prioridades:** resolver a modalidade de registro frente à orientação da aula, confirmar o canal de contato e o armazenamento, preservar a versão do protótipo, realizar o piloto, recrutar e obter consentimento. Após a coleta, priorizar alterações sustentadas por evidência, começando por erros críticos e bloqueios.
-5. **Limitações:** amostra pequena e por conveniência, um elegível por tarefa principal, dados e decisões simulados, escolhas limitadas do Figma, presença dos autores como avaliadores, ausência de gravação no plano vigente e cenário sem a pressão real do balcão. A retomada cobre apenas o momento anterior ao salvamento. A rodada não permite generalizar para o comércio, certificar acessibilidade, demonstrar aprendizagem ou validar o algoritmo. O conteúdo audiovisual dos dois vídeos não pôde ser verificado integralmente; suas páginas e descrições foram identificadas, mas as transcrições não foram recuperadas.
+5. **Limitações:** amostra pequena e por conveniência, um elegível por tarefa principal, dados e decisões simulados, escolhas limitadas do Figma, presença dos autores como avaliadores e cenário sem a pressão real do balcão. A retomada cobre apenas o momento anterior ao salvamento. A rodada não permite generalizar para o comércio, certificar acessibilidade, demonstrar aprendizagem ou validar o algoritmo. O conteúdo audiovisual dos dois vídeos não pôde ser verificado integralmente; suas páginas e descrições foram identificadas, mas as transcrições não foram recuperadas.
 ## Checklist
 
 - [ ] Número de participantes finais atende ao enunciado.
