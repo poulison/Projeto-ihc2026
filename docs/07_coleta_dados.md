@@ -289,13 +289,15 @@ Paulo deve inserir o link de resposta do I01, conferir o acesso externo e regist
 
 ## Checklist
 
-- [ ] Cinco categorias de dados e perfis específicos para cada integrante.
-- [ ] Hipóteses, tarefas e decisões relacionadas.
-- [ ] Ética, consentimento e análise contextualizados.
-- [ ] Duas técnicas distintas, incluindo o questionário obrigatório.
-- [ ] Escolha dos métodos justificada diante das alternativas do material B.
-- [ ] Tipos de pergunta e protocolo de execução explicitados.
-- [ ] Contato para dúvidas e retirada, convite e consentimento disponíveis.
+Revisado em 25/11/2026. Os sete primeiros itens foram conferidos no conteúdo da entrega. **A entrega só fecha quando o item do link estiver marcado**: o questionário online é obrigatório, e a descrição no repositório e o script do instrumento não substituem o formulário publicado. Os itens de piloto, aplicação e análise dependem de participantes.
+
+- [x] Cinco categorias de dados e perfis específicos para cada integrante.
+- [x] Hipóteses, tarefas e decisões relacionadas.
+- [x] Ética, consentimento e análise contextualizados.
+- [x] Duas técnicas distintas, incluindo o questionário obrigatório.
+- [x] Escolha dos métodos justificada diante das alternativas do material B.
+- [x] Tipos de pergunta e protocolo de execução explicitados.
+- [x] Contato para dúvidas e retirada, convite e consentimento disponíveis.
 - [ ] Questionário publicado com link de resposta neste documento e acesso externo testado.
 - [ ] Ficha privada de notas da entrevista preparada.
 - [ ] Pilotos realizados e duração, dificuldades e ajustes registrados.
@@ -304,6 +306,6 @@ Paulo deve inserir o link de resposta do I01, conferir o acesso externo e regist
 
 ## Referências
 
-- Material da disciplina, identificado como Barbosa e Silva (2010): **CC8122-Identificacao Necessidades-A.pdf**, pp. 2–13, com os princípios éticos nas pp. 10–11; **CC8122-Identificacao Necessidades-B.pdf**, p. 2 para o conjunto de métodos, pp. 3–9 para entrevista, questionário e tipos de pergunta, pp. 10–19 para os métodos não adotados nesta etapa e pp. 20–21 para instrumento, protocolo, amostra e ferramenta online.
-- **Planejamento Avaliacao IHC.pdf**, pp. 25–26 e 33–36: preparação, piloto e limites de interpretação.
+- Material da disciplina CC8122, fornecido pelo professor e baseado em Barbosa e Silva (2010): **CC8122-Identificacao Necessidades-A.pdf**, pp. 2–13, com os princípios éticos nas pp. 10–11; **CC8122-Identificacao Necessidades-B.pdf**, p. 2 para o conjunto de métodos, pp. 3–9 para entrevista, questionário e tipos de pergunta, pp. 10–19 para os métodos não adotados nesta etapa e pp. 20–21 para instrumento, protocolo, amostra e ferramenta online.
+- Material da disciplina CC8122, fornecido pelo professor: *Planejamento da Avaliação de IHC*, pp. 25–26 e 33–36. Trata da preparação, do piloto e dos limites de interpretação.
 - Entregas [1](01_conhecendo_o_problema.md), [2](02_analise_concorrencia.md), [3](03_personas_contexto_jornada.md), [4](04_cenarios_problema.md), [5](05_analise_tarefas.md) e [6](06_prototipacao_papel.md).

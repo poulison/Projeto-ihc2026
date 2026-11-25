@@ -186,7 +186,27 @@ Um erro crítico em MU04 exige revisão mesmo que a tarefa seja rápida e receba
 
 ## 4. Como o ciclo será iterado
 
-Adotamos o **Ciclo de Vida da Engenharia de Usabilidade de Deborah Mayhew**. No recorte da Entrega 8, a equipe especifica os requisitos que orientarão o design. Na data desta revisão, o modelo conceitual, a MoLIC e o protótipo navegável já estão documentados. O próximo passo é verificar a versão escolhida para o piloto e calibrar os critérios antes das sessões principais.
+Adotamos o **Ciclo de Vida da Engenharia de Usabilidade de Deborah Mayhew**. No recorte da Entrega 8, a equipe especifica os requisitos que orientarão o design.
+
+**Onde o projeto está no modelo (25/11/2026).** A fase 1 está concluída como planejamento. Seus requisitos ainda dependem da coleta da E7. Na fase 2, os níveis 1 a 3 têm artefatos. O projeto está na **avaliação iterativa do nível 3**: a inspeção heurística (E13) está em andamento e a observação com usuários (E14) está prevista. A próxima etapa produz os achados da E13 e da E14 e a revisão do protótipo que deles resultar.
+
+| Etapa do modelo de Mayhew | Artefato do projeto | Situação |
+|---|---|---|
+| **Fase 1 · Análise de requisitos** | | |
+| Perfil do usuário | Personas P01/P02 (E3), problema e público (E1) | Concluído como hipótese; a validar pela E7 |
+| Análise contextual das tarefas | Cenários E4-C01/C02 (E4); HTA, GOMS e CTT de T01/T02 (E5) | Concluído |
+| Capacidades e restrições da plataforma | Seção 1 desta entrega | Concluído |
+| Princípios gerais de design | Seção 2: negócio e interface | Concluído |
+| Metas de usabilidade | Seção 3: qualitativas, MU01–MU07 e pesos de Nielsen | Concluído; limites a calibrar no piloto |
+| Guia de estilo | Seção 2.3, com as decisões mínimas | Iniciado; atualizado em cada nível de design |
+| **Fase 2 · Design, testes e desenvolvimento** | | |
+| Nível 1 · modelo conceitual e mockups | Cartões da E6; modelo conceitual e DCC (E9); MoLIC M01/M02 (E10) | Concluído |
+| Nível 1 · avaliação iterativa do modelo conceitual | Walkthrough da E6 | **Pendente**: a sessão de 23/11 não tem observações registradas |
+| Níveis 2 e 3 · padrões de tela e projeto detalhado | Protótipo navegável no Figma, com 28 estados (E11) | Concluído; revisado em 25/11 |
+| Níveis 2 e 3 · avaliação iterativa | Plano DECIDE (E12), inspeção heurística (E13), observação com usuários (E14) | **Etapa atual**: E13 em andamento, E14 prevista |
+| **Fase 3 · Instalação** | Acompanhamento do uso real | Fora do escopo da disciplina |
+
+O retorno a etapas anteriores segue a regra do modelo. Um problema de **interpretação** (o que um dado ou uma ação significa) volta ao nível 1, ou seja, ao modelo conceitual e à MoLIC. Um problema de **apresentação** (rótulo, posição, estado ausente) volta aos níveis 2 e 3 e ao guia de estilo. Um achado sobre **quem faz o quê** na rotina volta à fase 1. Em todos os casos, a mudança é registrada na matriz de rastreabilidade, e a tarefa afetada é avaliada de novo.
 
 | Fase do modelo | Aplicação no projeto | Quando voltar e o que rever |
 |---|---|---|
