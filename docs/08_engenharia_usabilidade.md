@@ -134,7 +134,7 @@ Usar os casos fictícios da E5 e conferir produto, unidade, valores e estado ini
 
 #### Métricas e critérios de aceitação
 
-**Todos os limites são propostas iniciais da equipe, sem linha de base medida.** Calibrá-los no piloto e congelar a versão antes do teste principal; não mudar limites depois de ver resultados para transformar falhas em sucesso.
+**Todos os limites são propostas iniciais da equipe, sem linha de base medida.** Como a equipe decidiu não fazer piloto (25/11/2026), os limites ficam como estão e a versão é congelada antes do teste principal; não mudar limites depois de ver resultados para transformar falhas em sucesso.
 
 | ID | Dimensão | Métrica e tarefa | Meta inicial | Como medir / justificativa |
 |---|---|---|---|---|
@@ -197,7 +197,7 @@ Adotamos o **Ciclo de Vida da Engenharia de Usabilidade de Deborah Mayhew**. No 
 | Análise contextual das tarefas | Cenários E4-C01/C02 (E4); HTA, GOMS e CTT de T01/T02 (E5) | Concluído |
 | Capacidades e restrições da plataforma | Seção 1 desta entrega | Concluído |
 | Princípios gerais de design | Seção 2: negócio e interface | Concluído |
-| Metas de usabilidade | Seção 3: qualitativas, MU01–MU07 e pesos de Nielsen | Concluído; limites a calibrar no piloto |
+| Metas de usabilidade | Seção 3: qualitativas, MU01–MU07 e pesos de Nielsen | Concluído; limites mantidos sem piloto |
 | Guia de estilo | Seção 2.3, com as decisões mínimas | Iniciado; atualizado em cada nível de design |
 | **Fase 2 · Design, testes e desenvolvimento** | | |
 | Nível 1 · modelo conceitual e mockups | Cartões da E6; modelo conceitual e DCC (E9); MoLIC M01/M02 (E10) | Concluído |
