@@ -130,7 +130,7 @@ A aula demonstra um recurso para comparar ocorrências. O avaliador pode atribui
 | M01 / T01 · Mariana Alves | Inspecionar a reposição da garrafa, do início em F01 à confirmação. Incluir adiamento, pendência, edição, pausa e recuperação. |
 | M02 / T02 · Rafael Costa | Inspecionar a conferência dos conjuntos de potes, do início em F01 ao desfecho. Incluir origem incerta, falta de autorização, pausa e recuperação. |
 | Data e versão do Figma inspecionada | 25/11/2026, na revisão disponível nesse dia. |
-| Dispositivo, navegador, área visível e zoom | Computador, navegador Brave. Área visível e zoom não registrados. |
+| Dispositivo, navegador, área visível e zoom | Computador, navegador Brave, com zoom padrão do navegador (100%). O monitor exibia o quadro inteiro de 1280 × 780 px sem rolagem. |
 | Caminhos descritos pelo avaliador | Reposição de garrafas, incluindo a escolha da quantidade e a tentativa com zero. Conferência dos potes, incluindo a comparação dos registros, a tentativa de pausa e a revisão da origem incerta. |
 
 ### 4. Matriz de cobertura das 10 heurísticas
@@ -183,7 +183,7 @@ Os graus abaixo são propostas para confirmação por Paulo. A frequência e a p
 | M01 / T01 · Mariana Alves | Analisar a reposição da garrafa térmica e registrar a decisão. Percurso principal previsto de F01 → F02 → F03 → F04 → F05 → F05S. |
 | M02 / T02 · Rafael Costa | Investigar a divergência no estoque de conjuntos de potes e conferir o desfecho. Percurso principal previsto de F01 → F10 → F11 → F12 → F13. |
 | Data e versão do Figma inspecionada | 25/11/2026, na revisão disponível nesse dia. |
-| Dispositivo, navegador, área visível e zoom | Computador, navegador Google Chrome. Área visível e zoom não registrados. |
+| Dispositivo, navegador, área visível e zoom | Computador, navegador Google Chrome, com zoom padrão do navegador (100%). O monitor exibia o quadro inteiro de 1280 × 780 px sem rolagem. |
 | Percursos relatados | Reposição das garrafas e conferência dos conjuntos de potes, com revisão, edição, validação, pausa, retomada e recuperação de falha. |
 
 ### 4. Matriz de cobertura das 10 heurísticas
