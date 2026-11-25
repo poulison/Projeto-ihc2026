@@ -135,7 +135,7 @@ Sessões em 25/11/2026, presenciais, na revisão do protótipo de 25/11/2026 (co
 
 | Tarefa | Grau de sucesso | Erros | Tipos de erro/dificuldade | Ajudas | Tempo | Satisfação | Evidência/observação |
 |---|---|---:|---|---:|---|---|---|
-| UT01 | Sucesso, sem ajuda | 0 | Demora pontual de leitura (ver nota acima) | 0 | ≈ 2–3 min | 4 | Disse que pode vender 4 garrafas: 6 na loja e 2 comprometidas com pedidos pagos. Disse que a previsão de 5 unidades em 3 dias pode variar. Planejou 6 unidades para cobrir a procura até quinta e conferiu o registro; apontou o contato com o fornecedor como próxima ação. |
+| UT01 | Sucesso, sem ajuda | 0 | Demora pontual de leitura (ver nota acima) | 0 | ≈ 2–3 min | 4 | Disse que pode vender 4 garrafas: 6 na loja e 2 comprometidas com pedidos pagos. Disse que a previsão de 5 unidades em 3 dias pode variar. Planejou 6 unidades para cobrir a procura até quinta e conferiu o registro. |
 | UT02 | Sucesso, sem ajuda | 0 | Demora pontual de leitura | 0 | ≈ 2–3 min | 5 | Disse que há 4 disponíveis e que, sem previsão, a procura futura é desconhecida. Registrou pendência para confirmar as vendas dos últimos 3 dias e conferir os pedidos pagos antes do meio-dia. |
 
 ### U02 — conferência
@@ -144,8 +144,8 @@ Sessões em 25/11/2026, presenciais, na revisão do protótipo de 25/11/2026 (co
 
 | Tarefa | Grau de sucesso | Erros | Tipos de erro/dificuldade | Ajudas | Tempo | Satisfação | Evidência/observação |
 |---|---|---:|---|---:|---|---|---|
-| UT03 | Sucesso, sem ajuda | 0 | Demora pontual de leitura | 0 | ≈ 2–3 min | 4 | Consultou a proprietária (resposta prevista no cenário), concluiu que a anotação copiava o pedido 1042 e desfez só o segundo desconto. Conferiu o saldo de 10 conjuntos e relatou que a correção se limitava ao item investigado. |
-| UT04 | Sucesso, sem ajuda | 0 | Demora pontual de leitura | 0 | ≈ 2–3 min | 5 | Preservou o saldo registrado de 8 conjuntos com a divergência em aberto diante da contagem de 10 e registrou a próxima verificação: conferir o comprovante de expedição com Mariana. |
+| UT03 | Sucesso, sem ajuda | 0 | Demora pontual de leitura | 0 | ≈ 2–3 min | 4 | Concluiu que a anotação copiava o pedido 1042 e desfez só o segundo desconto. Conferiu o saldo de 10 conjuntos e relatou que a correção se limitava ao item investigado. |
+| UT04 | Sucesso, sem ajuda | 0 | Demora pontual de leitura | 0 | ≈ 2–3 min | 5 | Preservou o saldo registrado de 8 conjuntos com a divergência em aberto diante da contagem de 10 e registrou a próxima verificação. |
 
 ### UT05 — retomada em conjunto
 
