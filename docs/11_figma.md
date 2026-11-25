@@ -80,14 +80,14 @@ Quando aplicável, considere: vazio/sem dados; carregamento/processamento; suces
 **Objetivo do usuário:** conferir o saldo corrigido e explicar à proprietária qual item foi resolvido.  
 **Signos principais:** saldo após a correção, responsável, data, justificativa e alcance parcial.  
 **Origem no MoLIC:** M02, conferência do resultado em O08 (fim de O02) e consulta opcional do alcance em O10.  
-**Redação revisada (a aplicar no arquivo do Figma).** O texto atual soa como ordem do sistema: “Informe a Mariana…” e “Comunique o resultado a Mariana fora do sistema.” A proposta comunica o alcance e a fronteira, sem dar ordens:
+**Redação revisada, aplicada no Figma em 25/11/2026.** O texto anterior soava como uma ordem do sistema: “Informe a Mariana…” e “Comunique o resultado a Mariana fora do sistema.” A nova redação comunica o alcance e a fronteira sem dar ordens. Responsável e data passaram a ocupar uma linha própria:
 
-| Elemento | Texto atual | Texto proposto |
+| Elemento | Texto anterior | Texto atual |
 |---|---|---|
 | Alcance da conferência | Informar a Mariana que apenas este item foi corrigido. | Apenas este item foi corrigido. Os outros 13 registros continuam em conferência. |
 | Mensagem de rodapé | Comunique o resultado a Mariana fora do sistema. Os demais registros continuam em conferência. | Nenhuma mensagem foi enviada pelo sistema. Se for informar Mariana, use este resumo. |
 
-A captura acima ainda mostra a versão de 11/11/2026. A redação final será confirmada na observação com usuários (E14), conforme sugerido no feedback.
+A observação com usuários (E14) vai confirmar se a redação deixa claro o alcance parcial, como sugere o feedback. F14 e F14N, que tratam de pendências, receberam a mesma estrutura: saldo registrado, desfecho, responsável e data e próxima verificação, com o aviso de que nenhuma mensagem é enviada.
 
 **Índice dos 28 estados editáveis.** Cada identificação abre o quadro correspondente no arquivo da equipe.
 
@@ -126,19 +126,19 @@ A captura acima ainda mostra a versão de 11/11/2026. A redação final será co
 
 ### Vocabulário: signos da E9 e rótulos do protótipo
 
-O feedback pediu que os termos do esquema conceitual mantivessem o mesmo significado no Figma. A conferência das capturas encontrou os pares abaixo. Quando o rótulo difere, a coluna de decisão indica o ajuste a fazer no arquivo ou a justificativa para manter o termo.
+O feedback pediu que os termos do esquema conceitual mantivessem o mesmo significado no Figma. A conferência das capturas encontrou os pares abaixo. Os ajustes foram aplicados no arquivo da equipe em 25/11/2026. Quando o rótulo foi mantido, a coluna de decisão registra a justificativa. As capturas da [E13](13_avaliacao_heuristica.md) continuam mostrando a versão de 11/11/2026, que foi a versão inspecionada.
 
 | Signo da E9 | Rótulo no protótipo | Onde | Decisão |
 |---|---|---|---|
 | Contagem física | Contagem física | F02 | Igual. |
 | Quantidade comprometida | Comprometidas | F02 | Mantido: forma curta em cartão, sem ambiguidade com o signo. |
 | Quantidade disponível | Disponíveis | F02 | Mantido: forma curta em cartão, sem ambiguidade com o signo. |
-| Saldo registrado | Saldo atual (F12); Saldo no histórico (F13) | F12, F13 | **Ajustar** para “Saldo registrado” nos dois quadros. “Atual” pode ser lido como contagem física. |
-| Próxima verificação | Próxima etapa | F10P | **Ajustar** para “Próxima verificação”. |
+| Saldo registrado | Antes: Saldo atual (F12); Saldo no histórico (F13, F14, F14N); Saldo preservado (F12F, F12P) | F12, F12F, F12P, F13, F14, F14N | **Ajustado** para “Saldo registrado” em todos os quadros. “Atual” podia ser lido como contagem física. |
+| Próxima verificação | Antes: Próxima etapa | F10P; também F14 e F14N | **Ajustado** para “Próxima verificação”. |
 | Ponto de retomada | Último ponto conferido | F10P | Mantido: descreve o mesmo conceito na linguagem de Rafael. |
-| Estado do registro | Estado | F10P | **Ajustar** para “Estado do registro”, distinguindo-o do desfecho. |
+| Estado do registro | Antes: Estado | F10P | **Ajustado** para “Estado do registro” (valor: “Rascunho · saldo registrado inalterado”), distinguindo-o do desfecho. |
 | Correção da transcrição | Correção proposta; Desconto indevido | F12 | Mantido: “proposta” marca que a correção ainda não foi gravada. |
-| Responsável e data | Desfecho · Rafael Costa · 09/11 | F13 | **Separar** responsável e data do desfecho em linhas próprias. |
+| Responsável e data | Antes: Desfecho · Rafael Costa · 09/11 | F13, F14, F14N | **Separado** em linha própria, “Responsável e data”. |
 | Previsão de demanda; horizonte | Previsão de demanda · próximos 3 dias | F02 | Igual. |
 
 ### Estados que devem ser preservados na implementação
@@ -195,16 +195,15 @@ As verificações da direita ainda não foram feitas. Elas serão registradas co
 
 ## Checklist
 
-Revisado em 25/11/2026. Os itens marcados foram conferidos nas capturas, na cobertura MoLIC e no índice de estados. O link foi aberto sem login em 11/11/2026 e deve ser conferido de novo em janela anônima antes de cada avaliação. Ficaram desmarcados os itens que dependem de execução real ou de ajuste ainda pendente:
+Revisado em 25/11/2026. Os itens marcados foram conferidos nas capturas, na cobertura MoLIC e no índice de estados. O link foi aberto sem login em 11/11/2026 e deve ser conferido de novo em janela anônima antes de cada avaliação. A terminologia foi conferida após os ajustes de 25/11/2026. Ficaram desmarcados os itens que dependem de execução real:
 
-- terminologia: faltam os ajustes de rótulo indicados na tabela de vocabulário;
 - fluxos clicáveis do início ao fim e ausência de links mortos: serão confirmados no piloto da E14, percorrendo todas as 57 ligações em modo de apresentação.
 
 - [x] Link do Figma está acessível.
 - [x] Há screenshots representativos no repositório.
 - [x] Todos os MoLIC relevantes estão cobertos.
 - [x] Estados de erro, feedback e recuperação foram prototipados.
-- [ ] Terminologia/signos são consistentes com Entrega 9.
+- [x] Terminologia/signos são consistentes com Entrega 9.
 - [x] Componentes equivalentes se comportam de forma consistente.
 - [ ] Fluxos críticos são clicáveis do início ao fim.
 - [ ] O protótipo está pronto para inspeção e testes, sem “links mortos” nas tarefas avaliadas.
