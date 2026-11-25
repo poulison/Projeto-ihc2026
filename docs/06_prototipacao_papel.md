@@ -2,12 +2,12 @@
 
 **Data:** 21/10/2026  
 **Revisão:** 25/11/2026  
-**Status:** 🟨 Protótipo revisado. A equipe informou a realização do walkthrough em 23/11/2026. O percurso observado nessa sessão permanece sem documentação suficiente.  
+**Status:** 🟦 revisada após feedback. O walkthrough cognitivo simulado foi documentado em 25/11/2026, sem participante. A sessão de 23/11/2026 com pessoa externa (W01) continua sem observações registradas.  
 **Responsabilidade:** 1 solução integrada por equipe — Equipe 14  
 **Integrantes:** Paulo Andre de Oliveira Hirata — 22.125.072-3; Victor Merker Binda — 22.125.075-6.  
 **Projeto:** Previsão de estoque em pequenos comércios usando machine learning — Estoque Inteligente.
 
-> **OBS:** ja existiam essas telas desenhadas no nosso projeto entao estamos usando elas de prototipo
+> **Origem e fidelidade das telas.** P01–P11 são capturas de telas que já existiam no projeto e foram reaproveitadas como protótipo. P07-0 a P17P são cartões de baixa fidelidade criados para a simulação. Como as capturas parecem acabadas, a pessoa observada e a própria equipe podem tratar decisões de design como definitivas. Na simulação, essas telas continuam abertas a mudanças: eliminar ou dividir telas, mudar a sequência, reorganizar informações, trocar rótulos e criar estados novos. O objetivo do walkthrough é encontrar problemas, não aprovar a interface atual.
 
 ## Objetivo da atividade
 
@@ -180,7 +180,64 @@ Estes cartões funcionam em papel ou na tela. A pessoa pode escrever a decisão 
 
 ## 4. Simulação / walkthrough
 
-A equipe registra a participação de Eric em 23/11/2026. O registro preservado contém o nome e a data. O percurso individual, as dificuldades e as decisões tomadas durante a sessão ficaram sem registro.
+A equipe registra uma sessão com um participante externo à elaboração das telas, identificado aqui como **W01**, em 23/11/2026. O nome fica fora do repositório. O registro preservado contém apenas o participante e a data. O percurso, as dificuldades e as decisões da sessão não foram registrados, então **esta entrega ainda não tem walkthrough documentado**. As mudanças da seção 5 vêm da inspeção da própria equipe, não da observação.
+
+**Registro da sessão, a preencher pela equipe com as notas de W01 ou de uma nova sessão.** Preencher só com o que foi observado. Campo sem lembrança segura fica marcado como “não registrado”.
+
+| Item | Registro |
+|---|---|
+| Data, duração e facilitador | 23/11/2026 · não registrado · não registrado |
+| Participante e perfil aproximado | W01 · perfil não registrado. Indicar se já trabalhou com estoque ou reposição e qual a familiaridade com sistemas, sem dados pessoais. |
+| Fluxos simulados e ordem dos cartões | Não registrado. PF01, PF02 e/ou PF03, e se P08 foi vista antes ou depois de P08-R. |
+| Instruções dadas | Não registrado. Usar o texto do roteiro abaixo ou anotar a diferença. |
+| Caminhos escolhidos | Não registrado. Sequência de cartões na ordem em que a pessoa pediu. |
+| Hesitações, dúvidas e interpretações incorretas | Não registrado. Onde ocorreram e o que a pessoa disse. |
+| O que esperava encontrar | Não registrado. Inclui caminhos sem cartão. |
+| Estados ou informações ausentes | Não registrado. |
+| Ajuda dada pelo facilitador | Não registrado. |
+| Mudanças decididas depois da sessão | Não registrado. Levar para a seção 5, na coluna “Origem”. |
+
+Uma observação de uma única pessoa é evidência formativa para revisar o design, não uma conclusão sobre todo o público.
+
+### Walkthrough cognitivo simulado — 25/11/2026
+
+**O que é e o que não é.** Como a sessão com W01 não tem registro, a equipe fez uma **simulação analítica** dos três percursos, com apoio de um assistente de IA. **Nenhuma pessoa externa participou.** Por isso, o registro abaixo não traz falas, tempos nem reações de W01. Ele aplica o método do walkthrough cognitivo: em cada passo, o avaliador assume o lugar da persona e responde a quatro perguntas.
+1. A pessoa tentaria atingir este efeito?
+2. Ela percebe que a ação correta está disponível?
+3. Ela associa a ação ao efeito desejado?
+4. Depois de agir, ela percebe que avançou?
+
+Esse é um método de inspeção e não substitui a sessão com pessoa externa pedida no feedback.
+
+| Item | Registro |
+|---|---|
+| Avaliadores | Equipe 14, com apoio de assistente de IA, sem participante |
+| Perfis simulados | Mariana (P01) em PF01; Rafael (P02) em PF02 e PF03 |
+| Fluxos e ordem dos cartões | PF01: P07-C → P07-P → P08-R → P12 → P13 → P14. PF02 com origem confirmada: P15 → P16C → P17C. PF02 com origem incerta: P15 → P16P → P17P. PF03: P11 → P03 |
+| Instruções | As do roteiro abaixo, lidas como se fossem para a persona |
+
+**Pontos encontrados, por passo**
+
+| Passo | Pergunta que falhou | O que a persona provavelmente faria ou esperaria | Gravidade |
+|---|---|---|---|
+| P07-C e P08-R · período | 3 | O cabeçalho mostra “22 a 28 de outubro” e o resumo diz “Previsão para 7 dias”. Mariana pode não saber se o intervalo é o histórico consultado ou os próximos dias da previsão. | Média |
+| P08-R · sugestão | 3 | “Sugestão da simulação: 13 unidades” fica logo acima de “Registrar decisão”. Mariana pode copiar 13 como quantidade sem entender a base do número. Além disso, o signo ainda depende de regra técnica confirmada no TCC. | Média |
+| P08-R · saldo | 1 | “Saldo disponível: 42 unidades” não mostra se há unidades comprometidas. No café não há reserva, então o percurso funciona. Num item com reserva, faltaria a separação usada depois na E9. | Baixa |
+| P12 · desfechos | 3 | A diferença entre “Adiar” e “Deixar pendente” não aparece no cartão. Mariana pode escolher qualquer um dos dois quando não vai comprar agora. | Média |
+| P14 · conclusão | 4 | “Conferir registro” não leva a outro cartão. A persona não sabe se ainda precisa fazer algo. O texto sobre o fornecedor resolve a dúvida principal. | Baixa |
+| P15 · consulta | 3 | “Consultar Mariana” sugere que o sistema envia a pergunta. Rafael pode esperar uma resposta dentro da tela, mas a consulta acontece fora do sistema. | Média |
+| P15 e P16P · rótulos | 2 | O mesmo ato aparece como “Registrar pendência” (P15) e “Salvar pendência” (P16P). | Baixa |
+| P17C e P17P · registro | 4 | O histórico não mostra quem registrou nem quando, embora Mariana precise saber isso ao receber o resultado. | Baixa |
+| P11 · erro | 2 | “SKU já cadastrado” aparece em texto pequeno, abaixo do botão e longe do campo SKU. Para quem não conhece o termo “SKU”, a mensagem não indica como encontrar o cadastro existente. | Média |
+
+**Decisões de revisão.** Nenhuma alteração estrutural foi decidida. Nenhum cartão foi redesenhado e os fluxos PF01–PF03 foram mantidos. Os pontos geraram ajustes de texto e de estado, a maioria já incorporada no protótipo navegável da E11:
+- O período da previsão foi separado do histórico de vendas: “Previsão de demanda · 5 unidades nos próximos 3 dias” e “Vendas confirmadas · últimos 3 dias” (F02).
+- A sugestão de reposição foi mantida como signo condicional e não aparece no Figma (E9 e E11).
+- A disponibilidade foi decomposta em física, comprometida e disponível (F02).
+- Adiamento e pendência ganharam descrições próprias (F03), e só a pendência pede a próxima verificação (F05P).
+- A consulta a Mariana ficou explicitamente fora do sistema (F11 e F13).
+- Responsável e data passaram para uma linha própria no histórico (F13, F14 e F14N).
+- **Pendente para uma versão futura:** aproximar a mensagem de código duplicado do campo e oferecer acesso ao cadastro existente. A tela de cadastro não faz parte de T01/T02 nem do protótipo da E11.
 
 **Percursos previstos nas telas originais P01–P11**
 
@@ -206,6 +263,8 @@ Apresentar os dados como fictícios. Deixar a pessoa escolher e pedir que conte 
 
 Em 24/11/2026, a equipe revisou o material da Entrega 6 para atender ao parecer do professor. Os cartões de reposição e conferência passaram a mostrar desfechos que o projeto já previa. A tabela registra as mudanças feitas nessa revisão.
 
+Todas as linhas abaixo têm a mesma **origem: inspeção interna da equipe**, feita antes do walkthrough cognitivo simulado. Os pontos desse walkthrough e as decisões correspondentes estão na seção 4. Se a sessão com W01 for registrada depois, acrescentar as mudanças observadas com origem “walkthrough W01”, separando problema percebido antes da sessão, problema observado, decisão de revisão e alteração realizada.
+
 | Antes | Problema | Depois | Justificativa |
 |---|---|---|---|
 | P07 pedia a seleção de um produto apesar de já mostrar a caneca. | A mensagem contradizia a seleção visível. | P07 mantém a caneca e os sete dias e informa que a comparação aguarda execução. Os cartões alternativos distinguem seleção vazia, histórico insuficiente, processamento e falha. | O próximo passo depende do estado. Quem já escolheu o produto pode executar a comparação. |
@@ -216,12 +275,13 @@ Em 24/11/2026, a equipe revisou o material da Entrega 6 para atender ao parecer 
 
 ## Checklist
 
-- [ ] O protótipo cobre tarefas relevantes da Entrega 5.
-- [ ] Cada tela/estado pode ser justificado por uma tarefa, decisão ou informação necessária.
-- [ ] O projeto não criou dashboard/CRUD/login apenas para parecer “completo”.
-- [ ] Telas/estados estão numerados e navegáveis na documentação.
-- [ ] Há pelo menos uma simulação/walkthrough documentado.
-- [ ] Críticas não foram apenas listadas: geraram decisão de revisão.
+- [x] O protótipo cobre tarefas relevantes da Entrega 5.
+- [x] Cada tela/estado pode ser justificado por uma tarefa, decisão ou informação necessária.
+- [x] O projeto não criou dashboard/CRUD/login apenas para parecer “completo”.
+- [x] Telas/estados estão numerados e navegáveis na documentação.
+- [x] Há pelo menos uma simulação/walkthrough documentado.
+- [x] Críticas não foram apenas listadas: geraram decisão de revisão.
 - [ ] O protótipo continua em baixa fidelidade; detalhes visuais não mascaram problemas de fluxo.
 
-A seção 4 reúne os dados disponíveis sobre o walkthrough. A seção 5 identifica as mudanças feitas em resposta ao parecer.
+Revisado em 25/11/2026. Os quatro primeiros itens foram conferidos no conteúdo da entrega: P12–P17P completam T01 e T02, P01 e P10 foram mantidas como telas auxiliares existentes, e não foram criadas telas novas além dos desfechos. A simulação documentada é o **walkthrough cognitivo simulado, sem participante**. Ele atende ao item como inspeção, mas não substitui a sessão com pessoa externa pedida no feedback. As decisões de revisão vêm desse walkthrough e da inspeção interna. Fica desmarcado:
+- **baixa fidelidade:** P01–P11 são capturas de alta fidelidade; só os cartões P07-0 a P17P são de baixa fidelidade.

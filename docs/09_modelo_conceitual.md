@@ -1,7 +1,8 @@
 # Entrega 9 — Modelo conceitual e design centrado na comunicação
 
 **Data:** 06/11/2026    
-**Status:** 🟩 concluída.  
+**Revisão:** 25/11/2026  
+**Status:** 🟦 revisada após feedback  
 **Responsabilidade:** Paulo Andre de Oliveira Hirata — CI01; Victor Merker Binda — CI02. O mapa consolidado, o dicionário de objetivos e o esquema de signos abrangem as duas soluções.
 
 ## Objetivo da atividade
