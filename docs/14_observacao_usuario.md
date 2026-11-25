@@ -20,11 +20,11 @@ Tarefas podem envolver, por exemplo, interpretar um dashboard, configurar uma an
 
 ## A. Fluxograma do processo — equipe
 
-![Processo planejado: preparar e testar o roteiro, recrutar, obter consentimento, observar as tarefas, realizar pós-teste, analisar e recomendar revisões](../assets/14_testes/fluxograma_avaliacao.png)
+![Processo planejado: preparar os instrumentos e conferir o protótipo, recrutar, obter consentimento, observar as tarefas, realizar pós-teste, analisar e recomendar revisões](../assets/14_testes/fluxograma_avaliacao.png)
 
 [Abrir o fluxograma em tamanho original](../assets/14_testes/fluxograma_avaliacao.png).
 
-O fluxo organiza as atividades de preparação, coleta, interpretação, consolidação e relato apresentadas na aula. O piloto antecede a coleta final; uma recusa de consentimento encerra a participação sem coleta. O percurso será repetido para o segundo participante. O diagrama representa o **procedimento previsto**, não etapas já executadas.
+O fluxo organiza as atividades de preparação, coleta, interpretação, consolidação e relato apresentadas na aula. Uma recusa de consentimento encerra a participação sem coleta. O percurso será repetido para o segundo participante. O diagrama representa o **procedimento previsto**, não etapas já executadas. Em 25/11/2026 a equipe decidiu não fazer teste piloto; a etapa 2 passou a ser a conferência do protótipo e dos materiais antes da primeira sessão.
 
 ## B. Procedimento de preparação e execução — equipe
 
@@ -46,7 +46,7 @@ O fluxo organiza as atividades de preparação, coleta, interpretação, consoli
 | MU06 — aprendizagem | Segunda execução equivalente sem ajuda e sem erro crítico. | **Não avaliada nesta versão:** falta outro produto/caso de complexidade equivalente. UT06 não será aplicada. |
 | MU07 — retomada | Identificar item, estado de salvamento e próxima ação em até 30 s após o retorno, sem duplicar registro. | UT05, aplicada separadamente em cada perfil. |
 
-**Ambiente e recursos:** sessão presencial individual, sala tranquila, notebook, navegador, mouse, cronômetro e fichas de registro. Prever 25–35 minutos, a ajustar no piloto. Registrar resolução, área visível, zoom e adaptações de leitura. Oferecer dois minutos de familiarização com a entrada do protótipo, sem demonstrar os caminhos avaliados. Reiniciar o caso entre tarefas; o Figma simula registros, não persiste compras ou movimentações reais.
+**Ambiente e recursos:** sessão presencial individual, sala tranquila, notebook, navegador, mouse, cronômetro e fichas de registro. Prever 25–35 minutos. Registrar resolução, área visível, zoom e adaptações de leitura. Oferecer dois minutos de familiarização com a entrada do protótipo, sem demonstrar os caminhos avaliados. Reiniciar o caso entre tarefas; o Figma simula registros, não persiste compras ou movimentações reais.
 
 Será mantido o formato presencial da E12. Uma eventual aplicação remota exige pilotar compartilhamento de tela, conexão e recursos de acessibilidade, registrar as condições e separar esperas de rede; não misturar tempos de modalidades diferentes sem explicitar essa diferença. Falhas ao salvar registros de estoque e estados de permissão previstos na E13 não serão provocados nesta rodada de observação.
 
@@ -54,10 +54,10 @@ Será mantido o formato presencial da E12. Uma eventual aplicação remota exige
 
 | ID | Perfil | Critérios que justificam participação | Integrante responsável |
 |---|---|---|---|
-| U01 — a recrutar | Adulto responsável por reposição em pequeno comércio; perfil relacionado a P01/Mariana. | Decide quantidades ou prioridades de compra e consulta estoque/procura. Registrar familiaridade digital e contato prévio com o projeto. Preferir pouca familiaridade com sistemas de estoque, sem deduzi-la da idade. | Paulo Andre de Oliveira Hirata modera e analisa; Victor Merker Binda observa e cronometra. |
-| U02 — a recrutar | Adulto que confere mercadorias e movimentações; perfil relacionado a P02/Rafael. | Tem experiência de comparar contagem física e registros ou investigar diferenças. Não precisa decidir compras. Registrar ferramentas utilizadas e experiência prévia. | Victor Merker Binda modera e analisa; Paulo Andre de Oliveira Hirata observa e cronometra. |
+| U01 — participante identificado, sessão pendente | Adulto responsável por reposição em pequeno comércio; perfil relacionado a P01/Mariana. | Decide quantidades ou prioridades de compra e consulta estoque/procura. Registrar familiaridade digital e contato prévio com o projeto. Preferir pouca familiaridade com sistemas de estoque, sem deduzi-la da idade. | Paulo Andre de Oliveira Hirata modera e analisa; Victor Merker Binda observa e cronometra. |
+| U02 — participante identificado, sessão pendente | Adulto que confere mercadorias e movimentações; perfil relacionado a P02/Rafael. | Tem experiência de comparar contagem física e registros ou investigar diferenças. Não precisa decidir compras. Registrar ferramentas utilizadas e experiência prévia. | Victor Merker Binda modera e analisa; Paulo Andre de Oliveira Hirata observa e cronometra. |
 
-**Amostra:** dois participantes finais previstos; **zero observados** até esta revisão. Recrutamento por conveniência, condicionado à experiência na tarefa. Não apresentar um colega sem experiência como representante do comércio. Cada participante fará somente os casos de seu perfil; UT05 será identificada também por M01 ou M02 para manter os resultados separados.
+**Amostra:** dois participantes finais; a equipe já identificou as duas pessoas, mas **nenhuma sessão foi realizada** até esta revisão. A experiência de cada uma com a atividade será confirmada no pré-teste. Recrutamento por conveniência, condicionado à experiência na tarefa. Não apresentar um colega sem experiência como representante do comércio. Cada participante fará somente os casos de seu perfil; UT05 será identificada também por M01 ou M02 para manter os resultados separados.
 
 No pré-teste, perguntar quais atividades de estoque a pessoa realiza, com que frequência, quais ferramentas utiliza, se já conhece o protótipo e se precisa de adaptações de leitura ou comunicação. Registrar as respostas nas notas da sessão. Não solicitar documentos pessoais, renda, dados de clientes ou nome do estabelecimento no relatório público.
 
@@ -69,13 +69,16 @@ No pré-teste, perguntar quais atividades de estoque a pessoa realiza, com que f
 - **Local e período de armazenamento:** planeja-se pasta local protegida por senha, fora do repositório e sem compartilhamento público, sob responsabilidade de Paulo, com acesso da dupla. Aceites em subpasta separada. Descartar notas individuais, chave e aceites em até 30 dias após a divulgação da correção final da atividade; manter somente a síntese desidentificada no projeto. Confirmar o local antes do recrutamento.
 - **Voluntariedade:** permitir pausa, recusa de pergunta e desistência, sem penalidade. Se houver retirada de consentimento, excluir os registros individuais ainda identificáveis e refazer a consolidação antes da publicação. Não transformar a retirada em falha de usabilidade. Oferecer leitura em voz alta ou formato acessível sem revelar soluções.
 
-### Passo 4 — Teste piloto
+### Passo 4 — Conferência antes das sessões (sem piloto)
 
-**Data:** não realizado; agendamento pendente, antes das sessões finais.  
-**O que foi validado:** ainda nada por execução. Estão definidos os itens a verificar: neutralidade das instruções, acesso aos estados A/B, simulação da consulta à proprietária, legibilidade, duração, cronometragem, classificação das ocorrências e coleta por notas.  
-**Mudanças após piloto:** inexistentes até o momento; registrar somente após aplicá-lo.
+**Decisão de 25/11/2026:** a equipe não fará teste piloto. Sem piloto, o roteiro não é ensaiado com uma pessoa antes da coleta. Instruções ambíguas, duração real e divergências de classificação só aparecerão nas sessões finais e serão registradas como dificuldades do procedimento, não do participante.
 
-Paulo representará U01 enquanto Victor conduz UT01, UT02 e UT05/M01. Em seguida, Victor representará U02 e Paulo conduz UT03, UT04 e UT05/M02. Nenhum deles entra na amostra final. Registrar nas notas do piloto as falhas do procedimento e divergências de classificação entre avaliadores; esses registros não entram nos resultados dos participantes finais.
+**Conferência no dia da primeira sessão, antes de receber a pessoa:**
+
+1. Abrir o link do protótipo em janela anônima, sem login, e confirmar a revisão de 25/11/2026.
+2. Percorrer os pontos de início usados nas tarefas: F01 (UT01 e UT03), “Moderador · Reposição sem previsão (F02B)” (UT02), F10 (UT04) e as pausas F02P, F10P e F11P (UT05).
+3. Conferir que o termo impresso, as fichas de U01/U02, o cronômetro e as respostas da consulta simulada a Mariana estão à mão.
+4. Combinar entre moderador e observador como classificar sucesso, sucesso parcial, ajuda e erro crítico, usando os critérios do passo 5.
 
 **Condição para iniciar a coleta final:** caminhos necessários acessíveis, dados consistentes, condições de consentimento resolvidas e roteiro compreensível sem pistas de navegação. Conferir especialmente F02B, F11, F12P, F14 e os estados de pausa. Uma tela ausente ou simulação incoerente deve ser corrigida e novamente verificada; não será contada como incapacidade do participante. Registrar revisão e ajustes antes de congelar o protocolo.
 
@@ -120,7 +123,7 @@ Somente a coluna **Cenário/instrução apresentada** será lida ao participante
 
 **Nenhuma sessão final foi realizada.** “NR” significa não realizado; “—” indica ausência de medição, não zero. Usar as tabelas desta seção para registrar os resultados. Nas notas de cada sessão, guardar data, versão, ambiente, início/fim, pausas/esperas, ações e intervenções; resumir tempo total e ativo na coluna Tempo e indicar quadro/instante nas evidências. UT06 não aparece nas tentativas previstas porque foi excluída do escopo desta versão.
 
-### U01 — responsável por reposição, a recrutar
+### U01 — responsável por reposição, sessão pendente
 
 | Tarefa | Grau de sucesso | Erros | Tipos de erro/dificuldade | Ajudas | Tempo | Satisfação | Evidência/observação |
 |---|---|---:|---|---:|---|---|---|
@@ -130,7 +133,7 @@ Somente a coluna **Cenário/instrução apresentada** será lida ao participante
 
 **Resposta pós-teste:** não coletada. Perfil efetivo, data, versão, consentimento e condições de uso serão registrados na sessão, sem nome no relatório público.
 
-### U02 — responsável por conferência, a recrutar
+### U02 — responsável por conferência, sessão pendente
 
 | Tarefa | Grau de sucesso | Erros | Tipos de erro/dificuldade | Ajudas | Tempo | Satisfação | Evidência/observação |
 |---|---|---:|---|---:|---|---|---|
@@ -164,7 +167,7 @@ Ainda não existem achados de observação. Os riscos investigados pelo roteiro 
 
 | ID | Achado | Evidência (quant. + qual.) | Impacto | Recomendação | Artefatos a revisar |
 |---|---|---|---|---|---|
-| Não atribuído | Nenhum achado de uso registrado; coleta pendente. | Não há tentativas, contagens ou falas de participantes. | Não estimado por observação. | Executar o protocolo após piloto e recrutamento. Recomendações de interface dependerão das ocorrências. | A definir a partir de cada evidência. |
+| Não atribuído | Nenhum achado de uso registrado; coleta pendente. | Não há tentativas, contagens ou falas de participantes. | Não estimado por observação. | Executar o protocolo nas duas sessões. Recomendações de interface dependerão das ocorrências. | A definir a partir de cada evidência. |
 
 Após observar, numerar AU01, AU02 etc. Cada linha deve reunir participante/tarefa, quadro e instante, comportamento observado, frequência sobre elegíveis e explicação pós-tarefa. Separar descrição do fato e interpretação da causa. Priorizar risco de saldo incorreto, duplicação ou falsa conclusão; depois bloqueio, ajuda e dificuldades recuperáveis. Uma ocorrência crítica pode ser prioritária mesmo sem recorrência.
 
@@ -190,8 +193,8 @@ Ao consolidar, usar o ID real da E13 e da E14, a versão e a cobertura da tarefa
 1. **Metas atingidas:** nenhuma foi avaliada com participantes até esta revisão. MU01–MU05 e MU07 têm protocolo definido; MU06 está fora da rodada por falta de variante equivalente. Preparar o teste não demonstra que as metas foram atingidas.
 2. **Problemas recorrentes e perfis:** ainda não há ocorrências ou recorrências observadas. A rodada prevê um participante de reposição e um de conferência; repetições da mesma pessoa não aumentarão artificialmente a amostra.
 3. **Surpresas:** não há descobertas de uso a relatar antes da execução. Expectativas da equipe permanecem hipóteses.
-4. **Prioridades:** preparar a pasta privada das fichas e dos aceites, preservar a versão do protótipo, realizar o piloto, recrutar e obter consentimento. Após a coleta, priorizar alterações sustentadas por evidência, começando por erros críticos e bloqueios.
-5. **Limitações:** amostra pequena e por conveniência, um elegível por tarefa principal, dados e decisões simulados, escolhas limitadas do Figma, presença dos autores como avaliadores, dependência das anotações tomadas durante a sessão e cenário sem a pressão real do balcão. A retomada cobre apenas o momento anterior ao salvamento. A rodada não permite generalizar para o comércio, certificar acessibilidade, demonstrar aprendizagem ou validar o algoritmo. O conteúdo audiovisual dos dois vídeos não pôde ser verificado integralmente; suas páginas e descrições foram identificadas, mas as transcrições não foram recuperadas.
+4. **Prioridades:** preparar a pasta privada das fichas e dos aceites, preservar a versão do protótipo, fazer a conferência anterior à primeira sessão, agendar as duas sessões e obter consentimento. Após a coleta, priorizar alterações sustentadas por evidência, começando por erros críticos e bloqueios.
+5. **Limitações:** amostra pequena e por conveniência, um elegível por tarefa principal, dados e decisões simulados, escolhas limitadas do Figma, presença dos autores como avaliadores, ausência de teste piloto, dependência das anotações tomadas durante a sessão e cenário sem a pressão real do balcão. A retomada cobre apenas o momento anterior ao salvamento. A rodada não permite generalizar para o comércio, certificar acessibilidade, demonstrar aprendizagem ou validar o algoritmo. O conteúdo audiovisual dos dois vídeos não pôde ser verificado integralmente; suas páginas e descrições foram identificadas, mas as transcrições não foram recuperadas.
 ## Checklist
 
 - [ ] Número de participantes finais atende ao enunciado.
@@ -200,7 +203,7 @@ Ao consolidar, usar o ID real da E13 e da E14, a versão e a cobertura da tarefa
 - [ ] O teste avalia a interação; não confunde usabilidade do protótipo com desempenho técnico do TCC.
 - [ ] Tarefas administrativas/analíticas usadas no teste são rastreáveis a objetivos e cenários.
 - [ ] Há consentimento e anonimização.
-- [ ] Foi realizado teste piloto.
+- [ ] Foi realizado teste piloto. *Não será realizado, por decisão da equipe em 25/11/2026; substituído pela conferência descrita no passo 4 e registrado como limitação.*
 - [ ] Tarefas têm critérios de sucesso definidos antes do teste.
 - [ ] Moderadores não ensinaram o caminho durante a tarefa.
 - [ ] Resultados estão separados por usuário e por tarefa.

@@ -241,7 +241,7 @@ As verificações da direita ainda não foram feitas. Elas serão registradas co
 
 ## Checklist
 
-Revisado em 25/11/2026. Os itens marcados foram conferidos nas capturas, na cobertura MoLIC e no índice de estados. O link foi aberto sem login em 11/11/2026 e deve ser conferido de novo em janela anônima antes de cada avaliação. A terminologia foi conferida após os ajustes de 25/11/2026. Os fluxos clicáveis e a ausência de links mortos foram verificados no modo de apresentação, clicando nas 57 ligações (ver “Verificação dos fluxos clicáveis”). O piloto da E14 continua necessário para conferir o roteiro com uma pessoa.
+Revisado em 25/11/2026. Os itens marcados foram conferidos nas capturas, na cobertura MoLIC e no índice de estados. O link foi aberto sem login em 11/11/2026 e deve ser conferido de novo em janela anônima antes de cada avaliação. A terminologia foi conferida após os ajustes de 25/11/2026. Os fluxos clicáveis e a ausência de links mortos foram verificados no modo de apresentação, clicando nas 57 ligações (ver “Verificação dos fluxos clicáveis”). A E14 não terá piloto; o link e os pontos de início serão conferidos antes da primeira sessão.
 
 - [x] Link do Figma está acessível.
 - [x] Há screenshots representativos no repositório.
