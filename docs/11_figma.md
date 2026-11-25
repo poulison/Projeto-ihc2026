@@ -90,18 +90,19 @@ Quando aplicável, considere: vazio/sem dados; carregamento/processamento; suces
 
 A observação com usuários (E14) vai confirmar se a redação deixa claro o alcance parcial, como sugere o feedback. F14 e F14N, que tratam de pendências, receberam a mesma estrutura: saldo registrado, desfecho, responsável e data e próxima verificação, com o aviso de que nenhuma mensagem é enviada.
 
-**Índice dos 28 estados editáveis.** Cada identificação abre o quadro correspondente no arquivo da equipe.
+**Índice dos 30 quadros editáveis.** Cada identificação abre o quadro correspondente no arquivo da equipe. F04Q e F11P foram criados em 25/11/2026 para corrigir C01 e C03 da E13. Os quadros marcados com *moderador* abrem pelos pontos de início do moderador, não por um botão nas telas do participante.
 
 | Quadro | Tela ou estado | Ações disponíveis |
 |---|---|---|
 | [F01](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-2) | Visão geral do estoque | Analisar reposição · Investigar divergência |
-| [F02](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-49) | Analisar reposição | Escolher decisão · Pausar análise · Ver caso sem previsão |
+| [F02](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-49) | Analisar reposição | Escolher decisão · Pausar análise |
 | [F02P](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-90) | Análise pausada | Retomar análise |
-| [F02B](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-112) | Previsão indisponível | Preparar pendência · Voltar à análise |
+| [F02B](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-112) | Previsão indisponível *(moderador)* | Preparar pendência · Voltar à análise |
 | [F03](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-139) | Qual decisão registrar? | Planejar quantidade · Adiar neste ciclo · Registrar pendência |
 | [F04](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-168) | Quantidade planejada | Revisar 6 unidades · Usar 4 unidades · Zerar quantidade · Voltar |
+| [F04Q](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=54-2) | Quantidade planejada (rascunho de 4 unidades) | Revisar 4 unidades · Usar 6 unidades · Zerar quantidade · Voltar |
 | [F04E](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-199) | Confira a quantidade | Corrigir quantidade |
-| [F05](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-221) | Revisar decisão | Confirmar decisão · Editar · Descartar rascunho · Testar falta de resposta |
+| [F05](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-221) | Revisar decisão | Confirmar decisão · Editar · Descartar rascunho |
 | [F05S](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-252) | Decisão salva | Concluir e voltar ao início |
 | [F05Q](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-277) | Revisar decisão | Confirmar decisão · Editar · Descartar rascunho |
 | [F05QS](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-306) | Decisão salva | Concluir e voltar ao início |
@@ -109,15 +110,16 @@ A observação com usuários (E14) vai confirmar se a redação deixa claro o al
 | [F05AS](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-360) | Decisão salva | Concluir e voltar ao início |
 | [F05P](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-385) | Revisar decisão | Confirmar decisão · Editar · Descartar rascunho |
 | [F05PS](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-414) | Decisão salva | Concluir e voltar ao início |
-| [F06E](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-439) | Aguardando confirmação | Consultar registro · Ver falha confirmada |
-| [F06R](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-463) | Gravação não concluída | Reabrir rascunho |
+| [F06E](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-439) | Aguardando confirmação *(moderador)* | Consultar registro |
+| [F06R](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-463) | Gravação não concluída *(moderador)* | Reabrir rascunho |
 | [F10](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-485) | Investigar divergência | Confrontar registros · Pausar conferência |
 | [F10P](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-524) | Conferência pausada | Retomar conferência |
-| [F11](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-549) | Confrontar registros | Mesma saída confirmada · Origem incerta · Voltar |
-| [F12](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-578) | Revisar correção | Confirmar correção · Sem autorização · Editar · Testar falha |
-| [F12E](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-621) | Consultar gravação | Consultar resultado · Falha confirmada |
-| [F12F](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-645) | Correção não salva | Revisar correção |
-| [F12N](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-667) | Autorização necessária | Confirmar pendência · Voltar |
+| [F11](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-549) | Confrontar registros | Mesma saída confirmada · Origem incerta · Voltar · Pausar conferência |
+| [F11P](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=54-36) | Conferência pausada durante a comparação | Retomar conferência (volta a F11) |
+| [F12](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-578) | Revisar correção | Confirmar correção · Editar |
+| [F12E](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-621) | Consultar gravação *(moderador)* | Consultar resultado |
+| [F12F](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-645) | Correção não salva *(moderador)* | Revisar correção |
+| [F12N](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-667) | Autorização necessária *(moderador)* | Confirmar pendência · Voltar |
 | [F12P](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-694) | Revisar pendência | Confirmar pendência · Rever evidências · Descartar rascunho |
 | [F13](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-723) | Correção registrada | Concluir e voltar ao início |
 | [F14](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-748) | Pendência registrada | Concluir e voltar ao início |
@@ -167,7 +169,7 @@ Os estados abaixo não são telas extras arbitrárias. Cada um materializa uma r
 
 ### Estados semelhantes: complexidade necessária ou variação de componente
 
-Os 28 quadros existem porque o Figma precisa de um quadro por destino clicável. Para a implementação, vários são **variações de um mesmo componente**, e não telas distintas:
+Os 30 quadros existem porque o Figma precisa de um quadro por destino clicável. Para a implementação, vários são **variações de um mesmo componente**, e não telas distintas:
 
 | Quadros | Diferença real | Implementação sugerida |
 |---|---|---|
@@ -175,8 +177,10 @@ Os 28 quadros existem porque o Figma precisa de um quadro por destino clicável.
 | F05S, F05QS, F05AS, F05PS · Decisão salva | Desfecho registrado | Um componente de confirmação com quatro variações |
 | F14, F14N · Pendência registrada | Motivo: evidência insuficiente ou falta de autorização | Um componente com motivo variável |
 | F06E e F12E; F06R e F12F | Fluxo de origem | Um mesmo padrão de gravação incerta e de falha nos dois fluxos |
+| F04 e F04Q · Quantidade planejada | Quantidade e motivo do rascunho | O mesmo formulário, preenchido com a escolha atual |
+| F10P e F11P · Conferência pausada | Ponto em que a pausa ocorreu | Um componente de pausa que guarda a etapa da investigação |
 
-Assim, os 28 quadros correspondem a **21 estados distintos**. As avaliações devem verificar se outros pares podem virar mensagens dentro da mesma tela. Um exemplo é F02B como variação de F02. Também devem verificar se algum estado é redundante ou difícil de distinguir.
+Assim, os 30 quadros correspondem a **21 estados distintos**. As avaliações devem verificar se outros pares podem virar mensagens dentro da mesma tela. Um exemplo é F02B como variação de F02. Também devem verificar se algum estado é redundante ou difícil de distinguir.
 
 ### Verificação dos fluxos clicáveis (25/11/2026)
 
@@ -194,7 +198,22 @@ Os fluxos foram verificados de duas formas, na versão do arquivo com os ajustes
 | M02 · pausa, retorno, autorização e falha | F01 → F10 ⇄ F10P; F10 ⇄ F11; F11 → F12P → F11 → F12 → F11 → F12 → F12N → F11 → F12 → F12E → F12F → F12 → F12E → F13 → F01 |
 | M02 · desfechos | F12 → F13 → F01; F12 → F12N → F14N → F01; F11 → F12P → F14 → F01; F12P → F01 (“Descartar rascunho”) |
 
-**Limites.** A verificação foi feita com uma conta logada no Figma e numa janela estreita, com o protótipo reduzido. O acesso sem login foi conferido em 11/11/2026 e deve ser repetido em janela anônima antes de cada sessão, como prevê a E12. Essa verificação confirma a navegação, não a usabilidade. Os problemas da E13 continuam valendo, como A02-V03: “Editar” em F05Q volta ao rascunho de 6 unidades.
+**Limites.** A verificação foi feita com uma conta logada no Figma e numa janela estreita, com o protótipo reduzido. O acesso sem login foi conferido em 11/11/2026 e deve ser repetido em janela anônima antes de cada sessão, como prevê a E12. Essa verificação confirma a navegação, não a usabilidade. Esta verificação é anterior às correções da E13 descritas abaixo.
+
+### Correções após a avaliação heurística (25/11/2026)
+
+A consolidação da [E13](13_avaliacao_heuristica.md#7-consolidação-da-equipe) indicou C01–C05 como correções necessárias antes da E14. Elas foram aplicadas no arquivo da equipe em 25/11/2026. C06 foi aplicada em parte, só com texto.
+
+| ID | Mudança no Figma | Verificação no modo de apresentação |
+|---|---|---|
+| C01 | Novo quadro F04Q, com 4 unidades e o motivo de limitar a compra ao caixa. **Editar** em F05Q leva a F04Q, que oferece **Revisar 4 unidades** (→ F05Q) e **Usar 6 unidades** (→ F05). | F04 → Usar 4 unidades → F05Q → Editar → F04Q mostra 4 unidades e o motivo do caixa → Revisar 4 unidades → F05Q com “Planejar 4 unidades”. |
+| C02 | Os controles da simulação foram ocultados das telas do participante: **Ver caso sem previsão** (F02), **Testar falta de resposta** (F05), **Ver falha confirmada** (F06E), **Sem autorização** e **Testar falha** (F12) e **Falha confirmada** (F12E). Em F12, **Editar** ocupou o lugar livre. Os casos passaram a abrir por seis pontos de início do moderador: F02B, F06E, F06R, F12N, F12E e F12F. | F02 mostra só Escolher decisão e Pausar análise. F12 mostra só Confirmar correção e Editar. |
+| C03 | **Pausar conferência** em F11 leva ao novo F11P, que registra que pedido, anotação e recontagem já foram comparados e indica a próxima verificação. **Retomar conferência** volta a F11. | F11 → Pausar conferência → F11P → Retomar conferência → F11, com as três fontes visíveis. |
+| C04 | F12P: “contagem física: 10 conjuntos”. F10: “conjuntos · 24 potes” no saldo e “conjuntos · 30 potes” na contagem. | Leitura de F12P e F10 no modo de apresentação. |
+| C05 | Áreas de clique transparentes, 6 px maiores em cada lado, atrás dos três botões de F03, com o mesmo destino. | Clique na borda esquerda e fora do canto inferior esquerdo de **Adiar neste ciclo**: os dois abriram F05A. |
+| C06 (parcial) | Subtítulos com a referência da decisão: F11 mostra saldo 8, contagem 10 e diferença +2; F04, F04Q e F05Q mostram 4 disponíveis e a previsão de 5 unidades em 3 dias. | Leitura de F11 e F05Q no modo de apresentação. |
+
+**Estrutura após as correções.** Leitura das interações no arquivo: 30 quadros, **60 ligações visíveis**, nenhuma para quadro inexistente e nenhum quadro sem saída. Todo quadro volta a F01. Sete quadros (F02B, F06E, F06R, F12E, F12F, F12N e F14N) só são alcançados pelos pontos de início do moderador. Os outros 23 continuam alcançáveis a partir de F01. Foram clicados no modo de apresentação apenas os percursos da tabela acima, não as 60 ligações. C07–C13 continuam abertos, conforme a E13.
 
 ## Sistema visual e consistência
 
