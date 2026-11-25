@@ -29,8 +29,8 @@ Leia obrigatoriamente o [Guia para definir o escopo de IHC a partir do tema do T
 
 | Nome completo | Matrícula | GitHub | Responsabilidade principal |
 |---|---:|---|---|
-| Paulo Andre de Oliveira Hirata | 22125072-3 | @poulison | {{...}} |
-| Victor Merker Binda | 22.125.075-6 | {{@usuario}} | {{...}} |
+| Paulo Andre de Oliveira Hirata | 22.125.072-3 | @poulison | Fluxo de reposição: persona P01, cenário C01, tarefa T01, questionário I01, MoLIC M01 |
+| Victor Merker Binda | 22.125.075-6 | @victorrbb | Fluxo de conferência: persona P02, cenário C02, tarefa T02, entrevista I02, MoLIC M02 |
 
 ## Relação entre TCC e projeto de IHC
 
