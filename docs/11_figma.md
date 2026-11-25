@@ -204,6 +204,8 @@ Os fluxos foram verificados de duas formas, na versão do arquivo com os ajustes
 
 A consolidação da [E13](13_avaliacao_heuristica.md#7-consolidação-da-equipe) indicou C01–C05 como correções necessárias antes da E14. Elas foram aplicadas no arquivo da equipe em 25/11/2026. C06 foi aplicada em parte, só com texto.
 
+**Versões do arquivo.** O link do Figma é o mesmo antes e depois das correções. A E13 inspecionou o estado anterior, com 28 quadros. A E14 usou o estado corrigido, com 30 quadros, salvo no histórico de versões como “E14 · estado das sessões de 25/11/2026” (ID 2425846899978638270). Para abrir essa versão, use o histórico de versões do arquivo (menu do arquivo → Mostrar histórico de versões).
+
 | ID | Mudança no Figma | Verificação no modo de apresentação |
 |---|---|---|
 | C01 | Novo quadro F04Q, com 4 unidades e o motivo de limitar a compra ao caixa. **Editar** em F05Q leva a F04Q, que oferece **Revisar 4 unidades** (→ F05Q) e **Usar 6 unidades** (→ F05). | F04 → Usar 4 unidades → F05Q → Editar → F04Q mostra 4 unidades e o motivo do caixa → Revisar 4 unidades → F05Q com “Planejar 4 unidades”. |

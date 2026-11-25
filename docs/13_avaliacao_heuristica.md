@@ -38,7 +38,7 @@ O escopo é a navegação simulada do Figma. Filtros combinados, exportações, 
 
 | Item | Definição |
 |---|---|
-| Versão avaliada | Revisão da Entrega 11 disponível em 25/11/2026, com os rótulos alinhados ao esquema de signos da E9. As duas fichas foram feitas nessa data, sobre a mesma revisão. As capturas de referência abaixo vêm da versão de 11/11/2026; as fichas trazem as capturas que cada avaliador usou como evidência. [Abrir apresentação](https://www.figma.com/proto/jgB0Bk5BLQ3XM2W9tgZDmd/Estoque-Inteligente?page-id=0%3A1&node-id=2-2&starting-point-node-id=2%3A2&scaling=scale-down) |
+| Versão avaliada | Revisão da Entrega 11 disponível em 25/11/2026, com os rótulos alinhados ao esquema de signos da E9 e **28 quadros**, antes das correções C01–C05. As duas fichas foram feitas nessa data, sobre a mesma revisão. O link do Figma é mutável: as correções aplicadas depois desta inspeção mudaram o mesmo arquivo (30 quadros, ver [E11](11_figma.md#correções-após-a-avaliação-heurística-25112026)). O estado inspecionado só pode ser consultado no histórico de versões do arquivo, nas versões automáticas anteriores às correções. As capturas de referência abaixo vêm da versão de 11/11/2026; as fichas trazem as capturas que cada avaliador usou como evidência. [Abrir apresentação](https://www.figma.com/proto/jgB0Bk5BLQ3XM2W9tgZDmd/Estoque-Inteligente?page-id=0%3A1&node-id=2-2&starting-point-node-id=2%3A2&scaling=scale-down) |
 | Telas/estados | 28 quadros no inventário abaixo. Os links abrem cada quadro no arquivo de design para localizar evidências. Percorrer as ações em modo de apresentação. |
 | Fluxos | M01/T01/O01 — Mariana toma uma decisão de reposição fundamentada e recuperável. M02/T02/O02 — Rafael investiga a divergência para tornar o saldo do item confiável e explicável. Ambos retomam as personas da Entrega 3, os cenários da Entrega 4, a análise de tarefas da Entrega 5 e os signos e modelos das Entregas 9 e 10. |
 | Dispositivo/viewport | Previsto notebook com navegador e mouse. Os quadros têm 1280 × 780 px. No dia da inspeção, registrar na ficha o navegador, a área efetivamente disponível e o zoom usados. |
@@ -130,7 +130,7 @@ A aula demonstra um recurso para comparar ocorrências. O avaliador pode atribui
 | Escopo previsto | 28 quadros de 1280 × 780 px. O inventário da seção 2 inclui os percursos principais, as alternativas e os estados de recuperação. |
 | M01 / T01 · Mariana Alves | Inspecionar a reposição da garrafa, do início em F01 à confirmação. Incluir adiamento, pendência, edição, pausa e recuperação. |
 | M02 / T02 · Rafael Costa | Inspecionar a conferência dos conjuntos de potes, do início em F01 ao desfecho. Incluir origem incerta, falta de autorização, pausa e recuperação. |
-| Data e versão do Figma inspecionada | 25/11/2026, na revisão disponível nesse dia. |
+| Data e versão do Figma inspecionada | 25/11/2026, na revisão disponível nesse dia, com 28 quadros, antes das correções C01–C05. |
 | Dispositivo, navegador, área visível e zoom | Computador, navegador Brave, com zoom padrão do navegador (100%). O monitor exibia o quadro inteiro de 1280 × 780 px sem rolagem. |
 | Caminhos descritos pelo avaliador | Reposição de garrafas, incluindo a escolha da quantidade e a tentativa com zero. Conferência dos potes, incluindo a comparação dos registros, a tentativa de pausa e a revisão da origem incerta. |
 
@@ -183,7 +183,7 @@ Os graus abaixo foram confirmados por Paulo em 25/11/2026. A frequência e a per
 | Escopo previsto | 28 quadros de 1280 × 780 px. O inventário da seção 2 inclui os percursos principais, as alternativas e os estados de recuperação. |
 | M01 / T01 · Mariana Alves | Analisar a reposição da garrafa térmica e registrar a decisão. Percurso principal previsto de F01 → F02 → F03 → F04 → F05 → F05S. |
 | M02 / T02 · Rafael Costa | Investigar a divergência no estoque de conjuntos de potes e conferir o desfecho. Percurso principal previsto de F01 → F10 → F11 → F12 → F13. |
-| Data e versão do Figma inspecionada | 25/11/2026, na revisão disponível nesse dia. |
+| Data e versão do Figma inspecionada | 25/11/2026, na revisão disponível nesse dia, com 28 quadros, antes das correções C01–C05. |
 | Dispositivo, navegador, área visível e zoom | Computador, navegador Google Chrome, com zoom padrão do navegador (100%). O monitor exibia o quadro inteiro de 1280 × 780 px sem rolagem. |
 | Percursos relatados | Reposição das garrafas e conferência dos conjuntos de potes, com revisão, edição, validação, pausa, retomada e recuperação de falha. |
 

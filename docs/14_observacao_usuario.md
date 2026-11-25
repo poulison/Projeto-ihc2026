@@ -31,7 +31,7 @@ O fluxo organiza as atividades de preparação, coleta, interpretação, consoli
 
 ### Passo 1 — Objetivos e versão avaliada
 
-**Versão/commit/Figma:** revisão do protótipo de 25/11/2026, com as correções C01–C05 da [E13](13_avaliacao_heuristica.md#8-síntese-e-plano-de-melhoria) aplicadas e 30 quadros de 1280 × 780 px (detalhes na [E11](11_figma.md#correções-após-a-avaliação-heurística-25112026)). [Abrir o protótipo](https://www.figma.com/proto/jgB0Bk5BLQ3XM2W9tgZDmd/Estoque-Inteligente?page-id=0%3A1&node-id=2-2&starting-point-node-id=2%3A2&scaling=scale-down). O repositório foi consultado no commit [`c8e5000`](https://github.com/poulison/Projeto-ihc2026/commit/c8e5000ac3f80c4bc50a7064955ed6af2483ea36). Esse commit identifica a documentação consultada; não congela o conteúdo do Figma. Antes do piloto, registrar a revisão efetiva do protótipo e preservar uma cópia identificada. Depois do piloto, manter a mesma revisão nas duas sessões.
+**Versão/commit/Figma:** revisão do protótipo de 25/11/2026, com as correções C01–C05 da [E13](13_avaliacao_heuristica.md#8-síntese-e-plano-de-melhoria) aplicadas e 30 quadros de 1280 × 780 px (detalhes na [E11](11_figma.md#correções-após-a-avaliação-heurística-25112026)). [Abrir o protótipo](https://www.figma.com/proto/jgB0Bk5BLQ3XM2W9tgZDmd/Estoque-Inteligente?page-id=0%3A1&node-id=2-2&starting-point-node-id=2%3A2&scaling=scale-down). O repositório foi consultado no commit [`c8e5000`](https://github.com/poulison/Projeto-ihc2026/commit/c8e5000ac3f80c4bc50a7064955ed6af2483ea36). Esse commit identifica a documentação consultada; não congela o conteúdo do Figma. As duas sessões usaram a mesma revisão, sem alterações no arquivo entre elas. Como o link do protótipo é mutável, essa revisão foi salva no histórico de versões do Figma como “E14 · estado das sessões de 25/11/2026” (ID da versão 2425846899978638270). Ela é a referência desta entrega. A E13 inspecionou o estado anterior, com 28 quadros.
 
 **Perguntas:** a pessoa distingue estoque físico, comprometido e disponível? Entende o alcance da previsão e do registro de uma decisão? Investiga a origem da diferença antes de corrigir o saldo? Reconhece uma pendência e retoma sem duplicar o trabalho?
 
@@ -67,6 +67,7 @@ No pré-teste, perguntar quais atividades de estoque a pessoa realiza, com que f
 - **Consentimento.** O moderador apresenta o [termo da equipe](../assets/14_testes/termo_consentimento.md), esclarece dúvidas, entrega uma cópia e obtém o aceite antes do pré-teste. Victor é o contato para dúvidas e retirada.
 - **Desvio em 25/11/2026:** as sessões ocorreram **sem termo assinado**. Nenhum nome foi registrado nas fichas ou no repositório; os participantes aparecem só como U01 e U02.
 - **Aceite obtido depois da sessão (25/11/2026):** as duas pessoas gravaram, cada uma, um vídeo declarando que têm 18 anos ou mais, que participaram do teste em 25/11/2026, que concordam com o uso das anotações sem identificação, que a participação foi voluntária e que podem retirar o consentimento pelo contato do Victor. A equipe conferiu os dois vídeos. Eles ficam na pasta privada da dupla, fora do repositório, e seguem o mesmo prazo de descarte das fichas.
+- **Termo escrito assinado (25/11/2026):** depois de contato por telefone, os dois participantes assinaram o termo de consentimento escrito em 25/11/2026 e confirmaram a assinatura à equipe por mensagem. As vias assinadas (ou fotos delas) ficam na pasta privada, junto com os vídeos, e seguem o mesmo prazo de descarte. Os nomes não aparecem no repositório.
 - **Registro da sessão.** O observador cronometra as tentativas e anota na ficha o quadro, a ação, o instante e a consequência. Identifica falas literais somente quando pôde anotá-las com segurança.
 - **Identificação:** usar U01 e U02 nas notas e no relatório. Manter aceites e eventual chave de identificação separados. Esses códigos representam pseudonimização enquanto existir vínculo identificável; retirar detalhes que permitam reconhecer a pessoa na versão pública.
 - **Local e período de armazenamento:** planeja-se pasta local protegida por senha, fora do repositório e sem compartilhamento público, sob responsabilidade de Paulo, com acesso da dupla. Aceites em subpasta separada. Descartar notas individuais, chave e aceites em até 30 dias após a divulgação da correção final da atividade; manter somente a síntese desidentificada no projeto. Confirmar o local antes do recrutamento.
@@ -210,7 +211,7 @@ Problema previsto e não observado não significa problema inexistente: dois par
     - Participantes aproximados: não trabalham com estoque e já conheciam o projeto.
     - UT05 e o pós-teste foram feitos com as duas pessoas juntas; uma pode ter influenciado a outra.
     - Tempos estimados, não cronometrados por tarefa.
-    - Consentimento obtido só depois da sessão, em vídeo, e não por termo assinado antes; sem piloto e sem gravação da sessão.
+    - Consentimento obtido só depois da sessão (em vídeo e por termo assinado em 25/11/2026), e não antes das tarefas; sem piloto e sem gravação da sessão.
     - Autores do projeto como moderadores e observadores.
     - Dados e decisões simulados no Figma.
     - Os resultados não permitem generalizar para o comércio, demonstrar aprendizagem ou validar o algoritmo.
@@ -222,7 +223,7 @@ Problema previsto e não observado não significa problema inexistente: dois par
 - [x] Se foram usados participantes proxy, a justificativa e a limitação estão explícitas.
 - [x] O teste avalia a interação; não confunde usabilidade do protótipo com desempenho técnico do TCC.
 - [x] Tarefas administrativas/analíticas usadas no teste são rastreáveis a objetivos e cenários.
-- [x] Há consentimento e anonimização. *Anonimização por código (U01, U02); aceite registrado em vídeo depois da sessão, guardado fora do repositório.*
+- [x] Há consentimento e anonimização. *Anonimização por código (U01, U02); aceite em vídeo e termo escrito assinado em 25/11/2026, depois da sessão, guardados fora do repositório.*
 - [ ] Foi realizado teste piloto. *Não realizado, por decisão da equipe em 25/11/2026; substituído pela conferência descrita no passo 4 e registrado como limitação.*
 - [x] Tarefas têm critérios de sucesso definidos antes do teste.
 - [x] Moderadores não ensinaram o caminho durante a tarefa.

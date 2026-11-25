@@ -19,7 +19,6 @@
 <path d="M1750 890 L1582.0 1015" fill="none" stroke="#71819a" stroke-width="2"/>
 <path d="M1750 890 L1694.0 1015" fill="none" stroke="#71819a" stroke-width="2"/>
 <path d="M1750 890 L1806.0 1015" fill="none" stroke="#71819a" stroke-width="2"/>
-<path d="M1750 890 L1918.0 1015" fill="none" stroke="#71819a" stroke-width="2"/>
 <rect x="825.0" y="125" width="350" height="125" rx="12" fill="#ffffff" stroke="#a9add5"/>
 <path d="M977 171 C957 170 958 146 976 147 C976 126 1003 124 1010 143 C1034 135 1044 171 1020 171 Z" fill="#edeafa" stroke="#5262a8" stroke-width="2"/>
 <text x="1000" y="202" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">A0</text>
@@ -160,7 +159,7 @@
 <path d="M1727 806 C1707 805 1708 781 1726 782 C1726 761 1753 759 1760 778 C1784 770 1794 806 1770 806 Z" fill="#edeafa" stroke="#5262a8" stroke-width="2"/>
 <text x="1750" y="837" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">A5</text>
 <text x="1750" y="861" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#22324b" text-anchor="middle">Verificar e comunicar</text>
-<text x="1750" y="880" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#444b76" text-anchor="middle">S1 []&gt;&gt; I7 &gt;&gt; U2 &gt;&gt; U4</text>
+<text x="1750" y="880" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#444b76" text-anchor="middle">S1 []&gt;&gt; I7 &gt;&gt; U2</text>
 <rect x="1529.0" y="1015" width="106" height="170" rx="12" fill="#ffffff" stroke="#80bbb8"/>
 <rect x="1562.0" y="1031" width="38" height="28" rx="2" fill="#e4f3f4" stroke="#14746f"/>
 <path d="M1581.0 1059 L1581.0 1071" fill="none" stroke="#14746f" stroke-width="2"/>
@@ -190,16 +189,6 @@
 <text x="1806.0" y="1092" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">U2</text>
 <text x="1806.0" y="1116" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">Informar</text>
 <text x="1806.0" y="1137" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">Mariana</text>
-<rect x="1865.0" y="1015" width="106" height="170" rx="12" fill="#ffffff" stroke="#dfb27c"/>
-<circle cx="1908.0" cy="1034" r="8" fill="none" stroke="#ba641e" stroke-width="3"/>
-<path d="M1908.0 1043 L1908.0 1065" fill="none" stroke="#ba641e" stroke-width="3"/>
-<path d="M1893.0 1053 L1923.0 1053" fill="none" stroke="#ba641e" stroke-width="3"/>
-<path d="M1908.0 1065 L1895.0 1079" fill="none" stroke="#ba641e" stroke-width="3"/>
-<path d="M1908.0 1065 L1921.0 1079" fill="none" stroke="#ba641e" stroke-width="3"/>
-<text x="1918.0" y="1092" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#22324b" text-anchor="middle">U4</text>
-<text x="1918.0" y="1116" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">Verificar</text>
-<text x="1918.0" y="1137" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">recebimento</text>
-<text x="1918.0" y="1158" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#22324b" text-anchor="middle">e alcance</text>
 <rect x="787" y="363" width="76" height="32" rx="4" fill="#f5f7fb" stroke="#f5f7fb"/>
 <text x="825" y="386" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#444b76" text-anchor="middle">&gt;&gt;</text>
 <rect x="1367" y="577" width="76" height="32" rx="4" fill="#f5f7fb" stroke="#f5f7fb"/>
@@ -222,8 +211,6 @@
 <text x="1638.0" y="998" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#444b76" text-anchor="middle">[]&gt;&gt;</text>
 <rect x="1712.0" y="975" width="76" height="32" rx="4" fill="#f5f7fb" stroke="#f5f7fb"/>
 <text x="1750.0" y="998" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#444b76" text-anchor="middle">&gt;&gt;</text>
-<rect x="1824.0" y="975" width="76" height="32" rx="4" fill="#f5f7fb" stroke="#f5f7fb"/>
-<text x="1862.0" y="998" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#444b76" text-anchor="middle">&gt;&gt;</text>
 <rect x="35" y="1220" width="1930" height="150" rx="12" fill="#e8eef6" stroke="#d9e1ed"/>
 <text x="60" y="1255" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#22324b" text-anchor="start">TIPOS: nuvem = abstrata (A); pessoa = usuário (U); computador = sistema (S); pessoa + computador = interação (I).</text>
 <text x="60" y="1293" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#22324b" text-anchor="start">RELAÇÕES entre irmãos: &gt;&gt; sequência; []&gt;&gt; sequência com informação; [] escolha; |&gt; suspensão e retomada.</text>
