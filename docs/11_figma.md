@@ -177,6 +177,24 @@ Os 28 quadros existem porque o Figma precisa de um quadro por destino clicável.
 
 Assim, os 28 quadros correspondem a **21 estados distintos**. As avaliações devem verificar se outros pares podem virar mensagens dentro da mesma tela. Um exemplo é F02B como variação de F02. Também devem verificar se algum estado é redundante ou difícil de distinguir.
 
+### Verificação dos fluxos clicáveis (25/11/2026)
+
+Os fluxos foram verificados de duas formas, na versão do arquivo com os ajustes de vocabulário.
+
+1. **Inspeção das ligações no arquivo.** As interações de protótipo dos 28 quadros foram lidas no Figma. O arquivo tem **57 ligações**, todas do tipo clique e navegação, e **nenhuma aponta para um quadro inexistente**. Todo botão tem destino, e todos os 28 quadros têm pelo menos uma saída. A partir de F01, os 28 quadros são alcançáveis. A partir de qualquer quadro, é possível voltar a F01. Os pontos de início configurados são “Início · Estoque Inteligente” (F01), “Mariana · Reposição” (F02) e “Rafael · Conferência” (F10).
+2. **Execução no modo de apresentação.** As **57 ligações foram clicadas uma a uma** no link de apresentação, em seis percursos que começam e terminam em F01. Depois de cada clique, o quadro exibido foi conferido pelo identificador na URL do protótipo. Todos os destinos corresponderam ao esperado.
+
+| Percurso | Ligações exercitadas |
+|---|---|
+| M01 · pausa, previsão indisponível e alternativas | F01 → F02 ⇄ F02P; F02 ⇄ F02B; F02B → F05P → F03 → F04 → F04E → F04 → F03 → F05A → F03 → F05P → F05PS → F01 |
+| M01 · planejamento, edição e adiamento | F02 → F03 → F04 → F05 → F04 → F05Q → F04 → F05Q → F05QS → F01; F03 → F05A → F05AS → F01 |
+| M01 · gravação incerta | F05 → F06E → F06R → F05 → F06E → F05S → F01; F05 → F05S → F01 |
+| M01 · descartes | F05, F05Q, F05A e F05P → F01 (“Descartar rascunho”) |
+| M02 · pausa, retorno, autorização e falha | F01 → F10 ⇄ F10P; F10 ⇄ F11; F11 → F12P → F11 → F12 → F11 → F12 → F12N → F11 → F12 → F12E → F12F → F12 → F12E → F13 → F01 |
+| M02 · desfechos | F12 → F13 → F01; F12 → F12N → F14N → F01; F11 → F12P → F14 → F01; F12P → F01 (“Descartar rascunho”) |
+
+**Limites.** A verificação foi feita com uma conta logada no Figma e numa janela estreita, com o protótipo reduzido. O acesso sem login foi conferido em 11/11/2026 e deve ser repetido em janela anônima antes de cada sessão, como prevê a E12. Essa verificação confirma a navegação, não a usabilidade. Os problemas da E13 continuam valendo, como A01-V01: “Editar” em F05Q volta ao rascunho de 6 unidades.
+
 ## Sistema visual e consistência
 
 | Elemento | Regra adotada | Justificativa |
@@ -203,9 +221,7 @@ As verificações da direita ainda não foram feitas. Elas serão registradas co
 
 ## Checklist
 
-Revisado em 25/11/2026. Os itens marcados foram conferidos nas capturas, na cobertura MoLIC e no índice de estados. O link foi aberto sem login em 11/11/2026 e deve ser conferido de novo em janela anônima antes de cada avaliação. A terminologia foi conferida após os ajustes de 25/11/2026. Ficaram desmarcados os itens que dependem de execução real:
-
-- fluxos clicáveis do início ao fim e ausência de links mortos: serão confirmados no piloto da E14, percorrendo todas as 57 ligações em modo de apresentação.
+Revisado em 25/11/2026. Os itens marcados foram conferidos nas capturas, na cobertura MoLIC e no índice de estados. O link foi aberto sem login em 11/11/2026 e deve ser conferido de novo em janela anônima antes de cada avaliação. A terminologia foi conferida após os ajustes de 25/11/2026. Os fluxos clicáveis e a ausência de links mortos foram verificados no modo de apresentação, clicando nas 57 ligações (ver “Verificação dos fluxos clicáveis”). O piloto da E14 continua necessário para conferir o roteiro com uma pessoa.
 
 - [x] Link do Figma está acessível.
 - [x] Há screenshots representativos no repositório.
@@ -213,8 +229,8 @@ Revisado em 25/11/2026. Os itens marcados foram conferidos nas capturas, na cobe
 - [x] Estados de erro, feedback e recuperação foram prototipados.
 - [x] Terminologia/signos são consistentes com Entrega 9.
 - [x] Componentes equivalentes se comportam de forma consistente.
-- [ ] Fluxos críticos são clicáveis do início ao fim.
-- [ ] O protótipo está pronto para inspeção e testes, sem “links mortos” nas tarefas avaliadas.
+- [x] Fluxos críticos são clicáveis do início ao fim.
+- [x] O protótipo está pronto para inspeção e testes, sem “links mortos” nas tarefas avaliadas.
 - [x] Dashboards, relatórios, históricos, filtros, administração e CRUDs presentes possuem justificativa rastreável.
 - [x] Estados de vazio, processamento, erro e recuperação foram considerados quando pertinentes.
 - [x] Resultados técnicos são apresentados de forma interpretável para o perfil de usuário.
