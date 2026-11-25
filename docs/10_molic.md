@@ -94,7 +94,7 @@ A conversa começa quando Mariana identifica a garrafa e termina quando confere 
 
 ### Checklist específico de modelagem
 
-Verificado pela equipe em 25/11/2026, após a revisão. Nenhum acesso ubíquo foi usado. O item correspondente foi marcado porque nenhum atalho sem justificativa aparece no diagrama.
+Conferido em 25/11/2026, após a revisão dos diagramas. Nenhum acesso ubíquo foi usado. O item correspondente foi marcado porque nenhum atalho sem justificativa aparece no diagrama.
 
 
 - [x] Existe **ponto de abertura** coerente com o início do objetivo.
@@ -151,7 +151,7 @@ O diagrama acompanha um único episódio: Rafael investiga a diferença, registr
 
 ### Checklist específico de modelagem
 
-Verificado pela equipe em 25/11/2026, após a revisão. Nenhum acesso ubíquo foi usado. O item correspondente foi marcado porque nenhum atalho sem justificativa aparece no diagrama.
+Conferido em 25/11/2026, após a revisão dos diagramas. Nenhum acesso ubíquo foi usado. O item correspondente foi marcado porque nenhum atalho sem justificativa aparece no diagrama.
 
 
 - [x] Existe **ponto de abertura** coerente com o início do objetivo.

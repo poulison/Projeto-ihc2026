@@ -75,6 +75,20 @@ Mariana confirma que anotou a mesma venda online de dois conjuntos. O pedido foi
 
 `U` é o usuário no papel indicado; `D` é o preposto do designer, isto é, a voz do projeto por meio do sistema. As falas são propostas para examinar a conversa, não transcrições de participantes. A mensagem do projeto é: *você pode conferir a origem dos dados, decidir com sua experiência e verificar o que ficou registrado; quando algo for desconhecido, isso continuará visível.*
 
+**Valores do episódio.** Os números nas falas tornam a conversa concreta. Eles não são semântica fixa da solução. Cada valor é uma instância de um signo do esquema da seção 4, e a mesma conversa vale para qualquer produto, quantidade e período:
+
+| Valor no exemplo | Signo variável que o representa |
+|---|---|
+| “garrafa azul de 500 ml”, “conjunto de três potes” | produto; unidade de venda |
+| seis garrafas / dez conjuntos | contagem física |
+| duas comprometidas | quantidade comprometida |
+| quatro livres | quantidade disponível (derivada) |
+| “cinco unidades nos próximos três dias” | previsão de demanda; horizonte |
+| “até as 12h, entrega na quinta” | prazo do fornecedor |
+| “planejo seis” | quantidade planejada |
+| saldo oito → dez | saldo registrado; efeito da correção da transcrição |
+| quatorze registros | alcance da conferência |
+
 **Nome do cenário:** CI01 — Decidir a reposição da garrafa antes do prazo do fornecedor.
 
 | Tópico > subtópico | Falas e signos envolvidos | Intenção/efeito esperado |
@@ -154,6 +168,8 @@ Cada elemento restante passou pelo teste sugerido no feedback: *ele expressa um 
 
 ## 4. Esquema conceitual de signos
 
+**Foco do esquema.** A tabela define **quais conceitos existem, o que significam, de onde vêm, que conteúdo têm e que restrições semânticas os limitam**. As colunas de prevenção e recuperação fazem parte do modelo solicitado, mas registram apenas a *intenção* de proteger cada signo. Elas não especificam controles, telas ou mensagens. Essas decisões pertencem ao MoLIC (E10) e ao protótipo (E11).
+
 A tabela é única para os dois cenários. **Origem** distingue o conceito do **domínio** daquele introduzido pela **aplicação**; após o ponto e vírgula, consta quem fornece, calcula ou comunica o valor. “—” significa que não há padrão ou mecanismo específico; nunca significa zero. Os mecanismos entre parênteses são explicados após a tabela.
 
 | Grupo | Signo | Origem | Observações/semântica | Tipo de conteúdo | Restrição | Valor padrão | Prevenção | Recuperação |
@@ -168,7 +184,7 @@ A tabela é única para os dois cenários. **Origem** distingue o conceito do **
 | Análise | Atualização da base | Aplicação; sistema | Momento de referência da informação consultada | Data/hora ou desconhecida | Não atribuir data sem fonte | Não informada se ausente | PP: indicar data ou ausência; AL: avisar de alteração na retomada | RA: reapresentar a base antes de confirmar |
 | Análise | Horizonte | Aplicação; escolhido por U dentre períodos suportados | Intervalo **futuro** da estimativa, distinto do período histórico das vendas | Período | Início e fim válidos para o resultado; sem prazo fixo presumido | — | PP: exibir datas e unidade de tempo | RA: ajustar período ou consultar ausência de resultado |
 | Análise | Previsão de demanda | Aplicação; estimativa produzida pelo sistema | Unidades estimadas do produto no horizonte; não é garantia nem quantidade de compra | Quantidade estimada ou indisponível | Vinculada a produto, unidade e horizonte; zero exige resultado válido | Indisponível sem resultado | PP: indicar estimativa, horizonte e limitação | RA: consultar base ou prosseguir com pendência |
-| Análise | Sugestão de reposição | Aplicação; sistema, se houver regra confirmada | Referência ilustrada em E6-P08; é distinta da demanda prevista e da escolha humana | Quantidade indicativa opcional | Exibir só com regra, base e unidade conhecidas; nunca autoriza compra | Ausente sem regra aplicável | PP: identificar como sugestão e explicar a base | RA: revisar fontes ou decidir sem a sugestão |
+| Análise | Sugestão de reposição **(condicional)** | Aplicação; sistema, **somente se o TCC confirmar uma regra técnica de cálculo** | Referência ilustrada em E6-P08; é distinta da demanda prevista e da escolha humana. **Não é requisito consolidado**: se o TCC produzir apenas previsão de demanda, o signo sai do modelo ou passa a ser cálculo adicional, declarado fora do modelo técnico original. Não aparece no protótipo da E11 | Quantidade indicativa opcional | Exibir só com regra, base e unidade conhecidas; nunca autoriza compra nem preenche a quantidade planejada | Ausente sem regra aplicável | PP: identificar como sugestão e explicar a base | RA: revisar fontes ou decidir sem a sugestão |
 | Reposição | Prazo do fornecedor | Domínio; informado pelo fornecedor e considerado por U | No exemplo, limite de pedido às 12h e entrega prevista na quinta | Limite e previsão de entrega | Não tratar entrega prevista como realizada | — | PP: distinguir limite e entrega | RA: verificar prazo com fornecedor se desconhecido |
 | Reposição | Desfecho da reposição | Domínio; decisão de Mariana | Planejar compra, adiar ou deixar pendente; escolha para **este** item/ciclo | Seleção única | Adiamento é escolha de não comprar agora; pendência indica base insuficiente | Sem escolha | PA: exigir uma alternativa antes de concluir; PP: esclarecer significados | RA: revisar a alternativa antes de confirmar |
 | Reposição | Quantidade planejada | Domínio; informada por Mariana | Quanto ela decidiu comprar; no exemplo, 6 por julgamento comercial | Inteiro positivo na unidade do item | Obrigatória só para planejar compra; não copiar sugestão por padrão | Sem valor | PA: recusar quantidade inválida ou incompatível com o desfecho | RA: indicar unidade e preservar o restante do rascunho |
@@ -187,17 +203,50 @@ A tabela é única para os dois cenários. **Origem** distingue o conceito do **
 
 - **PP — prevenção passiva:** explicar antes da ação, como exibir “conjuntos” ao lado do saldo. **PA — prevenção ativa:** impedir uma ação inválida, explicando o que falta. **AL — prevenção apoiada (alerta):** mostrar o risco e pedir uma decisão informada, como na revisão do efeito 8 → 10.
 - **RA — recuperação apoiada:** depois de um problema, explicar o ocorrido e oferecer uma ação possível na própria conversa. **CE — captura de erro:** quando a interface não consegue resolver a causa, explicar a ação externa necessária e como retomar. Um dado ausente não é automaticamente erro.
-- Manter o mesmo nome para o mesmo conceito em CI01, CI02 e MoLIC. **Saldo registrado, contagem física e quantidade disponível** são diferentes. **Estado do registro** informa se houve gravação; **desfecho** informa o que foi decidido. O resumo de conferência não pressupõe envio de mensagem.
+- Manter o mesmo nome para o mesmo conceito em CI01, CI02, MoLIC e Figma. Se um termo mudar, registrar a mudança e a justificativa. Os rótulos atuais do protótipo estão conferidos na [E11](11_figma.md#vocabulário-signos-da-e9-e-rótulos-do-protótipo). **Saldo registrado, contagem física e quantidade disponível** são diferentes. **Estado do registro** informa se houve gravação; **desfecho** informa o que foi decidido. O resumo de conferência não pressupõe envio de mensagem.
 
+
+### Participação de cada signo na conversa
+
+Cada signo foi mantido porque o usuário precisa fornecê-lo, consultá-lo, interpretá-lo, decidir a partir dele ou receber feedback sobre ele. A tabela mostra onde cada um participa. Nenhum signo existe só porque “poderia ser útil”. A única exceção controlada é a sugestão de reposição, mantida como **condicional**.
+
+| Signo | Papel do usuário | Tópico do DCC / cena do MoLIC | Estado no Figma (E11) |
+|---|---|---|---|
+| Produto | Fornece e confirma | O03 | F01; identificação em F02–F14 |
+| Unidade de venda | Consulta | O03 | “venda por unidade/conjunto” em F02 e F10–F13 |
+| Contagem física | Interpreta | O04; O03 em M02 | F02; F10P |
+| Quantidade comprometida | Interpreta | O04 | F02 (“Comprometidas”) |
+| Quantidade disponível | Decide a partir dele | O04 | F02 (“Disponíveis”) |
+| Saldo registrado | Interpreta e recebe feedback | O03, O07, O08 em M02 | F12 e F13 |
+| Vendas confirmadas | Interpreta | O04 | F02 |
+| Atualização da base | Interpreta | O04, O09 | F02 (“atualizadas hoje às 9h”) |
+| Horizonte | Interpreta | O04 | F02 (“próximos 3 dias”) |
+| Previsão de demanda | Interpreta | O04 | F02; ausência em F02B |
+| Sugestão de reposição | Interpretaria, se existir | O04, como signo condicional `[ ]` | **Não prototipada**: depende de regra técnica confirmada |
+| Prazo do fornecedor | Decide a partir dele | O04, O05 | F02 |
+| Desfecho da reposição | Fornece | O05 | F03; revisões F05/F05Q/F05A/F05P |
+| Quantidade planejada | Fornece | O05 | F04; erro em F04E |
+| Motivo | Fornece | O05, O07 | F04, F05 e revisões de pendência |
+| Próxima verificação | Fornece | O05, O07, O09 | Pendências F05P, F12P; F10P |
+| Evidência de origem | Consulta | O06 | F11 |
+| Situação da evidência | Decide | O06 | F11 (“Mesma saída confirmada” / “Origem incerta”); F12 |
+| Correção da transcrição | Revisa e confirma | O07 | F12 (“Correção proposta”) |
+| Desfecho da conferência | Fornece | O07, O08 | F12, F12P, F13, F14 |
+| Alcance da conferência | Recebe | O10 | F13 |
+| Estado do registro | Recebe feedback | O08, O09, gravação incerta | F05S, F06E, F06R, F10P, F12E, F12F |
+| Ponto de retomada | Consulta | O09 | F02P, F10P |
+| Responsável e data | Recebe feedback | O08 | F13 |
 
 ## Checklist
 
-- [ ] Cenários de interação mostram alterações em relação aos cenários de problema.
-- [ ] Cada solução individual identifica autor e cenário de origem.
-- [ ] Tópicos/falas/signos são coerentes com objetivos do usuário.
-- [ ] Mapas individuais foram consolidados.
-- [ ] O esquema de signos está em uma tabela única e sem duplicações conceituais.
-- [ ] Nomes de objetivos/signos serão reutilizados na Entrega 10.
-- [ ] Em TCC técnico, signos representam conceitos do domínio compreensíveis ao usuário, não apenas variáveis/estruturas internas.
-- [ ] Padrões como dashboard, relatório, filtros, administração e CRUD possuem objetivos e signos correspondentes.
-- [ ] A interface comunica não só o resultado técnico, mas também seu significado para a tarefa.
+Revisado em 25/11/2026, após a revisão do mapa de objetivos e do esquema de signos.
+
+- [x] Cenários de interação mostram alterações em relação aos cenários de problema.
+- [x] Cada solução individual identifica autor e cenário de origem.
+- [x] Tópicos/falas/signos são coerentes com objetivos do usuário.
+- [x] Mapas individuais foram consolidados.
+- [x] O esquema de signos está em uma tabela única e sem duplicações conceituais.
+- [x] Nomes de objetivos/signos serão reutilizados na Entrega 10.
+- [x] Em TCC técnico, signos representam conceitos do domínio compreensíveis ao usuário, não apenas variáveis/estruturas internas.
+- [x] Padrões como dashboard, relatório, filtros, administração e CRUD possuem objetivos e signos correspondentes.
+- [x] A interface comunica não só o resultado técnico, mas também seu significado para a tarefa.

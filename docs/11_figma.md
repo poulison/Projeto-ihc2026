@@ -61,7 +61,8 @@ Quando aplicável, considere: vazio/sem dados; carregamento/processamento; suces
 
 **Objetivo do usuário:** avaliar os dados antes de decidir quanto planejar, se deve adiar ou se precisa de mais informações.  
 **Signos principais:** vendas confirmadas, disponibilidade, horizonte de previsão e prazo do fornecedor.  
-**Origem no MoLIC:** M01, avaliação da base em O04 e escolha do desfecho em O05.
+**Origem no MoLIC:** M01, avaliação da base em O04 e escolha do desfecho em O05.  
+**Dados demonstrativos:** “5 unidades nos próximos 3 dias” e as demais quantidades são valores simulados do episódio, como indica o rodapé. Nas avaliações, a tela permite verificar se o participante entende a mensagem: que a previsão é uma estimativa e não uma ordem de compra. Ela não valida a qualidade científica da previsão do TCC. A sugestão de reposição não aparece porque continua condicional à confirmação de uma regra técnica.
 
 ### F11 — Confrontar registros
 
@@ -69,7 +70,8 @@ Quando aplicável, considere: vazio/sem dados; carregamento/processamento; suces
 
 **Objetivo do usuário:** verificar se a anotação representa uma segunda saída ou uma transcrição do mesmo pedido.  
 **Signos principais:** identificador do pedido, origem da anotação, contagem física e confirmação externa.  
-**Origem no MoLIC:** M02, investigação da diferença em O06.
+**Origem no MoLIC:** M02, investigação da diferença em O06.  
+**Incerteza preservada:** nesta etapa, a interface mostra apenas evidências e “origem a confirmar”. A duplicidade só aparece como fato depois da escolha “Mesma saída confirmada”. Versões futuras não devem destacar “duplicidade encontrada” antes dessa confirmação. A interface deve continuar distinguindo indício, evidência suficiente, origem incerta, correção autorizada e pendência.
 
 ### F13 — Correção registrada
 
@@ -77,7 +79,15 @@ Quando aplicável, considere: vazio/sem dados; carregamento/processamento; suces
 
 **Objetivo do usuário:** conferir o saldo corrigido e explicar à proprietária qual item foi resolvido.  
 **Signos principais:** saldo após a correção, responsável, data, justificativa e alcance parcial.  
-**Origem no MoLIC:** M02, conferência do resultado em O08 e comunicação em O10.
+**Origem no MoLIC:** M02, conferência do resultado em O08 (fim de O02) e consulta opcional do alcance em O10.  
+**Redação revisada (a aplicar no arquivo do Figma).** O texto atual soa como ordem do sistema: “Informe a Mariana…” e “Comunique o resultado a Mariana fora do sistema.” A proposta comunica o alcance e a fronteira, sem dar ordens:
+
+| Elemento | Texto atual | Texto proposto |
+|---|---|---|
+| Alcance da conferência | Informar a Mariana que apenas este item foi corrigido. | Apenas este item foi corrigido. Os outros 13 registros continuam em conferência. |
+| Mensagem de rodapé | Comunique o resultado a Mariana fora do sistema. Os demais registros continuam em conferência. | Nenhuma mensagem foi enviada pelo sistema. Se for informar Mariana, use este resumo. |
+
+A captura acima ainda mostra a versão de 11/11/2026. A redação final será confirmada na observação com usuários (E14), conforme sugerido no feedback.
 
 **Índice dos 28 estados editáveis.** Cada identificação abre o quadro correspondente no arquivo da equipe.
 
@@ -112,6 +122,53 @@ Quando aplicável, considere: vazio/sem dados; carregamento/processamento; suces
 | [F14](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-748) | Pendência registrada | Concluir e voltar ao início |
 | [F14N](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-773) | Pendência registrada | Concluir e voltar ao início |
 
+## Revisão após o feedback (25/11/2026)
+
+### Vocabulário: signos da E9 e rótulos do protótipo
+
+O feedback pediu que os termos do esquema conceitual mantivessem o mesmo significado no Figma. A conferência das capturas encontrou os pares abaixo. Quando o rótulo difere, a coluna de decisão indica o ajuste a fazer no arquivo ou a justificativa para manter o termo.
+
+| Signo da E9 | Rótulo no protótipo | Onde | Decisão |
+|---|---|---|---|
+| Contagem física | Contagem física | F02 | Igual. |
+| Quantidade comprometida | Comprometidas | F02 | Mantido: forma curta em cartão, sem ambiguidade com o signo. |
+| Quantidade disponível | Disponíveis | F02 | Mantido: forma curta em cartão, sem ambiguidade com o signo. |
+| Saldo registrado | Saldo atual (F12); Saldo no histórico (F13) | F12, F13 | **Ajustar** para “Saldo registrado” nos dois quadros. “Atual” pode ser lido como contagem física. |
+| Próxima verificação | Próxima etapa | F10P | **Ajustar** para “Próxima verificação”. |
+| Ponto de retomada | Último ponto conferido | F10P | Mantido: descreve o mesmo conceito na linguagem de Rafael. |
+| Estado do registro | Estado | F10P | **Ajustar** para “Estado do registro”, distinguindo-o do desfecho. |
+| Correção da transcrição | Correção proposta; Desconto indevido | F12 | Mantido: “proposta” marca que a correção ainda não foi gravada. |
+| Responsável e data | Desfecho · Rafael Costa · 09/11 | F13 | **Separar** responsável e data do desfecho em linhas próprias. |
+| Previsão de demanda; horizonte | Previsão de demanda · próximos 3 dias | F02 | Igual. |
+
+### Estados que devem ser preservados na implementação
+
+Os estados abaixo não são telas extras arbitrárias. Cada um materializa uma ruptura ou alternativa do MoLIC. Se algum for retirado na implementação, a mudança precisa ser registrada aqui e em `RASTREABILIDADE.md`, com a justificativa.
+
+| Estado | Ruptura ou alternativa no MoLIC |
+|---|---|
+| F02B · Previsão indisponível | M01 · O04, ausência de resultado diferente de zero |
+| F02P / F10P · Análise e conferência pausadas | M01/M02 · O09, retomada |
+| F04E · Confira a quantidade | M01 · O05, quantidade inválida |
+| F06E / F12E · Aguardando confirmação | M01/M02 · gravação incerta |
+| F06R / F12F · Gravação não concluída | M01/M02 · falha confirmada |
+| F11 · Origem incerta → F12P | M02 · O06/O07, evidência insuficiente |
+| F12N · Autorização necessária | M02 · O07, falta de autorização |
+| F14 / F14N · Pendência registrada | M02 · O08, pendência sem alteração de saldo |
+
+### Estados semelhantes: complexidade necessária ou variação de componente
+
+Os 28 quadros existem porque o Figma precisa de um quadro por destino clicável. Para a implementação, vários são **variações de um mesmo componente**, e não telas distintas:
+
+| Quadros | Diferença real | Implementação sugerida |
+|---|---|---|
+| F05, F05Q, F05A, F05P · Revisar decisão | Desfecho e campos: quantidade, adiamento ou próxima verificação | Um componente de revisão com quatro variações de conteúdo |
+| F05S, F05QS, F05AS, F05PS · Decisão salva | Desfecho registrado | Um componente de confirmação com quatro variações |
+| F14, F14N · Pendência registrada | Motivo: evidência insuficiente ou falta de autorização | Um componente com motivo variável |
+| F06E e F12E; F06R e F12F | Fluxo de origem | Um mesmo padrão de gravação incerta e de falha nos dois fluxos |
+
+Assim, os 28 quadros correspondem a **21 estados distintos**. As avaliações devem verificar se outros pares podem virar mensagens dentro da mesma tela. Um exemplo é F02B como variação de F02. Também devem verificar se algum estado é redundante ou difícil de distinguir.
+
 ## Sistema visual e consistência
 
 | Elemento | Regra adotada | Justificativa |
@@ -123,20 +180,35 @@ Quando aplicável, considere: vazio/sem dados; carregamento/processamento; suces
 
 ## Verificação de acessibilidade básica
 
-Os botões têm 48 px de altura no quadro original e usam rótulos com verbos. A disponibilidade, os erros e a confirmação aparecem em texto. As capturas acima têm descrição alternativa. A navegação completa por teclado, a ordem de foco e a leitura por tecnologia assistiva precisam de verificação específica. As sessões com participantes estão previstas no planejamento da Entrega 12.
+**Esta seção registra intenções de projeto, não comprovação de acessibilidade.**
+
+| Já adotado no projeto visual | Ainda precisa ser verificado |
+|---|---|
+| Botões com 48 px de altura e rótulos com verbos | Contraste efetivo, medido em cada combinação de cor |
+| Disponibilidade, erros e confirmações em texto, sem depender só da cor | Ordem de foco e foco visível |
+| Descrição alternativa nas capturas do repositório | Navegação completa por teclado |
+| | Leitura por tecnologia assistiva |
+| | Comportamento com zoom de 200% e em larguras menores (responsividade) |
+
+As verificações da direita ainda não foram feitas. Elas serão registradas com data, ferramenta e resultado antes de qualquer afirmação de conformidade. As sessões com participantes estão previstas na Entrega 12.
 
 
 ## Checklist
 
-- [ ] Link do Figma está acessível.
-- [ ] Há screenshots representativos no repositório.
-- [ ] Todos os MoLIC relevantes estão cobertos.
-- [ ] Estados de erro, feedback e recuperação foram prototipados.
+Revisado em 25/11/2026. Os itens marcados foram conferidos nas capturas, na cobertura MoLIC e no índice de estados. O link foi aberto sem login em 11/11/2026 e deve ser conferido de novo em janela anônima antes de cada avaliação. Ficaram desmarcados os itens que dependem de execução real ou de ajuste ainda pendente:
+
+- terminologia: faltam os ajustes de rótulo indicados na tabela de vocabulário;
+- fluxos clicáveis do início ao fim e ausência de links mortos: serão confirmados no piloto da E14, percorrendo todas as 57 ligações em modo de apresentação.
+
+- [x] Link do Figma está acessível.
+- [x] Há screenshots representativos no repositório.
+- [x] Todos os MoLIC relevantes estão cobertos.
+- [x] Estados de erro, feedback e recuperação foram prototipados.
 - [ ] Terminologia/signos são consistentes com Entrega 9.
-- [ ] Componentes equivalentes se comportam de forma consistente.
+- [x] Componentes equivalentes se comportam de forma consistente.
 - [ ] Fluxos críticos são clicáveis do início ao fim.
 - [ ] O protótipo está pronto para inspeção e testes, sem “links mortos” nas tarefas avaliadas.
-- [ ] Dashboards, relatórios, históricos, filtros, administração e CRUDs presentes possuem justificativa rastreável.
-- [ ] Estados de vazio, processamento, erro e recuperação foram considerados quando pertinentes.
-- [ ] Resultados técnicos são apresentados de forma interpretável para o perfil de usuário.
-- [ ] A equipe distingue no protótipo o que é interação simulada e o que é funcionalidade técnica realmente integrada, quando necessário.
+- [x] Dashboards, relatórios, históricos, filtros, administração e CRUDs presentes possuem justificativa rastreável.
+- [x] Estados de vazio, processamento, erro e recuperação foram considerados quando pertinentes.
+- [x] Resultados técnicos são apresentados de forma interpretável para o perfil de usuário.
+- [x] A equipe distingue no protótipo o que é interação simulada e o que é funcionalidade técnica realmente integrada, quando necessário.
