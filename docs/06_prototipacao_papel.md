@@ -201,14 +201,14 @@ Uma observação de uma única pessoa é evidência formativa para revisar o des
 
 ### Sessão W02 — com pessoa externa (agendada)
 
-A sessão segue o [roteiro do walkthrough](../instrumentos/06_roteiro_walkthrough.md), que traz cada passo, as falas do facilitador, a ordem dos cartões e a ficha de anotação. Os campos abaixo foram preenchidos de antemão só com o que o roteiro define. Os campos de observação serão preenchidos **depois da sessão**, com o que acontecer de fato.
+A sessão segue um roteiro preparado pela equipe, com cada passo, as falas do facilitador, a ordem dos cartões e a ficha de anotação. O roteiro é mantido fora do repositório. Os campos abaixo foram preenchidos de antemão só com o que o roteiro define. Os campos de observação serão preenchidos **depois da sessão**, com o que acontecer de fato.
 
 | Item | Registro |
 |---|---|
 | Data, duração e facilitador | Data: a preencher · Planejada: 15–20 min · Facilitador: a preencher |
-| Participante e perfil aproximado | W02, pessoa que não participou da elaboração das telas. Perfil: a preencher com as três perguntas do passo 2 do roteiro |
+| Participante e perfil aproximado | W02, pessoa que não participou da elaboração das telas. Perfil: a preencher (experiência com estoque, uso de planilha ou sistema, contato prévio com o projeto) |
 | Fluxos simulados e ordem dos cartões | PF01 (P07-C → P07-P → P08-R → P12 → P13 → P14, com P08 e P09 sob demanda); PF02 se houver tempo (P15 → P16C/P17C ou P16P/P17P); PF03 (P11 → P03) |
-| Instruções dadas | As do roteiro, lidas sem alteração. Registrar se alguma precisou ser repetida |
+| Instruções dadas | As da seção “Roteiro da versão revisada” abaixo, lidas sem alteração. Registrar se alguma precisou ser repetida |
 | Caminhos escolhidos | A preencher após a sessão |
 | Hesitações, dúvidas e interpretações incorretas | A preencher após a sessão |
 | O que esperava encontrar | A preencher após a sessão |

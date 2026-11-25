@@ -6,6 +6,5 @@ Estes arquivos são **modelos acadêmicos**. Adapte ao método e às exigências
 - [Roteiro de teste de usabilidade](roteiro_teste_usabilidade.md)
 - [Planilha de observação](planilha_observacao_modelo.md)
 - [Formulário de avaliação heurística](formulario_heuristica_modelo.md)
-- [Roteiro e ficha do walkthrough da Entrega 6 (sessão W02)](06_roteiro_walkthrough.md)
 
 Não trate o termo de consentimento deste repositório como documento jurídico universal. Projetos com pesquisa formal, dados sensíveis ou requisitos de comitê de ética devem seguir as normas da instituição.
