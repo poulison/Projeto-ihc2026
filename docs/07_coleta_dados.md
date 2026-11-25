@@ -296,7 +296,7 @@ O I01 está publicado e com o acesso externo verificado. Paulo deve fazer o pilo
 
 ## Checklist
 
-Revisado em 25/11/2026. Os itens foram conferidos no conteúdo da entrega. O questionário online obrigatório está publicado e acessível sem login, que é o que a atividade exige; a coleta de respostas não era obrigatória nesta entrega.
+Revisado em 25/11/2026. Os itens marcados foram conferidos no conteúdo da entrega. O questionário online obrigatório está publicado e acessível sem login, que é o que a atividade exige. Os quatro últimos itens dependem de participantes e não eram obrigatórios nesta entrega.
 
 - [x] Cinco categorias de dados e perfis específicos para cada integrante.
 - [x] Hipóteses, tarefas e decisões relacionadas.
@@ -306,13 +306,10 @@ Revisado em 25/11/2026. Os itens foram conferidos no conteúdo da entrega. O que
 - [x] Tipos de pergunta e protocolo de execução explicitados.
 - [x] Contato para dúvidas e retirada, convite e consentimento disponíveis.
 - [x] Questionário publicado com link de resposta neste documento e acesso externo testado.
-
-**Fora do escopo desta entrega.** Os passos abaixo dependem de participantes e não eram exigidos na Entrega 7. Ficam registrados como continuação possível, sem resultado a relatar:
-
-- preparar a ficha privada de notas da entrevista;
-- pilotar o questionário e a entrevista e registrar duração e ajustes;
-- recrutar participantes e aplicar os instrumentos;
-- analisar as respostas e atualizar as hipóteses com evidências.
+- [ ] Ficha privada de notas da entrevista preparada. *Não exigido nesta entrega.*
+- [ ] Pilotos realizados e duração, dificuldades e ajustes registrados. *Não exigido nesta entrega.*
+- [ ] Recrutamento e aplicação realizados. *Não exigido nesta entrega: a atividade pede o questionário publicado, não a coleta de respostas.*
+- [ ] Respostas analisadas e hipóteses atualizadas com evidências. *Não exigido nesta entrega; depende da aplicação.*
 
 ## Referências
 
