@@ -75,7 +75,7 @@ Quando aplicável, considere: vazio/sem dados; carregamento/processamento; suces
 
 ### F13 — Correção registrada
 
-![Histórico com saldo de dez conjuntos e alcance da correção](../assets/11_figma/f13.png)
+![Correção registrada: saldo registrado de dez conjuntos, desfecho, responsável e data em linha própria e alcance limitado a este item; aviso de que nenhuma mensagem foi enviada](../assets/11_figma/f13.png)
 
 **Objetivo do usuário:** conferir o saldo corrigido e explicar à proprietária qual item foi resolvido.  
 **Signos principais:** saldo após a correção, responsável, data, justificativa e alcance parcial.  
