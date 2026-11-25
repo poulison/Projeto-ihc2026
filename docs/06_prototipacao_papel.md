@@ -208,7 +208,7 @@ A sessão segue um roteiro preparado pela equipe, com cada passo, as falas do fa
 | Data, duração e facilitador | Data: a preencher · Planejada: 15–20 min · Facilitador: a preencher |
 | Participante e perfil aproximado | W02, pessoa que não participou da elaboração das telas. Perfil: a preencher (experiência com estoque, uso de planilha ou sistema, contato prévio com o projeto) |
 | Fluxos simulados e ordem dos cartões | PF01 (P07-C → P07-P → P08-R → P12 → P13 → P14, com P08 e P09 sob demanda); PF02 se houver tempo (P15 → P16C/P17C ou P16P/P17P); PF03 (P11 → P03) |
-| Instruções dadas | As da seção “Roteiro da versão revisada” abaixo, lidas sem alteração. Registrar se alguma precisou ser repetida |
+| Instruções dadas | Lidas do roteiro da equipe, sem alteração. Transcrever aqui o texto usado em cada episódio e registrar se alguma instrução precisou ser repetida |
 | Caminhos escolhidos | A preencher após a sessão |
 | Hesitações, dúvidas e interpretações incorretas | A preencher após a sessão |
 | O que esperava encontrar | A preencher após a sessão |
