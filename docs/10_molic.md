@@ -23,13 +23,44 @@ Exemplos de conversas:
 
 Modele também rupturas plausíveis: entrada inválida, falha de processamento, ausência de resultado, permissão insuficiente, filtro sem resultados, conflito de alteração, cancelamento ou necessidade de recuperação.
 
+## Revisão após o feedback (25/11/2026)
+
+A estrutura gráfica dos dois diagramas foi mantida. As mudanças são semânticas:
+
+1. **Objetivos.** `gco/gcc` continuam apontando para O01 e O02, que agora são *Tomar uma decisão de reposição fundamentada e recuperável* e *Tornar o saldo do item confiável e explicável*, conforme o [mapa revisado da E9](09_modelo_conceitual.md#3-mapa-de-objetivos).
+2. **Menos prosa dentro das cenas.** As cenas trazem apenas falas curtas e nomes de signos. Os valores do episódio (6 − 2 = 4, 5 unidades em 3 dias, 8 → 10) e as explicações ficaram nesta leitura do diagrama. Eles são **variáveis do episódio**, não conteúdo fixo da interface.
+3. **Nomes de signos da E9.** Expressões livres foram trocadas pelos signos do esquema conceitual:
+
+| Expressão anterior no diagrama | Signo da E9 utilizado |
+|---|---|
+| “item, dados já vistos e estado” / “linhas comparadas” | ponto de retomada; estado do registro |
+| “se a base mudou” / “rever a base” | atualização da base |
+| “6 presentes − 2 comprometidas = 4 livres” | contagem física, quantidade comprometida, quantidade disponível |
+| “previsão no horizonte, ou indisponível” | previsão de demanda; horizonte |
+| “duas linhas … são indícios” / “situação da evidência e fontes vinculadas” | evidência de origem; situação da evidência |
+| “falta confirmar a anotação” / “o que falta verificar” | próxima verificação |
+| “item conferido e registros ainda pendentes” | alcance da conferência |
+| “estado” / “ainda não há confirmação” | estado do registro: rascunho, aguardando confirmação, salvo |
+
+4. **Uso de `d+u:`.** A notação agora aparece só quando o sistema oferece as opções e o usuário escolhe ou confirma o signo resultante:
+
+| Ocorrência | O que o sistema apresenta | O que o usuário fornece | Signo resultante |
+|---|---|---|---|
+| M01 e M02 · O03 | Itens do cadastro, com variações e candidatos semelhantes | Escolhe e confirma a variação | Produto; unidade de venda |
+| M01 · O05 | As três alternativas: planejar, adiar, deixar pendente | Escolhe uma delas | Desfecho da reposição |
+
+A situação da evidência em M02 passou de `d+u:` para `u:`, porque, segundo a E9, ela é avaliada por Rafael. O sistema apenas apresenta as evidências de origem.
+
+5. **Sugestão de reposição.** Em M01, o signo aparece entre colchetes (`[ ]`), marcando um signo condicional. Ele só é exibido se houver regra técnica confirmada no TCC e nunca substitui a quantidade planejada.
+6. **Fronteira de M02.** O objetivo O02 agora termina em **O08**, quando Rafael confere o desfecho salvo. O sistema consegue verificar isso. A cena **O10 · Alcance da conferência** virou uma consulta opcional: o preposto entrega o resumo e declara que nenhuma mensagem é enviada. A fala anterior “já informei o alcance à proprietária” foi retirada, porque descrevia uma ação externa que o sistema não observa.
+
 ## M01 — Decidir a reposição de um item
 
 **Autor(a):** Paulo Andre de Oliveira Hirata — 22.125.072-3.  
 **Cenário de interação de origem:** CI01 — Decidir a reposição da garrafa antes do prazo do fornecedor (E4-C01 / R04-01).  
 **Objetivo(s):** objetivo final O01 — Tomar uma decisão de reposição fundamentada e recuperável. Instrumentais diretos: O03 — Identificar o produto e a unidade; O04 — Avaliar a base da reposição; O05 — Escolher o desfecho da reposição; O08 — Conferir o registro salvo; O09 — Retomar o trabalho interrompido. Classificação conforme o [mapa revisado da E9](09_modelo_conceitual.md#3-mapa-de-objetivos).  
 **Tarefa(s) relacionada(s):** Mariana Alves, proprietária; T01 — analisar um produto e registrar uma decisão de reposição.  
-**Signos relevantes:** produto, unidade de venda, contagem física, quantidade comprometida, quantidade disponível, vendas confirmadas, atualização da base, horizonte, previsão de demanda, sugestão de reposição, prazo do fornecedor, desfecho da reposição, quantidade planejada, motivo, próxima verificação, ponto de retomada e estado do registro.
+**Signos relevantes:** produto, unidade de venda, contagem física, quantidade comprometida, quantidade disponível, vendas confirmadas, atualização da base, horizonte, previsão de demanda, sugestão de reposição (condicional), prazo do fornecedor, desfecho da reposição, quantidade planejada, motivo, próxima verificação, ponto de retomada e estado do registro.
 
 ### Diagrama
 
@@ -63,18 +94,21 @@ A conversa começa quando Mariana identifica a garrafa e termina quando confere 
 
 ### Checklist específico de modelagem
 
-- [ ] Existe **ponto de abertura** coerente com o início do objetivo.
-- [ ] As **cenas de conversa** representam tópicos/assuntos, não nomes de páginas apenas.
-- [ ] As transições/falas deixam claro o que o usuário ou o sistema comunica.
-- [ ] Há **ponto(s) de encerramento** para objetivos concluídos/abandonados quando aplicável.
-- [ ] Processamentos do sistema estão representados conforme a notação adotada em aula, sem “inventar” fala do usuário.
-- [ ] Rupturas (breakdowns) relevantes têm feedback e caminho de recuperação, não becos sem saída.
-- [ ] Acessos ubíquos/atalhos só aparecem quando semanticamente justificáveis.
-- [ ] O diagrama cobre caminhos alternativos importantes, e não apenas o “happy path”.
-- [ ] Nomes de objetivos, tópicos e signos são coerentes com a Entrega 9.
-- [ ] O diagrama é legível em tamanho normal no GitHub.
-- [ ] O MoLIC representa a conversa usuário–sistema, não o fluxo interno do algoritmo.
-- [ ] Processamento, filtros, administração, relatórios e históricos incluem retornos/rupturas quando relevantes.
+Verificado pela equipe em 25/11/2026, após a revisão. Nenhum acesso ubíquo foi usado. O item correspondente foi marcado porque nenhum atalho sem justificativa aparece no diagrama.
+
+
+- [x] Existe **ponto de abertura** coerente com o início do objetivo.
+- [x] As **cenas de conversa** representam tópicos/assuntos, não nomes de páginas apenas.
+- [x] As transições/falas deixam claro o que o usuário ou o sistema comunica.
+- [x] Há **ponto(s) de encerramento** para objetivos concluídos/abandonados quando aplicável.
+- [x] Processamentos do sistema estão representados conforme a notação adotada em aula, sem “inventar” fala do usuário.
+- [x] Rupturas (breakdowns) relevantes têm feedback e caminho de recuperação, não becos sem saída.
+- [x] Acessos ubíquos/atalhos só aparecem quando semanticamente justificáveis.
+- [x] O diagrama cobre caminhos alternativos importantes, e não apenas o “happy path”.
+- [x] Nomes de objetivos, tópicos e signos são coerentes com a Entrega 9.
+- [x] O diagrama é legível em tamanho normal no GitHub.
+- [x] O MoLIC representa a conversa usuário–sistema, não o fluxo interno do algoritmo.
+- [x] Processamento, filtros, administração, relatórios e históricos incluem retornos/rupturas quando relevantes.
 
 ## M02 — Explicar a diferença no saldo de um item
 
@@ -92,7 +126,7 @@ A conversa começa quando Mariana identifica a garrafa e termina quando confere 
 
 ### Leitura do diagrama
 
-O diagrama acompanha um único episódio: Rafael investiga a diferença, registra o que conseguiu comprovar e informa a Mariana o alcance da conferência. Uma pendência registrada não significa que a divergência foi resolvida.
+O diagrama acompanha um único episódio: Rafael investiga a diferença, registra o que conseguiu comprovar e confere o registro salvo. Opcionalmente, consulta o alcance da conferência para informá-lo a Mariana fora do sistema. Uma pendência registrada não significa que a divergência foi resolvida.
 
 #### Caminho principal
 
@@ -100,7 +134,8 @@ O diagrama acompanha um único episódio: Rafael investiga a diferença, registr
 2. **Explicar a diferença (O06).** Rafael localiza o pedido pelo identificador ou, se a anotação não tiver ID, por produto, data e quantidade. O preposto mantém as linhas candidatas visíveis, sem declará-las duplicadas. Rafael confronta a situação do pedido, reconta e consulta Mariana fora do sistema. No caminho principal, ela confirma que anotou a mesma venda online de dois conjuntos; o pedido foi enviado e não há segunda saída correspondente.
 3. **Fundamentar o desfecho (O07).** Com a origem confirmada **e autorização para corrigir**, Rafael vincula a transcrição indevida ao registro original e explica o motivo. O preposto antecipa o efeito: retirar apenas o segundo desconto leva o saldo de oito para dez. **Não houve entrada de mercadoria.**
 4. **Revisar, confirmar e conferir (O08).** Rafael verifica item, fontes, justificativa e efeito antes de autorizar a gravação. Depois, confere desfecho, responsável, data e saldo no histórico do episódio. Uma indicação de processamento em curso não serve como confirmação.
-5. **Comunicar o alcance (O10) e encerrar O02.** O preposto identifica o item conferido e os registros que continuam pendentes. Rafael comunica o resultado a Mariana **fora do sistema**. O resumo não significa que uma mensagem foi enviada nem que os quatorze registros foram reconciliados.
+5. **Encerrar O02 em O08.** Depois de conferir o desfecho no histórico, Rafael conclui O02: o saldo do item passou a ser confiável e explicável.
+6. **Consultar o alcance (O10, opcional).** Se Rafael perguntar o que pode informar, o preposto mostra o alcance da conferência: o item conferido e os registros que continuam pendentes. Também declara que nenhuma mensagem é enviada. Rafael encerra com o resumo. A comunicação a Mariana acontece **fora do sistema** e não é registrada como fato pelo diagrama. O10 é instrumental **indireto** de O01, porque prepara a próxima decisão de reposição de Mariana. O resumo não significa que os quatorze registros foram reconciliados.
 
 #### Alternativas e rupturas
 
@@ -112,22 +147,25 @@ O diagrama acompanha um único episódio: Rafael investiga a diferença, registr
 | Precisa separar uma encomenda | O06 ↔ O09 | Ao retomar, Rafael vê as linhas já comparadas, o que falta verificar e que não houve alteração do saldo. | Reexaminar a fonte caso tenha mudado; continuar a investigação sem aplicar uma operação anterior. |
 | Prévia da correção não corresponde à evidência | Revisão | Item, motivo e efeito aparecem juntos antes da confirmação. | Voltar a O07 e revisar; optar por pendência se a causa não estiver comprovada, ou abandonar sem salvar. |
 | A confirmação não chega | Processamento → alerta | O registro está aguardando; a interface não anuncia “corrigido”. | Consultar o registro. Se salvo, ir a O08 sem aplicar nova correção. Se aguardando, não repetir. Só com falha confirmada, revisar e tentar de novo. |
-| O item termina pendente | O08 → O10 | O resumo distingue pendência registrada de divergência resolvida. | Informar a Mariana que o saldo segue não confirmado e o que falta verificar. Conclui-se **o relato do episódio**, não a reconciliação dos demais registros. |
+| O item termina pendente | O08 → O10 | O histórico e o resumo distinguem pendência registrada de divergência resolvida. | O02 termina em O08 com a pendência explicada. Se consultar O10, Rafael sabe que o saldo segue não confirmado e o que falta verificar para informar Mariana fora do sistema. Os demais registros continuam sem reconciliação. |
 
 ### Checklist específico de modelagem
 
-- [ ] Existe **ponto de abertura** coerente com o início do objetivo.
-- [ ] As **cenas de conversa** representam tópicos/assuntos, não nomes de páginas apenas.
-- [ ] As transições/falas deixam claro o que o usuário ou o sistema comunica.
-- [ ] Há **ponto(s) de encerramento** para objetivos concluídos/abandonados quando aplicável.
-- [ ] Processamentos do sistema estão representados conforme a notação adotada em aula, sem “inventar” fala do usuário.
-- [ ] Rupturas (breakdowns) relevantes têm feedback e caminho de recuperação, não becos sem saída.
-- [ ] Acessos ubíquos/atalhos só aparecem quando semanticamente justificáveis.
-- [ ] O diagrama cobre caminhos alternativos importantes, e não apenas o “happy path”.
-- [ ] Nomes de objetivos, tópicos e signos são coerentes com a Entrega 9.
-- [ ] O diagrama é legível em tamanho normal no GitHub.
-- [ ] O MoLIC representa a conversa usuário–sistema, não o fluxo interno do algoritmo.
-- [ ] Processamento, filtros, administração, relatórios e históricos incluem retornos/rupturas quando relevantes.
+Verificado pela equipe em 25/11/2026, após a revisão. Nenhum acesso ubíquo foi usado. O item correspondente foi marcado porque nenhum atalho sem justificativa aparece no diagrama.
+
+
+- [x] Existe **ponto de abertura** coerente com o início do objetivo.
+- [x] As **cenas de conversa** representam tópicos/assuntos, não nomes de páginas apenas.
+- [x] As transições/falas deixam claro o que o usuário ou o sistema comunica.
+- [x] Há **ponto(s) de encerramento** para objetivos concluídos/abandonados quando aplicável.
+- [x] Processamentos do sistema estão representados conforme a notação adotada em aula, sem “inventar” fala do usuário.
+- [x] Rupturas (breakdowns) relevantes têm feedback e caminho de recuperação, não becos sem saída.
+- [x] Acessos ubíquos/atalhos só aparecem quando semanticamente justificáveis.
+- [x] O diagrama cobre caminhos alternativos importantes, e não apenas o “happy path”.
+- [x] Nomes de objetivos, tópicos e signos são coerentes com a Entrega 9.
+- [x] O diagrama é legível em tamanho normal no GitHub.
+- [x] O MoLIC representa a conversa usuário–sistema, não o fluxo interno do algoritmo.
+- [x] Processamento, filtros, administração, relatórios e históricos incluem retornos/rupturas quando relevantes.
 
 ## Consolidação da equipe
 
@@ -144,7 +182,7 @@ O diagrama acompanha um único episódio: Rafael investiga a diferença, registr
 | O07 · Fundamentar correção ou pendência | M02 | Sem causa ou autorização, corrigir seria indevido. | Oferecer pendência sem alteração de saldo. |
 | O08 · Conferir o registro salvo | Ambos | Compartilham os estados de gravação, não o significado do registro. | Usar o mesmo padrão de consulta antes de repetir. |
 | O09 · Retomar o trabalho interrompido | Ambos | Ambos exigem continuidade; o dado a recuperar difere. | Mostrar item, ponto de retomada e base alterada. Não reaplicar operação. |
-| O10 · Comunicar o alcance da conferência | M02 | Resumo disponível não significa mensagem enviada. | Separar a resposta do preposto da comunicação humana de Rafael. |
+| O10 · Comunicar o alcance da conferência (instrumental indireto de O01) | M02, como cena opcional após O08 | Resumo disponível não significa mensagem enviada. | O02 termina em O08. O preposto entrega o resumo do alcance; a comunicação de Rafael a Mariana fica fora do sistema. |
 
 ### Preparação para o Figma
 
