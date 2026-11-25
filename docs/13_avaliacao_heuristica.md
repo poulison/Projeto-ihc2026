@@ -127,55 +127,50 @@ A aula demonstra um recurso para comparar ocorrências. O avaliador pode atribui
 |---|---|
 | Protótipo de referência | Estoque Inteligente · Entrega 11, de 11/11/2026. [Abrir apresentação no Figma](https://www.figma.com/proto/jgB0Bk5BLQ3XM2W9tgZDmd/Estoque-Inteligente?page-id=0%3A1&node-id=2-2&starting-point-node-id=2%3A2&scaling=scale-down) |
 | Escopo previsto | 28 quadros de 1280 × 780 px. O inventário da seção 2 inclui os percursos principais, as alternativas e os estados de recuperação. |
-| M01 / T01 · Mariana Alves | Analisar a reposição da garrafa térmica e registrar a decisão. Percurso principal conferido de F01 → F02 → F03 → F04 → F05 → F05S. |
-| M02 / T02 · Rafael Costa | Investigar a divergência no estoque de conjuntos de potes e conferir o desfecho. Percurso principal conferido de F01 → F10 → F11 → F12 → F13. |
-| Data da inspeção assistida | 22/11/2026. |
-| Dispositivo e navegador utilizados | Leitura direta do arquivo pelo conector do Figma, com inspeção de textos, controles, destinos e capturas. Esta sessão não utilizou navegador em modo de apresentação. |
-| Área de visualização e zoom utilizados | Quadros de 1280 × 780 px. Zoom de navegador inaplicável ao método. |
-
-**Responsável pela ficha A01:** Paulo Andre de Oliveira Hirata. **Execução desta análise:** Codex, a pedido de Paulo. A pré-análise compartilhada já era conhecida. Cabe a Paulo revisar as conclusões e registrar sua própria inspeção para cumprir a etapa individual da disciplina.
-
-Partindo de F01, foram seguidos os destinos das ações até cobrir os 28 quadros alcançáveis de M01 e M02. A leitura pelas dez heurísticas considerou a ação de origem, o texto recebido, as alternativas e o caminho de volta. Em M01 foram examinados planejamento de 4 e 6 unidades, adiamento, pendência, pausa, quantidade inválida e falha ao salvar. Em M02 foram examinados correção, origem incerta, falta de autorização, pausa, confirmação e recuperação. A frequência e o impacto abaixo são estimativas de inspeção.
+| M01 / T01 · Mariana Alves | Inspecionar a reposição da garrafa, do início em F01 à confirmação. Incluir adiamento, pendência, edição, pausa e recuperação. |
+| M02 / T02 · Rafael Costa | Inspecionar a conferência dos conjuntos de potes, do início em F01 ao desfecho. Incluir origem incerta, falta de autorização, pausa e recuperação. |
+| Data e versão do Figma inspecionada | Data e versão da sessão não informadas. |
+| Dispositivo, navegador, área visível e zoom | Não informados. |
+| Caminhos descritos pelo avaliador | Reposição de garrafas, incluindo a escolha da quantidade e a tentativa com zero. Conferência dos potes, incluindo a comparação dos registros, a tentativa de pausa e a revisão da origem incerta. |
 
 ### 4. Matriz de cobertura das 10 heurísticas
 
-| Heurística | Quadros representativos dos dois fluxos | Violação identificada? | ID | Evidência de cobertura |
-|---|---|---|---|---|
-| H1 · Visibilidade do status do sistema | F02P, F05S, F06E/F06R, F10P, F12E/F12F, F13/F14 | Não | — | F06E e F12E identificam o registro e a confirmação pendente. |
-| H2 · Compatibilidade entre o sistema e o mundo real | F01, F02/F02B, F10/F11, F12/F13 | Não | — | A reposição distingue garrafas livres e comprometidas. A conferência conta conjuntos de potes. |
-| H3 · Controle e liberdade do usuário | F03/F04, F05/F05Q/F05A/F05P, F12/F12P | Sim | A01-V01 | Editar a correção em F12 permite rever as fontes em F11. |
-| H4 · Consistência e padrões | F01, F05/F05Q/F05A/F05P, F12/F12P, F13/F14 | Não | — | Revisões precedem confirmações nos dois percursos. |
-| H5 · Prevenção de erros | F04/F04E, F05, F11/F12/F12N/F12P | Não | — | A quantidade zero exige correção. F12 apresenta o efeito sobre o saldo antes de confirmar. |
-| H6 · Reconhecimento em vez de memorização | F02, F02P, F10P, F11/F12 | Não | — | Pedido, anotação e recontagem aparecem juntos no confronto. |
-| H7 · Flexibilidade e eficiência de uso | F02/F02P, F10/F10P/F11 | Sim | A01-V02 | F01 oferece entrada direta nos dois trabalhos. |
-| H8 · Estética e design minimalista | F01/F02, F05, F11/F12 | Sim | A01-V03 | Em F02, as quatro unidades disponíveis têm destaque próprio. |
-| H9 · Ajudar usuários a reconhecer, diagnosticar e recuperar-se de erros | F04E, F06E/F06R, F12E/F12F | Não | — | F04E explica o valor inválido e oferece correção. |
-| H10 · Ajuda e documentação | F02B, F03, F04E, F11/F12N/F13 | Não | — | F11 orienta Rafael a consultar Mariana sobre a origem da anotação. |
-
-**Revisão do indício PRE-01 (H1).** A consulta em F06E leva a F05S e a consulta em F12E leva a F13. O protótipo comunica tanto a espera inicial quanto o resultado da consulta. Falta simular a possibilidade de uma segunda resposta ainda pendente, prevista no MoLIC. Nesta ficha, a diferença foi classificada como lacuna de cobertura da simulação. A inspeção não encontrou uma mensagem incorreta de estado nesses dois caminhos.
+| Heurística | Onde verificar | Resultado da inspeção individual |
+|---|---|---|
+| H1 · Visibilidade do status do sistema | F05Q · Revisar decisão e F05S · Decisão salva | Identifiquei o estado da operação pelas mensagens. A revisão avisa que ainda é preciso confirmar, e a tela final informa que a decisão foi salva. Sem violação relatada. |
+| H2 · Correspondência com o mundo real | F02 · Analisar reposição e F12P · Revisar pendência | Entendi as quantidades de garrafas. Na conferência dos potes, tive dúvida se alguns valores representavam potes avulsos ou conjuntos. **Sim · A01-V04.** |
+| H3 · Controle e liberdade do usuário | F04 · Quantidade planejada e F05Q · Revisar decisão | A quantidade apresentada na revisão acompanhou a escolha feita. A observação cobre a escolha e a revisão. A preservação da quantidade e do motivo ao voltar por **Editar** ficou sem confirmação. |
+| H4 · Consistência e padrões | F05Q · Revisar decisão e F12 · Revisar correção | Os botões me pareceram coerentes nos dois fluxos. Nas duas revisões, reconheci a ação de confirmar pelo rótulo e pela apresentação do botão. Sem violação relatada. |
+| H5 · Prevenção de erros | F04 → F04E · Confira a quantidade | Ao selecionar zero garrafas, recebi uma mensagem pedindo para conferir a quantidade. A tela exigiu um valor maior que zero antes de prosseguir. Sem violação relatada. |
+| H6 · Reconhecimento em vez de memorização | F11 · Confrontar registros | Consegui ver na mesma tela as informações necessárias à comparação do pedido, da anotação do balcão e da recontagem. Sem violação relatada. |
+| H7 · Flexibilidade e eficiência de uso | F10 · Investigar divergência e F11 · Confrontar registros | Quando quis interromper a conferência para retomá-la depois, não consegui pausar diretamente na tela em que estava comparando os registros. **Sim · A01-V02.** |
+| H8 · Estética e design minimalista | F05Q · Revisar decisão | A diferença de cor entre o botão de confirmação e as alternativas de edição ou descarte me ajudou a escolher como prosseguir. Sem violação relatada. |
+| H9 · Reconhecimento, diagnóstico e recuperação de erros | F04E · Confira a quantidade e F12P · Revisar pendência | Na reposição, consegui voltar para corrigir a quantidade inválida. Na conferência, a escolha era sobre a origem da anotação. Ao indicar **Origem incerta**, consegui rever as evidências antes de decidir o que registrar. Sem violação relatada. |
+| H10 · Ajuda e documentação | F04 · Quantidade planejada e F11 · Confrontar registros | Nos dois percursos, encontrei orientação no momento da decisão. Para as garrafas, a tela indicou que eu deveria escolher uma quantidade e revisar o registro. Para os potes, orientou a consulta a Mariana. Sem violação relatada. |
 
 ### 5. Declaração de violações
 
-| ID | Heurística e local | Ação, resposta e consequência | Evidência | Severidade (0–4) e justificativa | Correção e verificação |
+Os graus abaixo são propostas para confirmação por Paulo. A frequência e a persistência são estimativas baseadas nas situações em que cada dificuldade pode reaparecer.
+
+| ID individual | Heurística e quadro | Ação, resposta e consequência | Evidência | Severidade sugerida (0–4) e justificativa | Correção proposta e como verificá-la |
 |---|---|---|---|---|---|
-| A01-V01 | H3 · F05Q → F04 | Mariana seleciona 4 unidades para preservar o caixa. Ao escolher **Editar** na revisão, volta a um rascunho de **6 unidades**, com o motivo de cobrir a procura até quinta. Para manter a escolha anterior, precisa selecionar 4 outra vez. | **Antes de editar:** ![Quadro F05Q](../assets/13_heuristica/f05q.png)<br>**Depois de editar:** ![Quadro F04](../assets/13_heuristica/f04.png) | **3 · maior.** Afeta toda edição que parte da opção de 4 unidades. A troca silenciosa envolve quantidade e justificativa comercial e pode chegar à confirmação se passar despercebida. É recuperável, mas se repete ao editar novamente. | Reabrir o rascunho com a quantidade e o motivo selecionados. Escolher 4, editar e voltar à revisão sem alterar nada. As duas telas devem manter 4 unidades e o motivo ligado ao caixa. |
-| A01-V02 | H7 · F11, F10, F10P | Durante o confronto, F11 oferece confirmação da origem, origem incerta ou retorno a F10. Para pausar é necessário voltar. A retomada leva a F10 e pede que a comparação recomece. | **Ações de F11:** ![Quadro F11](../assets/13_heuristica/f11.png)<br>**Próxima etapa ao pausar:** ![Quadro F10P](../assets/13_heuristica/f10p.png) | **2 · menor.** O problema ocorre nas interrupções durante o confronto. Exige navegação adicional e recuperar de memória quais fontes já foram vistas. Repete-se a cada interrupção nesse ponto. | Oferecer pausa em F11. Interromper depois de comparar o pedido e verificar se a retomada mostra a mesma investigação e a próxima fonte a conferir. |
-| A01-V03 | H8 · F02, F05, F12 | Mariana recebe “Ver caso sem previsão” ao lado de “Escolher decisão”. Rafael recebe “Testar falha” junto de “Confirmar correção”. Esses comandos permitem ao participante trocar o cenário durante a tarefa. | **Comandos na faixa de ações:** ![Quadro F02](../assets/13_heuristica/f02.png)<br>![Quadro F12](../assets/13_heuristica/f12.png) | **2 · menor.** Os comandos aparecem a cada visita a esses quadros e podem desviar a tentativa para outra condição de teste. O fluxo principal continua acessível. | Preparar os casos alternativos por entradas do moderador. Reabrir os casos como participante e conferir que só aparecem ações próprias da tarefa. |
+| A01-V04 | H2 · F12P | Ao comparar saldo e contagem, tive dúvida sobre a unidade dos potes. A linha começa com **8 conjuntos** e termina com **contagem física: 10**. Para interpretar o último número, precisei recorrer ao contexto. | ![F12P. Na linha Saldo registrado, apenas o primeiro número vem acompanhado de conjuntos.](../assets/13_heuristica/f12p.png) | **2 · Menor.** Afeta quem compara os dois valores. O cabeçalho informa a venda por conjunto e permite resolver a dúvida. A ambiguidade reaparece sempre que a linha é lida isoladamente. | Escrever **contagem física: 10 conjuntos**. Conferir se a linha, lida sozinha, permite identificar o que os números 8 e 10 contam. |
+| A01-V02 | H7 · F10 e F11 | Ao confrontar os registros, quis pausar a operação. **Pausar conferência** aparece em F10. Em F11, encontrei as opções de indicar a origem ou voltar. Para alcançar a pausa, é preciso sair da comparação. | **F10 · Pausa disponível** ![F10. Botão Pausar conferência.](../assets/13_heuristica/f10.png)<br>**F11 · Ações durante a comparação** ![F11. Mesma saída confirmada, Origem incerta e Voltar no rodapé.](../assets/13_heuristica/f11.png) | **2 · Menor.** Afeta quem sofre uma interrupção durante a comparação. A pausa existe na etapa anterior, mas exige navegação adicional. Esse esforço se repete a cada interrupção nessa etapa. | Disponibilizar **Pausar conferência** em F11. Verificar se, ao interromper a leitura e retomar, Rafael volta à comparação do mesmo pedido. |
 
 ### 6. Boas práticas — heurísticas não violadas (atividade didática)
 
-| Heurística | Exemplo no sistema | Evidência | Por que atende |
+| Heurística | Quadro e elemento | Evidência | Como favorece a tarefa |
 |---|---|---|---|
-| H1 · Visibilidade do status do sistema | F13 identifica a correção como registrada e mostra o saldo de 10 conjuntos. | ![Tela F13](../assets/13_heuristica/f13.png) | O título e o saldo permitem conferir o resultado imediatamente após salvar. |
-| H2 · Compatibilidade entre o sistema e o mundo real | F02 distingue garrafas na loja, reservadas para pedido pago e disponíveis para novas vendas. | ![Tela F02](../assets/13_heuristica/f02.png) | Relaciona os números às operações conhecidas por quem vende e separa pedidos. |
-| H3 · Controle e liberdade do usuário | F12 oferece “Editar” durante a revisão da correção. | ![Tela F12](../assets/13_heuristica/f12.png) | Rafael pode rever a base antes de confirmar uma alteração de saldo. |
-| H4 · Consistência e padrões | F01 usa a mesma estrutura de cartão para reposição e conferência, com identificação, valor principal e ação. | ![Tela F01](../assets/13_heuristica/f01.png) | O mesmo padrão permite escolher entre as duas tarefas. |
-| H5 · Prevenção de erros | F12 mostra 8 conjuntos atuais, desconto indevido de 2 e saldo previsto de 10. | ![Tela F12](../assets/13_heuristica/f12.png) | A pessoa consegue conferir o efeito e a justificativa antes de confirmar. |
-| H6 · Reconhecimento em vez de memorização | F11 mantém pedido, anotação e recontagem visíveis ao mesmo tempo. | ![Tela F11](../assets/13_heuristica/f11.png) | As fontes podem ser comparadas sem memorizar informações de telas sucessivas. |
-| H7 · Flexibilidade e eficiência de uso | Cada cartão de F01 dá acesso direto à ação daquele item. | ![Tela F01](../assets/13_heuristica/f01.png) | A pessoa entra na tarefa de reposição ou de conferência sem refazer a busca pelo produto. |
-| H8 · Estética e design minimalista | F02 agrupa físico, comprometido e disponível, com destaque para as quatro garrafas livres. | ![Tela F02](../assets/13_heuristica/f02.png) | A hierarquia visual facilita localizar a quantidade utilizável mesmo com outras informações na página. |
-| H9 · Ajudar usuários a reconhecer, diagnosticar e recuperar-se de erros | F04E identifica o valor zero, preserva o motivo e oferece “Corrigir quantidade”. | ![Tela F04E](../assets/13_heuristica/f04e.png) | Indica o que causou o erro e como prosseguir com o trabalho já iniciado. |
-| H10 · Ajuda e documentação | F11 orienta consultar Mariana para verificar a origem da anotação. | ![Tela F11](../assets/13_heuristica/f11.png) | A orientação aparece no ponto de dúvida e indica a fonte que pode esclarecer a causa. |
+| H1 | F05S · Decisão salva | ![F05S. Confirmação de que o planejamento foi registrado.](../assets/13_heuristica/f05s.png) | A mensagem de conclusão permite a Mariana saber que o registro terminou. |
+| H2 | F02 · Contagem física, comprometidas e disponíveis | ![F02. Seis garrafas na loja, duas comprometidas e quatro disponíveis.](../assets/13_heuristica/f02.png) | Os rótulos explicam quais garrafas ainda podem ser vendidas. A dúvida relatada em H2 ocorreu no fluxo dos potes. |
+| H3 | F04 e F05Q · Escolha e revisão da quantidade | ![F04. Opções para revisar seis unidades ou usar quatro.](../assets/13_heuristica/f04.png)<br>![F05Q. A revisão mostra Planejar 4 unidades e oferece Editar.](../assets/13_heuristica/f05q.png) | Mariana pode escolher quatro unidades e conferir o resultado antes da confirmação. |
+| H4 | F05Q e F12 · Botões de confirmação | ![F05Q. Confirmar decisão na revisão da reposição.](../assets/13_heuristica/f05q.png)<br>![F12. Confirmar correção na revisão da divergência.](../assets/13_heuristica/f12.png) | O mesmo padrão, **Confirmar** seguido do que será registrado, ajuda a prever a ação nos dois fluxos. |
+| H5 | F04E · Validação da quantidade | ![F04E. O valor zero é identificado como inválido antes da confirmação.](../assets/13_heuristica/f04e.png) | A validação bloqueia o planejamento de zero unidades e informa o critério para prosseguir. |
+| H6 | F11 · Pedido, anotação e recontagem | ![F11. As três fontes de informação aparecem juntas.](../assets/13_heuristica/f11.png) | Rafael pode comparar as fontes enquanto lê, sem memorizar os números de outra tela. |
+| H7 | F10 · Pausar conferência | ![F10. Ação de pausa disponível antes de confrontar os registros.](../assets/13_heuristica/f10.png) | A tela inicial da investigação oferece uma pausa antes da comparação. A dificuldade relatada surgiu na etapa seguinte, F11. |
+| H8 | F05Q · Destaque da ação principal | ![F05Q. Confirmar decisão tem fundo verde, e Editar e Descartar rascunho têm fundo claro.](../assets/13_heuristica/f05q.png) | O preenchimento do botão, junto ao rótulo, ajuda a distinguir a confirmação das alternativas. |
+| H9 | F04E · Corrigir quantidade e F12P · Rever evidências | ![F04E. A orientação pede um valor maior que zero e oferece Corrigir quantidade.](../assets/13_heuristica/f04e.png)<br>![F12P. A evidência aparece como inconclusiva e o botão permite revê-la.](../assets/13_heuristica/f12p.png) | Nas garrafas, a mensagem explica como corrigir o valor inválido. Nos potes, a origem incerta abre uma pendência e permite reexaminar as fontes com o saldo mantido. |
+| H10 | F04 e F11 · Orientações no ponto da decisão | ![F04. A orientação indica escolher uma quantidade e revisar o registro.](../assets/13_heuristica/f04.png)<br>![F11. A linha da recontagem orienta consultar Mariana sobre a anotação.](../assets/13_heuristica/f11.png) | As mensagens indicam uma ação concreta no momento em que a pessoa precisa decidir como continuar. |
 
 ---
 
