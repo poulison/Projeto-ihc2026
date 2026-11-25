@@ -1,7 +1,8 @@
 # Entrega 12 — Planejamento da avaliação de usabilidade (DECIDE)
 
 **Data:** 12/11/2026  
-**Status:** 🟨 em andamento  
+**Status:** 🟩 planejamento concluído em 25/11/2026. O piloto e as sessões com participantes serão realizados na Entrega 14.
+
 **Responsabilidade:** 1 solução por equipe
 
 ## Objetivo da atividade
@@ -10,18 +11,9 @@ Planejar a avaliação antes de executá-la, ligando perguntas de avaliação a 
 
 ## O que está sendo avaliado
 
-Em projetos cuja interface foi criada ou ampliada para a disciplina, o plano deve declarar explicitamente que a avaliação investiga **a qualidade da interação/protótipo**, não a validade científica ou o desempenho técnico do algoritmo/modelo do TCC.
+A equipe avaliará a interação com o **Estoque Inteligente**, protótipo navegável da Entrega 11. Na reposição (T01), a pessoa distingue estoque físico, reservado e disponível, interpreta a previsão e confere a decisão que salvou. Na conferência (T02), investiga a diferença entre contagem e registros, decide se há evidência para corrigir o saldo e comunica o que ficou pendente. Nos dois fluxos, a equipe observará também como a pessoa retoma o trabalho após uma interrupção.
 
-Exemplos de perguntas:
-
-- o DBA consegue localizar e comparar duas execuções?
-- o analista entende o significado de um indicador?
-- o administrador consegue alterar uma permissão sem risco de erro não percebido?
-- o usuário compreende que o processamento está em andamento e consegue recuperar-se de uma falha?
-- os filtros ajudam a localizar o histórico relevante?
-- um relatório permite identificar a informação necessária para a decisão?
-
-Se o protótipo utiliza dados ou resultados simulados, documente isso no plano.
+Produtos, saldos, previsões e respostas do sistema são simulados no Figma. O teste mede a compreensão e o uso da interface. A acurácia do modelo de previsão e a persistência dos registros exigem avaliação técnica própria.
 
 ## A. Método DECIDE
 
@@ -31,7 +23,7 @@ Se o protótipo utiliza dados ou resultados simulados, documente isso no plano.
 | **E — Explore the questions** | **Que perguntas a avaliação deve responder?** Quem repõe o produto consegue dizer quantas unidades ainda pode vender e o que ficou registrado? Quem confere o estoque sabe quando corrigir a duplicidade e quando manter o caso em aberto? Que dificuldades e dúvidas surgem até chegar a essas decisões? A seção B indica a evidência para cada pergunta. |
 | **C — Choose the evaluation paradigm and techniques** | Na Entrega 13, cada integrante inspecionará individualmente as telas e os estados disponíveis usando as dez heurísticas de Nielsen. Depois, a dupla consolidará os problemas. Na Entrega 14, observará participantes realizando tarefas e ouvirá suas explicações após cada tentativa. A inspeção antecipa dificuldades. A observação mostra quais delas ocorreram durante o uso. |
 | **I — Identify the practical issues** | Na Entrega 13, os integrantes farão a inspeção individual e consolidarão os achados. Antes da Entrega 14, farão um piloto, identificarão a versão de coleta e convidarão uma pessoa por perfil. Paulo moderará a sessão de reposição e Victor a de conferência. Em cada sessão, o outro integrante registrará os dados. |
-| **D — Decide how to deal with ethical issues** | Antes do pré-teste, explicar o uso da janela do Figma e da voz para avaliar a interação e obter aceite escrito. Usar os códigos U01 e U02 e dados fictícios. A pessoa pode recusar, interromper a gravação ou retirar a participação. Se recusar a gravação, agradecer e encerrar sem coleta. O termo informa quem terá acesso e o prazo de descarte. |
+| **D — Decide how to deal with ethical issues** | Antes do pré-teste, explicar o que o observador anotará, entregar uma cópia do termo e obter o aceite escrito. Usar U01 ou U02 nas fichas. A pessoa pode pular perguntas, pedir uma pausa ou encerrar a sessão. Se recusar o convite, agradecer e encerrar antes de coletar dados. |
 | **E — Evaluate, interpret and present the data** | A dupla reunirá as observações por tarefa e meta. Cada achado indicará o que ocorreu, a consequência para o trabalho e a mudança proposta. A versão avaliada acompanhará os resultados para permitir a repetição do caso após uma revisão. |
 
 
@@ -48,6 +40,8 @@ Se o protótipo utiliza dados ou resultados simulados, documente isso no plano.
 | QA07 | Após uma interrupção de balcão, a pessoa reconhece onde parou e o que precisa fazer? | Observação de execução separada com pausa | Tempo desde o retorno até identificar item, estado de salvamento e próxima ação. Observar eventual duplicação. | MU07: até 30 s após o retorno e nenhum registro duplicado. |
 
 
+## C. Escopo e participantes
+
 | Item | Planejamento |
 |---|---|
 | Perfis | Uma pessoa que decide reposições em pequeno comércio, preferencialmente com pouca familiaridade com sistemas de estoque, e uma pessoa que confere mercadorias e movimentações. |
@@ -59,10 +53,10 @@ Se o protótipo utiliza dados ou resultados simulados, documente isso no plano.
 | Teste piloto | Antes da coleta, um integrante representará o participante e o outro conduzirá o roteiro. Verificar abertura das telas, legibilidade, neutralidade dos enunciados e cronometragem. Reservar 25–35 minutos por sessão e ajustar a previsão após o piloto. Em caso de falha de conexão, suspender o cronômetro e registrar o trecho inviabilizado. |
 | Responsáveis e contato | Paulo Andre de Oliveira Hirata modera U01 e Victor Merker Binda observa; em U02, Victor modera e Paulo observa. Para dúvidas e retirada, utilizar o contato de Victor já confirmado na Entrega 7: victor.merker.bindaa@gmail.com. Victor enviará os convites e atenderá pedidos de esclarecimento ou retirada pelo endereço indicado no termo. |
 | Recrutamento e agenda | A dupla convidará uma pessoa por perfil, verificará experiência na atividade e disponibilidade e agendará individualmente após o piloto. Datas e local exatos serão registrados nas fichas quando confirmados. Se o perfil for aproximado, justificar a escolha e sua limitação antes da sessão. |
-| Armazenamento e descarte | Paulo guardará os vídeos e notas por código em pasta local protegida por senha, fora do GitHub. A dupla manterá aceites e chave de identificação separados. Apenas Paulo e Victor terão acesso aos registros individuais, com exibição privada da gravação ao docente se necessária para correção. Descartar vídeos, cópias de trabalho, notas, chave e aceites em até 30 dias após a divulgação da correção final. O repositório receberá somente a síntese desidentificada. |
-| Modalidade de registro | Uma gravação por participante em sala virtual privada, durante a sessão presencial. Após o aceite e o pré-teste, o observador inicia a captura apenas da janela do Figma e do áudio do participante e do moderador, com câmeras desligadas. Gravar da leitura da primeira tarefa até o fim do pós-teste para conferir ações, ajudas, tempos e explicações. Pausar a pedido. O observador também preenche a ficha. |
+| Armazenamento e descarte | Paulo guardará as fichas e notas por código em pasta local protegida por senha, acessível apenas à dupla. Os aceites e a chave de identificação ficarão separados das notas. Descartar os registros individuais, as cópias de trabalho, os aceites e a chave em até 30 dias após a divulgação da correção final. Publicar apenas a síntese desidentificada. |
+| Registro da sessão | O observador usa a ficha do participante e um cronômetro. Para cada ocorrência, anota tarefa, quadro do Figma, tempo decorrido, ação e consequência. Registra a ajuda no momento em que ocorre e recolhe a nota de satisfação e seu motivo ao fim da tarefa. |
 
-Antes das sessões finais, a dupla registrará a revisão do Figma e ensaiará os dois fluxos. No piloto, reproduzirá um trecho com dados fictícios para conferir a leitura da tela, as duas vozes e o salvamento local. O moderador explicará o termo antes de abrir a gravação e o observador manterá as notificações e as câmeras desligadas.
+No piloto, a dupla ensaiará os dois fluxos com os dados fictícios e conferirá se o observador consegue cronometrar e anotar uma ocorrência sem interromper a tarefa. Imediatamente após cada sessão, os dois revisarão as fichas. Uma passagem que não conseguiram observar ficará identificada como dado ausente.
 
 ## D. Lista de tarefas de avaliação
 
@@ -81,7 +75,7 @@ Antes das sessões finais, a dupla registrará a revisão do Figma e ensaiará o
 
 Os instrumentos específicos já estão incorporados às Entregas 13 e 14. Serão usados diretamente, sem criar cópias genéricas nem arquivos adicionais de questionário ou planilha.
 
-- [Termo de consentimento adaptado](../assets/14_testes/termo_consentimento.md): modelo do projeto para leitura, esclarecimento e aceite antes do pré-teste. O termo identifica Victor como responsável pelo convite e traz seu contato para dúvidas e retirada. O aceite abrange a captura da janela do Figma e do áudio conforme a seção C. Guardar a via assinada na pasta privada.
+- **Consentimento.** O moderador entrega uma cópia do termo, esclarece como serão usadas as anotações e obtém o aceite escrito antes do pré-teste. O termo identifica Victor como responsável pelo convite e informa o contato para dúvidas e retirada. A via assinada ficará na pasta privada. [Termo de consentimento da equipe](../assets/14_testes/termo_consentimento.md)
 - [Roteiro e tarefas da Entrega 14](14_observacao_usuario.md#passo-5--tarefas): instruções neutras, estados de início, critérios, respostas da consulta simulada a Mariana, ordem e regras de cronometragem. U01 fará UT01, UT02 e UT05/M01; U02 fará UT03, UT04 e UT05/M02.
 - [Protocolo do moderador](14_observacao_usuario.md#passo-6--protocolo-do-moderador): abertura, consentimento, condução, intervenções, perguntas posteriores e encerramento. Não exigir verbalização contínua; registrar falas espontâneas e perguntar após a tentativa, fora do tempo medido.
 - [Pré-teste](14_observacao_usuario.md#passo-2--participantes) e [perguntas pós-tarefa/pós-teste](14_observacao_usuario.md#passo-6--protocolo-do-moderador): experiência, frequência, ferramentas e adaptações; compreensão dos dados e do desfecho; satisfação de 1 a 5 com justificativa; dúvidas e sugestões. A escala é própria do projeto, não SUS nem SEQ.
@@ -98,6 +92,7 @@ A dupla usará o mesmo termo, os mesmos critérios e as perguntas correspondente
 - **Comparação.** Para MU01, informar sucessos independentes sobre primeiras tentativas avaliáveis do caso A, por tarefa. Incluir no denominador as tentativas assistidas ou malsucedidas. Mostrar, por exemplo, o resultado na forma “x de y”, com tempos individuais. Para MU02–MU07, confrontar cada observação com o critério da seção B. Em MU03, conclusão assistida ou interrupção por dificuldade conta como meta não atingida. Informar o tempo decorrido nessa tentativa. Com denominador zero, registrar a meta como não avaliada. Um resultado de 1/1 descreve apenas aquela sessão. Explicitar lacunas de cobertura antes de concluir sobre o fluxo.
 - **Interpretação e prioridade.** Agrupar falas e ações por tema, como unidade, previsão, confirmação e retomada. Relacionar cada problema a uma evidência e à consequência no comércio. Dar prioridade a riscos de saldo incorreto, duplicação ou falsa conclusão. Depois, considerar bloqueios de tarefa, necessidade de ajuda e dificuldades recuperáveis. Na Entrega 13, registrar riscos previstos pela inspeção. Na Entrega 14, registrar ocorrências observadas e indicar o que deve ser revisto e testado novamente.
 - **Qualidade da evidência e relato.** Para dar consistência à coleta, usar o mesmo roteiro por caso e comparar no piloto como a dupla classifica a mesma ocorrência. Para preservar a validade interna, distinguir ajuda de informação prevista no cenário e registrar esperas separadamente. Para interpretar a validade externa e a ecológica, indicar quem participou, em qual versão e o que a simulação reproduziu da loja. Ao apresentar cada pergunta da seção B, informar o resultado observado, a explicação dada pela pessoa e a decisão de projeto. Quando faltar evidência, registrar o que ficou sem resposta.
+
 ## Checklist
 
 - [ ] As seis etapas DECIDE foram contextualizadas, não apenas expandidas por sigla.

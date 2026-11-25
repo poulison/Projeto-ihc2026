@@ -48,7 +48,7 @@ O fluxo organiza as atividades de preparação, coleta, interpretação, consoli
 
 **Ambiente e recursos:** sessão presencial individual, sala tranquila, notebook, navegador, mouse, cronômetro e fichas de registro. Prever 25–35 minutos, a ajustar no piloto. Registrar resolução, área visível, zoom e adaptações de leitura. Oferecer dois minutos de familiarização com a entrada do protótipo, sem demonstrar os caminhos avaliados. Reiniciar o caso entre tarefas; o Figma simula registros, não persiste compras ou movimentações reais.
 
-Será mantido o formato presencial da E12. Uma eventual aplicação remota exige pilotar compartilhamento de tela, conexão e recursos de acessibilidade, registrar as condições e separar esperas de rede; não misturar tempos de modalidades diferentes sem explicitar essa diferença. Falhas de gravação e estados de permissão previstos na E13 não serão provocados nesta rodada de observação.
+Será mantido o formato presencial da E12. Uma eventual aplicação remota exige pilotar compartilhamento de tela, conexão e recursos de acessibilidade, registrar as condições e separar esperas de rede; não misturar tempos de modalidades diferentes sem explicitar essa diferença. Falhas ao salvar registros de estoque e estados de permissão previstos na E13 não serão provocados nesta rodada de observação.
 
 ### Passo 2 — Participantes
 
@@ -63,8 +63,8 @@ No pré-teste, perguntar quais atividades de estoque a pessoa realiza, com que f
 
 ### Passo 3 — Consentimento e privacidade
 
-- **Termo/registro de consentimento:** [modelo adaptado ao Estoque Inteligente](../assets/14_testes/termo_consentimento.md). Ler, esclarecer dúvidas, entregar uma cópia e obter aceite antes do pré-teste. O contato do responsável será registrado na cópia de uso antes do convite; nenhum aceite foi obtido nesta preparação.
-- **Gravação de tela/áudio/vídeo:** não prevista, conforme E12. Um observador registrará ações, tempos e respostas. Não ligar gravação automática. A orientação de fechamento da aula (*Teste Usabilidade Observacao Usuario*, p. 16) solicita gravação do processo: **a compatibilidade da opção sem gravação com essa exigência precisa ser resolvida pela equipe com o docente antes da coleta**. Se for necessária gravação, revisar este plano e o termo antes de convidar os participantes; a participação não autoriza gravação implicitamente.
+- **Consentimento.** O moderador apresenta o [termo da equipe](../assets/14_testes/termo_consentimento.md), esclarece dúvidas, entrega uma cópia e obtém o aceite antes do pré-teste. Victor é o contato para dúvidas e retirada.
+- **Registro da sessão.** O observador cronometra as tentativas e anota na ficha o quadro, a ação, o instante e a consequência. Identifica falas literais somente quando pôde anotá-las com segurança.
 - **Identificação:** usar U01 e U02 nas notas e no relatório. Manter aceites e eventual chave de identificação separados. Esses códigos representam pseudonimização enquanto existir vínculo identificável; retirar detalhes que permitam reconhecer a pessoa na versão pública.
 - **Local e período de armazenamento:** planeja-se pasta local protegida por senha, fora do repositório e sem compartilhamento público, sob responsabilidade de Paulo, com acesso da dupla. Aceites em subpasta separada. Descartar notas individuais, chave e aceites em até 30 dias após a divulgação da correção final da atividade; manter somente a síntese desidentificada no projeto. Confirmar o local antes do recrutamento.
 - **Voluntariedade:** permitir pausa, recusa de pergunta e desistência, sem penalidade. Se houver retirada de consentimento, excluir os registros individuais ainda identificáveis e refazer a consolidação antes da publicação. Não transformar a retirada em falha de usabilidade. Oferecer leitura em voz alta ou formato acessível sem revelar soluções.
@@ -92,7 +92,7 @@ Somente a coluna **Cenário/instrução apresentada** será lida ao participante
 | UT05 · retomada | “Você está no meio dessa atividade quando precisa atender alguém no balcão. Ao voltar, identifique onde parou e continue o trabalho.” | Após pausa de 30 s em execução separada, identifica item, estado não salvo e próxima ação em até 30 s; prossegue sem duplicação. Registrar desempenho em cada fluxo separadamente. | Tempo de retomada, contexto identificado, duplicação/erros, ajudas e satisfação. | O09; M01/F02P ou M02/F10P. MU04/MU05/MU07. |
 | UT06 · repetição equivalente | **Não aplicada nesta versão.** A tarefa exige outro produto e valores com complexidade equivalente. | Critério reservado: segunda execução sem ajuda e sem erro crítico. Não usar UT02/UT04 ou a retomada como substitutos. | MU06 permanecerá não avaliada. | T01/M01 ou T02/M02; falta variante equivalente no protótipo atual. |
 
-**Ordem:** U01 realiza UT01 → UT02 → UT05/M01; U02 realiza UT03 → UT04 → UT05/M02. Fazer perguntas após cada tentativa e reiniciar o cenário antes da próxima. Não misturar retomada com o tempo da primeira execução. A pausa disponível ocorre durante a análise, antes de salvar; esta versão não testa retomada após uma confirmação de gravação.
+**Ordem:** U01 realiza UT01 → UT02 → UT05/M01; U02 realiza UT03 → UT04 → UT05/M02. Fazer perguntas após cada tentativa e reiniciar o cenário antes da próxima. Não misturar retomada com o tempo da primeira execução. A pausa disponível ocorre durante a análise, antes de salvar; esta versão não testa retomada após uma confirmação de salvamento do registro.
 
 **Dados de referência:** garrafa com 6 unidades físicas, 2 comprometidas, 4 disponíveis, vendas confirmadas de 4 unidades nos últimos três dias e estimativa fictícia de 5 nos próximos três dias. Os potes têm saldo 8 e contagem 10; o pedido 1042 representa saída de 2 conjuntos. Mesmos produto, data e quantidade não provam duplicação: é necessária a confirmação da origem. Em UT04 essa confirmação não existe.
 
@@ -128,7 +128,6 @@ Somente a coluna **Cenário/instrução apresentada** será lida ao participante
 | UT02 | NR | — | Não observado | — | Não medido | Não coletada | Sessão não realizada. |
 | UT05/M01 | NR | — | Não observado | — | Não medido | Não coletada | Sessão não realizada. |
 
-**Link da gravação (se autorizado):** não há; o plano vigente prevê notas, sem gravação.  
 **Resposta pós-teste:** não coletada. Perfil efetivo, data, versão, consentimento e condições de uso serão registrados na sessão, sem nome no relatório público.
 
 ### U02 — responsável por conferência, a recrutar
@@ -139,7 +138,6 @@ Somente a coluna **Cenário/instrução apresentada** será lida ao participante
 | UT04 | NR | — | Não observado | — | Não medido | Não coletada | Sessão não realizada. |
 | UT05/M02 | NR | — | Não observado | — | Não medido | Não coletada | Sessão não realizada. |
 
-**Link da gravação (se autorizado):** não há; o plano vigente prevê notas, sem gravação.  
 **Resposta pós-teste:** não coletada. A relação com P02 depende da experiência real confirmada no recrutamento; Rafael é uma persona, não um participante do teste.
 
 ## D. Consolidação por tarefa
@@ -190,8 +188,8 @@ Ao consolidar, usar o ID real da E13 e da E14, a versão e a cobertura da tarefa
 1. **Metas atingidas:** nenhuma foi avaliada com participantes até esta revisão. MU01–MU05 e MU07 têm protocolo definido; MU06 está fora da rodada por falta de variante equivalente. Preparar o teste não demonstra que as metas foram atingidas.
 2. **Problemas recorrentes e perfis:** ainda não há ocorrências ou recorrências observadas. A rodada prevê um participante de reposição e um de conferência; repetições da mesma pessoa não aumentarão artificialmente a amostra.
 3. **Surpresas:** não há descobertas de uso a relatar antes da execução. Expectativas da equipe permanecem hipóteses.
-4. **Prioridades:** resolver a modalidade de registro frente à orientação da aula, confirmar o canal de contato e o armazenamento, preservar a versão do protótipo, realizar o piloto, recrutar e obter consentimento. Após a coleta, priorizar alterações sustentadas por evidência, começando por erros críticos e bloqueios.
-5. **Limitações:** amostra pequena e por conveniência, um elegível por tarefa principal, dados e decisões simulados, escolhas limitadas do Figma, presença dos autores como avaliadores, ausência de gravação no plano vigente e cenário sem a pressão real do balcão. A retomada cobre apenas o momento anterior ao salvamento. A rodada não permite generalizar para o comércio, certificar acessibilidade, demonstrar aprendizagem ou validar o algoritmo. O conteúdo audiovisual dos dois vídeos não pôde ser verificado integralmente; suas páginas e descrições foram identificadas, mas as transcrições não foram recuperadas.
+4. **Prioridades:** preparar a pasta privada das fichas e dos aceites, preservar a versão do protótipo, realizar o piloto, recrutar e obter consentimento. Após a coleta, priorizar alterações sustentadas por evidência, começando por erros críticos e bloqueios.
+5. **Limitações:** amostra pequena e por conveniência, um elegível por tarefa principal, dados e decisões simulados, escolhas limitadas do Figma, presença dos autores como avaliadores, dependência das anotações tomadas durante a sessão e cenário sem a pressão real do balcão. A retomada cobre apenas o momento anterior ao salvamento. A rodada não permite generalizar para o comércio, certificar acessibilidade, demonstrar aprendizagem ou validar o algoritmo. O conteúdo audiovisual dos dois vídeos não pôde ser verificado integralmente; suas páginas e descrições foram identificadas, mas as transcrições não foram recuperadas.
 ## Checklist
 
 - [ ] Número de participantes finais atende ao enunciado.

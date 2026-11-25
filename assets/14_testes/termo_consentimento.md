@@ -1,13 +1,15 @@
 # Termo de consentimento — teste de usabilidade do Estoque Inteligente
 
-**Versão do modelo:** 15/11/2026. Preparado para uso; ainda não assinado.  
+**Versão do modelo:** 25/11/2026.
+
 **Atividade:** projeto Estoque com ML, Equipe 14, disciplina de Interação Humano-Computador, FEI.  
 **Responsáveis:** Paulo Andre de Oliveira Hirata e Victor Merker Binda.
 
-**Antes de utilizar:** o responsável deve inserir abaixo seu contato de atendimento, entregar uma cópia à pessoa e conferir a modalidade de registro definida no planejamento. Este modelo corresponde a sessões **sem gravação**. A aula solicita gravação; se essa modalidade for adotada, atualizar o termo e explicar finalidade, acesso e descarte antes de obter o aceite. Não utilizar o presente aceite para autorizar gravação posteriormente.
+**Antes da sessão.** O moderador entrega uma cópia deste termo e esclarece as dúvidas da pessoa antes de solicitar o aceite.
 
-**Responsável pelo convite:** ________________________________________  
-**Contato para dúvidas e retirada da participação:** ______________________________
+**Responsável pelo convite:** Victor Merker Binda.
+
+**Contato para dúvidas e retirada da participação:** victor.merker.bindaa@gmail.com
 
 ## Convite e objetivo
 
