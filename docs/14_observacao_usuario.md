@@ -1,7 +1,8 @@
 # Entrega 14 — Avaliação de usabilidade por observação de usuários
 
 **Data:** 15/11/2026  
-**Status:** 🟨 iniciada   
+**Status:** 🟩 concluída, com limitações registradas na seção G  
+**Sessões:** 25/11/2026  
 **Responsabilidade:** solução consolidada por equipe. O número de participantes finais observados deve ser igual ao número de integrantes, conforme o modelo da disciplina; recomenda-se que cada integrante seja responsável por conduzir/analisar ao menos um participante.
 
 ## Objetivo da atividade
@@ -54,16 +55,17 @@ Será mantido o formato presencial da E12. Uma eventual aplicação remota exige
 
 | ID | Perfil | Critérios que justificam participação | Integrante responsável |
 |---|---|---|---|
-| U01 — participante identificado, sessão pendente | Adulto responsável por reposição em pequeno comércio; perfil relacionado a P01/Mariana. | Decide quantidades ou prioridades de compra e consulta estoque/procura. Registrar familiaridade digital e contato prévio com o projeto. Preferir pouca familiaridade com sistemas de estoque, sem deduzi-la da idade. | Paulo Andre de Oliveira Hirata modera e analisa; Victor Merker Binda observa e cronometra. |
-| U02 — participante identificado, sessão pendente | Adulto que confere mercadorias e movimentações; perfil relacionado a P02/Rafael. | Tem experiência de comparar contagem física e registros ou investigar diferenças. Não precisa decidir compras. Registrar ferramentas utilizadas e experiência prévia. | Victor Merker Binda modera e analisa; Paulo Andre de Oliveira Hirata observa e cronometra. |
+| U01 — sessão realizada em 25/11/2026 | Adulto responsável por reposição em pequeno comércio; perfil relacionado a P01/Mariana. | Decide quantidades ou prioridades de compra e consulta estoque/procura. Registrar familiaridade digital e contato prévio com o projeto. Preferir pouca familiaridade com sistemas de estoque, sem deduzi-la da idade. | Paulo Andre de Oliveira Hirata modera e analisa; Victor Merker Binda observa e cronometra. |
+| U02 — sessão realizada em 25/11/2026 | Adulto que confere mercadorias e movimentações; perfil relacionado a P02/Rafael. | Tem experiência de comparar contagem física e registros ou investigar diferenças. Não precisa decidir compras. Registrar ferramentas utilizadas e experiência prévia. | Victor Merker Binda modera e analisa; Paulo Andre de Oliveira Hirata observa e cronometra. |
 
-**Amostra:** dois participantes finais; a equipe já identificou as duas pessoas, mas **nenhuma sessão foi realizada** até esta revisão. A experiência de cada uma com a atividade será confirmada no pré-teste. Recrutamento por conveniência, condicionado à experiência na tarefa. Não apresentar um colega sem experiência como representante do comércio. Cada participante fará somente os casos de seu perfil; UT05 será identificada também por M01 ou M02 para manter os resultados separados.
+**Amostra:** dois participantes finais, observados em 25/11/2026. **Desvio do critério de inclusão:** no pré-teste, as duas pessoas disseram que não trabalham com estoque e que já conheciam o projeto. Foram mantidas como **participantes aproximados (proxy)**, convidados por conveniência no prazo da entrega. Os resultados não equivalem aos de quem faz reposição ou conferência e são tratados como limitação na seção G. Recrutamento por conveniência, condicionado à experiência na tarefa. Não apresentar um colega sem experiência como representante do comércio. Cada participante fará somente os casos de seu perfil; UT05 será identificada também por M01 ou M02 para manter os resultados separados.
 
 No pré-teste, perguntar quais atividades de estoque a pessoa realiza, com que frequência, quais ferramentas utiliza, se já conhece o protótipo e se precisa de adaptações de leitura ou comunicação. Registrar as respostas nas notas da sessão. Não solicitar documentos pessoais, renda, dados de clientes ou nome do estabelecimento no relatório público.
 
 ### Passo 3 — Consentimento e privacidade
 
 - **Consentimento.** O moderador apresenta o [termo da equipe](../assets/14_testes/termo_consentimento.md), esclarece dúvidas, entrega uma cópia e obtém o aceite antes do pré-teste. Victor é o contato para dúvidas e retirada.
+- **Desvio em 25/11/2026:** as sessões ocorreram **sem termo assinado**. Nenhum nome foi registrado nas fichas ou no repositório; os participantes aparecem só como U01 e U02. Antes de publicar a versão final, a equipe deve apresentar o termo às duas pessoas e obter o aceite por escrito; se alguém recusar, os dados dessa pessoa saem do relatório.
 - **Registro da sessão.** O observador cronometra as tentativas e anota na ficha o quadro, a ação, o instante e a consequência. Identifica falas literais somente quando pôde anotá-las com segurança.
 - **Identificação:** usar U01 e U02 nas notas e no relatório. Manter aceites e eventual chave de identificação separados. Esses códigos representam pseudonimização enquanto existir vínculo identificável; retirar detalhes que permitam reconhecer a pessoa na versão pública.
 - **Local e período de armazenamento:** planeja-se pasta local protegida por senha, fora do repositório e sem compartilhamento público, sob responsabilidade de Paulo, com acesso da dupla. Aceites em subpasta separada. Descartar notas individuais, chave e aceites em até 30 dias após a divulgação da correção final da atividade; manter somente a síntese desidentificada no projeto. Confirmar o local antes do recrutamento.
@@ -121,92 +123,105 @@ Somente a coluna **Cenário/instrução apresentada** será lida ao participante
 
 ## C. Resultados — por participante
 
-**Nenhuma sessão final foi realizada.** “NR” significa não realizado; “—” indica ausência de medição, não zero. Usar as tabelas desta seção para registrar os resultados. Nas notas de cada sessão, guardar data, versão, ambiente, início/fim, pausas/esperas, ações e intervenções; resumir tempo total e ativo na coluna Tempo e indicar quadro/instante nas evidências. UT06 não aparece nas tentativas previstas porque foi excluída do escopo desta versão.
+Sessões em 25/11/2026, presenciais, na revisão do protótipo de 25/11/2026 (correções C01–C05 aplicadas). U01 fez UT01 e UT02 e U02 fez UT03 e UT04 separadamente. **UT05 e o pós-teste foram feitos com as duas pessoas juntas.** Não houve gravação nem piloto. Os tempos são a estimativa da dupla de avaliadores, de 2 a 3 minutos por tarefa; não houve registro exato por tarefa. A coluna de evidência resume o que a pessoa explicou depois da tarefa, nas palavras do observador.
 
-### U01 — responsável por reposição, sessão pendente
+**Ocorrência comum às duas sessões:** nenhum erro observado e nenhuma ajuda da equipe. Houve demora pontual para ler a tela e saber onde estava; a tela e a tarefa de cada demora não foram anotadas.
 
-| Tarefa | Grau de sucesso | Erros | Tipos de erro/dificuldade | Ajudas | Tempo | Satisfação | Evidência/observação |
-|---|---|---:|---|---:|---|---|---|
-| UT01 | NR | — | Não observado | — | Não medido | Não coletada | Sessão não realizada. |
-| UT02 | NR | — | Não observado | — | Não medido | Não coletada | Sessão não realizada. |
-| UT05/M01 | NR | — | Não observado | — | Não medido | Não coletada | Sessão não realizada. |
+### U01 — reposição
 
-**Resposta pós-teste:** não coletada. Perfil efetivo, data, versão, consentimento e condições de uso serão registrados na sessão, sem nome no relatório público.
-
-### U02 — responsável por conferência, sessão pendente
+**Pré-teste:** não trabalha com estoque; já conhecia o projeto.
 
 | Tarefa | Grau de sucesso | Erros | Tipos de erro/dificuldade | Ajudas | Tempo | Satisfação | Evidência/observação |
 |---|---|---:|---|---:|---|---|---|
-| UT03 | NR | — | Não observado | — | Não medido | Não coletada | Sessão não realizada. |
-| UT04 | NR | — | Não observado | — | Não medido | Não coletada | Sessão não realizada. |
-| UT05/M02 | NR | — | Não observado | — | Não medido | Não coletada | Sessão não realizada. |
+| UT01 | Sucesso, sem ajuda | 0 | Demora pontual de leitura (ver nota acima) | 0 | ≈ 2–3 min | 4 | Disse que pode vender 4 garrafas: 6 na loja e 2 comprometidas com pedidos pagos. Disse que a previsão de 5 unidades em 3 dias pode variar. Planejou 6 unidades para cobrir a procura até quinta e conferiu o registro; apontou o contato com o fornecedor como próxima ação. |
+| UT02 | Sucesso, sem ajuda | 0 | Demora pontual de leitura | 0 | ≈ 2–3 min | 5 | Disse que há 4 disponíveis e que, sem previsão, a procura futura é desconhecida. Registrou pendência para confirmar as vendas dos últimos 3 dias e conferir os pedidos pagos antes do meio-dia. |
+| UT05/M01 | Sucesso, sem ajuda (feita junto com U02) | 0 | Demora pontual para se localizar | 0 | Retomada não cronometrada | 4 | Identificou a garrafa, o que já tinha conferido, que a decisão seguia em rascunho e que podia retomar a análise. Não duplicou registro. |
 
-**Resposta pós-teste:** não coletada. A relação com P02 depende da experiência real confirmada no recrutamento; Rafael é uma persona, não um participante do teste.
+### U02 — conferência
+
+**Pré-teste:** não trabalha com estoque; já conhecia o projeto.
+
+| Tarefa | Grau de sucesso | Erros | Tipos de erro/dificuldade | Ajudas | Tempo | Satisfação | Evidência/observação |
+|---|---|---:|---|---:|---|---|---|
+| UT03 | Sucesso, sem ajuda | 0 | Demora pontual de leitura | 0 | ≈ 2–3 min | 4 | Consultou a proprietária (resposta prevista no cenário), concluiu que a anotação copiava o pedido 1042 e desfez só o segundo desconto. Conferiu o saldo de 10 conjuntos e disse que só esse item foi corrigido, com os outros 13 registros em conferência. |
+| UT04 | Sucesso, sem ajuda | 0 | Demora pontual de leitura | 0 | ≈ 2–3 min | 5 | Manteve o saldo em 8 conjuntos diante da contagem de 10, deixou a divergência em aberto e registrou a próxima verificação: conferir o comprovante de expedição com Mariana. |
+| UT05/M02 | Sucesso, sem ajuda (feita junto com U01) | 0 | Demora pontual para se localizar | 0 | Retomada não cronometrada | 4 | Identificou o item, o saldo de 8 e a contagem de 10 já vistos, que o desfecho seguia em rascunho e que o próximo passo era comparar pedido, anotação e saída. Não duplicou registro. |
+
+**Pós-teste (respondido em conjunto por U01 e U02):**
+
+- *Em qual momento teve mais dúvida?* Na escolha da quantidade de reposição. Pediram que as 4 unidades disponíveis e a previsão de 5 em 3 dias fiquem à vista enquanto se escolhe e revisa a quantidade.
+- *O que mudaria primeiro?* Fazer **Editar** reabrir exatamente a quantidade e o motivo escolhidos.
 
 ## D. Consolidação por tarefa
 
 | Tarefa | Taxa de sucesso | Tempo típico | Erros recorrentes | Satisfação | Meta atendida? | Problemas prioritários |
 |---|---|---|---|---|---|---|
-| UT01 | Não calculável; 0 tentativas avaliadas | Não medido | Não observados | Não coletada | Não avaliada | Não identificados por teste. |
-| UT02 | Não calculável; 0 tentativas avaliadas | Não medido; sem meta MU03 | Não observados | Não coletada | Não avaliada | Não identificados por teste. |
-| UT03 | Não calculável; 0 tentativas avaliadas | Não medido | Não observados | Não coletada | Não avaliada | Não identificados por teste. |
-| UT04 | Não calculável; 0 tentativas avaliadas | Não medido; sem meta MU03 | Não observados | Não coletada | Não avaliada | Não identificados por teste. |
-| UT05/M01 | Não calculável; 0 tentativas avaliadas | Retomada não medida | Não observados | Não coletada | Não avaliada | Não identificados por teste. |
-| UT05/M02 | Não calculável; 0 tentativas avaliadas | Retomada não medida | Não observados | Não coletada | Não avaliada | Não identificados por teste. |
+| UT01 | 1 de 1, sem ajuda | ≈ 2–3 min (estimado) | Nenhum | 4 | MU01, MU02, MU04 e MU05 atendidas. MU03 (até 180 s) não confirmada: o tempo não foi medido com precisão. | AU02, AU03 |
+| UT02 | 1 de 1, sem ajuda | ≈ 2–3 min (sem meta MU03) | Nenhum | 5 | MU04 e MU05 atendidas | — |
+| UT03 | 1 de 1, sem ajuda | ≈ 2–3 min (estimado) | Nenhum | 4 | MU01, MU04 e MU05 atendidas. MU03 (até 300 s) atendida mesmo no limite superior da estimativa. | — |
+| UT04 | 1 de 1, sem ajuda | ≈ 2–3 min (sem meta MU03) | Nenhum | 5 | MU04 e MU05 atendidas | — |
+| UT05/M01 | 1 de 1, sem ajuda; feita em conjunto | Retomada não cronometrada | Nenhum; demora para se localizar | 4 | MU07 não confirmada: contexto identificado e sem duplicação, mas o tempo até 30 s não foi medido. MU04 e MU05 atendidas. | AU01 |
+| UT05/M02 | 1 de 1, sem ajuda; feita em conjunto | Retomada não cronometrada | Nenhum; demora para se localizar | 4 | Igual a UT05/M01 | AU01 |
 | UT06 | Não se aplica à rodada | Não se aplica | Não se aplica | Não se aplica | MU06 não avaliada | Falta variante equivalente, não é achado de uso. |
 
-Após a coleta, apresentar sucessos independentes como **x de n**, por tarefa e perfil, informando elegíveis, tentativas iniciadas, avaliáveis e não avaliadas. Incluir falhas e tentativas assistidas no denominador; excluir impedimentos técnicos somente com justificativa explícita. Com denominador zero, manter “não avaliada”, nunca 0% ou 100%. Se faltar um caso previsto por limitação do protótipo, o resultado parcial não autoriza declarar a meta global atingida. MU01 considera apenas a primeira tentativa dos casos A. Casos B e retomada serão apresentados separadamente.
+**MU02 (U01).** Nas explicações de UT01 e UT02, U01 citou os quatro pontos: 4 garrafas disponíveis; a previsão pode variar; sem previsão, a procura é desconhecida (não zero); depois de salvar, a próxima ação é falar com o fornecedor. **Meta atendida.**
 
-Com uma pessoa por perfil, apresentar o **tempo individual**, sem chamá-lo de tempo típico da população. Caso existam várias observações comparáveis, mostrar distribuição e mediana. Para satisfação, manter notas e motivos individuais; eventual recusa é dado ausente. Não calcular média aritmética da escala ordinal nem somar satisfação a erros em um índice único.
-
-Em MU02, conferir os quatro pontos nas respostas de U01. Em MU03, tentativa assistida ou encerrada por dificuldade não atende à meta; relatar seu tempo até interrupção. Em MU04, um único erro crítico exige revisão. Em MU07, relatar contexto identificado, tempo após retorno e ocorrência de duplicação para cada fluxo. Segurança prevalece sobre rapidez e satisfação.
+Cada resultado “1 de 1” descreve só aquela sessão, com um participante aproximado por perfil. Não indica a taxa de sucesso do público. A satisfação é apresentada por pessoa e tarefa, sem média.
 
 ## E. Achados e recomendações
 
-Ainda não existem achados de observação. Os riscos investigados pelo roteiro não serão apresentados como problemas comprovados, nem a preparação documental será contada como resultado de teste.
-
 | ID | Achado | Evidência (quant. + qual.) | Impacto | Recomendação | Artefatos a revisar |
 |---|---|---|---|---|---|
-| Não atribuído | Nenhum achado de uso registrado; coleta pendente. | Não há tentativas, contagens ou falas de participantes. | Não estimado por observação. | Executar o protocolo nas duas sessões. Recomendações de interface dependerão das ocorrências. | A definir a partir de cada evidência. |
-
-Após observar, numerar AU01, AU02 etc. Cada linha deve reunir participante/tarefa, quadro e instante, comportamento observado, frequência sobre elegíveis e explicação pós-tarefa. Separar descrição do fato e interpretação da causa. Priorizar risco de saldo incorreto, duplicação ou falsa conclusão; depois bloqueio, ajuda e dificuldades recuperáveis. Uma ocorrência crítica pode ser prioritária mesmo sem recorrência.
-
-Associar cada recomendação ao signo da E9, trecho M01/M02 da E10, quadro da E11 e meta afetada; indicar quem revisará e como repetir o caso. Atualizar a matriz de rastreabilidade somente com achados efetivos. As ligações de planejamento já estão na tabela de tarefas; nenhuma hipótese do projeto foi validada nesta preparação.
+| AU01 | Demora pontual para ler a tela e saber onde estava, inclusive ao retomar após a pausa. | Observada nos dois participantes; sem erro nem ajuda. A tela e o tempo de cada demora não foram anotados. | Baixo: não impediu nenhuma tarefa, mas pode pesar em MU03 e MU07. | Destacar no topo de F02P, F10P e F11P o item e a próxima ação. Na próxima rodada, cronometrar cada tarefa e anotar a tela de cada hesitação. | E11 (F02P, F10P, F11P); signo “ponto de retomada” (E9); M01/M02 O09 (E10) |
+| AU02 | A maior dúvida foi escolher a quantidade de reposição; os participantes pediram disponíveis e previsão à vista na escolha e na revisão. | Pós-teste conjunto. Os subtítulos de F04, F04Q e F05Q já mostram os dois números desde a correção parcial de C06, mas não foram percebidos como suficientes. | Médio: a quantidade planejada é a decisão central de T01. | Completar C06: mostrar “4 disponíveis” e “previsão de 5 em 3 dias” como cartões em F04, F04Q e F05Q, como em F02. | E11 (F04, F04Q, F05Q); signos “quantidade disponível” e “previsão de demanda” (E9); M01 O05 (E10); E13 C06 |
+| AU03 | Os participantes sugeriram que **Editar** reabra a quantidade e o motivo escolhidos. | Pós-teste conjunto. C01 já corrige o caminho de 4 unidades (F05Q → F04Q). Em F05A e F05P, **Editar** ainda volta à escolha do desfecho (F03). | Médio: a pessoa precisa refazer a escolha e pode registrar outra intenção. | Fazer **Editar** em F05A e F05P reabrir o rascunho do adiamento e da pendência. Confirmar com os participantes de qual revisão vinha a sugestão. | E11 (F05A, F05P); M01 O05 (E10); E13 C01 |
 
 ## F. Comparação com a avaliação heurística
 
-A [Entrega 13](13_avaliacao_heuristica.md#7-consolidação-da-equipe) foi consolidada em 25/11/2026 em 13 problemas únicos (C01–C13). A coluna da heurística abaixo usa esses IDs. A coluna dos usuários continua vazia porque nenhuma sessão foi realizada. C01–C05 devem ser corrigidos antes das sessões; se forem, a E14 verifica se a dificuldade deixou de ocorrer.
+A [Entrega 13](13_avaliacao_heuristica.md#7-consolidação-da-equipe) foi consolidada em 13 problemas (C01–C13), e C01–C05 foram corrigidos antes das sessões. A observação, com dois participantes aproximados, confirmou parte das previsões e não reproduziu outras.
 
 | Problema | Detectado na heurística? | Detectado por usuários? | O que aprendemos |
 |---|---|---|---|
-| Possível confusão entre físico, comprometido e disponível ou entre previsão e garantia — UT01/UT02; H1/H2/H6. | Em parte. A separação em F02 foi registrada como boa prática de H2. Sobre a previsão: C06 (some em F04 e F05Q) e C08 (sem explicação de origem e incerteza). | Não avaliado. | Sem conclusão empírica; comparar a explicação pós-tarefa com C06 e C08. |
-| Possível interpretação de decisão salva como compra enviada — UT01; H1/H2. | Não como violação. F05S foi registrado como boa prática de H1. | Não avaliado. | Sem conclusão empírica; confrontar o feedback com a explicação pós-tarefa. |
-| Registro de quantidade ou motivo diferente do escolhido ao editar a revisão — UT01; H3/H4. | Sim: C01, grau 3 (A02-V03). | Não avaliado. | Corrigir antes das sessões. Na sessão, observar se quem edita a revisão confirma a mesma quantidade e o mesmo motivo. |
-| Possível correção de saldo sem origem confirmada ou falsa conclusão de toda a conferência — UT03/UT04; H2/H5. | Não como violação. F12N e F12P foram boas práticas de H5. C04 (unidade dos potes nem sempre explícita) pode afetar a leitura do saldo. | Não avaliado. | Sem conclusão empírica; comparar ações, fontes consultadas e alcance comunicado. |
-| Possível perda de contexto ou duplicação após pausa — UT05; H1/H6/H7. | Sim, na conferência: C03 (sem pausa em F11), apontado pelos dois avaliadores. | Não avaliado. | Sem conclusão empírica; registrar contexto, tempo e ação após retorno. |
-| Desvio da tentativa por controles da simulação — todas as tarefas; H8. | Sim: C02 (A02-V11). | Não avaliado. | Corrigir antes das sessões; registrar se algum participante ainda aciona um caso alternativo. |
+| Confusão entre físico, comprometido e disponível ou entre previsão e garantia — UT01/UT02 | Em parte: a separação em F02 foi boa prática de H2; sobre a previsão, C06 e C08. | Não houve confusão: U01 explicou as 4 disponíveis e que a previsão pode variar. Mas a quantidade foi o ponto de mais dúvida (AU02). | A leitura dos números funcionou; o que falta é tê-los à vista na hora de escolher, como previa C06. |
+| Decisão salva interpretada como compra enviada — UT01 | Não como violação; F05S foi boa prática de H1. | Não: U01 indicou o contato com o fornecedor como próxima ação. | Sem divergência entre os métodos. |
+| Editar a revisão registra outra quantidade ou motivo — UT01 | Sim: C01, grau 3, corrigido antes das sessões. | Sugerido no pós-teste (AU03). | A correção de C01 não cobre os caminhos de adiamento e pendência. |
+| Correção de saldo sem origem ou falsa conclusão da conferência — UT03/UT04 | Não como violação; F12N e F12P foram boas práticas de H5; C04 corrigido. | Não: U02 consultou a proprietária, corrigiu só o item e manteve o saldo quando a origem era incerta. | O fluxo de conferência funcionou como previsto. |
+| Perda de contexto ou duplicação após a pausa — UT05 | Sim, na conferência: C03, corrigido com F11P. | Sem duplicação e com o contexto identificado, mas com demora para se localizar (AU01). | A pausa funciona; a retomada ainda pede leitura. O tempo não foi medido. |
+| Desvio da tentativa por controles da simulação | Sim: C02, corrigido. | Não observado. | Os controles ocultos não atrapalharam as tarefas. |
 
-Ao consolidar, usar o ID real da E13 e da E14, a versão e a cobertura da tarefa. Problema previsto e não observado não significa problema inexistente: a amostra ou o caminho pode não tê-lo exposto. Dificuldade observada sem correspondente na inspeção constitui informação nova para revisão, não prova de que um método substitui o outro.
+Problema previsto e não observado não significa problema inexistente: dois participantes aproximados podem não expô-lo.
 
 ## G. Conclusão
 
-1. **Metas atingidas:** nenhuma foi avaliada com participantes até esta revisão. MU01–MU05 e MU07 têm protocolo definido; MU06 está fora da rodada por falta de variante equivalente. Preparar o teste não demonstra que as metas foram atingidas.
-2. **Problemas recorrentes e perfis:** ainda não há ocorrências ou recorrências observadas. A rodada prevê um participante de reposição e um de conferência; repetições da mesma pessoa não aumentarão artificialmente a amostra.
-3. **Surpresas:** não há descobertas de uso a relatar antes da execução. Expectativas da equipe permanecem hipóteses.
-4. **Prioridades:** preparar a pasta privada das fichas e dos aceites, preservar a versão do protótipo, fazer a conferência anterior à primeira sessão, agendar as duas sessões e obter consentimento. Após a coleta, priorizar alterações sustentadas por evidência, começando por erros críticos e bloqueios.
-5. **Limitações:** amostra pequena e por conveniência, um elegível por tarefa principal, dados e decisões simulados, escolhas limitadas do Figma, presença dos autores como avaliadores, ausência de teste piloto, dependência das anotações tomadas durante a sessão e cenário sem a pressão real do balcão. A retomada cobre apenas o momento anterior ao salvamento. A rodada não permite generalizar para o comércio, certificar acessibilidade, demonstrar aprendizagem ou validar o algoritmo. O conteúdo audiovisual dos dois vídeos não pôde ser verificado integralmente; suas páginas e descrições foram identificadas, mas as transcrições não foram recuperadas.
+1. **Metas:** atendidas MU01 (UT01 e UT03, 1 de 1 cada), MU02 (U01), MU04 (nenhum erro crítico) e MU05 (notas de 4 e 5). Não confirmadas: MU03 na reposição e MU07, porque os tempos não foram medidos com precisão. MU06 ficou fora da rodada.
+2. **Problemas recorrentes:** demora para se localizar nas duas sessões (AU01). A dúvida sobre a quantidade e a sugestão sobre **Editar** vieram do pós-teste conjunto (AU02 e AU03).
+3. **Surpresas:** mesmo sem trabalhar com estoque, as duas pessoas concluíram todas as tarefas sem ajuda, e nenhuma tratou a previsão como compra ou corrigiu o saldo sem confirmar a origem.
+4. **Prioridades:**
+    1. Obter o aceite por escrito das duas pessoas antes da versão final.
+    2. Completar C06 com cartões na escolha e na revisão da quantidade (AU02).
+    3. Fazer **Editar** em F05A e F05P reabrir o rascunho (AU03).
+    4. Depois, C07–C13 da E13 e uma nova rodada com quem faz reposição ou conferência, cronometrando cada tarefa.
+5. **Limitações:**
+    - Participantes aproximados: não trabalham com estoque e já conheciam o projeto.
+    - UT05 e o pós-teste foram feitos com as duas pessoas juntas; uma pode ter influenciado a outra.
+    - Tempos estimados, não cronometrados por tarefa.
+    - Sem termo assinado, sem piloto e sem gravação.
+    - Autores do projeto como moderadores e observadores.
+    - Dados e decisões simulados no Figma.
+    - Os resultados não permitem generalizar para o comércio, demonstrar aprendizagem ou validar o algoritmo.
+
 ## Checklist
 
-- [ ] Número de participantes finais atende ao enunciado.
-- [ ] Participantes são representativos do público e não são membros da equipe.
-- [ ] Se foram usados participantes proxy, a justificativa e a limitação estão explícitas.
-- [ ] O teste avalia a interação; não confunde usabilidade do protótipo com desempenho técnico do TCC.
-- [ ] Tarefas administrativas/analíticas usadas no teste são rastreáveis a objetivos e cenários.
-- [ ] Há consentimento e anonimização.
-- [ ] Foi realizado teste piloto. *Não será realizado, por decisão da equipe em 25/11/2026; substituído pela conferência descrita no passo 4 e registrado como limitação.*
-- [ ] Tarefas têm critérios de sucesso definidos antes do teste.
-- [ ] Moderadores não ensinaram o caminho durante a tarefa.
-- [ ] Resultados estão separados por usuário e por tarefa.
-- [ ] Foram registrados sucesso, erros, ajudas, tempo e satisfação quando aplicáveis.
-- [ ] Conclusão combina evidência quantitativa e qualitativa.
-- [ ] Achados geram recomendações e atualização da rastreabilidade.
+- [x] Número de participantes finais atende ao enunciado.
+- [ ] Participantes são representativos do público e não são membros da equipe. *Não são membros da equipe, mas não trabalham com estoque: participantes aproximados.*
+- [x] Se foram usados participantes proxy, a justificativa e a limitação estão explícitas.
+- [x] O teste avalia a interação; não confunde usabilidade do protótipo com desempenho técnico do TCC.
+- [x] Tarefas administrativas/analíticas usadas no teste são rastreáveis a objetivos e cenários.
+- [ ] Há consentimento e anonimização. *Anonimização sim (U01, U02); não houve termo assinado.*
+- [ ] Foi realizado teste piloto. *Não realizado, por decisão da equipe em 25/11/2026; substituído pela conferência descrita no passo 4 e registrado como limitação.*
+- [x] Tarefas têm critérios de sucesso definidos antes do teste.
+- [x] Moderadores não ensinaram o caminho durante a tarefa.
+- [x] Resultados estão separados por usuário e por tarefa.
+- [x] Foram registrados sucesso, erros, ajudas, tempo e satisfação quando aplicáveis. *Tempo estimado, não cronometrado por tarefa.*
+- [x] Conclusão combina evidência quantitativa e qualitativa.
+- [x] Achados geram recomendações e atualização da rastreabilidade.
