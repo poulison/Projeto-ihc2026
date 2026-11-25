@@ -6,7 +6,7 @@
 
 **Equipe:** 14 — Estoque com ML
 
-**Status:** planejamento e instrumentos revisados. O formulário I01 existe no Drive da equipe. Para concluir a entrega, falta inserir o link público de resposta e verificar o acesso como participante. A equipe ainda não registrou piloto, coleta ou análise de respostas.
+**Status:** planejamento e instrumentos revisados. O questionário I01 foi publicado online em 25/11/2026, com acesso externo testado (ver o link no instrumento I01). A equipe ainda não registrou piloto, coleta ou análise de respostas.
 
 **Responsabilidade:** 1 solução integrada por equipe, com partes individuais conforme o modelo da atividade.
 
@@ -162,7 +162,14 @@ Os dois métodos adotados são declarativos: registram o que a pessoa relata, n�
 
 #### Procedimento padronizado de aplicação
 
-**Link para responder:**
+**Link para responder:** [Estoque com ML — Rotina de reposição](https://docs.google.com/forms/d/e/1FAIpQLSck8GKipKwZRElK_aepKr6PxnWPlNP29NjULSupqG_9LWR7qw/viewform)
+
+**Publicação e verificação (25/11/2026).** O formulário foi criado do zero na conta Google de Paulo, executando o [script do instrumento I01](../instrumentos/07_questionario_reposicao.gs) no Apps Script. O link de edição e as respostas ficam restritos à equipe. Verificações feitas sem enviar nenhuma resposta:
+- **Acesso externo:** o link foi aberto por um cliente sem sessão Google. O formulário apareceu aberto, sem exigir login, com título, introdução e pergunta de aceite.
+- **Privacidade:** não há campo de e-mail, e o formulário indica que o e-mail da conta não é compartilhado.
+- **Triagem:** “Não aceito” leva direto à página “Fim da participação”, antes de qualquer pergunta de pesquisa.
+- **Lógica condicional:** “Sim, aceito” → Idade → “Sim” → Experiência recente → Q01 “Sim” → perfil. Em Q05, “Não mantenho nem consulto registros” pula as fontes e a divergência e vai para Uso de dispositivos. Em Q06, “Não uso dispositivo digital” pula conexão e autonomia e vai para A última reposição. As perguntas depois da triagem avançaram sem resposta, o que confirma que são opcionais. A última página de quem é elegível termina em “Enviar”, sem passar pela página de saída.
+- **Não verificado:** os demais percursos de triagem (menoridade e Q01 “Não”), o ramo de quem relata divergência (Q11) e a mensagem final depois do envio. Esses percursos ficam para o piloto, com códigos de teste e registros separados da coleta.
 
 1. Publicar o questionário na conta da equipe, conforme o [instrumento I01](../instrumentos/07_questionario_reposicao.gs). Copiar o link de resposta para o campo acima. Manter a edição e os resultados restritos à equipe.
 2. Abrir esse endereço em janela anônima, sem conta conectada. Se o Google restringir o acesso à instituição, ajustar o acesso de participante para “qualquer pessoa com o link” e repetir o teste. Conferir que o participante consegue responder sem login ou e-mail e que o encerramento mostra agradecimento e contato. Usar códigos de teste ao verificar o envio. Conferir o recebimento na área privada e separar esses registros da coleta.
@@ -285,11 +292,11 @@ Na conferência dos dados, distinguir quem declarou não consultar registros de 
 
 ### O que ainda depende da equipe
 
-Paulo deve inserir o link de resposta do I01, conferir o acesso externo e registrar a duração e os ajustes do piloto. Victor deve preparar a cópia privada da ficha e pilotar o roteiro da entrevista. A equipe atualizará as hipóteses depois de analisar os dados coletados.
+O I01 está publicado e com o acesso externo verificado. Paulo deve fazer o piloto, testar os percursos ainda não verificados e registrar a duração e os ajustes. Victor deve preparar a cópia privada da ficha e pilotar o roteiro da entrevista. A equipe atualizará as hipóteses depois de analisar os dados coletados.
 
 ## Checklist
 
-Revisado em 25/11/2026. Os sete primeiros itens foram conferidos no conteúdo da entrega. **A entrega só fecha quando o item do link estiver marcado**: o questionário online é obrigatório, e a descrição no repositório e o script do instrumento não substituem o formulário publicado. Os itens de piloto, aplicação e análise dependem de participantes.
+Revisado em 25/11/2026. Os sete primeiros itens foram conferidos no conteúdo da entrega. O questionário online obrigatório está publicado e acessível sem login. Os itens de piloto, aplicação e análise dependem de participantes.
 
 - [x] Cinco categorias de dados e perfis específicos para cada integrante.
 - [x] Hipóteses, tarefas e decisões relacionadas.
@@ -298,7 +305,7 @@ Revisado em 25/11/2026. Os sete primeiros itens foram conferidos no conteúdo da
 - [x] Escolha dos métodos justificada diante das alternativas do material B.
 - [x] Tipos de pergunta e protocolo de execução explicitados.
 - [x] Contato para dúvidas e retirada, convite e consentimento disponíveis.
-- [ ] Questionário publicado com link de resposta neste documento e acesso externo testado.
+- [x] Questionário publicado com link de resposta neste documento e acesso externo testado.
 - [ ] Ficha privada de notas da entrevista preparada.
 - [ ] Pilotos realizados e duração, dificuldades e ajustes registrados.
 - [ ] Recrutamento e aplicação realizados.
