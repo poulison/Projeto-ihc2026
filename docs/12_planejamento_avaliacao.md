@@ -1,8 +1,7 @@
 # Entrega 12 — Planejamento da avaliação de usabilidade (DECIDE)
 
 **Data:** 12/11/2026  
-**Status:** 🟩 concluído
-
+**Status:** 🟩 concluída  
 **Responsabilidade:** 1 solução por equipe
 
 ## Objetivo da atividade
@@ -95,12 +94,12 @@ A dupla usará o mesmo termo, os mesmos critérios e as perguntas correspondente
 
 ## Checklist
 
-- [ ] As seis etapas DECIDE foram contextualizadas, não apenas expandidas por sigla.
-- [ ] Perguntas de avaliação têm método e evidência correspondentes.
-- [ ] O plano distingue avaliação de IHC de avaliação técnica/científica do TCC.
-- [ ] Dados ou processamentos simulados no protótipo estão declarados.
-- [ ] Tarefas vêm de objetivos/cenários relevantes.
-- [ ] Critérios de sucesso foram definidos antes da coleta.
-- [ ] Questões práticas e éticas estão resolvidas.
-- [ ] Instrumentos estão prontos antes da Entrega 13/14.
-- [ ] Plano diz como dados serão analisados e apresentados.
+- [x] As seis etapas DECIDE foram contextualizadas, não apenas expandidas por sigla.
+- [x] Perguntas de avaliação têm método e evidência correspondentes.
+- [x] O plano distingue avaliação de IHC de avaliação técnica/científica do TCC.
+- [x] Dados ou processamentos simulados no protótipo estão declarados.
+- [x] Tarefas vêm de objetivos/cenários relevantes.
+- [x] Critérios de sucesso foram definidos antes da coleta.
+- [x] Questões práticas e éticas estão resolvidas.
+- [x] Instrumentos estão prontos antes da Entrega 13/14.
+- [x] Plano diz como dados serão analisados e apresentados.
