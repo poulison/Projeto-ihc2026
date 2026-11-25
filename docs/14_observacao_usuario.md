@@ -172,14 +172,16 @@ Associar cada recomendação ao signo da E9, trecho M01/M02 da E10, quadro da E1
 
 ## F. Comparação com a avaliação heurística
 
-Na [Entrega 13 consultada](13_avaliacao_heuristica.md), as fichas dos dois avaliadores e a consolidação ainda estão sem resultados preenchidos. Portanto, não é possível afirmar que uma dificuldade já foi detectada por inspeção. A tabela abaixo organiza **questões de comparação futuras**, não violações confirmadas.
+A [Entrega 13](13_avaliacao_heuristica.md#7-consolidação-da-equipe) foi consolidada em 25/11/2026 em 13 problemas únicos (C01–C13). A coluna da heurística abaixo usa esses IDs. A coluna dos usuários continua vazia porque nenhuma sessão foi realizada. C01–C05 devem ser corrigidos antes das sessões; se forem, a E14 verifica se a dificuldade deixou de ocorrer.
 
 | Problema | Detectado na heurística? | Detectado por usuários? | O que aprendemos |
 |---|---|---|---|
-| Possível confusão entre físico, comprometido e disponível ou entre previsão e garantia — UT01/UT02; H1/H2/H6. | Ainda sem registro na E13. | Não avaliado. | Sem conclusão empírica; comparar interpretação dos signos em F02/F02B. |
-| Possível interpretação de decisão salva como compra enviada — UT01; H1/H2. | Ainda sem registro na E13. | Não avaliado. | Sem conclusão empírica; confrontar o feedback com a explicação pós-tarefa. |
-| Possível correção de saldo sem origem confirmada ou falsa conclusão de toda a conferência — UT03/UT04; H2/H5. | Ainda sem registro na E13. | Não avaliado. | Sem conclusão empírica; comparar ações, fontes consultadas e alcance comunicado. |
-| Possível perda de contexto ou duplicação após pausa — UT05; H1/H6/H7. | Ainda sem registro na E13. | Não avaliado. | Sem conclusão empírica; registrar contexto, tempo e ação após retorno. |
+| Possível confusão entre físico, comprometido e disponível ou entre previsão e garantia — UT01/UT02; H1/H2/H6. | Em parte. A separação em F02 foi registrada como boa prática de H2. Sobre a previsão: C06 (some em F04 e F05Q) e C08 (sem explicação de origem e incerteza). | Não avaliado. | Sem conclusão empírica; comparar a explicação pós-tarefa com C06 e C08. |
+| Possível interpretação de decisão salva como compra enviada — UT01; H1/H2. | Não como violação. F05S foi registrado como boa prática de H1. | Não avaliado. | Sem conclusão empírica; confrontar o feedback com a explicação pós-tarefa. |
+| Registro de quantidade ou motivo diferente do escolhido ao editar a revisão — UT01; H3/H4. | Sim: C01, grau 3 (A02-V03). | Não avaliado. | Corrigir antes das sessões. Na sessão, observar se quem edita a revisão confirma a mesma quantidade e o mesmo motivo. |
+| Possível correção de saldo sem origem confirmada ou falsa conclusão de toda a conferência — UT03/UT04; H2/H5. | Não como violação. F12N e F12P foram boas práticas de H5. C04 (unidade dos potes nem sempre explícita) pode afetar a leitura do saldo. | Não avaliado. | Sem conclusão empírica; comparar ações, fontes consultadas e alcance comunicado. |
+| Possível perda de contexto ou duplicação após pausa — UT05; H1/H6/H7. | Sim, na conferência: C03 (sem pausa em F11), apontado pelos dois avaliadores. | Não avaliado. | Sem conclusão empírica; registrar contexto, tempo e ação após retorno. |
+| Desvio da tentativa por controles da simulação — todas as tarefas; H8. | Sim: C02 (A02-V11). | Não avaliado. | Corrigir antes das sessões; registrar se algum participante ainda aciona um caso alternativo. |
 
 Ao consolidar, usar o ID real da E13 e da E14, a versão e a cobertura da tarefa. Problema previsto e não observado não significa problema inexistente: a amostra ou o caminho pode não tê-lo exposto. Dificuldade observada sem correspondente na inspeção constitui informação nova para revisão, não prova de que um método substitui o outro.
 

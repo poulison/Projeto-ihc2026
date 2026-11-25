@@ -116,6 +116,8 @@ F01–F06 na Entrega 1 identificam ações candidatas, não telas. Os IDs Fxx de
 | 13/10/2026 | Substituir códigos de hipóteses por descrições | Simplificação solicitada pela equipe; conflito de significados entre E1/E3 | E1–E4; matriz; histórico abaixo |
 | 13/10/2026 | Integrar P01/P02 e R04-01/R04-02 | Continuidade com cenários enviados | E3, E4 e seção 3 desta matriz |
 | 13/10/2026 | Padronizar matrícula de Victor como 22.125.075-6 | Concordância entre README, E1 e E3 | E2 |
+| 24/11/2026 | Refazer os cartões da E6 (P07-0 a P17P) e o mapa dos percursos PF01, PF02 e PF03 | Revisão da equipe na E6 | E6; `assets/06_prototipos/`; seção 3 desta matriz (cartões P07–P14 e P15–P17P) |
+| 24/11/2026 | Revisar a coleta de dados da E7 e a engenharia de usabilidade da E8, ligando R04-01/R04-02, T01/T02 e as metas MU01–MU07 | Revisão da equipe nas E7 e E8 | E7, E8; seção “Metas de usabilidade da Entrega 8” desta matriz |
 | 25/11/2026 | Reformular O01/O02 como objetivos finais e classificar O03–O10 como instrumentais diretos/indireto | Feedback das Entregas 9 e 10 | E9 (mapas, dicionário e DCC), E10, E11, E13 |
 | 25/11/2026 | Encerrar O02 em O08 e tornar O10 uma consulta opcional do alcance | Feedback E10: a comunicação a Mariana ocorre fora do sistema | M02; E10; E11 (F13) |
 | 25/11/2026 | Alinhar as cenas do MoLIC aos nomes dos signos e restringir `d+u:` | Feedback E10 | M01, M02 |
@@ -129,8 +131,10 @@ F01–F06 na Entrega 1 identificam ações candidatas, não telas. Os IDs Fxx de
 | 25/11/2026 | Publicar o questionário I01 e registrar o link, com acesso sem login e saltos verificados | Feedback E7. A publicação não é evidência sobre as hipóteses, que continuam abertas | E7, instrumento I01 |
 | 25/11/2026 | Mapear as etapas do ciclo de Mayhew para os artefatos e indicar a etapa atual | Feedback E8 | E8, seção 4 |
 | 25/11/2026 | Alinhar mais rótulos do Figma aos signos da E9 (F01, F02B, F02P, F03, F05P, F05PS, F06E, F06R, F12E, F12N, F12P) e verificar as 57 ligações no modo de apresentação | Revisão final das E9–E11 | E11; capturas f01.png e f13.png |
+| 25/11/2026 | Concluir o plano DECIDE da E12 com registro por fichas e cronômetro, sem gravação, e alinhar o termo e a E14 | Decisão da equipe na E12 | E12, E14 (passo 3), termo de consentimento |
 | 25/11/2026 | Registrar as fichas individuais da E13 e trocar os IDs antigos (PRE-01 a PRE-03 e a numeração anterior de A01) pelos IDs atuais das fichas | Inspeções de Paulo (A01) e Victor (A02) em 25/11/2026 | E13, seção 3.1 desta matriz, E11 |
 | 25/11/2026 | Consolidar os 16 achados da E13 em 13 problemas únicos (C01–C13), com grau final, prioridade e responsável; C01–C05 a corrigir antes da E14 | Consolidação da dupla na E13 | E13 (seções 7 e 8), E14 (versão a registrar após as correções) |
+| 25/11/2026 | Preencher a comparação da E14 com a heurística usando os IDs C01–C13 | Consolidação da E13 | E14, seção F |
 
 **Revisão de 12/11/2026:** P02 classificada como persona primária do recorte operacional, por objetivo e uso direto previstos; existência/recorrência continuam hipóteses. E3 passa a preservar visuais locais e a separar contexto de solução. C02 deixa de antecipar duplicidade no título; ambas as tabelas de perguntas explicitam os sete elementos. E5 inclui Input/Feedback/Plano na tarefa zero, GOMS indentado, CTT com gatilho inicial e fechamento da comunicação; modelagem concluída, pesquisa futura não realizada.
 
