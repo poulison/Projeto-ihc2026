@@ -53,7 +53,7 @@ A página oficial descreve previsão com métodos estatísticos, ML e IA, planej
 
 ![Tela de explicação da previsão com filtros por cliente, item, local e tempo, gráfico e legenda](../assets/02_concorrencia/c01_blue_yonder_explicabilidade.jpg)
 
-**Origem:** captura publicada na página oficial de Demand Planning, arquivo original identificado no [registro de fontes](../assets/02_concorrencia/README.md).
+**Origem:** captura publicada na página oficial de Demand Planning, salva como `c01_blue_yonder_explicabilidade.jpg`. A fonte está nas [referências e proveniência](#referências-e-proveniência).
 
 **Observação visual:** o painel esquerdo reúne cliente, item, localização e período; a área central combina séries e fatores com legenda extensa. Há rótulos técnicos como “EXPLAIN_TREND1”. **Interpretação da equipe:** concentrar filtros e resultado pode facilitar a conferência do recorte, mas quantidade de séries e nomenclatura podem exigir conhecimento especializado. **Aplicação candidata:** explicar a estimativa em linguagem comercial, com poucos detalhes iniciais e possibilidade de aprofundamento — RC02, RC05, RC06 e RC07. A captura não comprova compreensão, facilidade de uso ou redução de tempo.
 
