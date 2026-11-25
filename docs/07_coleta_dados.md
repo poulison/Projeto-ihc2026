@@ -164,14 +164,14 @@ Os dois métodos adotados são declarativos: registram o que a pessoa relata, n�
 
 **Link para responder:** [Estoque com ML — Rotina de reposição](https://docs.google.com/forms/d/e/1FAIpQLSck8GKipKwZRElK_aepKr6PxnWPlNP29NjULSupqG_9LWR7qw/viewform)
 
-**Publicação e verificação (25/11/2026).** O formulário foi criado do zero na conta Google de Paulo, executando o [script do instrumento I01](../instrumentos/07_questionario_reposicao.gs) no Apps Script. O link de edição e as respostas ficam restritos à equipe. Verificações feitas sem enviar nenhuma resposta:
+**Publicação e verificação (25/11/2026).** O formulário foi criado do zero na conta Google de Paulo, por um script do Apps Script que segue a estrutura descrita abaixo. O link de edição e as respostas ficam restritos à equipe. Verificações feitas sem enviar nenhuma resposta:
 - **Acesso externo:** o link foi aberto por um cliente sem sessão Google. O formulário apareceu aberto, sem exigir login, com título, introdução e pergunta de aceite.
 - **Privacidade:** não há campo de e-mail, e o formulário indica que o e-mail da conta não é compartilhado.
 - **Triagem:** “Não aceito” leva direto à página “Fim da participação”, antes de qualquer pergunta de pesquisa.
 - **Lógica condicional:** “Sim, aceito” → Idade → “Sim” → Experiência recente → Q01 “Sim” → perfil. Em Q05, “Não mantenho nem consulto registros” pula as fontes e a divergência e vai para Uso de dispositivos. Em Q06, “Não uso dispositivo digital” pula conexão e autonomia e vai para A última reposição. As perguntas depois da triagem avançaram sem resposta, o que confirma que são opcionais. A última página de quem é elegível termina em “Enviar”, sem passar pela página de saída.
 - **Não verificado:** os demais percursos de triagem (menoridade e Q01 “Não”), o ramo de quem relata divergência (Q11) e a mensagem final depois do envio. Esses percursos ficam para o piloto, com códigos de teste e registros separados da coleta.
 
-1. Publicar o questionário na conta da equipe, conforme o [instrumento I01](../instrumentos/07_questionario_reposicao.gs). Copiar o link de resposta para o campo acima. Manter a edição e os resultados restritos à equipe.
+1. Publicar o questionário na conta da equipe, com a estrutura e a lógica descritas abaixo. Copiar o link de resposta para o campo acima. Manter a edição e os resultados restritos à equipe.
 2. Abrir esse endereço em janela anônima, sem conta conectada. Se o Google restringir o acesso à instituição, ajustar o acesso de participante para “qualquer pessoa com o link” e repetir o teste. Conferir que o participante consegue responder sem login ou e-mail e que o encerramento mostra agradecimento e contato. Usar códigos de teste ao verificar o envio. Conferir o recebimento na área privada e separar esses registros da coleta.
 3. Percorrer a recusa, a menoridade e a falta de experiência recente. Cada percurso deve encerrar antes do perfil. Depois, testar quem não usa registros, quem usa uma planilha mas nunca encontrou divergência e quem relata uma diferença. Repetir pulando as opcionais e escolhendo “não sei” e “prefiro não responder”. Conferir os destinos na tabela abaixo.
 4. Fazer um piloto com uma pessoa elegível. Anotar versão, modalidade, duração do início ao envio ou à interrupção, perguntas que precisaram ser relidas e em que ponto a pessoa quis parar. No fim, perguntar qual questão deu mais trabalho. Se o percurso ultrapassar 15 minutos ou houver sinal de cansaço, rever primeiro as sondagens complementares (Q09a, Q12a e Q14b), ajustar o convite e repetir a medição. Guardar o piloto separado da amostra principal.
@@ -227,7 +227,7 @@ Agrupar relatos por critérios comerciais, qualidade dos dados, confiança, ferr
 
 #### Procedimento padronizado de aplicação
 
-1. Preparar uma cópia da [ficha de entrevista I02](../instrumentos/07_ficha_entrevista.md) em uma pasta privada da equipe. Victor registra as notas durante a conversa e mantém o exemplo hipotético em campo próprio.
+1. Preparar, em uma pasta privada da equipe, uma ficha de notas com as perguntas E01–E12 do roteiro abaixo e os dados da sessão (código, data, versão, duração, consentimento e papel da pessoa). Victor registra as notas durante a conversa e mantém o exemplo hipotético em campo próprio.
 2. Fazer piloto, combinar local reservado e horário adequado, apresentar consentimento e confirmar conferência nos últimos três meses.
 3. Começar pela última conferência real. Usar sondagens como “O que aconteceu depois?” e “Como você soube disso?”. Deixar a pessoa nomear fontes, causas, pessoas e decisões antes de pedir detalhes. Se uma prática nunca ocorreu, registrar essa ausência e avançar.
 4. Separar paráfrase de fala literal. Não solicitar acesso a sistemas reais. Em interrupção, oferecer retomada ou encerramento.

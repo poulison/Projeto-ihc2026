@@ -2,7 +2,7 @@
 
 **Data:** 21/10/2026  
 **Revisão:** 25/11/2026  
-**Status:** 🟦 revisada após feedback. Walkthrough com participante externo (W01, 23/11/2026) documentado, complementado por um walkthrough cognitivo.  
+**Status:** 🟦 revisada após feedback. Walkthrough com participante externo (W01, 23/11/2026) documentado.  
 **Responsabilidade:** 1 solução integrada por equipe — Equipe 14  
 **Integrantes:** Paulo Andre de Oliveira Hirata — 22.125.072-3; Victor Merker Binda — 22.125.075-6.  
 **Projeto:** Previsão de estoque em pequenos comércios usando machine learning — Estoque Inteligente.
@@ -197,54 +197,6 @@ A equipe fez uma sessão com um participante externo à elaboração das telas, 
 
 Uma observação de uma única pessoa, que além disso já conhecia o projeto, é evidência formativa para revisar o design, não uma conclusão sobre todo o público.
 
-### Walkthrough cognitivo simulado — 25/11/2026
-
-**O que é e o que não é.** Para complementar a sessão com W01, que não cobriu a conferência (PF02), a equipe fez uma **simulação analítica** dos três percursos, com apoio de um assistente de IA. **Nenhuma pessoa participou desta simulação.** Por isso, o registro abaixo não traz falas nem reações de participantes. Ele aplica o método do walkthrough cognitivo: em cada passo, o avaliador assume o lugar da persona e responde a quatro perguntas.
-1. A pessoa tentaria atingir este efeito?
-2. Ela percebe que a ação correta está disponível?
-3. Ela associa a ação ao efeito desejado?
-4. Depois de agir, ela percebe que avançou?
-
-Esse é um método de inspeção e complementa, sem substituir, a sessão com W01.
-
-| Item | Registro |
-|---|---|
-| Avaliadores | Equipe 14, com apoio de assistente de IA, sem participante |
-| Perfis simulados | Mariana (P01) em PF01; Rafael (P02) em PF02 e PF03 |
-| Fluxos e ordem dos cartões | PF01: P07-C → P07-P → P08-R → P12 → P13 → P14. PF02 com origem confirmada: P15 → P16C → P17C. PF02 com origem incerta: P15 → P16P → P17P. PF03: P11 → P03 |
-| Instruções | As do roteiro abaixo, lidas como se fossem para a persona |
-
-**Pontos encontrados, por passo**
-
-| Passo | Pergunta que falhou | O que a persona provavelmente faria ou esperaria | Gravidade |
-|---|---|---|---|
-| P07-C e P08-R · período | 3 | O cabeçalho mostra “22 a 28 de outubro” e o resumo diz “Previsão para 7 dias”. Mariana pode não saber se o intervalo é o histórico consultado ou os próximos dias da previsão. | Média |
-| P08-R · sugestão | 3 | “Sugestão da simulação: 13 unidades” fica logo acima de “Registrar decisão”. Mariana pode copiar 13 como quantidade sem entender a base do número. Além disso, o signo ainda depende de regra técnica confirmada no TCC. | Média |
-| P08-R · saldo | 1 | “Saldo disponível: 42 unidades” não mostra se há unidades comprometidas. No café não há reserva, então o percurso funciona. Num item com reserva, faltaria a separação usada depois na E9. | Baixa |
-| P12 · desfechos | 3 | A diferença entre “Adiar” e “Deixar pendente” não aparece no cartão. Mariana pode escolher qualquer um dos dois quando não vai comprar agora. | Média |
-| P14 · conclusão | 4 | “Conferir registro” não leva a outro cartão. A persona não sabe se ainda precisa fazer algo. O texto sobre o fornecedor resolve a dúvida principal. | Baixa |
-| P15 · consulta | 3 | “Consultar Mariana” sugere que o sistema envia a pergunta. Rafael pode esperar uma resposta dentro da tela, mas a consulta acontece fora do sistema. | Média |
-| P15 e P16P · rótulos | 2 | O mesmo ato aparece como “Registrar pendência” (P15) e “Salvar pendência” (P16P). | Baixa |
-| P17C e P17P · registro | 4 | O histórico não mostra quem registrou nem quando, embora Mariana precise saber isso ao receber o resultado. | Baixa |
-| P11 · erro | 2 | “SKU já cadastrado” aparece em texto pequeno, abaixo do botão e longe do campo SKU. Para quem não conhece o termo “SKU”, a mensagem não indica como encontrar o cadastro existente. | Média |
-
-**Decisões de revisão.** Nenhuma alteração estrutural foi decidida. Nenhum cartão foi redesenhado e os fluxos PF01–PF03 foram mantidos. Os pontos geraram ajustes de texto e de estado, a maioria já incorporada no protótipo navegável da E11:
-- O período da previsão foi separado do histórico de vendas: “Previsão de demanda · 5 unidades nos próximos 3 dias” e “Vendas confirmadas · últimos 3 dias” (F02).
-- A sugestão de reposição foi mantida como signo condicional e não aparece no Figma (E9 e E11).
-- A disponibilidade foi decomposta em física, comprometida e disponível (F02).
-- Adiamento e pendência ganharam descrições próprias (F03), e só a pendência pede a próxima verificação (F05P).
-- A consulta a Mariana ficou explicitamente fora do sistema (F11 e F13).
-- Responsável e data passaram para uma linha própria no histórico (F13, F14 e F14N).
-- **Pendente para uma versão futura:** aproximar a mensagem de código duplicado do campo e oferecer acesso ao cadastro existente. A tela de cadastro não faz parte de T01/T02 nem do protótipo da E11.
-
-**Percursos previstos nas telas originais P01–P11**
-
-| Tarefa | Percurso que as telas permitiam | Limite da versão |
-|---|---|---|
-| Reposição | Em P07, conferir o produto e o período. No exemplo do café em P08, consultar o saldo, a previsão de vendas e a sugestão de compra. Em P09, consultar as previsões anteriores. | O histórico guardava as previsões. Faltava um local para registrar a decisão da loja e seu motivo. |
-| Conferência de estoque | Em P03, identificar o produto e o saldo. Em P05, consultar as últimas vendas e procurar a origem da diferença. | A consulta terminava antes do registro de uma correção fundamentada ou de uma pendência. |
-| Recuperação do cadastro | Em P11, ler o aviso de código duplicado e conferir os dados preservados. Voltar a P03 permitia procurar o cadastro existente. | A mensagem e a consulta ao produto ficavam em telas diferentes. |
-
 **Roteiro da versão revisada em 24/11/2026.** Os episódios abaixo descrevem os caminhos disponíveis para simular a reposição, a conferência e a recuperação de um erro com os cartões revisados.
 
 | Episódio | Instrução que a pessoa recebe | Orientação reservada ao facilitador |
@@ -265,12 +217,12 @@ Em 24/11/2026, a equipe revisou o material da Entrega 6 para atender ao parecer 
 
 | Problema observado | A equipe já suspeitava? | Decisão de revisão | Alteração realizada |
 |---|---|---|---|
-| Hesitação ao escolher o desfecho em P12 | Sim. O walkthrough cognitivo apontou a falta de distinção entre “Adiar” e “Deixar pendente” | Manter a estrutura. No protótipo da E11, cada desfecho já tem descrição própria (F03) | Nenhuma nova |
-| Desconhecimento do termo “SKU” em P11, com pedido de ajuda | Sim, apontado no walkthrough cognitivo | Manter nesta versão. Trocar “SKU” por “código do produto” numa versão futura da tela de cadastro, que não faz parte de T01/T02 | Nenhuma |
-| Dúvida sobre o significado de alguns dados, relatada no fim | Em parte: período e sugestão em P08-R | Manter. A E11 já separa vendas confirmadas, previsão e disponibilidade (F02) | Nenhuma nova |
+| Hesitação ao escolher o desfecho em P12 | Não | Manter a estrutura. No protótipo da E11, cada desfecho já tem descrição própria (F03) | Nenhuma nova |
+| Desconhecimento do termo “SKU” em P11, com pedido de ajuda | Não | Manter nesta versão. Trocar “SKU” por “código do produto” numa versão futura da tela de cadastro, que não faz parte de T01/T02 | Nenhuma |
+| Dúvida sobre o significado de alguns dados, relatada no fim | Em parte: a densidade de informação da P08 já tinha sido identificada na inspeção interna | Manter. A E11 já separa vendas confirmadas, previsão e disponibilidade (F02) | Nenhuma nova |
 | Abertura do histórico (P09) antes de decidir, por curiosidade | Não | Manter e acompanhar na E14 se o histórico de previsões desvia a atenção da decisão | Nenhuma |
 
-Todas as linhas abaixo têm a mesma **origem: inspeção interna da equipe**, anterior às observações acima. Os pontos do walkthrough cognitivo e as decisões correspondentes estão na seção 4.
+Todas as linhas abaixo têm a mesma **origem: inspeção interna da equipe**, independente das observações acima.
 
 | Antes | Problema | Depois | Justificativa |
 |---|---|---|---|
@@ -290,5 +242,5 @@ Todas as linhas abaixo têm a mesma **origem: inspeção interna da equipe**, an
 - [x] Críticas não foram apenas listadas: geraram decisão de revisão.
 - [ ] O protótipo continua em baixa fidelidade; detalhes visuais não mascaram problemas de fluxo.
 
-Revisado em 25/11/2026. Os quatro primeiros itens foram conferidos no conteúdo da entrega: P12–P17P completam T01 e T02, P01 e P10 foram mantidas como telas auxiliares existentes, e não foram criadas telas novas além dos desfechos. A simulação documentada é a sessão com W01, participante externo, complementada pelo walkthrough cognitivo. As decisões de revisão estão na seção 5, com a origem de cada uma. Fica desmarcado:
+Revisado em 25/11/2026. Os quatro primeiros itens foram conferidos no conteúdo da entrega: P12–P17P completam T01 e T02, P01 e P10 foram mantidas como telas auxiliares existentes, e não foram criadas telas novas além dos desfechos. A simulação documentada é a sessão com W01, participante externo. As decisões de revisão estão na seção 5, com a origem de cada uma. Fica desmarcado:
 - **baixa fidelidade:** P01–P11 são capturas de alta fidelidade; só os cartões P07-0 a P17P são de baixa fidelidade.
