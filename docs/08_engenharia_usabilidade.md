@@ -2,19 +2,19 @@
 
 **Data:** 23/10/2026
 
-**Revisão:** 08/11/2026
+**Revisão:** 25/11/2026
 
 **Equipe:** 14 — Estoque com ML
 
 **Integrantes:** Paulo Andre de Oliveira Hirata — 22.125.072-3; Victor Merker Binda — 22.125.075-6.
 
-**Status:** 🟩 concluída.
+**Status:** especificação revisada. Os valores de MU01–MU07 são metas propostas para o piloto e a avaliação.
 
 **Responsabilidade:** 1 solução por equipe.
 
 ## Objetivo da atividade
 
-Definir requisitos e critérios verificáveis para a interação de responsáveis por pequenos comércios com informações de estoque e previsão. O ciclo adotado é iterativo e centrado nos usuários: compreender contexto, especificar necessidades, projetar alternativas, prototipar, avaliar e revisar. A [Entrega 7](07_coleta_dados.md) investigará as hipóteses; as metas abaixo orientarão as Entregas 12–14.
+Definir requisitos de uso para quem decide reposições e confere divergências em pequenos comércios. O projeto adota o Ciclo de Vida da Engenharia de Usabilidade de Mayhew. A [Entrega 7](07_coleta_dados.md) prevê a investigação das hipóteses sobre a rotina. As metas desta entrega orientam o planejamento e a avaliação nas Entregas 12–14.
 
 O foco mantém as tarefas da [Entrega 5](05_analise_tarefas.md): **T01**, analisar um produto e registrar planejamento de reposição, adiamento ou pendência; **T02**, investigar uma divergência e registrar correção justificada ou pendência. P01 e P02 são personas de expectativa. Idade não comprova habilidade ou dificuldade; recrutamento deve considerar atividade e experiência reais.
 
@@ -28,55 +28,65 @@ As metas retomam o problema e as lacunas da E1; RC02/RC07/RC08/RC09/RC10 da [E2]
 |---|---|---|
 | Contribuição técnica do TCC | Previsão de demanda e comparação de modelos a partir de histórico | Desempenho preditivo exige avaliação técnica própria; não será inferido de teste de interface |
 | Interação da disciplina | Identificar produto/unidade, consultar saldo e estimativa, registrar decisão; investigar divergência, justificar correção ou pendência | Compreensão, conclusão, tempo, erros, aprendizagem, satisfação e acessibilidade |
-| Dados e integrações simulados | E6 contém capturas estáticas com dados demonstrativos; salvamento de decisão, correção, pendência e falhas de gravação ainda são estados a preparar | Avaliar interpretação e fluxo; não comprova integração, persistência real, latência ou qualidade do modelo |
+| Dados e integrações simulados | A E6 representa decisões, pendências e correções com capturas e cartões. A E11 documenta os caminhos navegáveis no Figma. | Observar interpretação, escolha e recuperação. Persistência, latência real e desempenho do modelo exigem avaliação própria. |
 
-A [Entrega 6](06_prototipacao_papel.md) cobre parcialmente T01 em PF01 e apenas o início de T02 em PF02. Antes de medir conclusão completa, será necessário representar registro de decisão, correção justificada e pendência. Uma tarefa interrompida por ausência de tela deve ser classificada como limitação do protótipo, não incapacidade do participante.
+Os primeiros cartões de PF01 e PF02 cobriam parte das tarefas. Na revisão da E6, a equipe acrescentou os desfechos de decisão, correção e pendência. Antes da avaliação, verificar se a versão escolhida permite chegar ao desfecho de cada caso. Registrar qualquer tela ausente como limitação do protótipo.
 
-**Fidelidade das representações disponíveis.** Conforme **Principios Diretrizes Design.pdf**, pp. 22–32, wireframe é representação de baixa fidelidade, voltada a documentação e comunicação rápida; mockup é representação estática de média a alta fidelidade, útil para revisar a parte visual e coletar impressões; protótipo é interativo, de média a alta fidelidade, e é a representação indicada para teste de usabilidade com simulação das interfaces finais. A E6 está no primeiro grupo: capturas estáticas sem interação própria, navegadas pelo facilitador. Por isso as metas de tempo, erro e retomada só produzem valores comparáveis sobre a versão navegável prevista para a E11; aplicadas às capturas atuais, mediriam a condução do facilitador tanto quanto a interface.
+Na [E6](06_prototipacao_papel.md), o facilitador troca cartões e simula as respostas da interface. Esse formato permite discutir o significado de uma decisão. Para comparar tempos, erros e retomadas, usar a versão navegável documentada na [E11](11_figma.md) e registrar a versão utilizada.
 
 O protótipo não envia pedidos a fornecedores. Salvar planejamento não significa comprar. Uma previsão não determina automaticamente quantidade ou momento da reposição: essa capacidade depende de confirmação técnica e de regras comerciais. Em T02, corrigir um item não significa concluir todos os registros.
 
 ## 1. Características da plataforma
 
-As características distinguem o que foi documentado na E6 e os requisitos propostos para sua evolução. Não atribuem às capturas funções que elas não demonstram.
+### Capacidades e restrições da plataforma
 
-| Característica | Descrição proposta / condição | Consequência para IHC |
+| Aspecto | Condição no projeto | Consequência para a interação |
 |---|---|---|
-| Software | Aplicação web em português representada pelas telas estáticas da E6; navegação simulada pelo facilitador | Fluxos e termos consistentes; não exigir conhecimento de ML |
-| Hardware/dispositivos | Computador como referência das capturas da E6; celular é possibilidade da E3 a investigar na E7, sem responsividade já comprovada | Adaptar conteúdo sem ocultar unidades ou ações; testar separadamente cada dispositivo coberto |
-| Capacidades | E6: catálogo, vendas, análises, previsão e histórico de execuções. Evolução proposta: registro de decisão, correção justificada e pendência | Apoiar T01/T02 com informação suficiente e encerramento explícito |
-| Restrições | Dados incompletos, incorretos ou desatualizados; catálogo e regras ainda não confirmados | Informar ausência/atualização; permitir pendência, sem tratar ausência de previsão como zero |
-| Conectividade/latência | Condições reais desconhecidas; simular falha e espera para avaliação | Diferenciar salvando, salvo e falha; preservar rascunho e permitir verificação antes de reenviar |
-| Segurança/privacidade | Protótipo com dados fictícios; pesquisa com acesso restrito | Não exibir clientes reais nem divulgar respostas brutas; mostrar apenas dados necessários |
-| Volume/histórico | Volume real a investigar; conjunto controlado para teste | Exibir identificação completa; justificar busca/filtros pela tarefa e avaliar localização sem presumir milhares de itens |
-| Processamento | Tempo de previsão ainda desconhecido | Mostrar estado e data do resultado; não inventar percentual ou garantia de atualização |
-| Papéis/permissões | Proprietário e auxiliar são hipóteses; mesma pessoa pode executar ambas as tarefas | Confirmar autorização antes de definir perfis fixos; registrar autoria/motivo de alterações quando aplicável |
-| Interrupções | Atendimento pode interromper a análise; hipótese de E3/E4 | Preservar produto, etapa, rascunho e situação de salvamento; revalidar dados alterados |
+| Aplicação web de estoque em português | Catálogo, vendas, análises e histórico dão contexto à reposição. Os protótipos representam decisão, correção justificada e pendência. | Identificar produto e unidade ao longo da tarefa e mostrar o desfecho do registro. |
+| Navegador, tela e entrada | O computador é a referência de avaliação. O espaço visível e a forma de navegar por teclado condicionam a disposição dos controles. | Manter saldo e unidade juntos. Verificar se o foco chega a revisar, confirmar e voltar numa sequência previsível. |
+| Rede e processamento | O tempo de previsão e a latência de gravação em produção ainda são desconhecidos. No protótipo, espera e falha são simuladas. | Mostrar a data da estimativa. Se a gravação ficar incerta, oferecer consulta ao registro antes de permitir nova tentativa. |
+
+### Limitações do domínio e dos dados
+
+Um histórico incompleto pode impedir uma estimativa. Nessa situação, T01 deve identificar o dado ausente e permitir registrar a próxima verificação. Em T02, unidade ambígua, origem incerta de uma movimentação ou falta de autorização impedem justificar uma correção. O caminho de pendência conserva o saldo e informa o que falta conferir.
+
+### Hipóteses a verificar
+
+A E7 investiga quais dispositivos as pessoas usam, o volume de produtos consultados, quem decide ou confere e como o atendimento interrompe o trabalho. Essas respostas orientarão o suporte a celular, a necessidade de filtros, as permissões e a retomada. Uma pessoa pode exercer ambos os papéis.
 
 ## 2. Princípios gerais do projeto
 
-| Princípio/referência | Aplicação ao contexto | Requisito decorrente e verificação |
-|---|---|---|
-| Correspondência com expectativas | Usuário pensa em produtos, unidades e compra | Usar termos comerciais; mostrar físico, comprometido e disponível separados; pedir interpretação em T01 |
-| Simplicidade e reconhecimento | Evitar memória de números entre telas | Manter produto, unidade e informações de apoio visíveis na revisão; observar retornos desnecessários |
-| Controle e liberdade | Decisão comercial permanece humana | Permitir revisar, cancelar, adiar ou deixar pendente; não enviar compra ao salvar |
-| Consistência | Mesma ação deve ter mesmo nome e resultado | Padronizar “Salvar decisão”, “Registrar pendência” e mensagens; inspecionar telas e estados |
-| Visibilidade e feedback | Usuário precisa saber se concluiu | Exibir salvando/salvo/falha e diferenciar item resolvido de conferência completa |
-| Prevenção e recuperação de erros | Diferença de saldo não prova a causa | Exigir evidência e justificativa antes de corrigir; permitir pendência sem ajuste arbitrário |
-| Contexto e eficiência | Interrupções e múltiplos papéis | Retomada sem duplicar decisão/alteração; acesso ao resumo e à etapa anterior |
-| Acessibilidade | Repertório e necessidades variados | Texto legível, informação além da cor, rótulos claros, teclado e foco visível; verificar critérios abaixo |
-| Privacidade e minimização | Respostas de pesquisa e possíveis registros identificáveis | Coletar somente dados necessários, restringir acesso e não usar dados reais no protótipo |
+### 2.1 Princípios de negócio
 
-Correspondência, simplicidade, controle, consistência, eficiência e visibilidade retomam **Principios Diretrizes Design.pdf**, pp. 3–13. Exigir evidência antes de corrigir decorre de E4-C02/T02; as recomendações da E2 complementam o vocabulário e a apresentação. São orientações de design, não resultados de testes.
+| Regra do domínio | Consequência para T01 ou T02 |
+|---|---|
+| A decisão de compra cabe à pessoa responsável. Salvar um planejamento é um registro interno. | Em T01, Mariana pode planejar, adiar ou deixar pendente. A confirmação informa qual decisão ficou salva. |
+| Estoque comprometido já tem destino. Uma estimativa ausente indica informação insuficiente. | Em T01, separar físico, comprometido e disponível. Explicar a lacuna da previsão e permitir uma decisão pendente. |
+| Uma diferença numérica exige investigação. Corrigir requer origem confirmada e autorização. | Em T02, vincular a alteração ao item, à unidade, à fonte, ao responsável e ao motivo. Se faltar fundamento, manter o saldo e registrar a próxima conferência. |
+| O encerramento vale para o item investigado. | Identificar o que foi resolvido e os registros que ainda exigem conferência. |
+| A equipe limita a coleta e o acesso ao necessário. | Usar dados demonstrativos nas telas e códigos nas sessões. Restringir os registros individuais à equipe conforme a E7. |
+
+### 2.2 Princípios de interface
+
+| Princípio | Aplicação e verificação no protótipo |
+|---|---|
+| Linguagem do comércio e reconhecimento | Em F02, manter visíveis produto, unidade e três quantidades de estoque. Pedir que a pessoa explique quantas unidades pode vender. |
+| Consistência e controle | Preservar rótulos entre escolha, revisão e confirmação. Verificar se Mariana consegue editar a quantidade antes de confirmar em F05. |
+| Visibilidade e recuperação | Em F06E, oferecer consulta ao registro diante de uma gravação incerta. Em F06R, mostrar como reabrir o rascunho após falha confirmada. |
+| Prevenção de erros | Em F11 e F12, aproximar fontes e revisão do saldo. Verificar se Rafael consegue seguir para pendência quando as fontes divergem. |
+| Continuidade da tarefa | Na retomada por F02P ou F10P, mostrar item, etapa e próxima ação. Observar se a pessoa identifica onde estava antes de continuar. |
+| Acessibilidade | Verificar contraste e rótulos textuais no aviso de previsão ausente em F02B e no erro de quantidade em F04E. Conferir tamanho do alvo de confirmação em F05. Na implementação web, testar ordem e visibilidade do foco e acionamento por teclado. |
+
+Os estados citados constam do [catálogo da E11](11_figma.md). As verificações de acessibilidade devem identificar componente, versão, critério e evidência observada.
 
 **Referências complementares verificadas em 23/10/2026:**
 
 - [WCAG 2.2, W3C](https://www.w3.org/TR/WCAG22/): adotar como critérios de projeto contraste de texto comum de pelo menos 4,5:1 (1.4.3, observadas as exceções), informação não dependente apenas de cor (1.4.1), uso por teclado (2.1.1), foco visível (2.4.7) e alvos de pelo menos 24 × 24 pixels CSS ou espaçamento/exceções previstos em 2.5.8. Inspecionar o protótipo visualmente e testar teclado/tecnologia assistiva na implementação. Protótipo navegável não comprova conformidade integral.
 - [LGPD, texto oficial](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm): os princípios de necessidade e segurança do art. 6º orientam minimização e proteção dos dados pessoais. A E7 especifica armazenamento, acesso e descarte; este trabalho não declara conformidade jurídica integral.
 
-### 2.1 Guia de estilo e padrões a definir antes da avaliação
+### 2.3 Guia de estilo e padrões a definir antes da avaliação
 
-O mesmo material distingue princípios, padrões de design e guia de estilo (pp. 17–21). Padrões descrevem boas práticas para um problema recorrente, não são soluções prontas e não asseguram por si a qualidade do produto; por isso entram aqui como proposta a verificar na avaliação, não como decisão validada.
+O material de aula *Princípios e Diretrizes de Design* (pp. 17–21) orienta a escolha de padrões e o registro das decisões no guia de estilo. Aplicar as decisões abaixo às telas de T01 e T02 e revê-las a partir das dificuldades observadas.
 
 | Escopo do guia de estilo (p. 21) | Decisão mínima para este projeto | Como será verificada |
 |---|---|---|
@@ -110,7 +120,7 @@ Padrões considerados, descritos no formato de pp. 18–19 (nome, problema, solu
 
 **Ambiente:** mesma versão do protótipo, conjunto fictício de dados e dispositivo definido para a sessão. Dar dois minutos de familiarização geral, sem ensinar os caminhos avaliados. Ler instruções de objetivo, sem nomes de botões. Ajuda do moderador conta como ajuda; consulta à ajuda da própria interface é permitida e registrada. Se houver bloqueio ou pedido de ajuda, registrar o ponto, auxiliar para preservar o conforto e classificar a tentativa como assistida.
 
-**Onde coletar os dados (Planejamento Avaliacao IHC.pdf, pp. 13–15).** A medição ocorrerá em ambiente controlado, e não no comércio em funcionamento, porque o conjunto de casos precisa ser o mesmo para todos os participantes e o registro de tempo e de erros exige controlar interferências. A contrapartida é conhecida: situações típicas do balcão — atendimento simultâneo, ruído, pressa do cliente — não aparecerão, e por isso a interrupção é simulada em MU07, cujo resultado não representa a frequência real de interrupções. Não há sala de observação com vidro espelhado; o facilitador ficará na mesma sala, o que deve ser registrado como possível influência sobre o comportamento observado. Avaliação em contexto real de uso, se vier a ser viável, fica como complemento posterior e não como substituição.
+**Ambiente controlado.** Usar o mesmo dispositivo e os mesmos casos para comparar tentativas. Registrar a presença do facilitador e simular a pausa de MU07 em execução separada. A frequência real de interrupções deve ser investigada no contexto de trabalho.
 
 | Caso | Instrução de objetivo ao participante | Critério de conclusão |
 |---|---|---|
@@ -120,7 +130,7 @@ Padrões considerados, descritos no formato de pp. 18–19 (nome, problema, solu
 | T02-B, origem incerta | Investigue a diferença quando a origem dos registros não puder ser confirmada | Preservar saldo, registrar pendência e próxima verificação; não inventar entrada para igualar números |
 | Retomada | Pausar antes da confirmação por 30 segundos em atividade neutra e depois continuar | Recuperar produto/episódio, próxima ação e situação de salvamento; não duplicar registro |
 
-As quantidades vêm dos casos fictícios da E5 e devem ser preparadas na versão de teste: o catálogo das capturas da E6 não reproduz esses mesmos itens e P07/P08 mostram produtos ilustrativos diferentes, não uma execução contínua. Estimativas adicionais, se necessárias, serão rotuladas como simuladas. Aplicar primeiro o caso A e sua repetição equivalente para MU06; depois B e uma execução separada com pausa para MU07. Não dar correção didática entre as duas primeiras execuções. Registrar toda ajuda; uma segunda tentativa após explicação representa desempenho com treinamento, não aprendizagem autônoma. As perguntas pós-tarefa ficam fora da cronometragem. Na retomada, declarar previamente que haverá pausa; ela não representa a frequência real de interrupções.
+Usar os casos fictícios da E5 e conferir produto, unidade, valores e estado inicial na versão da E11 selecionada para a sessão. Para MU06, aplicar primeiro o caso A e depois um caso equivalente com outros valores, sem correção didática entre eles. Aplicar B e testar a pausa de MU07 em execução separada. Registrar ajuda e excluir as perguntas pós-tarefa da cronometragem.
 
 #### Métricas e critérios de aceitação
 
@@ -128,7 +138,7 @@ As quantidades vêm dos casos fictícios da E5 e devem ser preparadas na versão
 
 | ID | Dimensão | Métrica e tarefa | Meta inicial | Como medir / justificativa |
 |---|---|---|---|---|
-| MU01 | Eficácia | Conclusão correta sem ajuda do moderador, separada por T01-A e T02-A | Pelo menos 80%; com 1 ou 2 elegíveis por tarefa, todos devem concluir | 100 × conclusões independentes / primeiras tentativas elegíveis. Repetições não entram nesse denominador. Etapas corretas e registro conferido, não apenas clique final |
+| MU01 | Eficácia | Conclusão correta sem ajuda do moderador, separada por T01-A e T02-A | Pelo menos 80%; com 1 ou 2 elegíveis por tarefa, todos devem concluir | 100 × conclusões independentes / primeiras tentativas elegíveis e avaliáveis. Repetições não entram nesse denominador. Etapas corretas e registro conferido, não apenas clique final |
 | MU02 | Compreensão | Participantes que explicam todos os pontos essenciais de T01 | 100% dos elegíveis | Após T01-A e T01-B, perguntar o significado dos dados e do registro, sem revelar respostas. Verificar: 4 disponíveis em A; estimativa não é garantia; ausência não é zero em B; salvar não envia compra. Cada erro crítico orienta revisão |
 | MU03 | Eficiência | Tempo ativo de conclusão independente | T01-A até 180 s; T02-A até 300 s por participante | Do início após leitura até registro correto e conferido; reservar mais tempo para investigação de T02 |
 | MU04 | Segurança | Erros críticos por tentativa, inclusive casos B | Zero | Contar produto/unidade errados, ajuste sem evidência, duplicação e conclusão falsa de conferência; mesmo um caso exige revisão |
@@ -142,7 +152,7 @@ Para MU01, informar separadamente elegíveis, primeiras tentativas iniciadas, te
 
 #### Tipos de dados coletados e produzidos
 
-Classificação conforme **Planejamento Avaliacao IHC.pdf**, pp. 16–19. Ela define o tratamento possível de cada medida e evita cálculos indevidos.
+A classificação segue o material de aula *Planejamento da Avaliação de IHC* (pp. 16–19) e orienta o tratamento de cada medida.
 
 | Medida | Nominal, ordinal, de intervalo ou de razão | Qualitativo ou quantitativo | Objetivo ou subjetivo |
 |---|---|---|---|
@@ -159,62 +169,34 @@ Consequências para a análise: em MU05, relatar a distribuição e a mediana, n
 
 **Registro mínimo por tentativa:** código; perfil; dispositivo; versão; tarefa/caso; início/fim; espera/pausa; conclusão independente/assistida/não concluída; erros e evidências; pontos de compreensão; nota; comentário. Para grupos maiores, apresentar também distribuição e mediana, sem esconder casos individuais. MU04 prevalece sobre rapidez ou satisfação.
 
-### 3.3 Priorização das metas
+### 3.3 Priorização das cinco metas de Nielsen
 
-Pesos representam importância de projeto, não porcentagens de sucesso nem resultados obtidos.
+Os pesos expressam as prioridades de projeto propostas pela equipe. MU01–MU07 permanecem como critérios operacionais da seção 3.2.
 
-| Meta | Peso | Motivo |
+| Meta de Nielsen | Peso | Justificativa e relação com as medidas |
 |---|---:|---|
-| MU01 — eficácia | 25% | Concluir o objetivo |
-| MU02 — compreensão | 20% | Interpretar dados e limites |
-| MU03 — eficiência | 10% | Respeitar rotina sem incentivar pressa |
-| MU04 — segurança | 20% | Evitar alteração ou decisão indevida |
-| MU05 — satisfação | 10% | Investigar satisfação com a experiência |
-| MU06 — aprendizagem | 10% | Favorecer autonomia |
-| MU07 — retomada | 5% | Recuperar trabalho interrompido |
+| Baixa taxa de erros | 35% | Ajustar o saldo sem confirmar a origem afeta decisões seguintes. MU04 acompanha os erros críticos, MU02 verifica a interpretação de valores e MU01 verifica se a tarefa terminou corretamente. |
+| Facilidade de aprendizado | 25% | Uma pessoa em seu primeiro uso precisa localizar o item, compreender as opções e concluir com autonomia. MU01 e MU02 caracterizam a primeira tentativa. MU06 compara a repetição equivalente. |
+| Eficiência | 20% | A decisão precisa caber na rotina do comércio. MU03 mede o tempo ativo de uma conclusão independente. Interpretar a primeira tentativa à luz da experiência registrada e da curva de aprendizado. |
+| Facilidade de memorização | 10% | Quem volta a conferir o estoque precisa reconhecer o caminho e recuperar o contexto. MU07 observa a retomada após uma pausa breve. Para medir retenção após dias sem uso, seria necessária outra sessão. |
+| Satisfação positiva do usuário | 10% | A nota e o motivo registrados em MU05 mostram como a pessoa percebeu a experiência, inclusive quando concluiu a tarefa corretamente. |
 | **Total** | **100%** | |
 
-Os pesos não compensam falhas críticas. Não calcular uma nota média que esconda erro de segurança.
+Um erro crítico em MU04 exige revisão mesmo que a tarefa seja rápida e receba nota alta. Os pesos orientam decisões de design e não são usados para somar os resultados dos testes.
 
 ## 4. Como o ciclo será iterado
 
-**Avaliação formativa e somativa (Planejamento Avaliacao IHC.pdf, pp. 11–12).** As revisões de protótipo, a inspeção heurística da E13 e as repetições de tarefa após reprojeto são formativas: acontecem antes de existir solução pronta, servem para comparar alternativas e localizar problemas de interação e aceitam representações de qualquer fidelidade. A rodada final da E14, sobre a versão congelada do protótipo, é somativa em relação a esta disciplina, porque compara cada resultado com as metas MU01–MU07. Ela não é somativa em relação ao produto: o sistema não está implementado, de modo que seus resultados não autorizam afirmar a qualidade de uso do sistema final.
+Adotamos o **Ciclo de Vida da Engenharia de Usabilidade de Deborah Mayhew**. No recorte da Entrega 8, a equipe especifica os requisitos que orientarão o design. Na data desta revisão, o modelo conceitual, a MoLIC e o protótipo navegável já estão documentados. O próximo passo é verificar a versão escolhida para o piloto e calibrar os critérios antes das sessões principais.
 
-| Etapa | Atividades e artefatos | Critério de revisão |
+| Fase do modelo | Aplicação no projeto | Quando voltar e o que rever |
 |---|---|---|
-| Compreender contexto | Aplicar E7 e confrontar hipóteses com E1/E3/E4 | Se os papéis ou práticas diferirem, revisar personas, cenários e rastreabilidade |
-| Especificar requisitos | Consolidar necessidades e metas desta E8 | Confirmar dependências técnicas e ajustar limites no piloto |
-| Projetar alternativas | Usar HTA/GOMS/CTT da E5; desenvolver modelo conceitual, MoLIC e protótipos E6/E9–E11 | Caminhos de decisão, correção e pendência precisam de início, retorno e término claros |
-| Avaliar formativamente | Revisar protótipo e aplicar inspeção heurística da E13 | Corrigir ambiguidades, problemas de feedback e erros críticos antes do teste principal |
-| Avaliar com usuários | Detalhar DECIDE na E12 e executar E14 com instrumentos, consentimento e casos definidos | Comparar cada resultado com sua meta e documentar limitações |
-| Reprojetar e verificar | Priorizar problemas, alterar fluxo/texto/estado e repetir tarefas afetadas | Registrar versão, mudança, motivo, nova evidência e problemas persistentes |
+| 1. Análise de requisitos | E3 e E4 descrevem perfis e cenários. E5 decompõe as tarefas. E7 prepara a investigação da rotina. E8 reúne características da plataforma, princípios, metas e decisões iniciais do guia de estilo. | Se a coleta mostrar que outra pessoa autoriza correções, rever R04-02, o fluxo de T02 e os controles de permissão antes de redesenhar as telas. |
+| 2. Design, avaliação e desenvolvimento | No nível conceitual, E6 e E9 exploram decisões e caminhos. A MoLIC de E10 explicita a interação. No desenho de telas e no detalhamento, E11 aplica os padrões do guia e representa revisão, falha e retomada. E12 planeja a avaliação, E13 orienta a inspeção e E14 prevê a observação das tarefas. | Se alguém interpretar a confirmação em T01 como compra enviada, rever o rótulo e o resumo, atualizar o guia e repetir a verificação de MU02. Se T02 permitir correção sem evidência, rever o fluxo de pendência e testar novamente o caso B com MU04. |
+| 3. Instalação e acompanhamento | Fase posterior a uma implantação real. Caberá acompanhar o uso no comércio e recolher dificuldades com registros, permissões e interrupções em condições reais. | Relatos recorrentes podem reabrir requisitos ou indicar ajustes de tela. Registrar o motivo, a versão alterada e a evidência obtida na nova avaliação. |
 
-Exemplos de revisão: se “salvar” for interpretado como comprar, alterar rótulo e confirmação e testar MU02 novamente; se a diferença 8/10 provocar ajuste sem evidência, revisar acesso às fontes e caminho de pendência e repetir T02-B; se a pausa causar duplicação, revisar feedback de gravação e repetir MU07. São gatilhos previstos, não achados observados.
+Na revisão formativa, a equipe modifica o protótipo e repete a tarefa afetada. Na rodada final da disciplina, compara os resultados da versão congelada com cada meta e registra limitações. A [matriz de rastreabilidade](../RASTREABILIDADE.md) liga as decisões às evidências previstas. O [plano DECIDE](12_planejamento_avaliacao.md) organiza as sessões.
 
-A equipe consolida a avaliação, preservando a autoria das tarefas registrada na E5. A matriz deverá ligar necessidade → tarefa → decisão de interface → meta → evidência → mudança. Não tratar desempenho preditivo, redução de rupturas ou economia financeira como resultados deste teste de IHC.
-
-### Especificação para preparar e registrar a avaliação
-
-| Item | Regra operacional |
-|---|---|
-| Base de T01-A | Identidade completa da garrafa; 6 físicas, 2 comprometidas, 4 disponíveis; prazo do fornecedor e restrição de recursos da E4. Anexar histórico e estimativa fictícios com período e unidade antes do piloto; a quantidade escolhida pelo usuário não tem um único gabarito |
-| Base de T01-B | Mesma tarefa, mas sem confirmação do histórico de procura e sem estimativa disponível; permitir registrar pendência e próxima verificação |
-| Base de T02-A | Conjunto de três potes como uma unidade comercial; saldo 8, contagem 10; pedido e anotação que confirmam a mesma saída de 2 conjuntos, com confirmação da origem por Mariana representada no material fictício |
-| Base de T02-B | Mesma diferença, sem confirmação da origem; igualdade numérica sozinha não autoriza correção |
-| Sucesso | Critérios da tabela de casos cumpridos e resultado final conferido; pendência é sucesso no caso de informação insuficiente, mas não conclusão da compra ou da conferência global |
-| Erro crítico | Registro final em produto/unidade errados, ajuste sem fonte confirmada, duplicação ou interpretação de conferência parcial como total. Desvio corrigido antes de salvar é registrado separadamente como erro recuperado |
-| Tempo | MU03 usa a primeira tentativa de A. Tempo ativo = tempo total menos espera comprovada do sistema/facilitador e pausas; manter ambos no registro. Em imagens estáticas, não comparar esse tempo diretamente com tempo de uma aplicação implementada |
-| Retomada | Pausa controlada de 30 s antes de confirmar, em execução separada; cronometrar a identificação do produto, estado e próxima ação após o retorno. Não contam os 30 s de pausa |
-| Interrupção da sessão | Encerrar por pedido do participante, desconforto ou bloqueio. Para padronizar, oferecer encerramento/ajuda após 6 min em T01-A e 10 min em T02-A; esses limites de sessão não são as metas de eficiência |
-| Estados dos resultados | Atingida / não atingida / não avaliada. Fluxo ausente ou falha do ambiente: não avaliada e limitação explicitada. Não descartar esses casos silenciosamente nem declarar sucesso global |
-
-**Perguntas de compreensão de T01:** “Quantas unidades estão livres para novas vendas e por quê?”, “O que a estimativa informa e o que não garante?”, “O que significa não haver previsão exibida?” e “O que aconteceu depois que você salvou a decisão?”. Aceitar explicações equivalentes em linguagem cotidiana. Não antecipar os quatro pontos corretos durante a execução.
-
-**Ficha por tentativa:** código do participante; perfil e experiência; exposição prévia; data; versão do protótipo; dispositivo; caso; início/fim; espera; pausa; tempo ativo; conclusão independente/assistida/não concluída/não avaliada; erros críticos/recuperados; resposta de compreensão; nota de satisfação; observação; meta; decisão de revisão. Guardar os registros individuais de forma restrita, conforme E7; publicar apenas síntese sem identificação.
-
-### O que está concluído e o que será feito depois
-
-A especificação exigida nesta entrega está concluída: plataforma, limites, princípios, metas qualitativas e quantitativas, pesos e ciclo de revisão. Metas são requisitos propostos; não é necessário inventar uma avaliação para concluir sua definição. O preenchimento dos resultados pertence ao planejamento e execução das Entregas 12–14. Antes disso, a equipe deverá preparar os dados fictícios, completar no protótipo os caminhos ausentes da E6, fazer piloto, calibrar os limites e registrar a versão definitiva. Regras comerciais e recomendação calculada seguem dependentes da confirmação do escopo técnico. Esta revisão não modifica as outras entregas.
+**Preparação da avaliação.** Usar os casos A e B definidos na seção 3.2. Na ficha de cada tentativa, registrar versão, perfil, dispositivo, caso, tempo total e ativo, ajuda, erros críticos ou recuperados, explicações e motivo da nota. Em MU03, oferecer ajuda ou encerramento após 6 minutos em T01-A e 10 minutos em T02-A. Em MU07, a pausa controlada de 30 segundos antecede a medição do tempo de retomada. Se o fluxo necessário faltar, registrar a limitação e classificar a meta como não avaliada. Manter os registros individuais em acesso restrito.
 
 ## Checklist
 
@@ -232,7 +214,7 @@ A especificação exigida nesta entrega está concluída: plataforma, limites, p
 
 ## Referências
 
-- **Principios Diretrizes Design.pdf**, pp. 2–13 para os princípios que orientam as decisões, pp. 17–21 para padrões de design e escopo do guia de estilo e pp. 22–32 para fidelidade de wireframe, protótipo e mockup; nenhum deles substitui análise e avaliação.
-- **Planejamento Avaliacao IHC.pdf**, pp. 4–5 para as perspectivas de avaliação, pp. 11–12 para avaliação formativa e somativa, pp. 13–15 para contexto de uso e laboratório, pp. 16–19 para os tipos de dados, pp. 25–26 para preparação e piloto e pp. 33–38 para interpretação, relato e o framework DECIDE detalhado na E12.
-- **CC8122-HTA (1).pdf** e **CC8122-GOMS-CTT (1).pdf**: apoio à modelagem já documentada na E5; tarefas e critérios desta entrega preservam T01/T02 existentes.
-- Materiais fornecidos, identificados nos slides como Barbosa e Silva (2010), complementados pelas referências oficiais citadas na seção 2. Limites numéricos e pesos desta entrega são escolhas propostas para o projeto, não valores prescritos nos slides.
+- FEI, disciplina CC8122 — materiais de aula fornecidos pelo professor. *Princípios e Diretrizes de Design*, pp. 2–32, fundamenta os princípios, o guia de estilo e a fidelidade dos protótipos. *Planejamento da Avaliação de IHC*, pp. 11–19, 25–26 e 33–38, fundamenta as condições de avaliação, o piloto e o tratamento dos dados.
+- FEI, disciplina CC8122 — materiais de aula *HTA* e *GOMS e CTT*, aplicados na [análise de tarefas da E5](05_analise_tarefas.md).
+- Mayhew, Deborah J. (1999). Modelo de ciclo de vida utilizado na seção 4. [The Usability Engineering Lifecycle, Morgan Kaufmann](https://shop.elsevier.com/books/the-usability-engineering-lifecycle/mayhew/978-0-08-052028-5).
+- Nielsen, Jakob (2012). Definição das cinco dimensões priorizadas na seção 3.3. [Usability 101, Nielsen Norman Group](https://www.nngroup.com/articles/usability-101-introduction-to-usability/jn/).

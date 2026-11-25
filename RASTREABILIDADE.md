@@ -47,7 +47,21 @@ Os identificadores locais da Entrega 4 foram incorporados sem criar uma segunda 
 | R04-01 — decidir reposição considerando disponibilidade, procura, prazo e recursos | Previsão como apoio; recomendação calculada condicional | P01 — Mariana | [E4-C01](docs/04_cenarios_problema.md) | Apurar disponibilidade, comparar informações e alternativas, decidir e avaliar resultado | [T01 — HTA](docs/05_analise_tarefas.md#t01-hta), [GOMS](docs/05_analise_tarefas.md#t01-goms) e [CTT](docs/05_analise_tarefas.md#t01-ctt) produzidos; autoria: Paulo; cobertura de interface parcial na E6 | Necessidade e cenário hipotéticos |
 | R04-02 — manter saldo e histórico explicáveis e comunicar pendências | Qualidade dos dados utilizados na previsão; capacidade operacional a delimitar | P02 — Rafael; P01 depende do resultado | [E4-C02](docs/04_cenarios_problema.md) | Investigar divergência, confirmar fonte, corrigir com justificativa e distinguir pendências | [T02 — HTA](docs/05_analise_tarefas.md#t02-hta), [GOMS](docs/05_analise_tarefas.md#t02-goms) e [CTT](docs/05_analise_tarefas.md#t02-ctt) produzidos; autoria: Victor; cobertura de interface parcial na E6 | Papel auxiliar e procedimento a investigar |
 
-MoLIC, Figma, heurísticas e tarefas de teste ainda não foram ligados a esses cenários. Campos futuros não são tratados como artefatos já existentes.
+### Metas de usabilidade da Entrega 8
+
+R04-01 fundamenta T01, a decisão de reposição de Mariana. R04-02 fundamenta T02, a investigação de divergências por Rafael. Os casos A e B e os limites de cada meta estão definidos na [Entrega 8](docs/08_engenharia_usabilidade.md). As telas abaixo constam da [Entrega 11](docs/11_figma.md). A última coluna descreve o registro a produzir na avaliação.
+
+| Necessidade e tarefa | Decisão de interface | Meta da E8 | Evidência prevista |
+|---|---|---|---|
+| R04-01/T01 e R04-02/T02 · concluir o trabalho do item | Mostrar o desfecho salvo da reposição ou da conferência em F05S ou F13 | MU01 · Eficácia | Classificação da primeira tentativa de cada caso A, com ajuda recebida e conferência do resultado final. |
+| R04-01/T01 · interpretar disponibilidade e previsão | Separar físico, comprometido e disponível em F02, identificar ausência de estimativa em F02B e explicitar o que foi salvo | MU02 · Compreensão | Explicação, nas palavras da pessoa, dos quatro pontos dos casos T01-A e T01-B. |
+| R04-01/T01 e R04-02/T02 · decidir ou conferir durante o expediente | Reunir a base da decisão em F02 e as fontes da divergência em F11 antes da revisão | MU03 · Eficiência | Tempo ativo por caso A concluído sem ajuda, com espera, pausa e tentativas interrompidas registradas separadamente. |
+| R04-01/T01 e R04-02/T02 · evitar registro indevido | Revisar produto e quantidade antes de salvar. Em F12P e F12N, preservar o saldo quando faltar evidência ou autorização. | MU04 · Segurança | Contagem e descrição dos erros críticos por tentativa, incluindo os casos B, e registro à parte dos desvios recuperados. |
+| R04-01/T01 e R04-02/T02 · entender o resultado da própria ação | Mostrar um resumo da decisão em F05S e do saldo corrigido em F13 | MU05 · Satisfação | Nota pós-tarefa de 1 a 5 e motivo declarado, registrados por participante e tarefa. |
+| R04-01/T01 e R04-02/T02 · ganhar autonomia | Manter as etapas de identificar, revisar e confirmar reconhecíveis ao mudar o item | MU06 · Aprendizagem | Comparação de ajuda, conclusão e erros críticos entre duas execuções equivalentes na mesma sessão. |
+| R04-01/T01 e R04-02/T02 · retomar após atendimento | Reapresentar contexto e próxima ação em F02P ou F10P | MU07 · Retomada | Após a pausa, tempo para identificar o contexto e a próxima ação, com verificação de duplicação. |
+
+O [DECIDE da E12](docs/12_planejamento_avaliacao.md) orienta a coleta. A [E13](docs/13_avaliacao_heuristica.md) pode apontar problemas para revisão antes das sessões. A [E14](docs/14_observacao_usuario.md) é a referência para a observação com participantes. Ao dispor de dados, registrar versão, caso, evidência, decisão de revisão e nova verificação. A definição destas metas preserva o estado das hipóteses da seção 2.
 
 ## 4. Rastreabilidade dos padrões e recomendações
 
