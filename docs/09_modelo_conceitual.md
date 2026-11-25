@@ -219,7 +219,7 @@ Cada signo foi mantido porque o usuário precisa fornecê-lo, consultá-lo, inte
 | Quantidade disponível | Decide a partir dele | O04 | F02 (“Disponíveis”) |
 | Saldo registrado | Interpreta e recebe feedback | O03, O07, O08 em M02 | F12 e F13 |
 | Vendas confirmadas | Interpreta | O04 | F02 |
-| Atualização da base | Interpreta | O04, O09 | F02 (“atualizadas hoje às 9h”) |
+| Atualização da base | Interpreta | O04, O09 | F02 (“atualizadas hoje às 9h”); F02P |
 | Horizonte | Interpreta | O04 | F02 (“próximos 3 dias”) |
 | Previsão de demanda | Interpreta | O04 | F02; ausência em F02B |
 | Sugestão de reposição | Interpretaria, se existir | O04, como signo condicional `[ ]` | **Não prototipada**: depende de regra técnica confirmada |
@@ -229,11 +229,11 @@ Cada signo foi mantido porque o usuário precisa fornecê-lo, consultá-lo, inte
 | Motivo | Fornece | O05, O07 | F04, F05 e revisões de pendência |
 | Próxima verificação | Fornece | O05, O07, O09 | Pendências F05P, F12P; F10P |
 | Evidência de origem | Consulta | O06 | F11 |
-| Situação da evidência | Decide | O06 | F11 (“Mesma saída confirmada” / “Origem incerta”); F12 |
+| Situação da evidência | Decide | O06 | F11 (“Mesma saída confirmada” / “Origem incerta”); F12, F12N, F12P |
 | Correção da transcrição | Revisa e confirma | O07 | F12 (“Correção proposta”) |
 | Desfecho da conferência | Fornece | O07, O08 | F12, F12P, F13, F14 |
 | Alcance da conferência | Recebe | O10 | F13 |
-| Estado do registro | Recebe feedback | O08, O09, gravação incerta | F05S, F06E, F06R, F10P, F12E, F12F |
+| Estado do registro | Recebe feedback | O08, O09, gravação incerta | F02P, F05S, F06E, F06R, F10P, F12E, F12F |
 | Ponto de retomada | Consulta | O09 | F02P, F10P |
 | Responsável e data | Recebe feedback | O08 | F13 |
 

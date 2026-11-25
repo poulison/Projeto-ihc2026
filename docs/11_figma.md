@@ -140,6 +140,14 @@ O feedback pediu que os termos do esquema conceitual mantivessem o mesmo signifi
 | Correção da transcrição | Correção proposta; Desconto indevido | F12 | Mantido: “proposta” marca que a correção ainda não foi gravada. |
 | Responsável e data | Antes: Desfecho · Rafael Costa · 09/11 | F13, F14, F14N | **Separado** em linha própria, “Responsável e data”. |
 | Previsão de demanda; horizonte | Previsão de demanda · próximos 3 dias | F02 | Igual. |
+| Previsão de demanda (ausente) | Antes: “Previsão para os próximos 3 dias · Indisponível · a demanda permanece desconhecida” | F02B | **Ajustado** para “Previsão de demanda · Indisponível para os próximos 3 dias · não significa demanda zero”. |
+| Vendas confirmadas | Antes: Base de procura | F02B | **Ajustado** para “Vendas confirmadas · ainda não confirmadas para este período”. |
+| Quantidade disponível; quantidade comprometida | Antes: “4 garrafas livres” (F02B); “2 unidades reservadas” (F01) | F01, F02B | **Ajustado** para “disponíveis” e “comprometidas”. |
+| Atualização da base | Não aparecia na pausa | F02P | **Acrescentado**: “Atualização da base · sem alteração desde a pausa”, para que Mariana perceba se a base mudou. |
+| Desfecho da reposição: pendência | Antes: Aguardar informação | F03 | **Ajustado** para “Registrar pendência”, igual ao botão e à revisão F05P. |
+| Próxima verificação | Antes: Próxima ação | F05P, F05PS, F12N | **Ajustado** nos desfechos de pendência. Em planejamento e adiamento, “Próxima ação” foi mantida porque não se trata de pendência. |
+| Estado do registro | Antes: Situação; Resultado da consulta | F06E, F06R, F12E | **Ajustado**, com os valores “Aguardando confirmação” e “Falha confirmada”. |
+| Situação da evidência | Antes: Origem | F12N, F12P | **Ajustado**, com os valores “Confirmada” e “Inconclusiva”. |
 
 ### Estados que devem ser preservados na implementação
 
