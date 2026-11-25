@@ -45,7 +45,7 @@ O fluxo organiza as atividades de preparação, coleta, interpretação, consoli
 | MU04 — segurança | Zero erros críticos por tentativa. | UT01–UT05, inclusive os casos com informação insuficiente. |
 | MU05 — satisfação | Nota mínima 4/5 por pessoa e tarefa; registrar motivo. | Cada tarefa aplicada. Escala própria de satisfação, não SUS nem SEQ. |
 | MU06 — aprendizagem | Segunda execução equivalente sem ajuda e sem erro crítico. | **Não avaliada nesta versão:** falta outro produto/caso de complexidade equivalente. UT06 não será aplicada. |
-| MU07 — retomada | Identificar item, estado de salvamento e próxima ação em até 30 s após o retorno, sem duplicar registro. | UT05, aplicada separadamente em cada perfil. |
+| MU07 — retomada | Identificar item, estado de salvamento e próxima ação em até 30 s após o retorno, sem duplicar registro. | UT05 foi planejada para aplicação individual por perfil. Na prática, foi feita em conjunto e sem cronômetro. |
 
 **Ambiente e recursos:** sessão presencial individual, sala tranquila, notebook, navegador, mouse, cronômetro e fichas de registro. Prever 25–35 minutos. Registrar resolução, área visível, zoom e adaptações de leitura. Oferecer dois minutos de familiarização com a entrada do protótipo, sem demonstrar os caminhos avaliados. Reiniciar o caso entre tarefas; o Figma simula registros, não persiste compras ou movimentações reais.
 
@@ -53,12 +53,12 @@ Será mantido o formato presencial da E12. Uma eventual aplicação remota exige
 
 ### Passo 2 — Participantes
 
-| ID | Perfil | Critérios que justificam participação | Integrante responsável |
+| ID | Perfil observado | Participação na simulação | Integrante responsável |
 |---|---|---|---|
-| U01 — sessão realizada em 25/11/2026 | Adulto responsável por reposição em pequeno comércio; perfil relacionado a P01/Mariana. | Decide quantidades ou prioridades de compra e consulta estoque/procura. Registrar familiaridade digital e contato prévio com o projeto. Preferir pouca familiaridade com sistemas de estoque, sem deduzi-la da idade. | Paulo Andre de Oliveira Hirata modera e analisa; Victor Merker Binda observa e cronometra. |
-| U02 — sessão realizada em 25/11/2026 | Adulto que confere mercadorias e movimentações; perfil relacionado a P02/Rafael. | Tem experiência de comparar contagem física e registros ou investigar diferenças. Não precisa decidir compras. Registrar ferramentas utilizadas e experiência prévia. | Victor Merker Binda modera e analisa; Paulo Andre de Oliveira Hirata observa e cronometra. |
+| U01 — sessão realizada em 25/11/2026 | Participante substituto de P01/Mariana. Não trabalha com estoque e já conhecia o projeto. | Fez os casos de reposição. | Paulo Andre de Oliveira Hirata moderou e analisou. Victor Merker Binda observou. |
+| U02 — sessão realizada em 25/11/2026 | Participante substituto de P02/Rafael. Não trabalha com estoque e já conhecia o projeto. | Fez os casos de conferência. | Victor Merker Binda moderou e analisou. Paulo Andre de Oliveira Hirata observou. |
 
-**Amostra:** dois participantes finais, observados em 25/11/2026. **Desvio do critério de inclusão:** no pré-teste, as duas pessoas disseram que não trabalham com estoque e que já conheciam o projeto. Foram mantidas como **participantes aproximados (proxy)**, convidados por conveniência no prazo da entrega. Os resultados não equivalem aos de quem faz reposição ou conferência e são tratados como limitação na seção G. Recrutamento por conveniência, condicionado à experiência na tarefa. Não apresentar um colega sem experiência como representante do comércio. Cada participante fará somente os casos de seu perfil; UT05 será identificada também por M01 ou M02 para manter os resultados separados.
+**Amostra:** dois participantes substitutos, recrutados por conveniência no prazo da entrega. O plano previa experiência em reposição ou conferência, mas as duas pessoas disseram no pré-teste que não trabalham com estoque e já conheciam o projeto. Os casos principais foram realizados separadamente por perfil. UT05 e o pós-teste foram feitos em conjunto.
 
 No pré-teste, perguntar quais atividades de estoque a pessoa realiza, com que frequência, quais ferramentas utiliza, se já conhece o protótipo e se precisa de adaptações de leitura ou comunicação. Registrar as respostas nas notas da sessão. Não solicitar documentos pessoais, renda, dados de clientes ou nome do estabelecimento no relatório público.
 
@@ -93,12 +93,12 @@ Somente a coluna **Cenário/instrução apresentada** será lida ao participante
 |---|---|---|---|---|
 | UT01 · reposição com dados | “É segunda-feira. O fornecedor recebe pedidos até o meio-dia e prevê entregar na quinta. Veja a situação da garrafa térmica azul de 500 ml e deixe registrado como pretende proceder.” | Identifica item/unidade e 4 disponíveis, considera prazo e dados de procura, justifica uma decisão coerente e confere seu registro. Não existe quantidade única obrigatória; as opções 4 e 6 ou outro desfecho representado exigem justificativa. | Sucesso, tempo total/ativo, erros, ajudas, satisfação e compreensão. | E4-C01 → T01-A → O01/M01; F01/F02 até confirmação do desfecho. MU01–MU05. |
 | UT02 · reposição com lacuna | “Em outro ciclo, você precisa decidir sobre a mesma garrafa. Use as informações disponíveis hoje e deixe registrado como dará continuidade ao trabalho.” | Reconhece informação insuficiente, registra pendência com motivo/próxima verificação e confere o registro. Não interpreta falta de previsão como demanda zero. | Sucesso, erros, ajudas, satisfação e compreensão; tempo descritivo, sem meta MU03. | E4-C01 → T01-B → O01/M01; F02B, F05P e F05PS. MU02/MU04/MU05. |
-| UT03 · divergência confirmável | “A loja está conferindo 14 registros. A proprietária quer saber por que há uma diferença no estoque do conjunto de três potes. Investigue o que aconteceu e diga a ela como ficou esse item.” | Trata um conjunto como uma unidade; confirma a origem nas fontes e na consulta simulada; desfaz somente a segunda dedução da mesma saída de 2 conjuntos; confere saldo 10 e comunica que apenas esse item foi resolvido. | Sucesso, tempo total/ativo, erros, ajudas, satisfação e explicação do desfecho. | E4-C02 → T02-A → O02/M02; F01/F10/F11/F12/F13. MU01/MU03/MU04/MU05. |
-| UT04 · divergência sem confirmação | “Em outra conferência do mesmo item, os registros e a contagem também divergem. Hoje você dispõe apenas dos documentos apresentados. Deixe o caso em condições de ser acompanhado pela proprietária.” | Mantém saldo registrado 8 diante da contagem 10 sem causa confirmada, registra motivo e próxima verificação, confere a pendência e comunica o alcance. | Sucesso, erros, ajudas e satisfação; tempo descritivo, sem meta MU03. | E4-C02 → T02-B → O02/M02; F10/F11/F12P/F14. MU04/MU05. |
+| UT03 · divergência confirmável | “A loja tem 14 registros a conferir. A proprietária quer saber por que há uma diferença no estoque do conjunto de três potes. Investigue o que aconteceu e diga a ela como ficou esse item.” | Trata um conjunto como uma unidade; confirma a origem nas fontes e na consulta simulada; desfaz somente a segunda dedução da mesma saída de 2 conjuntos; confere saldo 10 e comunica o alcance sem declarar a conferência inteira concluída. Resumo esperado: **1 de 14 registros conferido; 13 aguardam conferência.** O pedido e a anotação compõem o mesmo caso. | Sucesso, tempo total/ativo, erros, ajudas, satisfação e explicação do desfecho. | E4-C02 → T02-A → O02/M02; F01/F10/F11/F12/F13. MU01/MU03/MU04/MU05. |
+| UT04 · divergência sem confirmação | “Em outra conferência do mesmo item, os registros e a contagem também divergem. Hoje você dispõe apenas dos documentos apresentados. Deixe o caso em condições de ser acompanhado pela proprietária.” | Sinaliza os 8 conjuntos como saldo registrado ainda não confirmado e mantém esse valor até nova contagem. Registra motivo e próxima verificação da origem, confere a pendência e comunica o alcance. | Sucesso, erros, ajudas e satisfação; tempo descritivo, sem meta MU03. | E4-C02 → T02-B → O02/M02; F10/F11/F12P/F14. MU04/MU05. |
 | UT05 · retomada | “Você está no meio dessa atividade quando precisa atender alguém no balcão. Ao voltar, identifique onde parou e continue o trabalho.” | Após pausa de 30 s em execução separada, identifica item, estado não salvo e próxima ação em até 30 s; prossegue sem duplicação. Registrar desempenho em cada fluxo separadamente. | Tempo de retomada, contexto identificado, duplicação/erros, ajudas e satisfação. | O09; M01/F02P ou M02/F10P. MU04/MU05/MU07. |
 | UT06 · repetição equivalente | **Não aplicada nesta versão.** A tarefa exige outro produto e valores com complexidade equivalente. | Critério reservado: segunda execução sem ajuda e sem erro crítico. Não usar UT02/UT04 ou a retomada como substitutos. | MU06 permanecerá não avaliada. | T01/M01 ou T02/M02; falta variante equivalente no protótipo atual. |
 
-**Ordem:** U01 realiza UT01 → UT02 → UT05/M01; U02 realiza UT03 → UT04 → UT05/M02. Fazer perguntas após cada tentativa e reiniciar o cenário antes da próxima. Não misturar retomada com o tempo da primeira execução. A pausa disponível ocorre durante a análise, antes de salvar; esta versão não testa retomada após uma confirmação de salvamento do registro.
+**Ordem prevista:** U01 realiza UT01 → UT02 → UT05/M01; U02 realiza UT03 → UT04 → UT05/M02. Fazer perguntas após cada tentativa e reiniciar o cenário antes da próxima. Não misturar retomada com o tempo da primeira execução. A pausa disponível ocorre durante a análise, antes de salvar; esta versão não testa retomada após uma confirmação de salvamento do registro.
 
 **Dados de referência:** garrafa com 6 unidades físicas, 2 comprometidas, 4 disponíveis, vendas confirmadas de 4 unidades nos últimos três dias e estimativa fictícia de 5 nos próximos três dias. Os potes têm saldo 8 e contagem 10; o pedido 1042 representa saída de 2 conjuntos. Mesmos produto, data e quantidade não provam duplicação: é necessária a confirmação da origem. Em UT04 essa confirmação não existe.
 
@@ -136,7 +136,6 @@ Sessões em 25/11/2026, presenciais, na revisão do protótipo de 25/11/2026 (co
 |---|---|---:|---|---:|---|---|---|
 | UT01 | Sucesso, sem ajuda | 0 | Demora pontual de leitura (ver nota acima) | 0 | ≈ 2–3 min | 4 | Disse que pode vender 4 garrafas: 6 na loja e 2 comprometidas com pedidos pagos. Disse que a previsão de 5 unidades em 3 dias pode variar. Planejou 6 unidades para cobrir a procura até quinta e conferiu o registro; apontou o contato com o fornecedor como próxima ação. |
 | UT02 | Sucesso, sem ajuda | 0 | Demora pontual de leitura | 0 | ≈ 2–3 min | 5 | Disse que há 4 disponíveis e que, sem previsão, a procura futura é desconhecida. Registrou pendência para confirmar as vendas dos últimos 3 dias e conferir os pedidos pagos antes do meio-dia. |
-| UT05/M01 | Sucesso, sem ajuda (feita junto com U02) | 0 | Demora pontual para se localizar | 0 | Retomada não cronometrada | 4 | Identificou a garrafa, o que já tinha conferido, que a decisão seguia em rascunho e que podia retomar a análise. Não duplicou registro. |
 
 ### U02 — conferência
 
@@ -144,9 +143,14 @@ Sessões em 25/11/2026, presenciais, na revisão do protótipo de 25/11/2026 (co
 
 | Tarefa | Grau de sucesso | Erros | Tipos de erro/dificuldade | Ajudas | Tempo | Satisfação | Evidência/observação |
 |---|---|---:|---|---:|---|---|---|
-| UT03 | Sucesso, sem ajuda | 0 | Demora pontual de leitura | 0 | ≈ 2–3 min | 4 | Consultou a proprietária (resposta prevista no cenário), concluiu que a anotação copiava o pedido 1042 e desfez só o segundo desconto. Conferiu o saldo de 10 conjuntos e disse que só esse item foi corrigido, com os outros 13 registros em conferência. |
-| UT04 | Sucesso, sem ajuda | 0 | Demora pontual de leitura | 0 | ≈ 2–3 min | 5 | Manteve o saldo em 8 conjuntos diante da contagem de 10, deixou a divergência em aberto e registrou a próxima verificação: conferir o comprovante de expedição com Mariana. |
-| UT05/M02 | Sucesso, sem ajuda (feita junto com U01) | 0 | Demora pontual para se localizar | 0 | Retomada não cronometrada | 4 | Identificou o item, o saldo de 8 e a contagem de 10 já vistos, que o desfecho seguia em rascunho e que o próximo passo era comparar pedido, anotação e saída. Não duplicou registro. |
+| UT03 | Sucesso, sem ajuda | 0 | Demora pontual de leitura | 0 | ≈ 2–3 min | 4 | Consultou a proprietária (resposta prevista no cenário), concluiu que a anotação copiava o pedido 1042 e desfez só o segundo desconto. Conferiu o saldo de 10 conjuntos e relatou que a correção se limitava ao item investigado. |
+| UT04 | Sucesso, sem ajuda | 0 | Demora pontual de leitura | 0 | ≈ 2–3 min | 5 | Preservou o saldo registrado de 8 conjuntos com a divergência em aberto diante da contagem de 10 e registrou a próxima verificação: conferir o comprovante de expedição com Mariana. |
+
+### UT05 — retomada em conjunto
+
+| Aplicação | Observação | Tempo e atribuição |
+|---|---|---|
+| U01 e U02 juntos, nos casos M01 e M02 | O registro conjunto aponta reconhecimento dos itens, do estado de rascunho e da próxima ação, com demora pontual para se localizar. Nenhuma duplicação ou ajuda da equipe foi registrada. As fichas trazem nota 4 nos dois casos. | Retomada sem cronômetro. O resultado descreve a execução em conjunto. A autonomia, o tempo e a satisfação em execução individual não foram confirmados. |
 
 **Pós-teste (respondido em conjunto por U01 e U02):**
 
@@ -159,15 +163,16 @@ Sessões em 25/11/2026, presenciais, na revisão do protótipo de 25/11/2026 (co
 |---|---|---|---|---|---|---|
 | UT01 | 1 de 1, sem ajuda | ≈ 2–3 min (estimado) | Nenhum | 4 | MU01, MU02, MU04 e MU05 atendidas. MU03 (até 180 s) não confirmada: o tempo não foi medido com precisão. | AU02, AU03 |
 | UT02 | 1 de 1, sem ajuda | ≈ 2–3 min (sem meta MU03) | Nenhum | 5 | MU04 e MU05 atendidas | — |
-| UT03 | 1 de 1, sem ajuda | ≈ 2–3 min (estimado) | Nenhum | 4 | MU01, MU04 e MU05 atendidas. MU03 (até 300 s) atendida mesmo no limite superior da estimativa. | — |
+| UT03 | 1 de 1, sem ajuda | ≈ 2–3 min (estimado) | Nenhum | 4 | MU01, MU04 e MU05 atendidas. A estimativa é compatível com MU03 (até 300 s), mas a meta não foi confirmada porque o tempo ativo não foi cronometrado. | — |
 | UT04 | 1 de 1, sem ajuda | ≈ 2–3 min (sem meta MU03) | Nenhum | 5 | MU04 e MU05 atendidas | — |
-| UT05/M01 | 1 de 1, sem ajuda; feita em conjunto | Retomada não cronometrada | Nenhum; demora para se localizar | 4 | MU07 não confirmada: contexto identificado e sem duplicação, mas o tempo até 30 s não foi medido. MU04 e MU05 atendidas. | AU01 |
-| UT05/M02 | 1 de 1, sem ajuda; feita em conjunto | Retomada não cronometrada | Nenhum; demora para se localizar | 4 | Igual a UT05/M01 | AU01 |
+| UT05/M01 e UT05/M02 | Observação conjunta, sem taxa individual | Retomada não cronometrada | Nenhuma duplicação registrada. Houve demora para se localizar. | 4 nos dois casos, em aplicação conjunta | MU07 não confirmada. MU04 e MU05 descritas apenas para a execução conjunta. | AU01 |
 | UT06 | Não se aplica à rodada | Não se aplica | Não se aplica | Não se aplica | MU06 não avaliada | Falta variante equivalente, não é achado de uso. |
 
 **MU02 (U01).** Nas explicações de UT01 e UT02, U01 citou os quatro pontos: 4 garrafas disponíveis; a previsão pode variar; sem previsão, a procura é desconhecida (não zero); depois de salvar, a próxima ação é falar com o fornecedor. **Meta atendida.**
 
-Cada resultado “1 de 1” descreve só aquela sessão, com um participante aproximado por perfil. Não indica a taxa de sucesso do público. A satisfação é apresentada por pessoa e tarefa, sem média.
+Cada resultado “1 de 1” descreve apenas uma tarefa individual feita por um participante substituto. As notas de satisfação são registradas por tarefa, com UT05 identificada como aplicação conjunta.
+
+**Limite da simulação em UT01.** O Figma ofereceu 4 ou 6 unidades vinculadas a motivos predefinidos. A rodada permitiu observar a interpretação e revisão dessas opções. A escolha livre de quantidade e de motivo ficou fora do protótipo (C09 da [E13](13_avaliacao_heuristica.md#7-consolidação-da-equipe)). AU03 registra a dificuldade relacionada à edição e à preservação do rascunho.
 
 ## E. Achados e recomendações
 
@@ -187,16 +192,16 @@ A [Entrega 13](13_avaliacao_heuristica.md#7-consolidação-da-equipe) foi consol
 | Decisão salva interpretada como compra enviada — UT01 | Não como violação; F05S foi boa prática de H1. | Não: U01 indicou o contato com o fornecedor como próxima ação. | Sem divergência entre os métodos. |
 | Editar a revisão registra outra quantidade ou motivo — UT01 | Sim: C01, grau 3, corrigido antes das sessões. | Sugerido no pós-teste (AU03). | A correção de C01 não cobre os caminhos de adiamento e pendência. |
 | Correção de saldo sem origem ou falsa conclusão da conferência — UT03/UT04 | Não como violação; F12N e F12P foram boas práticas de H5; C04 corrigido. | Não: U02 consultou a proprietária, corrigiu só o item e manteve o saldo quando a origem era incerta. | O fluxo de conferência funcionou como previsto. |
-| Perda de contexto ou duplicação após a pausa — UT05 | Sim, na conferência: C03, corrigido com F11P. | Sem duplicação e com o contexto identificado, mas com demora para se localizar (AU01). | A pausa funciona; a retomada ainda pede leitura. O tempo não foi medido. |
+| Perda de contexto ou duplicação após a pausa — UT05 | Sim, na conferência: C03, corrigido com F11P. | A execução conjunta mostrou reconhecimento do contexto e nenhuma duplicação registrada. Houve demora para se localizar (AU01). | O resultado descreve a retomada em conjunto. O tempo e o desempenho individual ficaram sem confirmação. |
 | Desvio da tentativa por controles da simulação | Sim: C02, corrigido. | Não observado. | Os controles ocultos não atrapalharam as tarefas. |
 
 Problema previsto e não observado não significa problema inexistente: dois participantes aproximados podem não expô-lo.
 
 ## G. Conclusão
 
-1. **Metas:** atendidas MU01 (UT01 e UT03, 1 de 1 cada), MU02 (U01), MU04 (nenhum erro crítico) e MU05 (notas de 4 e 5). Não confirmadas: MU03 na reposição e MU07, porque os tempos não foram medidos com precisão. MU06 ficou fora da rodada.
+1. **Metas.** Nas tarefas individuais, MU01 (UT01 e UT03, 1 de 1 em cada caso) e MU02 (U01) atingiram os critérios nas sessões com substitutos. Houve zero erros críticos observados e notas de 4 a 5 nas tarefas individuais (MU04 e MU05). As estimativas são compatíveis com os limites de MU03, que ficou sem confirmação em ambos os fluxos pela falta de cronometragem. UT05 descreve uma retomada conjunta sem confirmação individual de MU07. MU06 ficou fora da rodada.
 2. **Problemas recorrentes:** demora para se localizar nas duas sessões (AU01). A dúvida sobre a quantidade e a sugestão sobre **Editar** vieram do pós-teste conjunto (AU02 e AU03).
-3. **Surpresas:** mesmo sem trabalhar com estoque, as duas pessoas concluíram todas as tarefas sem ajuda, e nenhuma tratou a previsão como compra ou corrigiu o saldo sem confirmar a origem.
+3. **Desempenho observado.** Nos casos individuais, as duas pessoas concluíram as tarefas sem ajuda da equipe. U01 indicou que ainda teria de contatar o fornecedor, e U02 consultou a proprietária simulada antes de corrigir o saldo.
 4. **Prioridades:**
     1. Completar C06 com cartões na escolha e na revisão da quantidade (AU02).
     2. Fazer **Editar** em F05A e F05P reabrir o rascunho (AU03).
@@ -221,7 +226,7 @@ Problema previsto e não observado não significa problema inexistente: dois par
 - [ ] Foi realizado teste piloto. *Não realizado, por decisão da equipe em 25/11/2026; substituído pela conferência descrita no passo 4 e registrado como limitação.*
 - [x] Tarefas têm critérios de sucesso definidos antes do teste.
 - [x] Moderadores não ensinaram o caminho durante a tarefa.
-- [x] Resultados estão separados por usuário e por tarefa.
+- [x] Resultados discriminados por tarefa. *UT01–UT04 têm registros por pessoa. UT05 e o pós-teste têm registros conjuntos.*
 - [x] Foram registrados sucesso, erros, ajudas, tempo e satisfação quando aplicáveis. *Tempo estimado, não cronometrado por tarefa.*
 - [x] Conclusão combina evidência quantitativa e qualitativa.
 - [x] Achados geram recomendações e atualização da rastreabilidade.

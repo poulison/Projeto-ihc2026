@@ -155,7 +155,7 @@ Uma demanda de separação de pedidos interrompe a conferência. Quando retorna,
 
 ### 3. Cenário refinado
 
-Em outro dia de trabalho, Rafael Costa, 22 anos, utiliza o computador compartilhado do comércio para atualizar uma planilha a partir dos pedidos online e das anotações deixadas por Mariana. Ele também separa encomendas e confere os produtos no estoque. Quer deixar os registros corretos para que a proprietária possa avaliar a disponibilidade e preparar as próximas compras. **[NOVO — C02-Q1: no fim da tarde, Mariana pede o fechamento das movimentações do dia para planejar a compra da manhã seguinte. Rafael reúne quatorze registros de origem para verificar; esse conjunto pode conter referências repetidas à mesma venda.]**
+Em outro dia de trabalho, Rafael Costa, 22 anos, utiliza o computador compartilhado do comércio para atualizar uma planilha a partir dos pedidos online e das anotações deixadas por Mariana. Ele também separa encomendas e confere os produtos no estoque. Quer deixar os registros corretos para que a proprietária possa avaliar a disponibilidade e preparar as próximas compras. **[NOVO — C02-Q1: no fim da tarde, Mariana pede o fechamento das movimentações do dia para planejar a compra da manhã seguinte. Rafael reúne quatorze registros de conferência, um por caso. Um caso pode reunir várias fontes, inclusive referências repetidas à mesma venda.]**
 
 **[NOVO — C02-Q2: o computador fica numa bancada próxima à área de embalagem e também é usado para consultar as encomendas que precisam sair. Rafael alterna a transcrição com a separação física dos pedidos. O espaço de trabalho não permite dedicar todo o período exclusivamente à conferência.]** Ele encontra uma diferença entre a quantidade indicada na planilha e a quantidade que conta fisicamente de um produto. Decide reconstruir as movimentações antes de alterar o saldo.
 
@@ -169,7 +169,7 @@ Uma demanda de separação de pedidos interrompe a conferência. **[NOVO — C02
 
 **[NOVO — C02-Q7: quando pode responder, Mariana confirma que anotou no caderno a mesma venda online de duas unidades. O pedido foi efetivamente enviado, não está cancelado e não há outra saída correspondente à segunda linha. Rafael identifica que essa venda foi descontada duas vezes. Corrige a transcrição duplicada, registra numa observação a razão da alteração e repete a contagem. O saldo passa de oito para dez unidades, coincidindo com o estoque físico; não houve entrada de duas unidades, mas correção de um desconto indevido.]** A igualdade entre os valores só ganha uma explicação depois da conferência das fontes.
 
-**[NOVO — C02-Q8: Rafael confere produto, unidade de venda, quantidade e vínculo com o pedido de origem. Informa a Mariana que aquele item foi reconciliado e registra quais anotações do conjunto de quatorze ainda precisam ser verificadas. Considera a correção do item concluída, mas não o fechamento de todas as movimentações.]** Mariana pode usar o saldo corrigido desse produto, mantendo cautela quanto aos itens pendentes. O episódio termina com recuperação parcial da informação, ao custo de consultas repetidas, interrupção e dependência da memória de quem produziu a anotação. A mesma forma de registro continua permitindo novas ambiguidades.
+**[NOVO — C02-Q8: Rafael confere produto, unidade de venda, quantidade e vínculo com o pedido de origem. Informa a Mariana que aquele item foi reconciliado e registra o alcance da conferência: um caso conferido e treze ainda por verificar. Considera a correção do item concluída, mas não o fechamento de todas as movimentações.]** Mariana pode usar o saldo corrigido desse produto, mantendo cautela quanto aos itens pendentes. O episódio termina com recuperação parcial da informação, ao custo de consultas repetidas, interrupção e dependência da memória de quem produziu a anotação. A mesma forma de registro continua permitindo novas ambiguidades.
 
 ### 4. Elementos extraídos
 
@@ -177,7 +177,7 @@ Uma demanda de separação de pedidos interrompe a conferência. **[NOVO — C02
 |---|---|
 | Ator(es) | Rafael executa a transcrição, a comparação e a correção; Mariana explica a anotação de origem e recebe o resultado para a compra. C02-Q4. |
 | Objetivo(s) | Produzir um saldo e um histórico explicáveis a partir das movimentações reais; deixar claras as pendências. O objetivo não é apenas fazer dois números coincidirem. C02-Q1, Q7 e Q8. |
-| Contexto | Fim de tarde, computador compartilhado próximo à embalagem, quatorze registros de origem e demanda de fechamento para a manhã seguinte. C02-Q1 e Q2. |
+| Contexto | Fim de tarde, computador compartilhado próximo à embalagem, quatorze registros de conferência e demanda de fechamento para a manhã seguinte. C02-Q1 e Q2. |
 | Recursos/informações | Planilha, pedidos identificados no marketplace, caderno sem identificador comum e contagem física. A unidade comercial é um conjunto de três potes; uma venda de duas unidades foi transcrita duas vezes. C02-Q3 e Q7. |
 | Planejamento | Partir do pedido identificado, comparar anotações e transcrições, confirmar com Mariana e recontar; rejeitar substituição arbitrária do saldo. C02-Q5. |
 | Ações | Consultar o pedido, comparar linhas, procurar a origem da anotação, separar encomendas, reler os registros, corrigir a duplicidade, registrar a razão e comunicar pendências. C02-Q3 a Q8. |

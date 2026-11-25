@@ -55,7 +55,7 @@ Um cliente interrompe Mariana. **Ao voltar, ela recupera o produto, os dados que
 **Autor(a):** Victor Merker Binda — 22.125.075-6  
 **Origem:** E4-C02 · R04-02 · T02 · P02 — Rafael Costa; P01 — Mariana, fonte e destinatária.
 
-No fim da tarde, Mariana pede a Rafael a conferência das movimentações para a compra da manhã seguinte. Há quatorze registros de origem, que podem incluir transcrições da mesma venda. O produto é um conjunto de três potes: um conjunto corresponde a uma unidade comercial, não a três saídas. O saldo registrado é oito; a contagem física, dez.
+No fim da tarde, Mariana pede a Rafael a conferência das movimentações para a compra da manhã seguinte. Há quatorze registros de conferência, um por caso. As fontes de um caso podem incluir transcrições da mesma venda. O produto é um conjunto de três potes: um conjunto corresponde a uma unidade comercial, não a três saídas. O saldo registrado é oito; a contagem física, dez.
 
 **Rafael delimita o episódio por produto e unidade. Localiza o pedido identificado e confronta data, quantidade e situação com a anotação de “2 conjuntos de potes” e as duas transcrições. O sistema mantém os registros candidatos visíveis como suspeita, sem escolher automaticamente uma causa.** Rafael precisa se afastar para separar uma encomenda. **Ao retornar, recupera as linhas já comparadas e a próxima verificação: confirmar com Mariana a origem da anotação. O saldo ainda não foi alterado.**
 

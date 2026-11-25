@@ -188,7 +188,7 @@ Um erro crítico em MU04 exige revisão mesmo que a tarefa seja rápida e receba
 
 Adotamos o **Ciclo de Vida da Engenharia de Usabilidade de Deborah Mayhew**. No recorte da Entrega 8, a equipe especifica os requisitos que orientarão o design.
 
-**Onde o projeto está no modelo (25/11/2026).** A fase 1 está concluída como planejamento. Seus requisitos ainda dependem da coleta da E7. Na fase 2, os níveis 1 a 3 têm artefatos. O projeto está na **avaliação iterativa do nível 3**: a inspeção heurística (E13) está em andamento e a observação com usuários (E14) está prevista. A próxima etapa produz os achados da E13 e da E14 e a revisão do protótipo que deles resultar.
+**Onde o projeto está no modelo (25/11/2026).** A fase 1 está concluída como planejamento e seus requisitos ainda dependem da coleta da E7. Na fase 2, os níveis 1 a 3 têm artefatos. A inspeção heurística (E13) e a rodada de observação com participantes substitutos (E14) foram concluídas em 25/11/2026. Os achados dessas entregas orientam a próxima revisão do protótipo e a verificação das metas ainda não confirmadas.
 
 | Etapa do modelo de Mayhew | Artefato do projeto | Situação |
 |---|---|---|
@@ -203,7 +203,7 @@ Adotamos o **Ciclo de Vida da Engenharia de Usabilidade de Deborah Mayhew**. No 
 | Nível 1 · modelo conceitual e mockups | Cartões da E6; modelo conceitual e DCC (E9); MoLIC M01/M02 (E10) | Concluído |
 | Nível 1 · avaliação iterativa do modelo conceitual | Walkthrough da E6 com W01 (23/11) | Concluído, sem mudanças estruturais |
 | Níveis 2 e 3 · padrões de tela e projeto detalhado | Protótipo navegável no Figma, com 28 estados (E11) | Concluído; revisado em 25/11 |
-| Níveis 2 e 3 · avaliação iterativa | Plano DECIDE (E12), inspeção heurística (E13), observação com usuários (E14) | **Etapa atual**: E13 em andamento, E14 prevista |
+| Níveis 2 e 3 · avaliação iterativa | Plano DECIDE (E12), inspeção heurística (E13), observação com participantes (E14) | E13 e E14 concluídas em 25/11/2026. Revisão e nova verificação dos achados pendentes. |
 | **Fase 3 · Instalação** | Acompanhamento do uso real | Fora do escopo da disciplina |
 
 O retorno a etapas anteriores segue a regra do modelo. Um problema de **interpretação** (o que um dado ou uma ação significa) volta ao nível 1, ou seja, ao modelo conceitual e à MoLIC. Um problema de **apresentação** (rótulo, posição, estado ausente) volta aos níveis 2 e 3 e ao guia de estilo. Um achado sobre **quem faz o quê** na rotina volta à fase 1. Em todos os casos, a mudança é registrada na matriz de rastreabilidade, e a tarefa afetada é avaliada de novo.
@@ -230,7 +230,7 @@ Na revisão formativa, a equipe modifica o protótipo e repete a tarefa afetada.
 - [x] Local da medição e papel formativo ou somativo de cada etapa explicitados.
 - [x] Ciclo de revisão e ligação com E12–E14 definidos.
 - [ ] Pilotar e calibrar metas antes do teste principal. *Não realizado: a equipe decidiu não fazer piloto (25/11/2026) e manteve os limites definidos.*
-- [ ] Medir resultados e revisar o protótipo com evidências reais. *Resultados medidos na [E14](14_observacao_usuario.md#c-resultados--por-participante); as revisões indicadas pelos achados AU02 e AU03 ainda não foram aplicadas ao protótipo.*
+- [ ] Medir resultados e revisar o protótipo com evidências reais. *A [E14](14_observacao_usuario.md#c-resultados--por-participante) registrou observações com participantes substitutos. MU03 e MU07 ficaram sem confirmação, e as revisões indicadas por AU02 e AU03 seguem pendentes.*
 
 ## Referências
 

@@ -85,7 +85,7 @@ Quando aplicável, considere: vazio/sem dados; carregamento/processamento; suces
 
 | Elemento | Texto anterior | Texto atual |
 |---|---|---|
-| Alcance da conferência | Informar a Mariana que apenas este item foi corrigido. | Apenas este item foi corrigido. Os outros 13 registros continuam em conferência. |
+| Alcance da conferência | Informar a Mariana que apenas este item foi corrigido. | Apenas este item foi corrigido. Os outros 13 registros continuam em conferência. A redação proposta para explicitar a contagem está na seção abaixo. |
 | Mensagem de rodapé | Comunique o resultado a Mariana fora do sistema. Os demais registros continuam em conferência. | Nenhuma mensagem foi enviada pelo sistema. Se for informar Mariana, use este resumo. |
 
 A observação com usuários (E14) vai confirmar se a redação deixa claro o alcance parcial, como sugere o feedback. F14 e F14N, que tratam de pendências, receberam a mesma estrutura: saldo registrado, desfecho, responsável e data e próxima verificação, com o aviso de que nenhuma mensagem é enviada.
@@ -215,6 +215,20 @@ A consolidação da [E13](13_avaliacao_heuristica.md#7-consolidação-da-equipe)
 
 **Estrutura após as correções.** Leitura das interações no arquivo: 30 quadros, **60 ligações visíveis**, nenhuma para quadro inexistente e nenhum quadro sem saída. Todo quadro volta a F01. Sete quadros (F02B, F06E, F06R, F12E, F12F, F12N e F14N) só são alcançados pelos pontos de início do moderador. Os outros 23 continuam alcançáveis a partir de F01. Foram clicados no modo de apresentação apenas os percursos da tabela acima, não as 60 ligações. C07–C13 continuam abertos, conforme a E13.
 
+### Redação proposta para os estados de conferência
+
+| Estado | Redação a adotar |
+|---|---|
+| F10 · entrada da conferência | **0 de 14 registros conferidos; 14 aguardam conferência.** |
+| F13 · desfecho de UT03 | **1 de 14 registros conferido; 13 aguardam conferência.** A contagem considera um registro de conferência por caso. O pedido e a anotação são fontes desse mesmo caso. |
+| F12P/F14 e F12N/F14N · pendência | **Saldo registrado: 8 conjuntos — não confirmado, mantido até nova contagem.** Nova contagem ajuda a confirmar o físico. A correção continua condicionada à verificação da origem e à autorização. |
+
+A tabela documenta a redação proposta. As capturas e o protótipo mostram a versão avaliada.
+
+### Limites da simulação de reposição
+
+F04/F04Q oferecem 4 ou 6 unidades e motivos predefinidos. O valor zero abre o exemplo de validação. O caso avalia como a pessoa interpreta e revisa essas opções. A escolha de outra quantidade ou de uma justificativa própria fica fora da simulação ([E13, C09](13_avaliacao_heuristica.md#7-consolidação-da-equipe)). Em F05A/F05P, **Editar** retorna à seleção do desfecho. A retomada do rascunho nesses estados continua como melhoria vinculada a [AU03 da E14](14_observacao_usuario.md#e-achados-e-recomendações).
+
 ## Sistema visual e consistência
 
 | Elemento | Regra adotada | Justificativa |
@@ -236,7 +250,7 @@ A consolidação da [E13](13_avaliacao_heuristica.md#7-consolidação-da-equipe)
 | | Leitura por tecnologia assistiva |
 | | Comportamento com zoom de 200% e em larguras menores (responsividade) |
 
-As verificações da direita ainda não foram feitas. Elas serão registradas com data, ferramenta e resultado antes de qualquer afirmação de conformidade. As sessões com participantes estão previstas na Entrega 12.
+As verificações da direita ainda não foram feitas. Elas serão registradas com data, ferramenta e resultado antes de qualquer afirmação de conformidade. As sessões realizadas e seus limites estão registrados na [Entrega 14](14_observacao_usuario.md).
 
 
 ## Checklist
