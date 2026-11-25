@@ -122,6 +122,10 @@ F01–F06 na Entrega 1 identificam ações candidatas, não telas. Os IDs Fxx de
 | 25/11/2026 | Registrar a divergência de rótulos entre E9 e Figma e os estados a preservar | Feedback E11 | E11 |
 | 25/11/2026 | Ligar personas, cenários, objetivos, MoLIC, Figma, metas, tarefas de teste e inspeção | Feedback E9, E10 e E11: matriz desatualizada | Seção 3.1 desta matriz |
 | 25/11/2026 | Arquivar placeholders `f01.svg`, `v01.svg` e `fluxograma_avaliacao.svg`; substituir `mapa_objetivos.svg` pela fonte real | Feedback E11 | `assets/historico/2026-11-25_placeholders/` |
+| 25/11/2026 | Registrar a sessão de 23/11 (W01) como não documentada e acrescentar um walkthrough cognitivo simulado, sem participante | Feedback E6. As decisões foram só ajustes de texto e de estado, a maioria já presente na E11 | E6, seção 4 |
+| 25/11/2026 | Publicar o questionário I01 e registrar o link, com acesso sem login e saltos verificados | Feedback E7. A publicação não é evidência sobre as hipóteses, que continuam abertas | E7, instrumento I01 |
+| 25/11/2026 | Mapear as etapas do ciclo de Mayhew para os artefatos e indicar a etapa atual | Feedback E8 | E8, seção 4 |
+| 25/11/2026 | Alinhar mais rótulos do Figma aos signos da E9 (F01, F02B, F02P, F03, F05P, F05PS, F06E, F06R, F12E, F12N, F12P) e verificar as 57 ligações no modo de apresentação | Revisão final das E9–E11 | E11; capturas f01.png e f13.png |
 
 **Revisão de 12/11/2026:** P02 classificada como persona primária do recorte operacional, por objetivo e uso direto previstos; existência/recorrência continuam hipóteses. E3 passa a preservar visuais locais e a separar contexto de solução. C02 deixa de antecipar duplicidade no título; ambas as tabelas de perguntas explicitam os sete elementos. E5 inclui Input/Feedback/Plano na tarefa zero, GOMS indentado, CTT com gatilho inicial e fechamento da comunicação; modelagem concluída, pesquisa futura não realizada.
 
