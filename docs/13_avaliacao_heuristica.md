@@ -150,9 +150,9 @@ A aula demonstra um recurso para comparar ocorrências. O avaliador pode atribui
 
 ### 5. Declaração de violações
 
-Os graus abaixo são propostas para confirmação por Paulo. A frequência e a persistência são estimativas baseadas nas situações em que cada dificuldade pode reaparecer.
+Os graus abaixo foram confirmados por Paulo em 25/11/2026. A frequência e a persistência são estimativas baseadas nas situações em que cada dificuldade pode reaparecer.
 
-| ID individual | Heurística e quadro | Ação, resposta e consequência | Evidência | Severidade sugerida (0–4) e justificativa | Correção proposta e como verificá-la |
+| ID individual | Heurística e quadro | Ação, resposta e consequência | Evidência | Severidade (0–4) e justificativa | Correção proposta e como verificá-la |
 |---|---|---|---|---|---|
 | A01-V01 | H2 · F12P | Ao comparar saldo e contagem, tive dúvida sobre a unidade dos potes. A linha começa com **8 conjuntos** e termina com **contagem física: 10**. Para interpretar o último número, precisei recorrer ao contexto. | ![F12P. Na linha Saldo registrado, apenas o primeiro número vem acompanhado de conjuntos.](../assets/13_heuristica/f12p.png) | **2 · Menor.** Afeta quem compara os dois valores. O cabeçalho informa a venda por conjunto e permite resolver a dúvida. A ambiguidade reaparece sempre que a linha é lida isoladamente. | Escrever **contagem física: 10 conjuntos**. Conferir se a linha, lida sozinha, permite identificar o que os números 8 e 10 contam. |
 | A01-V02 | H7 · F10 e F11 | Ao confrontar os registros, quis pausar a operação. **Pausar conferência** aparece em F10. Em F11, encontrei as opções de indicar a origem ou voltar. Para alcançar a pausa, é preciso sair da comparação. | **F10 · Pausa disponível** ![F10. Botão Pausar conferência.](../assets/13_heuristica/f10.png)<br>**F11 · Ações durante a comparação** ![F11. Mesma saída confirmada, Origem incerta e Voltar no rodapé.](../assets/13_heuristica/f11.png) | **2 · Menor.** Afeta quem sofre uma interrupção durante a comparação. A pausa existe na etapa anterior, mas exige navegação adicional. Esse esforço se repete a cada interrupção nessa etapa. | Disponibilizar **Pausar conferência** em F11. Verificar se, ao interromper a leitura e retomar, Rafael volta à comparação do mesmo pedido. |
@@ -203,9 +203,9 @@ Os graus abaixo são propostas para confirmação por Paulo. A frequência e a p
 
 ### 5. Declaração de violações
 
-Os pesos são **sugestões para Victor confirmar** na escala de 0 a 4 da seção 3. A justificativa considera quando o problema aparece, seu efeito na tarefa e se ele volta a ocorrer. As capturas mostram os elementos visíveis. A sequência de cliques, a perda de escolhas e a necessidade de repetir etapas foram descritas por Victor.
+Os graus foram confirmados por Victor em 25/11/2026, na escala de 0 a 4 da seção 3. A justificativa considera quando o problema aparece, seu efeito na tarefa e se ele volta a ocorrer. As capturas mostram os elementos visíveis. A sequência de cliques, a perda de escolhas e a necessidade de repetir etapas foram descritas por Victor.
 
-| ID individual | Heurística e quadro | Ação, resposta e consequência | Evidência | Severidade sugerida e justificativa | Correção proposta e verificação |
+| ID individual | Heurística e quadro | Ação, resposta e consequência | Evidência | Severidade (0–4) e justificativa | Correção proposta e verificação |
 |---|---|---|---|---|---|
 | A02-V01 | H1 · F04 | O cabeçalho identifica o produto, mas é preciso ler a linha **Quantidade no rascunho** para perceber que a decisão está em edição. | ![F04 · rascunho de seis unidades, motivo e alternativas de quantidade](../assets/13_heuristica/f04.png) | **1 · Cosmético.** Em cada abertura de F04, a informação existe e pode ser encontrada. O esforço é localizar a pista outra vez. | Indicar **Rascunho** junto ao título. Conferir se o estado pode ser reconhecido antes da leitura da tabela. |
 | A02-V02 | H2 · F10 | O saldo usa conjuntos e o produto tem três peças por conjunto. Quem confere potes avulsos precisa converter a unidade mentalmente. | ![F10 · saldo e contagem por conjunto antes do confronto](../assets/13_heuristica/f10.png) | **2 · Menor.** Afeta contagens físicas por peça. O cálculo volta a ser necessário em cada comparação desse tipo e pode introduzir erro. | Manter conjuntos como unidade principal e acrescentar a equivalência em peças. Testar a leitura de 8 conjuntos (24 potes) e 10 conjuntos (30 potes). |
@@ -239,7 +239,7 @@ Os pesos são **sugestões para Victor confirmar** na escala de 0 a 4 da seção
 
 ## 7. Consolidação da equipe
 
-**Consolidação pendente da dupla.** As fichas individuais estão registradas. Paulo e Victor identificaram a falta de pausa em F11 (A01-V02 e A02-V10). Na conferência dos potes, Paulo relatou dúvida sobre a unidade em F12P (A01-V01), enquanto Victor entendeu que o saldo é por conjunto e precisou convertê-lo em peças (A02-V02). Comparar as causas e as propostas antes de definir os agrupamentos.
+**Consolidação pendente da dupla.** As fichas individuais estão registradas. Paulo e Victor identificaram a falta de pausa em F11 (A01-V02 e A02-V10). Na conferência dos potes, Paulo relatou dúvida sobre a unidade em F12P (A01-V01), enquanto Victor entendeu que o saldo é por conjunto e precisou convertê-lo em peças (A02-V02). Comparar as causas e as propostas antes de definir os agrupamentos. Os graus individuais foram confirmados pelos dois avaliadores em 25/11/2026. Nos dois pares em comum, ambos atribuíram grau 2.
 
 Depois das duas inspeções, agrupar achados quando a mesma correção resolver a causa observada. Preservar os IDs individuais, inclusive se apenas um avaliador encontrou o problema. Se os graus divergirem, rever os prints e as justificativas, acordar o grau final e explicar a decisão na célula correspondente. Ordenar as correções considerando o efeito sobre as tarefas de Mariana e Rafael.
 
@@ -251,8 +251,8 @@ Depois das duas inspeções, agrupar achados quando a mesma correção resolver 
 
 | Resultado a apresentar após a consolidação | Resultado da equipe |
 |---|---|
-| Quantidade de problemas únicos por heurística e por severidade | A calcular após agrupar as observações de A01 e A02 e confirmar a severidade de cada causa. |
-| Problemas graves ou críticos e efeito sobre o teste ou a disponibilização | A02-V03 tem proposta de grau 3. Ao editar quatro garrafas, o rascunho voltou a seis e recuperou a justificativa anterior. A dupla ainda precisa definir o grau final. |
+| Quantidade de problemas únicos por heurística e por severidade | A calcular após agrupar as observações de A01 e A02. As severidades individuais já foram confirmadas pelos avaliadores. |
+| Problemas graves ou críticos e efeito sobre o teste ou a disponibilização | A02-V03 recebeu grau 3, confirmado por Victor. Ao editar quatro garrafas, o rascunho voltou a seis e recuperou a justificativa anterior. A dupla ainda precisa definir o grau final. |
 | Padrões recorrentes entre produtos, telas e estados | Victor observou controles de simulação junto às ações de trabalho nos dois fluxos (A02-V11). Na reposição, F06E oferece consulta ao registro e acesso ao estado de falha confirmada. |
 | Correções priorizadas antes da Entrega 14 e ação a repetir para verificar cada correção | A ordem depende da discussão da dupla. As fichas indicam como testar, entre outras mudanças, a preservação da quantidade e do motivo ao editar, a retomada em F11 e a apresentação dos controles de simulação. |
 
