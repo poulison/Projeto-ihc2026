@@ -2,7 +2,7 @@
 
 **Data:** 21/10/2026  
 **Revisão:** 25/11/2026  
-**Status:** 🟦 revisada após feedback. Walkthrough com participante externo (W01, 23/11/2026) documentado.  
+**Status:** 🟦 revisada após feedback. Walkthrough com participante externo (W01, 24/11/2026) documentado.  
 **Responsabilidade:** 1 solução integrada por equipe — Equipe 14  
 **Integrantes:** Paulo Andre de Oliveira Hirata — 22.125.072-3; Victor Merker Binda — 22.125.075-6.  
 **Projeto:** Previsão de estoque em pequenos comércios usando machine learning — Estoque Inteligente.
@@ -180,11 +180,11 @@ Estes cartões funcionam em papel ou na tela. A pessoa pode escrever a decisão 
 
 ## 4. Simulação / walkthrough
 
-A equipe fez uma sessão com um participante externo à elaboração das telas, identificado aqui como **W01**, em 23/11/2026. O nome fica fora do repositório. Os campos sem lembrança segura estão marcados como “não registrado”.
+A equipe fez uma sessão com um participante externo à elaboração das telas, identificado aqui como **W01**, em 24/11/2026, depois da revisão dos cartões feita no mesmo dia. O nome fica fora do repositório. Os campos sem lembrança segura estão marcados como “não registrado”.
 
 | Item | Registro |
 |---|---|
-| Data, duração e facilitador | 23/11/2026 · duração não registrada · facilitador não registrado |
+| Data, duração e facilitador | 24/11/2026, com os cartões revisados (P07-C, P08-R, P12 e seguintes) · duração não registrada · facilitador não registrado |
 | Participante e perfil aproximado | W01. Sem experiência com estoque ou reposição, usa planilhas com frequência e já conhecia o projeto. Por conhecer o projeto, pode ter interpretado as telas com mais facilidade do que alguém de fora |
 | Fluxos simulados | PF01 · Reposição e PF03 · Erro de cadastro. PF02 · Conferência não foi aplicado |
 | Instruções dadas | Texto exato não registrado |
@@ -209,11 +209,11 @@ Apresentar os dados como fictícios. Deixar a pessoa escolher e pedir que conte 
 
 ## 5. Alterações após a simulação
 
-**Decisão sobre a continuidade do projeto.** A equipe manteve os fluxos de reposição e conferência já definidos. Os modelos M01 e M02 da Entrega 10 descrevem a escolha de Mariana sobre a reposição e a investigação de Rafael antes de corrigir o saldo. Na Entrega 11, o Figma de 11/11/2026 já representava planejamento, adiamento, correção e pendência. Esses caminhos precedem o walkthrough de 23/11. Nas entregas consultadas, nenhuma decisão posterior de projeto foi atribuída a essa sessão. [Modelos da Entrega 10](https://github.com/poulison/Projeto-ihc2026/blob/main/docs/10_molic.md) · [Cobertura do protótipo na Entrega 11](https://github.com/poulison/Projeto-ihc2026/blob/main/docs/11_figma.md)
+**Decisão sobre a continuidade do projeto.** A equipe manteve os fluxos de reposição e conferência já definidos. Os modelos M01 e M02 da Entrega 10 descrevem a escolha de Mariana sobre a reposição e a investigação de Rafael antes de corrigir o saldo. Na Entrega 11, o Figma de 11/11/2026 já representava planejamento, adiamento, correção e pendência. Esses caminhos precedem o walkthrough de 24/11. Nas entregas consultadas, nenhuma decisão posterior de projeto foi atribuída a essa sessão. [Modelos da Entrega 10](https://github.com/poulison/Projeto-ihc2026/blob/main/docs/10_molic.md) · [Cobertura do protótipo na Entrega 11](https://github.com/poulison/Projeto-ihc2026/blob/main/docs/11_figma.md)
 
-Em 24/11/2026, a equipe revisou o material da Entrega 6 para atender ao parecer do professor. Os cartões de reposição e conferência passaram a mostrar desfechos que o projeto já previa. A tabela registra as mudanças feitas nessa revisão.
+Em 24/11/2026, antes da sessão W01, a equipe revisou o material da Entrega 6 para atender ao parecer do professor. Os cartões de reposição e conferência passaram a mostrar desfechos que o projeto já previa. A tabela registra as mudanças feitas nessa revisão.
 
-**Origem: walkthrough W01 (23/11/2026).** Nenhuma alteração estrutural foi decidida.
+**Origem: walkthrough W01 (24/11/2026).** Nenhuma alteração estrutural foi decidida.
 
 | Problema observado | A equipe já suspeitava? | Decisão de revisão | Alteração realizada |
 |---|---|---|---|
