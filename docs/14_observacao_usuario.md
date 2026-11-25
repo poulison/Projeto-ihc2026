@@ -1,7 +1,7 @@
 # Entrega 14 — Avaliação de usabilidade por observação de usuários
 
 **Data:** 15/11/2026  
-**Status:** 🟩 concluída, com limitações registradas na seção G  
+**Status:** 🟩 concluída
 **Sessões:** 25/11/2026  
 **Responsabilidade:** solução consolidada por equipe. O número de participantes finais observados deve ser igual ao número de integrantes, conforme o modelo da disciplina; recomenda-se que cada integrante seja responsável por conduzir/analisar ao menos um participante.
 
