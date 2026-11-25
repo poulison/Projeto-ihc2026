@@ -129,8 +129,8 @@ A aula demonstra um recurso para comparar ocorrências. O avaliador pode atribui
 | Escopo previsto | 28 quadros de 1280 × 780 px. O inventário da seção 2 inclui os percursos principais, as alternativas e os estados de recuperação. |
 | M01 / T01 · Mariana Alves | Inspecionar a reposição da garrafa, do início em F01 à confirmação. Incluir adiamento, pendência, edição, pausa e recuperação. |
 | M02 / T02 · Rafael Costa | Inspecionar a conferência dos conjuntos de potes, do início em F01 ao desfecho. Incluir origem incerta, falta de autorização, pausa e recuperação. |
-| Data e versão do Figma inspecionada | Data e versão da sessão não informadas. |
-| Dispositivo, navegador, área visível e zoom | Não informados. |
+| Data e versão do Figma inspecionada |25/11/2026|
+| Dispositivo, navegador, área visível e zoom | Computador, Navegador Brave |
 | Caminhos descritos pelo avaliador | Reposição de garrafas, incluindo a escolha da quantidade e a tentativa com zero. Conferência dos potes, incluindo a comparação dos registros, a tentativa de pausa e a revisão da origem incerta. |
 
 ### 4. Matriz de cobertura das 10 heurísticas
