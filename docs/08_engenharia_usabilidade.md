@@ -8,7 +8,7 @@
 
 **Integrantes:** Paulo Andre de Oliveira Hirata — 22.125.072-3; Victor Merker Binda — 22.125.075-6.
 
-**Status:** especificação revisada. Os valores de MU01–MU07 são metas propostas para o piloto e a avaliação.
+**Status:** 🟦 revisada após feedback
 
 **Responsabilidade:** 1 solução por equipe.
 
