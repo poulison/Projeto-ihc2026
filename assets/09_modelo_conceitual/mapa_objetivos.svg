@@ -1,5 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360">
-<rect width="100%" height="100%" fill="#f6f8fa" stroke="#8c959f" stroke-width="4"/>
-<text x="480" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#24292f">PLACEHOLDER DE ARTEFATO</text>
-<text x="480" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#57606a">Substitua este arquivo pela evidência real da equipe.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1780" height="1300" viewBox="0 0 1780 1300" role="img" aria-labelledby="title desc">
+<title id="title">Mapa consolidado de objetivos — Mariana e Rafael</title>
+<desc id="desc">O01 e O02 são objetivos finais. O03, O08 e O09 são instrumentais diretos comuns; O04 e O05 apoiam O01; O06 e O07 apoiam O02; O10 é instrumental indireto de O01.</desc>
+<defs><marker id="tip" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#4d6070"/></marker></defs>
+<rect width="1780" height="1300" fill="white"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="48" y="52" font-size="18" font-weight="700" fill="#146356" text-anchor="start">ENTREGA 9 / EQUIPE 14 / MAPA CONSOLIDADO</text>
+<text x="48" y="104" font-size="44" font-weight="700" fill="#16324a" text-anchor="start">Objetivos de Mariana e Rafael</text>
+<text x="48" y="146" font-size="21" font-weight="400" fill="#55697a" text-anchor="start">Dois objetivos finais, sete instrumentais diretos e um instrumental indireto; os comuns aparecem uma única vez.</text>
+<rect x="200" y="190" width="600" height="150" rx="10" fill="#146356"/>
+<text x="224" y="224" font-size="16" font-weight="700" fill="#e3efec" text-anchor="start">O01 · OBJETIVO FINAL</text>
+<text x="224" y="260" font-size="26" font-weight="700" fill="white" text-anchor="start">Tomar uma decisão de reposição</text>
+<text x="224" y="292" font-size="26" font-weight="700" fill="white" text-anchor="start">fundamentada e recuperável</text>
+<rect x="980" y="190" width="600" height="150" rx="10" fill="#2f5a8c"/>
+<text x="1004" y="224" font-size="16" font-weight="700" fill="#e3efec" text-anchor="start">O02 · OBJETIVO FINAL</text>
+<text x="1004" y="260" font-size="26" font-weight="700" fill="white" text-anchor="start">Tornar o saldo do item confiável e</text>
+<text x="1004" y="292" font-size="26" font-weight="700" fill="white" text-anchor="start">explicável</text>
+<rect x="40" y="470" width="540" height="540" rx="10" fill="white" stroke="#c9d2d8" stroke-width="2"/>
+<text x="62" y="514" font-size="28" font-weight="700" fill="#146356" text-anchor="start">Reposição · Mariana</text>
+<rect x="58" y="542" width="504" height="134" rx="10" fill="#eef6f3" stroke="#146356" stroke-width="2"/>
+<text x="82" y="572" font-size="15" font-weight="700" fill="#146356" text-anchor="start">O04 · INSTRUMENTAL DIRETO</text>
+<text x="82" y="606" font-size="24" font-weight="400" fill="#16324a" text-anchor="start">Avaliar a base da reposição</text>
+<rect x="58" y="694" width="504" height="134" rx="10" fill="#eef6f3" stroke="#146356" stroke-width="2"/>
+<text x="82" y="724" font-size="15" font-weight="700" fill="#146356" text-anchor="start">O05 · INSTRUMENTAL DIRETO</text>
+<text x="82" y="758" font-size="24" font-weight="400" fill="#16324a" text-anchor="start">Escolher o desfecho da reposição</text>
+<rect x="620" y="470" width="540" height="540" rx="10" fill="white" stroke="#c9d2d8" stroke-width="2"/>
+<text x="642" y="514" font-size="28" font-weight="700" fill="#8a5a2b" text-anchor="start">Comuns aos dois papéis</text>
+<rect x="638" y="542" width="504" height="134" rx="10" fill="#fbf4ec" stroke="#8a5a2b" stroke-width="2"/>
+<text x="662" y="572" font-size="15" font-weight="700" fill="#8a5a2b" text-anchor="start">O03 · INSTRUMENTAL DIRETO</text>
+<text x="662" y="606" font-size="24" font-weight="400" fill="#16324a" text-anchor="start">Identificar o produto e a unidade</text>
+<rect x="638" y="694" width="504" height="134" rx="10" fill="#fbf4ec" stroke="#8a5a2b" stroke-width="2"/>
+<text x="662" y="724" font-size="15" font-weight="700" fill="#8a5a2b" text-anchor="start">O08 · INSTRUMENTAL DIRETO</text>
+<text x="662" y="758" font-size="24" font-weight="400" fill="#16324a" text-anchor="start">Conferir o registro salvo</text>
+<rect x="638" y="846" width="504" height="134" rx="10" fill="#fbf4ec" stroke="#8a5a2b" stroke-width="2"/>
+<text x="662" y="876" font-size="15" font-weight="700" fill="#8a5a2b" text-anchor="start">O09 · INSTRUMENTAL DIRETO</text>
+<text x="662" y="910" font-size="24" font-weight="400" fill="#16324a" text-anchor="start">Retomar o trabalho interrompido</text>
+<rect x="1200" y="470" width="540" height="540" rx="10" fill="white" stroke="#c9d2d8" stroke-width="2"/>
+<text x="1222" y="514" font-size="28" font-weight="700" fill="#2f5a8c" text-anchor="start">Conferência · Rafael</text>
+<rect x="1218" y="542" width="504" height="134" rx="10" fill="#eff4fa" stroke="#2f5a8c" stroke-width="2"/>
+<text x="1242" y="572" font-size="15" font-weight="700" fill="#2f5a8c" text-anchor="start">O06 · INSTRUMENTAL DIRETO</text>
+<text x="1242" y="606" font-size="24" font-weight="400" fill="#16324a" text-anchor="start">Explicar a diferença de saldo</text>
+<rect x="1218" y="694" width="504" height="134" rx="10" fill="#eff4fa" stroke="#2f5a8c" stroke-width="2"/>
+<text x="1242" y="724" font-size="15" font-weight="700" fill="#2f5a8c" text-anchor="start">O07 · INSTRUMENTAL DIRETO</text>
+<text x="1242" y="758" font-size="24" font-weight="400" fill="#16324a" text-anchor="start">Fundamentar correção ou pendência</text>
+<path d="M310.0 470 V390 H370 V344" fill="none" stroke="#4d6070" stroke-width="2.5" marker-end="url(#tip)"/>
+<path d="M890.0 470 V410" fill="none" stroke="#4d6070" stroke-width="2.5"/>
+<path d="M890.0 410 H640 V344" fill="none" stroke="#4d6070" stroke-width="2.5" marker-end="url(#tip)"/>
+<path d="M890.0 410 H1140 V344" fill="none" stroke="#4d6070" stroke-width="2.5" marker-end="url(#tip)"/>
+<path d="M1470.0 470 V390 H1410 V344" fill="none" stroke="#4d6070" stroke-width="2.5" marker-end="url(#tip)"/>
+<rect x="1218" y="1050" width="504" height="134" rx="10" fill="white" stroke="#2f5a8c" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="1242" y="1080" font-size="15" font-weight="700" fill="#2f5a8c" text-anchor="start">O10 · INSTRUMENTAL INDIRETO</text>
+<text x="1242" y="1114" font-size="24" font-weight="400" fill="#16324a" text-anchor="start">Comunicar o alcance da conferência</text>
+<text x="1218" y="1212" font-size="17" font-weight="400" fill="#55697a" text-anchor="start">Rafael comunica fora do sistema; o resumo</text>
+<text x="1218" y="1234" font-size="17" font-weight="400" fill="#55697a" text-anchor="start">prepara a próxima decisão de Mariana (O01).</text>
+<path d="M1218 1117.0 H20 V265.0 H196" fill="none" stroke="#4d6070" stroke-width="2.5" stroke-dasharray="9 7" marker-end="url(#tip)"/>
+<line x1="60" y1="1190" x2="120" y2="1190" stroke="#4d6070" stroke-width="2.5" marker-end="url(#tip)"/>
+<text x="135" y="1196" font-size="18" font-weight="400" fill="#55697a" text-anchor="start">instrumental direto: apoia o objetivo final na mesma interação</text>
+<line x1="60" y1="1224" x2="120" y2="1224" stroke="#4d6070" stroke-width="2.5" stroke-dasharray="9 7" marker-end="url(#tip)"/>
+<text x="135" y="1230" font-size="18" font-weight="400" fill="#55697a" text-anchor="start">instrumental indireto: prepara condições para que o objetivo seja alcançado depois</text>
+<text x="60" y="1270" font-size="17" font-weight="400" fill="#55697a" text-anchor="start">A posição dos objetivos não indica sequência de execução, navegação entre telas nem operador temporal.</text>
+</g>
 </svg>

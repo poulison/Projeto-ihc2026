@@ -42,8 +42,8 @@ Quando aplicável, considere: vazio/sem dados; carregamento/processamento; suces
 
 | MoLIC | Objetivo | Fluxo/telas no Figma | Estados de erro/recuperação | Responsável |
 |---|---|---|---|---|
-| M01 · Mariana | O01, com apoio de O03, O04, O05, O08 e O09 | F01 → F02 → F03 → F04 → F05 → F05S. A decisão sobre a quantidade pertence a Mariana. A confirmação salva o planejamento interno. | F02P retoma a análise. F02B trata falta de previsão. F04E permite corrigir a quantidade. F05A e F05P abrem revisão de adiamento e pendência. F06E e F06R tratam a gravação incerta ou malsucedida. | Paulo Andre de Oliveira Hirata |
-| M02 · Rafael | O02, com apoio de O03, O06, O07, O08, O09 e O10 | F01 → F10 → F11 → F12 → F13. Rafael compara duas fontes, confirma a duplicidade e confere o saldo corrigido de 10 conjuntos. O resumo apoia a comunicação presencial com Mariana. | F10P guarda o ponto de retomada. F12P e F12N preservam o saldo 8 quando faltam evidência ou autorização. F12E e F12F permitem consultar o resultado ou recuperar a correção. | Victor Merker Binda |
+| M01 · Mariana | O01 (final); instrumentais diretos O03, O04, O05, O08 e O09 | F01 → F02 → F03 → F04 → F05 → F05S. A decisão sobre a quantidade pertence a Mariana. A confirmação salva o planejamento interno. | F02P retoma a análise. F02B trata falta de previsão. F04E permite corrigir a quantidade. F05A e F05P abrem revisão de adiamento e pendência. F06E e F06R tratam a gravação incerta ou malsucedida. | Paulo Andre de Oliveira Hirata |
+| M02 · Rafael | O02 (final); instrumentais diretos O03, O06, O07, O08 e O09; O10, instrumental indireto de O01 | F01 → F10 → F11 → F12 → F13. Rafael compara duas fontes, confirma a duplicidade e confere o saldo corrigido de 10 conjuntos. O resumo apoia a comunicação presencial com Mariana. | F10P guarda o ponto de retomada. F12P e F12N preservam o saldo 8 quando faltam evidência ou autorização. F12E e F12F permitem consultar o resultado ou recuperar a correção. | Victor Merker Binda |
 
 ## Catálogo de telas/estados
 
@@ -61,7 +61,8 @@ Quando aplicável, considere: vazio/sem dados; carregamento/processamento; suces
 
 **Objetivo do usuário:** avaliar os dados antes de decidir quanto planejar, se deve adiar ou se precisa de mais informações.  
 **Signos principais:** vendas confirmadas, disponibilidade, horizonte de previsão e prazo do fornecedor.  
-**Origem no MoLIC:** M01, avaliação da base em O04 e escolha do desfecho em O05.
+**Origem no MoLIC:** M01, avaliação da base em O04 e escolha do desfecho em O05.  
+**Dados demonstrativos:** “5 unidades nos próximos 3 dias” e as demais quantidades são valores simulados do episódio, como indica o rodapé. Nas avaliações, a tela permite verificar se o participante entende a mensagem: que a previsão é uma estimativa e não uma ordem de compra. Ela não valida a qualidade científica da previsão do TCC. A sugestão de reposição não aparece porque continua condicional à confirmação de uma regra técnica.
 
 ### F11 — Confrontar registros
 
@@ -69,15 +70,24 @@ Quando aplicável, considere: vazio/sem dados; carregamento/processamento; suces
 
 **Objetivo do usuário:** verificar se a anotação representa uma segunda saída ou uma transcrição do mesmo pedido.  
 **Signos principais:** identificador do pedido, origem da anotação, contagem física e confirmação externa.  
-**Origem no MoLIC:** M02, investigação da diferença em O06.
+**Origem no MoLIC:** M02, investigação da diferença em O06.  
+**Incerteza preservada:** nesta etapa, a interface mostra apenas evidências e “origem a confirmar”. A duplicidade só aparece como fato depois da escolha “Mesma saída confirmada”. Versões futuras não devem destacar “duplicidade encontrada” antes dessa confirmação. A interface deve continuar distinguindo indício, evidência suficiente, origem incerta, correção autorizada e pendência.
 
 ### F13 — Correção registrada
 
-![Histórico com saldo de dez conjuntos e alcance da correção](../assets/11_figma/f13.png)
+![Correção registrada: saldo registrado de dez conjuntos, desfecho, responsável e data em linha própria e alcance limitado a este item; aviso de que nenhuma mensagem foi enviada](../assets/11_figma/f13.png)
 
 **Objetivo do usuário:** conferir o saldo corrigido e explicar à proprietária qual item foi resolvido.  
 **Signos principais:** saldo após a correção, responsável, data, justificativa e alcance parcial.  
-**Origem no MoLIC:** M02, conferência do resultado em O08 e comunicação em O10.
+**Origem no MoLIC:** M02, conferência do resultado em O08 (fim de O02) e consulta opcional do alcance em O10.  
+**Redação revisada, aplicada no Figma em 25/11/2026.** O texto anterior soava como uma ordem do sistema: “Informe a Mariana…” e “Comunique o resultado a Mariana fora do sistema.” A nova redação comunica o alcance e a fronteira sem dar ordens. Responsável e data passaram a ocupar uma linha própria:
+
+| Elemento | Texto anterior | Texto atual |
+|---|---|---|
+| Alcance da conferência | Informar a Mariana que apenas este item foi corrigido. | Apenas este item foi corrigido. Os outros 13 registros continuam em conferência. |
+| Mensagem de rodapé | Comunique o resultado a Mariana fora do sistema. Os demais registros continuam em conferência. | Nenhuma mensagem foi enviada pelo sistema. Se for informar Mariana, use este resumo. |
+
+A observação com usuários (E14) vai confirmar se a redação deixa claro o alcance parcial, como sugere o feedback. F14 e F14N, que tratam de pendências, receberam a mesma estrutura: saldo registrado, desfecho, responsável e data e próxima verificação, com o aviso de que nenhuma mensagem é enviada.
 
 **Índice dos 28 estados editáveis.** Cada identificação abre o quadro correspondente no arquivo da equipe.
 
@@ -112,6 +122,79 @@ Quando aplicável, considere: vazio/sem dados; carregamento/processamento; suces
 | [F14](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-748) | Pendência registrada | Concluir e voltar ao início |
 | [F14N](https://www.figma.com/design/jgB0Bk5BLQ3XM2W9tgZDmd?node-id=2-773) | Pendência registrada | Concluir e voltar ao início |
 
+## Revisão após o feedback (25/11/2026)
+
+### Vocabulário: signos da E9 e rótulos do protótipo
+
+O feedback pediu que os termos do esquema conceitual mantivessem o mesmo significado no Figma. A conferência das capturas encontrou os pares abaixo. Os ajustes foram aplicados no arquivo da equipe em 25/11/2026. Quando o rótulo foi mantido, a coluna de decisão registra a justificativa. As capturas da [E13](13_avaliacao_heuristica.md) continuam mostrando a versão de 11/11/2026, que foi a versão inspecionada.
+
+| Signo da E9 | Rótulo no protótipo | Onde | Decisão |
+|---|---|---|---|
+| Contagem física | Contagem física | F02 | Igual. |
+| Quantidade comprometida | Comprometidas | F02 | Mantido: forma curta em cartão, sem ambiguidade com o signo. |
+| Quantidade disponível | Disponíveis | F02 | Mantido: forma curta em cartão, sem ambiguidade com o signo. |
+| Saldo registrado | Antes: Saldo atual (F12); Saldo no histórico (F13, F14, F14N); Saldo preservado (F12F, F12P) | F12, F12F, F12P, F13, F14, F14N | **Ajustado** para “Saldo registrado” em todos os quadros. “Atual” podia ser lido como contagem física. |
+| Próxima verificação | Antes: Próxima etapa | F10P; também F14 e F14N | **Ajustado** para “Próxima verificação”. |
+| Ponto de retomada | Último ponto conferido | F10P | Mantido: descreve o mesmo conceito na linguagem de Rafael. |
+| Estado do registro | Antes: Estado | F10P | **Ajustado** para “Estado do registro” (valor: “Rascunho · saldo registrado inalterado”), distinguindo-o do desfecho. |
+| Correção da transcrição | Correção proposta; Desconto indevido | F12 | Mantido: “proposta” marca que a correção ainda não foi gravada. |
+| Responsável e data | Antes: Desfecho · Rafael Costa · 09/11 | F13, F14, F14N | **Separado** em linha própria, “Responsável e data”. |
+| Previsão de demanda; horizonte | Previsão de demanda · próximos 3 dias | F02 | Igual. |
+| Previsão de demanda (ausente) | Antes: “Previsão para os próximos 3 dias · Indisponível · a demanda permanece desconhecida” | F02B | **Ajustado** para “Previsão de demanda · Indisponível para os próximos 3 dias · não significa demanda zero”. |
+| Vendas confirmadas | Antes: Base de procura | F02B | **Ajustado** para “Vendas confirmadas · ainda não confirmadas para este período”. |
+| Quantidade disponível; quantidade comprometida | Antes: “4 garrafas livres” (F02B); “2 unidades reservadas” (F01) | F01, F02B | **Ajustado** para “disponíveis” e “comprometidas”. |
+| Atualização da base | Não aparecia na pausa | F02P | **Acrescentado**: “Atualização da base · sem alteração desde a pausa”, para que Mariana perceba se a base mudou. |
+| Desfecho da reposição: pendência | Antes: Aguardar informação | F03 | **Ajustado** para “Registrar pendência”, igual ao botão e à revisão F05P. |
+| Próxima verificação | Antes: Próxima ação | F05P, F05PS, F12N | **Ajustado** nos desfechos de pendência. Em planejamento e adiamento, “Próxima ação” foi mantida porque não se trata de pendência. |
+| Estado do registro | Antes: Situação; Resultado da consulta | F06E, F06R, F12E | **Ajustado**, com os valores “Aguardando confirmação” e “Falha confirmada”. |
+| Situação da evidência | Antes: Origem | F12N, F12P | **Ajustado**, com os valores “Confirmada” e “Inconclusiva”. |
+
+### Estados que devem ser preservados na implementação
+
+Os estados abaixo não são telas extras arbitrárias. Cada um materializa uma ruptura ou alternativa do MoLIC. Se algum for retirado na implementação, a mudança precisa ser registrada aqui e em `RASTREABILIDADE.md`, com a justificativa.
+
+| Estado | Ruptura ou alternativa no MoLIC |
+|---|---|
+| F02B · Previsão indisponível | M01 · O04, ausência de resultado diferente de zero |
+| F02P / F10P · Análise e conferência pausadas | M01/M02 · O09, retomada |
+| F04E · Confira a quantidade | M01 · O05, quantidade inválida |
+| F06E / F12E · Aguardando confirmação | M01/M02 · gravação incerta |
+| F06R / F12F · Gravação não concluída | M01/M02 · falha confirmada |
+| F11 · Origem incerta → F12P | M02 · O06/O07, evidência insuficiente |
+| F12N · Autorização necessária | M02 · O07, falta de autorização |
+| F14 / F14N · Pendência registrada | M02 · O08, pendência sem alteração de saldo |
+
+### Estados semelhantes: complexidade necessária ou variação de componente
+
+Os 28 quadros existem porque o Figma precisa de um quadro por destino clicável. Para a implementação, vários são **variações de um mesmo componente**, e não telas distintas:
+
+| Quadros | Diferença real | Implementação sugerida |
+|---|---|---|
+| F05, F05Q, F05A, F05P · Revisar decisão | Desfecho e campos: quantidade, adiamento ou próxima verificação | Um componente de revisão com quatro variações de conteúdo |
+| F05S, F05QS, F05AS, F05PS · Decisão salva | Desfecho registrado | Um componente de confirmação com quatro variações |
+| F14, F14N · Pendência registrada | Motivo: evidência insuficiente ou falta de autorização | Um componente com motivo variável |
+| F06E e F12E; F06R e F12F | Fluxo de origem | Um mesmo padrão de gravação incerta e de falha nos dois fluxos |
+
+Assim, os 28 quadros correspondem a **21 estados distintos**. As avaliações devem verificar se outros pares podem virar mensagens dentro da mesma tela. Um exemplo é F02B como variação de F02. Também devem verificar se algum estado é redundante ou difícil de distinguir.
+
+### Verificação dos fluxos clicáveis (25/11/2026)
+
+Os fluxos foram verificados de duas formas, na versão do arquivo com os ajustes de vocabulário.
+
+1. **Inspeção das ligações no arquivo.** As interações de protótipo dos 28 quadros foram lidas no Figma. O arquivo tem **57 ligações**, todas do tipo clique e navegação, e **nenhuma aponta para um quadro inexistente**. Todo botão tem destino, e todos os 28 quadros têm pelo menos uma saída. A partir de F01, os 28 quadros são alcançáveis. A partir de qualquer quadro, é possível voltar a F01. Os pontos de início configurados são “Início · Estoque Inteligente” (F01), “Mariana · Reposição” (F02) e “Rafael · Conferência” (F10).
+2. **Execução no modo de apresentação.** As **57 ligações foram clicadas uma a uma** no link de apresentação, em seis percursos que começam e terminam em F01. Depois de cada clique, o quadro exibido foi conferido pelo identificador na URL do protótipo. Todos os destinos corresponderam ao esperado.
+
+| Percurso | Ligações exercitadas |
+|---|---|
+| M01 · pausa, previsão indisponível e alternativas | F01 → F02 ⇄ F02P; F02 ⇄ F02B; F02B → F05P → F03 → F04 → F04E → F04 → F03 → F05A → F03 → F05P → F05PS → F01 |
+| M01 · planejamento, edição e adiamento | F02 → F03 → F04 → F05 → F04 → F05Q → F04 → F05Q → F05QS → F01; F03 → F05A → F05AS → F01 |
+| M01 · gravação incerta | F05 → F06E → F06R → F05 → F06E → F05S → F01; F05 → F05S → F01 |
+| M01 · descartes | F05, F05Q, F05A e F05P → F01 (“Descartar rascunho”) |
+| M02 · pausa, retorno, autorização e falha | F01 → F10 ⇄ F10P; F10 ⇄ F11; F11 → F12P → F11 → F12 → F11 → F12 → F12N → F11 → F12 → F12E → F12F → F12 → F12E → F13 → F01 |
+| M02 · desfechos | F12 → F13 → F01; F12 → F12N → F14N → F01; F11 → F12P → F14 → F01; F12P → F01 (“Descartar rascunho”) |
+
+**Limites.** A verificação foi feita com uma conta logada no Figma e numa janela estreita, com o protótipo reduzido. O acesso sem login foi conferido em 11/11/2026 e deve ser repetido em janela anônima antes de cada sessão, como prevê a E12. Essa verificação confirma a navegação, não a usabilidade. Os problemas da E13 continuam valendo, como A01-V01: “Editar” em F05Q volta ao rascunho de 6 unidades.
+
 ## Sistema visual e consistência
 
 | Elemento | Regra adotada | Justificativa |
@@ -123,20 +206,32 @@ Quando aplicável, considere: vazio/sem dados; carregamento/processamento; suces
 
 ## Verificação de acessibilidade básica
 
-Os botões têm 48 px de altura no quadro original e usam rótulos com verbos. A disponibilidade, os erros e a confirmação aparecem em texto. As capturas acima têm descrição alternativa. A navegação completa por teclado, a ordem de foco e a leitura por tecnologia assistiva precisam de verificação específica. As sessões com participantes estão previstas no planejamento da Entrega 12.
+**Esta seção registra intenções de projeto, não comprovação de acessibilidade.**
+
+| Já adotado no projeto visual | Ainda precisa ser verificado |
+|---|---|
+| Botões com 48 px de altura e rótulos com verbos | Contraste efetivo, medido em cada combinação de cor |
+| Disponibilidade, erros e confirmações em texto, sem depender só da cor | Ordem de foco e foco visível |
+| Descrição alternativa nas capturas do repositório | Navegação completa por teclado |
+| | Leitura por tecnologia assistiva |
+| | Comportamento com zoom de 200% e em larguras menores (responsividade) |
+
+As verificações da direita ainda não foram feitas. Elas serão registradas com data, ferramenta e resultado antes de qualquer afirmação de conformidade. As sessões com participantes estão previstas na Entrega 12.
 
 
 ## Checklist
 
-- [ ] Link do Figma está acessível.
-- [ ] Há screenshots representativos no repositório.
-- [ ] Todos os MoLIC relevantes estão cobertos.
-- [ ] Estados de erro, feedback e recuperação foram prototipados.
-- [ ] Terminologia/signos são consistentes com Entrega 9.
-- [ ] Componentes equivalentes se comportam de forma consistente.
-- [ ] Fluxos críticos são clicáveis do início ao fim.
-- [ ] O protótipo está pronto para inspeção e testes, sem “links mortos” nas tarefas avaliadas.
-- [ ] Dashboards, relatórios, históricos, filtros, administração e CRUDs presentes possuem justificativa rastreável.
-- [ ] Estados de vazio, processamento, erro e recuperação foram considerados quando pertinentes.
-- [ ] Resultados técnicos são apresentados de forma interpretável para o perfil de usuário.
-- [ ] A equipe distingue no protótipo o que é interação simulada e o que é funcionalidade técnica realmente integrada, quando necessário.
+Revisado em 25/11/2026. Os itens marcados foram conferidos nas capturas, na cobertura MoLIC e no índice de estados. O link foi aberto sem login em 11/11/2026 e deve ser conferido de novo em janela anônima antes de cada avaliação. A terminologia foi conferida após os ajustes de 25/11/2026. Os fluxos clicáveis e a ausência de links mortos foram verificados no modo de apresentação, clicando nas 57 ligações (ver “Verificação dos fluxos clicáveis”). O piloto da E14 continua necessário para conferir o roteiro com uma pessoa.
+
+- [x] Link do Figma está acessível.
+- [x] Há screenshots representativos no repositório.
+- [x] Todos os MoLIC relevantes estão cobertos.
+- [x] Estados de erro, feedback e recuperação foram prototipados.
+- [x] Terminologia/signos são consistentes com Entrega 9.
+- [x] Componentes equivalentes se comportam de forma consistente.
+- [x] Fluxos críticos são clicáveis do início ao fim.
+- [x] O protótipo está pronto para inspeção e testes, sem “links mortos” nas tarefas avaliadas.
+- [x] Dashboards, relatórios, históricos, filtros, administração e CRUDs presentes possuem justificativa rastreável.
+- [x] Estados de vazio, processamento, erro e recuperação foram considerados quando pertinentes.
+- [x] Resultados técnicos são apresentados de forma interpretável para o perfil de usuário.
+- [x] A equipe distingue no protótipo o que é interação simulada e o que é funcionalidade técnica realmente integrada, quando necessário.
