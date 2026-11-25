@@ -8,7 +8,7 @@
 
 ## Método, evidências e escopo da revisão
 
-O conjunto adotado é **C01 — Blue Yonder Demand Planning** e **C02 — Netstock**, conforme a análise textual e a decisão da equipe nesta revisão. Odoo e Zoho não sustentam as conclusões atuais. Os arquivos antigos foram preservados em uma pasta histórica, com a divergência registrada na [matriz](../RASTREABILIDADE.md).
+O conjunto adotado é **C01 — Blue Yonder Demand Planning** e **C02 — Netstock**, conforme a análise textual e a decisão da equipe nesta revisão. Odoo e Zoho não sustentam as conclusões atuais. Os arquivos antigos foram preservados em uma [pasta histórica](../assets/historico/2026-10-13_concorrencia/README.md), fora da pasta ativa da entrega, com a divergência registrada na [matriz](../RASTREABILIDADE.md).
 
 Esta é uma **análise documental de interfaces divulgadas publicamente**, não um teste de usabilidade ou uso autenticado dos produtos. As figuras são capturas publicadas pelos fornecedores; os destaques e desfoques das imagens Netstock pertencem à documentação original. As datas exibidas nos dados de demonstração não indicam a data desta revisão.
 

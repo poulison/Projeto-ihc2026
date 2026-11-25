@@ -110,7 +110,7 @@ F01–F06 na Entrega 1 identificam ações candidatas, não telas. Os IDs Fxx de
 | 13/10/2026 | Completar tabelas, qualificar fatos e explicitar lacunas | Feedback do professor da E1 | E1; README; matriz |
 | 13/10/2026 | Tratar recomendação calculada e horizonte como pendências | Feedback E1; ausência de confirmação técnica anexada | E1, E2, E3, E4 |
 | 13/10/2026 | Manter Blue Yonder e Netstock como conjunto atual | Escolha da equipe durante a revisão; coerência com texto das entregas | E2; fontes de imagens; matriz |
-| 13/10/2026 | Retirar Odoo/Zoho do conjunto ativo sem apagar arquivos | Divergência identificada no feedback E2 | Arquivos preservados em historico/2026-10-13 |
+| 13/10/2026 | Retirar Odoo/Zoho do conjunto ativo sem apagar arquivos | Divergência identificada no feedback E2 | Arquivos preservados em `assets/historico/2026-10-13_concorrencia/` (movidos da pasta ativa em 25/11/2026) |
 | 13/10/2026 | Usar figuras oficiais com legendas e limites | Conferência visual e documental nesta revisão | E2-C01.1–C01.3; E2-C02.1–C02.2 |
 | 13/10/2026 | Corrigir origem de RC09/RC10 e demais inferências | Feedback E2 e inspeção das figuras | E2; padrões nesta matriz |
 | 13/10/2026 | Substituir códigos de hipóteses por descrições | Simplificação solicitada pela equipe; conflito de significados entre E1/E3 | E1–E4; matriz; histórico abaixo |
@@ -140,6 +140,7 @@ F01–F06 na Entrega 1 identificam ações candidatas, não telas. Os IDs Fxx de
 | 25/11/2026 | Registrar as sessões da E14 (U01 e U02) e os achados AU01–AU03; ligar AU02 e AU03 a O04/O05 e AU01 a O09 | Sessões com dois participantes aproximados, sem termo assinado; UT05 e pós-teste em conjunto | E14 (seções C–G), seções 2 e 3.1 desta matriz |
 | 25/11/2026 | Registrar o aceite dos dois participantes, obtido depois da sessão e gravado em vídeo | Vídeos conferidos pela equipe e guardados fora do repositório | E14 (passo 3, conclusão e checklist) |
 | 25/11/2026 | Dar IDs estáveis HP01–HP15 às hipóteses e lacunas, com correspondência aos códigos antigos | Recomendação do professor (IDs estáveis); checklist da E1 | Seções 2 e 6 desta matriz; E1, seção 10 |
+| 25/11/2026 | Revisão final contra os feedbacks E1–E11: mover as capturas de Odoo e Zoho para o histórico, completar a tabela da equipe no README e anotar os itens abertos da E8 | Feedback E1 (identificação) e E2 (divergência de imagens) | E2, README, E8, `assets/historico/2026-10-13_concorrencia/` |
 
 **Revisão de 12/11/2026:** P02 classificada como persona primária do recorte operacional, por objetivo e uso direto previstos; existência/recorrência continuam hipóteses. E3 passa a preservar visuais locais e a separar contexto de solução. C02 deixa de antecipar duplicidade no título; ambas as tabelas de perguntas explicitam os sete elementos. E5 inclui Input/Feedback/Plano na tarefa zero, GOMS indentado, CTT com gatilho inicial e fechamento da comunicação; modelagem concluída, pesquisa futura não realizada.
 

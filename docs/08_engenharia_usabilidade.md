@@ -229,8 +229,8 @@ Na revisão formativa, a equipe modifica o protótipo e repete a tarefa afetada.
 - [x] Fidelidade das representações, guia de estilo mínimo e padrões propostos registrados.
 - [x] Local da medição e papel formativo ou somativo de cada etapa explicitados.
 - [x] Ciclo de revisão e ligação com E12–E14 definidos.
-- [ ] Pilotar e calibrar metas antes do teste principal.
-- [ ] Medir resultados e revisar o protótipo com evidências reais.
+- [ ] Pilotar e calibrar metas antes do teste principal. *Não realizado: a equipe decidiu não fazer piloto (25/11/2026) e manteve os limites definidos.*
+- [ ] Medir resultados e revisar o protótipo com evidências reais. *Resultados medidos na [E14](14_observacao_usuario.md#c-resultados--por-participante); as revisões indicadas pelos achados AU02 e AU03 ainda não foram aplicadas ao protótipo.*
 
 ## Referências
 
