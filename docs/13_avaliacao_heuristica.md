@@ -37,7 +37,7 @@ O escopo é a navegação simulada do Figma. Filtros combinados, exportações, 
 
 | Item | Definição |
 |---|---|
-| Versão avaliada | Versão de referência da Entrega 11, de 11/11/2026. Usar a mesma versão nas duas fichas. [Abrir apresentação](https://www.figma.com/proto/jgB0Bk5BLQ3XM2W9tgZDmd/Estoque-Inteligente?page-id=0%3A1&node-id=2-2&starting-point-node-id=2%3A2&scaling=scale-down) |
+| Versão avaliada | Revisão da Entrega 11 disponível em 25/11/2026, com os rótulos alinhados ao esquema de signos da E9. As duas fichas foram feitas nessa data, sobre a mesma revisão. As capturas de referência abaixo vêm da versão de 11/11/2026; as fichas trazem as capturas que cada avaliador usou como evidência. [Abrir apresentação](https://www.figma.com/proto/jgB0Bk5BLQ3XM2W9tgZDmd/Estoque-Inteligente?page-id=0%3A1&node-id=2-2&starting-point-node-id=2%3A2&scaling=scale-down) |
 | Telas/estados | 28 quadros no inventário abaixo. Os links abrem cada quadro no arquivo de design para localizar evidências. Percorrer as ações em modo de apresentação. |
 | Fluxos | M01/T01/O01 — Mariana toma uma decisão de reposição fundamentada e recuperável. M02/T02/O02 — Rafael investiga a divergência para tornar o saldo do item confiável e explicável. Ambos retomam as personas da Entrega 3, os cenários da Entrega 4, a análise de tarefas da Entrega 5 e os signos e modelos das Entregas 9 e 10. |
 | Dispositivo/viewport | Previsto notebook com navegador e mouse. Os quadros têm 1280 × 780 px. No dia da inspeção, registrar na ficha o navegador, a área efetivamente disponível e o zoom usados. |
@@ -125,12 +125,12 @@ A aula demonstra um recurso para comparar ocorrências. O avaliador pode atribui
 
 | Dados da ficha | Registro |
 |---|---|
-| Protótipo de referência | Estoque Inteligente · Entrega 11, de 11/11/2026. [Abrir apresentação no Figma](https://www.figma.com/proto/jgB0Bk5BLQ3XM2W9tgZDmd/Estoque-Inteligente?page-id=0%3A1&node-id=2-2&starting-point-node-id=2%3A2&scaling=scale-down) |
+| Protótipo de referência | Estoque Inteligente · Entrega 11, revisão de 25/11/2026. [Abrir apresentação no Figma](https://www.figma.com/proto/jgB0Bk5BLQ3XM2W9tgZDmd/Estoque-Inteligente?page-id=0%3A1&node-id=2-2&starting-point-node-id=2%3A2&scaling=scale-down) |
 | Escopo previsto | 28 quadros de 1280 × 780 px. O inventário da seção 2 inclui os percursos principais, as alternativas e os estados de recuperação. |
 | M01 / T01 · Mariana Alves | Inspecionar a reposição da garrafa, do início em F01 à confirmação. Incluir adiamento, pendência, edição, pausa e recuperação. |
 | M02 / T02 · Rafael Costa | Inspecionar a conferência dos conjuntos de potes, do início em F01 ao desfecho. Incluir origem incerta, falta de autorização, pausa e recuperação. |
-| Data e versão do Figma inspecionada |25/11/2026|
-| Dispositivo, navegador, área visível e zoom | Computador, Navegador Brave |
+| Data e versão do Figma inspecionada | 25/11/2026, na revisão disponível nesse dia. |
+| Dispositivo, navegador, área visível e zoom | Computador, navegador Brave. Área visível e zoom não registrados. |
 | Caminhos descritos pelo avaliador | Reposição de garrafas, incluindo a escolha da quantidade e a tentativa com zero. Conferência dos potes, incluindo a comparação dos registros, a tentativa de pausa e a revisão da origem incerta. |
 
 ### 4. Matriz de cobertura das 10 heurísticas
@@ -138,7 +138,7 @@ A aula demonstra um recurso para comparar ocorrências. O avaliador pode atribui
 | Heurística | Onde verificar | Resultado da inspeção individual |
 |---|---|---|
 | H1 · Visibilidade do status do sistema | F05Q · Revisar decisão e F05S · Decisão salva | Identifiquei o estado da operação pelas mensagens. A revisão avisa que ainda é preciso confirmar, e a tela final informa que a decisão foi salva. Sem violação relatada. |
-| H2 · Correspondência com o mundo real | F02 · Analisar reposição e F12P · Revisar pendência | Entendi as quantidades de garrafas. Na conferência dos potes, tive dúvida se alguns valores representavam potes avulsos ou conjuntos. **Sim · A01-V04.** |
+| H2 · Correspondência com o mundo real | F02 · Analisar reposição e F12P · Revisar pendência | Entendi as quantidades de garrafas. Na conferência dos potes, tive dúvida se alguns valores representavam potes avulsos ou conjuntos. **Sim · A01-V01.** |
 | H3 · Controle e liberdade do usuário | F04 · Quantidade planejada e F05Q · Revisar decisão | A quantidade apresentada na revisão acompanhou a escolha feita. A observação cobre a escolha e a revisão. A preservação da quantidade e do motivo ao voltar por **Editar** ficou sem confirmação. |
 | H4 · Consistência e padrões | F05Q · Revisar decisão e F12 · Revisar correção | Os botões me pareceram coerentes nos dois fluxos. Nas duas revisões, reconheci a ação de confirmar pelo rótulo e pela apresentação do botão. Sem violação relatada. |
 | H5 · Prevenção de erros | F04 → F04E · Confira a quantidade | Ao selecionar zero garrafas, recebi uma mensagem pedindo para conferir a quantidade. A tela exigiu um valor maior que zero antes de prosseguir. Sem violação relatada. |
@@ -154,7 +154,7 @@ Os graus abaixo são propostas para confirmação por Paulo. A frequência e a p
 
 | ID individual | Heurística e quadro | Ação, resposta e consequência | Evidência | Severidade sugerida (0–4) e justificativa | Correção proposta e como verificá-la |
 |---|---|---|---|---|---|
-| A01-V04 | H2 · F12P | Ao comparar saldo e contagem, tive dúvida sobre a unidade dos potes. A linha começa com **8 conjuntos** e termina com **contagem física: 10**. Para interpretar o último número, precisei recorrer ao contexto. | ![F12P. Na linha Saldo registrado, apenas o primeiro número vem acompanhado de conjuntos.](../assets/13_heuristica/f12p.png) | **2 · Menor.** Afeta quem compara os dois valores. O cabeçalho informa a venda por conjunto e permite resolver a dúvida. A ambiguidade reaparece sempre que a linha é lida isoladamente. | Escrever **contagem física: 10 conjuntos**. Conferir se a linha, lida sozinha, permite identificar o que os números 8 e 10 contam. |
+| A01-V01 | H2 · F12P | Ao comparar saldo e contagem, tive dúvida sobre a unidade dos potes. A linha começa com **8 conjuntos** e termina com **contagem física: 10**. Para interpretar o último número, precisei recorrer ao contexto. | ![F12P. Na linha Saldo registrado, apenas o primeiro número vem acompanhado de conjuntos.](../assets/13_heuristica/f12p.png) | **2 · Menor.** Afeta quem compara os dois valores. O cabeçalho informa a venda por conjunto e permite resolver a dúvida. A ambiguidade reaparece sempre que a linha é lida isoladamente. | Escrever **contagem física: 10 conjuntos**. Conferir se a linha, lida sozinha, permite identificar o que os números 8 e 10 contam. |
 | A01-V02 | H7 · F10 e F11 | Ao confrontar os registros, quis pausar a operação. **Pausar conferência** aparece em F10. Em F11, encontrei as opções de indicar a origem ou voltar. Para alcançar a pausa, é preciso sair da comparação. | **F10 · Pausa disponível** ![F10. Botão Pausar conferência.](../assets/13_heuristica/f10.png)<br>**F11 · Ações durante a comparação** ![F11. Mesma saída confirmada, Origem incerta e Voltar no rodapé.](../assets/13_heuristica/f11.png) | **2 · Menor.** Afeta quem sofre uma interrupção durante a comparação. A pausa existe na etapa anterior, mas exige navegação adicional. Esse esforço se repete a cada interrupção nessa etapa. | Disponibilizar **Pausar conferência** em F11. Verificar se, ao interromper a leitura e retomar, Rafael volta à comparação do mesmo pedido. |
 
 ### 6. Boas práticas — heurísticas não violadas (atividade didática)
@@ -178,11 +178,12 @@ Os graus abaixo são propostas para confirmação por Paulo. A frequência e a p
 
 | Dados da ficha | Registro |
 |---|---|
-| Protótipo de referência | Estoque Inteligente · Entrega 11, de 11/11/2026. [Abrir apresentação no Figma](https://www.figma.com/proto/jgB0Bk5BLQ3XM2W9tgZDmd/Estoque-Inteligente?page-id=0%3A1&node-id=2-2&starting-point-node-id=2%3A2&scaling=scale-down) |
+| Protótipo de referência | Estoque Inteligente · Entrega 11, revisão de 25/11/2026. [Abrir apresentação no Figma](https://www.figma.com/proto/jgB0Bk5BLQ3XM2W9tgZDmd/Estoque-Inteligente?page-id=0%3A1&node-id=2-2&starting-point-node-id=2%3A2&scaling=scale-down) |
 | Escopo previsto | 28 quadros de 1280 × 780 px. O inventário da seção 2 inclui os percursos principais, as alternativas e os estados de recuperação. |
 | M01 / T01 · Mariana Alves | Analisar a reposição da garrafa térmica e registrar a decisão. Percurso principal previsto de F01 → F02 → F03 → F04 → F05 → F05S. |
 | M02 / T02 · Rafael Costa | Investigar a divergência no estoque de conjuntos de potes e conferir o desfecho. Percurso principal previsto de F01 → F10 → F11 → F12 → F13. |
-| Data, revisão efetivamente acessada e condições de visualização | Victor não informou a data da sessão, a revisão do arquivo, o dispositivo, o navegador, a área visível ou o zoom. |
+| Data e versão do Figma inspecionada | 25/11/2026, na revisão disponível nesse dia. |
+| Dispositivo, navegador, área visível e zoom | Computador, navegador Google Chrome. Área visível e zoom não registrados. |
 | Percursos relatados | Reposição das garrafas e conferência dos conjuntos de potes, com revisão, edição, validação, pausa, retomada e recuperação de falha. |
 
 ### 4. Matriz de cobertura das 10 heurísticas
@@ -238,7 +239,7 @@ Os pesos são **sugestões para Victor confirmar** na escala de 0 a 4 da seção
 
 ## 7. Consolidação da equipe
 
-**Consolidação pendente da dupla.** As fichas individuais estão registradas. Paulo e Victor identificaram a falta de pausa em F11 (A01-V02 e A02-V10). Na conferência dos potes, Paulo relatou dúvida sobre a unidade em F12P (A01-V04), enquanto Victor entendeu que o saldo é por conjunto e precisou convertê-lo em peças (A02-V02). Comparar as causas e as propostas antes de definir os agrupamentos.
+**Consolidação pendente da dupla.** As fichas individuais estão registradas. Paulo e Victor identificaram a falta de pausa em F11 (A01-V02 e A02-V10). Na conferência dos potes, Paulo relatou dúvida sobre a unidade em F12P (A01-V01), enquanto Victor entendeu que o saldo é por conjunto e precisou convertê-lo em peças (A02-V02). Comparar as causas e as propostas antes de definir os agrupamentos.
 
 Depois das duas inspeções, agrupar achados quando a mesma correção resolver a causa observada. Preservar os IDs individuais, inclusive se apenas um avaliador encontrou o problema. Se os graus divergirem, rever os prints e as justificativas, acordar o grau final e explicar a decisão na célula correspondente. Ordenar as correções considerando o efeito sobre as tarefas de Mariana e Rafael.
 

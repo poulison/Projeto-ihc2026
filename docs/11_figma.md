@@ -194,7 +194,7 @@ Os fluxos foram verificados de duas formas, na versão do arquivo com os ajustes
 | M02 · pausa, retorno, autorização e falha | F01 → F10 ⇄ F10P; F10 ⇄ F11; F11 → F12P → F11 → F12 → F11 → F12 → F12N → F11 → F12 → F12E → F12F → F12 → F12E → F13 → F01 |
 | M02 · desfechos | F12 → F13 → F01; F12 → F12N → F14N → F01; F11 → F12P → F14 → F01; F12P → F01 (“Descartar rascunho”) |
 
-**Limites.** A verificação foi feita com uma conta logada no Figma e numa janela estreita, com o protótipo reduzido. O acesso sem login foi conferido em 11/11/2026 e deve ser repetido em janela anônima antes de cada sessão, como prevê a E12. Essa verificação confirma a navegação, não a usabilidade. Os problemas da E13 continuam valendo, como A01-V01: “Editar” em F05Q volta ao rascunho de 6 unidades.
+**Limites.** A verificação foi feita com uma conta logada no Figma e numa janela estreita, com o protótipo reduzido. O acesso sem login foi conferido em 11/11/2026 e deve ser repetido em janela anônima antes de cada sessão, como prevê a E12. Essa verificação confirma a navegação, não a usabilidade. Os problemas da E13 continuam valendo, como A02-V03: “Editar” em F05Q volta ao rascunho de 6 unidades.
 
 ## Sistema visual e consistência
 
