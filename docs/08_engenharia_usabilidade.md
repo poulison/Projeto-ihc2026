@@ -134,7 +134,7 @@ Usar os casos fictícios da E5 e conferir produto, unidade, valores e estado ini
 
 #### Métricas e critérios de aceitação
 
-**Todos os limites são propostas iniciais da equipe, sem linha de base medida.** Como a equipe decidiu não fazer piloto (25/11/2026), os limites ficam como estão e a versão é congelada antes do teste principal; não mudar limites depois de ver resultados para transformar falhas em sucesso.
+**Todos os limites são propostas iniciais da equipe, sem linha de base medida.** O piloto foi apenas interno, feito pelos integrantes e sem registro de tempos; por isso os limites não foram calibrados e ficam como estão e a versão é congelada antes do teste principal; não mudar limites depois de ver resultados para transformar falhas em sucesso.
 
 | ID | Dimensão | Métrica e tarefa | Meta inicial | Como medir / justificativa |
 |---|---|---|---|---|
@@ -197,7 +197,7 @@ Adotamos o **Ciclo de Vida da Engenharia de Usabilidade de Deborah Mayhew**. No 
 | Análise contextual das tarefas | Cenários E4-C01/C02 (E4); HTA, GOMS e CTT de T01/T02 (E5) | Concluído |
 | Capacidades e restrições da plataforma | Seção 1 desta entrega | Concluído |
 | Princípios gerais de design | Seção 2: negócio e interface | Concluído |
-| Metas de usabilidade | Seção 3: qualitativas, MU01–MU07 e pesos de Nielsen | Concluído; limites mantidos sem piloto |
+| Metas de usabilidade | Seção 3: qualitativas, MU01–MU07 e pesos de Nielsen | Concluído; limites mantidos, sem calibração no piloto interno |
 | Guia de estilo | Seção 2.3, com as decisões mínimas | Iniciado; atualizado em cada nível de design |
 | **Fase 2 · Design, testes e desenvolvimento** | | |
 | Nível 1 · modelo conceitual e mockups | Cartões da E6; modelo conceitual e DCC (E9); MoLIC M01/M02 (E10) | Concluído |
@@ -229,7 +229,7 @@ Na revisão formativa, a equipe modifica o protótipo e repete a tarefa afetada.
 - [x] Fidelidade das representações, guia de estilo mínimo e padrões propostos registrados.
 - [x] Local da medição e papel formativo ou somativo de cada etapa explicitados.
 - [x] Ciclo de revisão e ligação com E12–E14 definidos.
-- [ ] Pilotar e calibrar metas antes do teste principal. *Não realizado: a equipe decidiu não fazer piloto (25/11/2026) e manteve os limites definidos.*
+- [ ] Pilotar e calibrar metas antes do teste principal. *Em parte: houve só um piloto interno, feito pelos integrantes antes de 25/11/2026 e sem registro de tempos; as metas não foram calibradas e os limites foram mantidos.*
 - [ ] Medir resultados e revisar o protótipo com evidências reais. *A [E14](14_observacao_usuario.md#c-resultados--por-participante) registrou observações com participantes substitutos. MU03 e MU07 ficaram sem confirmação, e as revisões indicadas por AU02 e AU03 seguem pendentes.*
 
 ## Referências
