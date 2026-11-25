@@ -55,10 +55,10 @@ Será mantido o formato presencial da E12. Uma eventual aplicação remota exige
 
 | ID | Perfil observado | Participação na simulação | Integrante responsável |
 |---|---|---|---|
-| U01 — sessão realizada em 25/11/2026 | Participante substituto de P01/Mariana. Não trabalha com estoque e já conhecia o projeto. | Fez os casos de reposição. | Paulo Andre de Oliveira Hirata moderou e analisou. Victor Merker Binda observou. |
-| U02 — sessão realizada em 25/11/2026 | Participante substituto de P02/Rafael. Não trabalha com estoque e já conhecia o projeto. | Fez os casos de conferência. | Victor Merker Binda moderou e analisou. Paulo Andre de Oliveira Hirata observou. |
+| U01 — sessão realizada em 25/11/2026 | Participante substituto de P01/Mariana. Não trabalha com estoque e não conhecia o projeto. | Fez os casos de reposição. | Paulo Andre de Oliveira Hirata moderou e analisou. Victor Merker Binda observou. |
+| U02 — sessão realizada em 25/11/2026 | Participante substituto de P02/Rafael. Não trabalha com estoque e não conhecia o projeto. | Fez os casos de conferência. | Victor Merker Binda moderou e analisou. Paulo Andre de Oliveira Hirata observou. |
 
-**Amostra:** dois participantes substitutos, recrutados por conveniência no prazo da entrega. O plano previa experiência em reposição ou conferência, mas as duas pessoas disseram no pré-teste que não trabalham com estoque e já conheciam o projeto. Os casos principais foram realizados separadamente por perfil. UT05 e o pós-teste foram feitos em conjunto.
+**Amostra:** dois participantes substitutos, recrutados por conveniência no prazo da entrega. O plano previa experiência em reposição ou conferência, mas as duas pessoas disseram no pré-teste que não trabalham com estoque. Nenhuma das duas conhecia o projeto antes da sessão. Os casos principais foram realizados separadamente por perfil. UT05 e o pós-teste foram feitos em conjunto.
 
 No pré-teste, perguntar quais atividades de estoque a pessoa realiza, com que frequência, quais ferramentas utiliza, se já conhece o protótipo e se precisa de adaptações de leitura ou comunicação. Registrar as respostas nas notas da sessão. Não solicitar documentos pessoais, renda, dados de clientes ou nome do estabelecimento no relatório público.
 
@@ -131,7 +131,7 @@ Sessões em 25/11/2026, presenciais, na revisão do protótipo de 25/11/2026 (co
 
 ### U01 — reposição
 
-**Pré-teste:** não trabalha com estoque; já conhecia o projeto.
+**Pré-teste:** não trabalha com estoque; não conhecia o projeto.
 
 | Tarefa | Grau de sucesso | Erros | Tipos de erro/dificuldade | Ajudas | Tempo | Satisfação | Evidência/observação |
 |---|---|---:|---|---:|---|---|---|
@@ -140,7 +140,7 @@ Sessões em 25/11/2026, presenciais, na revisão do protótipo de 25/11/2026 (co
 
 ### U02 — conferência
 
-**Pré-teste:** não trabalha com estoque; já conhecia o projeto.
+**Pré-teste:** não trabalha com estoque; não conhecia o projeto.
 
 | Tarefa | Grau de sucesso | Erros | Tipos de erro/dificuldade | Ajudas | Tempo | Satisfação | Evidência/observação |
 |---|---|---:|---|---:|---|---|---|
@@ -208,7 +208,7 @@ Problema previsto e não observado não significa problema inexistente: dois par
     2. Fazer **Editar** em F05A e F05P reabrir o rascunho (AU03).
     3. Depois, C07–C13 da E13 e uma nova rodada com quem faz reposição ou conferência, cronometrando cada tarefa.
 5. **Limitações:**
-    - Participantes aproximados: não trabalham com estoque e já conheciam o projeto.
+    - Participantes aproximados: não trabalham com estoque.
     - UT05 e o pós-teste foram feitos com as duas pessoas juntas; uma pode ter influenciado a outra.
     - Tempos estimados, não cronometrados por tarefa.
     - Consentimento obtido só depois da sessão (em vídeo e por termo assinado em 25/11/2026), e não antes das tarefas; sem piloto e sem gravação da sessão.
