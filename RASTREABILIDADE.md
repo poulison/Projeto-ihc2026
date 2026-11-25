@@ -1,6 +1,6 @@
 # Matriz de rastreabilidade de IHC
 
-**Revisão:** 12/11/2026. Esta matriz distingue o que foi registrado pela equipe, o que foi observado em fontes de mercado e o que ainda é hipótese. Nenhuma entrevista, teste com usuário ou confirmação do orientador foi realizada para esta revisão.
+**Revisão:** 25/11/2026. A seção 3.1 incorpora a cadeia completa até MoLIC, Figma e avaliação. Esta matriz distingue o que foi registrado pela equipe, o que foi observado em fontes de mercado e o que ainda é hipótese. Nenhuma entrevista, teste com usuário ou confirmação do orientador foi realizada para esta revisão.
 
 As hipóteses usam **descrições por extenso**, conforme a simplificação adotada pela equipe. O histórico dos códigos anteriores está na seção 6, para não apagar sua evolução. Os IDs de personas, cenários, perguntas de refinamento e recomendações permanecem. Sempre cite a entrega junto a C01/C02: em E2 são concorrentes; em E4 são cenários.
 
@@ -47,6 +47,32 @@ Os identificadores locais da Entrega 4 foram incorporados sem criar uma segunda 
 | R04-01 — decidir reposição considerando disponibilidade, procura, prazo e recursos | Previsão como apoio; recomendação calculada condicional | P01 — Mariana | [E4-C01](docs/04_cenarios_problema.md) | Apurar disponibilidade, comparar informações e alternativas, decidir e avaliar resultado | [T01 — HTA](docs/05_analise_tarefas.md#t01-hta), [GOMS](docs/05_analise_tarefas.md#t01-goms) e [CTT](docs/05_analise_tarefas.md#t01-ctt) produzidos; autoria: Paulo; cobertura de interface parcial na E6 | Necessidade e cenário hipotéticos |
 | R04-02 — manter saldo e histórico explicáveis e comunicar pendências | Qualidade dos dados utilizados na previsão; capacidade operacional a delimitar | P02 — Rafael; P01 depende do resultado | [E4-C02](docs/04_cenarios_problema.md) | Investigar divergência, confirmar fonte, corrigir com justificativa e distinguir pendências | [T02 — HTA](docs/05_analise_tarefas.md#t02-hta), [GOMS](docs/05_analise_tarefas.md#t02-goms) e [CTT](docs/05_analise_tarefas.md#t02-ctt) produzidos; autoria: Victor; cobertura de interface parcial na E6 | Papel auxiliar e procedimento a investigar |
 
+### 3.1 Cadeia completa: da persona à avaliação
+
+A matriz abaixo reflete o estado do repositório em 25/11/2026. Ela permite interpretar um problema observado numa tela sabendo qual cena do MoLIC o originou, qual objetivo é apoiado, quais signos estão envolvidos e qual tarefa é afetada. As Entregas 12 e 13 estão em andamento e a 14 ainda não tem sessões. Nessas colunas, o que é **previsto** está separado do que já foi **registrado**.
+
+| Persona | Cenário de problema | Cenário de interação | Objetivo final | MoLIC | Fluxo principal no Figma | Metas (E8) | Tarefas de teste (E12/E14) | Inspeção (E13) |
+|---|---|---|---|---|---|---|---|---|
+| P01 — Mariana (autoria Paulo) | [E4-C01](docs/04_cenarios_problema.md) · R04-01 · T01 | [CI01](docs/09_modelo_conceitual.md#ci01--decidir-a-reposição-da-garrafa-antes-do-prazo-do-fornecedor) | **O01** — Tomar uma decisão de reposição fundamentada e recuperável | [M01](docs/10_molic.md#m01--decidir-a-reposição-de-um-item) | F01 → F02 → F03 → F04 → F05 → F05S | MU01–MU07 (MU06 não avaliada nesta versão) | UT01 (T01-A), UT02 (T01-B), UT05/M01 — previstas | A01-V01, A01-V03; PRE-01, PRE-03 — registrados |
+| P02 — Rafael (autoria Victor) | [E4-C02](docs/04_cenarios_problema.md) · R04-02 · T02 | [CI02](docs/09_modelo_conceitual.md#ci02--explicar-a-diferença-no-saldo-dos-conjuntos-de-potes) | **O02** — Tornar o saldo do item confiável e explicável | [M02](docs/10_molic.md#m02--explicar-a-diferença-no-saldo-de-um-item) | F01 → F10 → F11 → F12 → F13 | MU01, MU03–MU07 (MU06 não avaliada nesta versão) | UT03 (T02-A), UT04 (T02-B), UT05/M02 — previstas | A01-V02, A01-V03; PRE-01, PRE-02, PRE-03 — registrados |
+
+#### Objetivo → signos → cena do MoLIC → estados do Figma → avaliação
+
+| Objetivo (E9) | Tipo | Signos principais | Cena do MoLIC | Estados no Figma | Meta/tarefa/inspeção |
+|---|---|---|---|---|---|
+| O01 | Final | desfecho da reposição; estado do registro | M01: `gco` na abertura; `gcc` após O08 ou abandono | F01 → F05S; abandono em F05 (“Descartar rascunho”) | MU01; UT01, UT02 |
+| O02 | Final | desfecho da conferência; saldo registrado | M02: `gco` na abertura; `gcc` após O08 ou abandono | F01 → F13 ou F14/F14N | MU01; UT03, UT04 |
+| O03 | Instrumental direto | produto; unidade de venda | M01 e M02 · O03 | F01; identificação em F02 e F10 | MU04 (produto ou unidade errados = erro crítico) |
+| O04 | Instrumental direto | contagem física; quantidade comprometida/disponível; vendas confirmadas; atualização da base; previsão de demanda; horizonte; prazo do fornecedor; [sugestão de reposição, condicional] | M01 · O04 | F02; F02B | MU02, MU03; UT01, UT02; PRE-03 |
+| O05 | Instrumental direto | desfecho da reposição; quantidade planejada; motivo; próxima verificação | M01 · O05 e revisão | F03, F04, F04E, F05/F05Q/F05A/F05P | MU04; UT01, UT02; A01-V01 |
+| O06 | Instrumental direto | evidência de origem; situação da evidência | M02 · O06 | F10, F11 | MU03; UT03, UT04; A01-V02, PRE-02 |
+| O07 | Instrumental direto | correção da transcrição; desfecho da conferência; motivo; próxima verificação | M02 · O07 e revisão | F12, F12N, F12P | MU04; UT03, UT04; A01-V03 |
+| O08 | Instrumental direto | estado do registro; responsável e data | M01/M02 · O08 e gravação incerta | F05S…F05PS, F06E, F06R, F12E, F12F, F13, F14/F14N | MU01, MU04; PRE-01 |
+| O09 | Instrumental direto (com pausa) | ponto de retomada; atualização da base; estado do registro | M01/M02 · O09 | F02P, F10P | MU07; UT05; A01-V02, PRE-02 |
+| O10 | Instrumental indireto de O01 | alcance da conferência | M02 · O10 (opcional, após `gcc` de O02) | F13 | UT03 (“diga a ela como ficou esse item”); MU04 (declaração indevida de conferência total) |
+
+Os detalhes de cada ligação estão no [mapa e no dicionário de objetivos (E9)](docs/09_modelo_conceitual.md#3-mapa-de-objetivos), na [consolidação do MoLIC (E10)](docs/10_molic.md#consolidação-da-equipe), na [cobertura MoLIC → Figma (E11)](docs/11_figma.md#cobertura-molic--figma), no [plano DECIDE (E12)](docs/12_planejamento_avaliacao.md) e nas fichas da [E13](docs/13_avaliacao_heuristica.md). Quando a E14 produzir resultados, a última coluna receberá os achados observados, a decisão de revisão e a nova verificação.
+
 ### Metas de usabilidade da Entrega 8
 
 R04-01 fundamenta T01, a decisão de reposição de Mariana. R04-02 fundamenta T02, a investigação de divergências por Rafael. Os casos A e B e os limites de cada meta estão definidos na [Entrega 8](docs/08_engenharia_usabilidade.md). As telas abaixo constam da [Entrega 11](docs/11_figma.md). A última coluna descreve o registro a produzir na avaliação.
@@ -75,7 +101,7 @@ O [DECIDE da E12](docs/12_planejamento_avaliacao.md) orienta a coleta. A [E13](d
 | Preparação/conferência dos dados | Sustentar disponibilidade confiável | Lacuna sobre processo; E4-C02 hipotético | RC08/RC11; P02; R04-02 | Cadastro/importação e permissões dependem da pesquisa |
 | Comparação com realizado | Avaliar utilidade após a compra | Hipótese de histórico em E1; jornada E3 | RC05; P01 | Não comprovada apenas pela existência de gráficos de previsões e ajustes |
 
-Não foram atribuídos IDs de telas antes de existir um modelo de interação. F01–F06 na Entrega 1 identificam ações candidatas, não telas implementadas.
+F01–F06 na Entrega 1 identificam ações candidatas, não telas. Os IDs Fxx de telas e estados usados a partir da seção 3.1 são os quadros do protótipo da [Entrega 11](docs/11_figma.md), derivados do MoLIC da Entrega 10.
 
 ## 5. Registro de mudanças
 
@@ -90,6 +116,12 @@ Não foram atribuídos IDs de telas antes de existir um modelo de interação. F
 | 13/10/2026 | Substituir códigos de hipóteses por descrições | Simplificação solicitada pela equipe; conflito de significados entre E1/E3 | E1–E4; matriz; histórico abaixo |
 | 13/10/2026 | Integrar P01/P02 e R04-01/R04-02 | Continuidade com cenários enviados | E3, E4 e seção 3 desta matriz |
 | 13/10/2026 | Padronizar matrícula de Victor como 22.125.075-6 | Concordância entre README, E1 e E3 | E2 |
+| 25/11/2026 | Reformular O01/O02 como objetivos finais e classificar O03–O10 como instrumentais diretos/indireto | Feedback das Entregas 9 e 10 | E9 (mapas, dicionário e DCC), E10, E11, E13 |
+| 25/11/2026 | Encerrar O02 em O08 e tornar O10 uma consulta opcional do alcance | Feedback E10: a comunicação a Mariana ocorre fora do sistema | M02; E10; E11 (F13) |
+| 25/11/2026 | Alinhar as cenas do MoLIC aos nomes dos signos e restringir `d+u:` | Feedback E10 | M01, M02 |
+| 25/11/2026 | Registrar a divergência de rótulos entre E9 e Figma e os estados a preservar | Feedback E11 | E11 |
+| 25/11/2026 | Ligar personas, cenários, objetivos, MoLIC, Figma, metas, tarefas de teste e inspeção | Feedback E9, E10 e E11: matriz desatualizada | Seção 3.1 desta matriz |
+| 25/11/2026 | Arquivar placeholders `f01.svg`, `v01.svg` e `fluxograma_avaliacao.svg`; substituir `mapa_objetivos.svg` pela fonte real | Feedback E11 | `assets/historico/2026-11-25_placeholders/` |
 
 **Revisão de 12/11/2026:** P02 classificada como persona primária do recorte operacional, por objetivo e uso direto previstos; existência/recorrência continuam hipóteses. E3 passa a preservar visuais locais e a separar contexto de solução. C02 deixa de antecipar duplicidade no título; ambas as tabelas de perguntas explicitam os sete elementos. E5 inclui Input/Feedback/Plano na tarefa zero, GOMS indentado, CTT com gatilho inicial e fechamento da comunicação; modelagem concluída, pesquisa futura não realizada.
 
@@ -116,4 +148,4 @@ Este registro é **histórico**, não o esquema ativo de referência. O professo
 - Registrar nova evidência com fonte, data, limite e impacto; narrativa fictícia não valida hipótese.
 - Usar prefixo de entrega em C01/C02 para distinguir concorrentes de cenários.
 - Manter P01/P02, perguntas Cxx-Qn, RC01–RC12 e DP01–DP18 nos artefatos correspondentes.
-- Acrescentar modelos, telas e testes somente quando existirem; registrar mudanças no histórico.
+- Ao alterar um objetivo, signo, cena ou estado do Figma, atualizar a seção 3.1 e registrar a mudança na seção 5. Na seção 3.1, mover os resultados de avaliação de “previstos” para “registrados” somente quando houver evidência.
