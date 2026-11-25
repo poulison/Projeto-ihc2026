@@ -1,7 +1,8 @@
 # Entrega 13 — Avaliação de IHC por inspeção heurística
 
 **Data:** 12/11/2026  
-**Status:** 🟨 iniciada  
+**Revisão:** 25/11/2026  
+**Status:** 🟩 concluída  
 **Responsabilidade:** 1 avaliação completa por integrante, sobre todas as telas/estados relevantes do projeto.
 
 ## Objetivo da atividade
@@ -239,34 +240,44 @@ Os graus foram confirmados por Victor em 25/11/2026, na escala de 0 a 4 da seç�
 
 ## 7. Consolidação da equipe
 
-**Consolidação pendente da dupla.** As fichas individuais estão registradas. Paulo e Victor identificaram a falta de pausa em F11 (A01-V02 e A02-V10). Na conferência dos potes, Paulo relatou dúvida sobre a unidade em F12P (A01-V01), enquanto Victor entendeu que o saldo é por conjunto e precisou convertê-lo em peças (A02-V02). Comparar as causas e as propostas antes de definir os agrupamentos. Os graus individuais foram confirmados pelos dois avaliadores em 25/11/2026. Nos dois pares em comum, ambos atribuíram grau 2.
+**Consolidação de 25/11/2026.** Paulo e Victor compararam as duas fichas depois de concluídas. Os 16 achados individuais (2 de A01 e 14 de A02) foram agrupados quando uma mesma correção resolve a causa, o que resultou em **13 problemas únicos**. Os IDs individuais foram preservados. Nos dois agrupamentos com achados dos dois avaliadores (C03 e C04), os graus individuais coincidiam (2), por isso não houve divergência a resolver.
 
-Depois das duas inspeções, agrupar achados quando a mesma correção resolver a causa observada. Preservar os IDs individuais, inclusive se apenas um avaliador encontrou o problema. Se os graus divergirem, rever os prints e as justificativas, acordar o grau final e explicar a decisão na célula correspondente. Ordenar as correções considerando o efeito sobre as tarefas de Mariana e Rafael.
+**Critério de prioridade.** Primeiro, o grau. Depois, o efeito sobre as tarefas da Entrega 14 (UT01–UT05): um problema que pode desviar uma tentativa ou levar a um registro errado vem antes. Os estados de espera e de falha (F06E, F06R, F12F) não serão provocados na E14, por isso ficam no fim da fila. **Responsável:** Paulo pelos quadros da reposição (F02–F06R), Victor pelos da conferência (F10–F14N) e os dois quando a correção atinge os dois fluxos.
 
 | ID consolidado | Achados individuais | Heurística | Problema | Severidade final | Prioridade | Responsável pela correção |
 |---|---|---|---|---:|---|---|
-| | | | | | | |
+| C01 | A02-V03 | H3, H4 | Na revisão de 4 garrafas, **Editar** volta ao rascunho de 6 unidades e ao motivo anterior. A escolha pode ser registrada com outra intenção sem que a pessoa perceba. | 3 | 1 | Paulo |
+| C02 | A02-V11 | H8 | Controles da simulação (**Ver caso sem previsão**, **Testar falta de resposta**, **Sem autorização**, **Testar falha**) ficam junto das ações de trabalho em F02, F05, F05Q e F12. Um clique troca o cenário da tentativa. | 2 | 2 | Paulo e Victor |
+| C03 | A01-V02, A02-V10 | H7 | Não há pausa em F11. Para interromper a comparação, é preciso voltar a F10, e a retomada exige reabrir F11 e reler as fontes. | 2 | 3 | Victor |
+| C04 | A01-V01, A02-V02 | H2 | A unidade dos potes não acompanha todos os números: a contagem física aparece sem “conjuntos” em F12P, e F10 não mostra a equivalência em peças para quem contou potes avulsos. | 2 | 4 | Victor |
+| C05 | A02-V06 | H4 | A borda esquerda de **Adiar neste ciclo** (F03) não responde ao clique. A pessoa pode concluir que a opção está indisponível. | 2 | 5 | Paulo |
+| C06 | A02-V08, A02-V09 | H6 | Informações necessárias à decisão ficam na etapa anterior: o saldo e a diferença não aparecem em F11, e a previsão some em F04 e F05Q. | 2 | 6 | Paulo (F04, F05Q) e Victor (F11) |
+| C07 | A02-V07 | H5 | **Descartar rascunho** (F05Q) apaga o planejamento sem confirmação nem opção de desfazer. | 2 | 7 | Paulo |
+| C08 | A02-V14 | H10 | A previsão de 5 unidades em 3 dias não explica de onde vem nem qual é sua incerteza (F02). | 2 | 8 | Paulo |
+| C09 | A02-V04 | H3 | Só é possível planejar 6, 4 ou 0 unidades (F04). Outra quantidade decidida pela pessoa não pode ser registrada. | 2 | 9 | Paulo |
+| C10 | A02-V12 | H9 | A espera em F06E orienta consultar o registro, mas não diz quando consultar de novo. | 2 | 10 | Paulo |
+| C11 | A02-V13 | H9 | Após uma falha confirmada (F06R, F12F), faltam causa, horário e referência da tentativa, e o reenvio exige passar de novo pela revisão. | 2 | 11 | Paulo e Victor |
+| C12 | A02-V01 | H1 | Em F04, o estado de rascunho só aparece na linha da quantidade, não junto ao título. | 1 | 12 | Paulo |
+| C13 | A02-V05 | H4 | A ação equivalente de reabrir a revisão após falha tem rótulos diferentes: **Reabrir rascunho** (F06R) e **Revisar correção** (F12F). | 1 | 13 | Paulo e Victor |
 
 ## 8. Síntese e plano de melhoria
 
 | Resultado a apresentar após a consolidação | Resultado da equipe |
 |---|---|
-| Quantidade de problemas únicos por heurística e por severidade | A calcular após agrupar as observações de A01 e A02. As severidades individuais já foram confirmadas pelos avaliadores. |
-| Problemas graves ou críticos e efeito sobre o teste ou a disponibilização | A02-V03 recebeu grau 3, confirmado por Victor. Ao editar quatro garrafas, o rascunho voltou a seis e recuperou a justificativa anterior. A dupla ainda precisa definir o grau final. |
-| Padrões recorrentes entre produtos, telas e estados | Victor observou controles de simulação junto às ações de trabalho nos dois fluxos (A02-V11). Na reposição, F06E oferece consulta ao registro e acesso ao estado de falha confirmada. |
-| Correções priorizadas antes da Entrega 14 e ação a repetir para verificar cada correção | A ordem depende da discussão da dupla. As fichas indicam como testar, entre outras mudanças, a preservação da quantidade e do motivo ao editar, a retomada em F11 e a apresentação dos controles de simulação. |
-
-
+| Quantidade de problemas únicos por heurística e por severidade | **13 problemas únicos**, a partir de 16 achados individuais. **Por heurística principal** (C01 também envolve H4, mas é contado só em H3): H1: 1 (C12) · H2: 1 (C04) · H3: 2 (C01, C09) · H4: 2 (C05, C13) · H5: 1 (C07) · H6: 1 (C06) · H7: 1 (C03) · H8: 1 (C02) · H9: 2 (C10, C11) · H10: 1 (C08). **Por grau:** 3 (maior): 1 · 2 (menor): 10 · 1 (cosmético): 2 · 4 (catastrófico): 0. |
+| Problemas graves ou críticos e efeito sobre o teste ou a disponibilização | **C01 (grau 3)** é o único problema maior. Em UT01, se a pessoa escolher 4 unidades e editar, o protótipo pode registrar 6 com o motivo errado. Isso contaria como erro crítico (MU04) causado pela interface. Por isso, C01 precisa estar corrigido e verificado antes das sessões. Nenhum problema recebeu grau 4. |
+| Padrões recorrentes entre produtos, telas e estados | **1. O contexto não acompanha a pessoa entre as etapas** (C01, C03, C06): a quantidade e o motivo se perdem ao editar, o ponto da comparação se perde na pausa e os números da etapa anterior somem na seguinte. Aparece nos dois fluxos. **2. Controles da simulação nas telas do participante** (C02), nos dois fluxos. **3. Unidade nem sempre explícita** (C04), na conferência. **4. Recuperação de falhas incompleta** (C10, C11, C13): a espera e a falha preservam o trabalho, mas orientam pouco o próximo passo. |
+| Correções priorizadas antes da Entrega 14 e ação a repetir para verificar cada correção | **Antes das sessões (C01–C05), porque afetam UT01–UT05:** C01 · escolher 4 unidades, editar e voltar à revisão; quantidade e motivo devem continuar os mesmos. C02 · abrir F02, F05, F05Q e F12 como participante; só devem aparecer ações da tarefa, com os casos alternativos abertos pelo moderador. C03 · pausar em F11 depois de ler a anotação do balcão; a retomada deve voltar à comparação do mesmo pedido. C04 · ler a linha de saldo de F12P isolada; os números 8 e 10 devem mostrar “conjuntos”, e F10 deve trazer a equivalência em peças. C05 · clicar no centro, no texto e nas duas bordas de **Adiar neste ciclo**; todos devem abrir a opção. **Desejáveis antes da E14 (C06–C09):** verificar conforme a coluna “Correção proposta” de cada ficha. **Depois da E14 (C10–C13):** os estados de espera e falha não serão provocados nas sessões; corrigir e verificar na próxima rodada. Após as correções, registrar a revisão do Figma usada na E14, conforme a [E12](12_planejamento_avaliacao.md). |
 
 ## Checklist
 
-- [ ] Cada integrante fez uma inspeção completa e identificada.
-- [ ] Todas as telas/estados relevantes foram examinados.
-- [ ] Estados administrativos, filtros, relatórios, históricos, processamento e erros foram incluídos quando existentes.
-- [ ] A inspeção avaliou a interface/protótipo, não o mérito técnico do algoritmo/modelo.
-- [ ] H1–H10 aparecem na matriz de cobertura de cada avaliador.
-- [ ] Parte de violações contém apenas violações, sem “forçar” exemplos.
-- [ ] Todo problema tem print/localização e contexto.
-- [ ] Severidade possui justificativa, não apenas número.
-- [ ] Recomendação resolve a causa ou reduz o impacto.
-- [ ] Achados duplicados foram consolidados ao final.
+- [x] Cada integrante fez uma inspeção completa e identificada.
+- [x] Todas as telas/estados relevantes foram examinados.
+- [x] Estados administrativos, filtros, relatórios, históricos, processamento e erros foram incluídos quando existentes.
+- [x] A inspeção avaliou a interface/protótipo, não o mérito técnico do algoritmo/modelo.
+- [x] H1–H10 aparecem na matriz de cobertura de cada avaliador.
+- [x] Parte de violações contém apenas violações, sem “forçar” exemplos.
+- [x] Todo problema tem print/localização e contexto.
+- [x] Severidade possui justificativa, não apenas número.
+- [x] Recomendação resolve a causa ou reduz o impacto.
+- [x] Achados duplicados foram consolidados ao final.
