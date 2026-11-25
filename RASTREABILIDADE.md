@@ -123,6 +123,7 @@ F01–F06 na Entrega 1 identificam ações candidatas, não telas. Os IDs Fxx de
 | 25/11/2026 | Ligar personas, cenários, objetivos, MoLIC, Figma, metas, tarefas de teste e inspeção | Feedback E9, E10 e E11: matriz desatualizada | Seção 3.1 desta matriz |
 | 25/11/2026 | Arquivar placeholders `f01.svg`, `v01.svg` e `fluxograma_avaliacao.svg`; substituir `mapa_objetivos.svg` pela fonte real | Feedback E11 | `assets/historico/2026-11-25_placeholders/` |
 | 25/11/2026 | Registrar a sessão de 23/11 (W01) como não documentada e acrescentar um walkthrough cognitivo simulado, sem participante | Feedback E6. As decisões foram só ajustes de texto e de estado, a maioria já presente na E11 | E6, seção 4 |
+| 25/11/2026 | Registrar as observações da sessão W01 de 23/11 (PF01 e PF03) e as decisões correspondentes | Feedback E6. Sem mudanças estruturais | E6, seções 4 e 5 |
 | 25/11/2026 | Publicar o questionário I01 e registrar o link, com acesso sem login e saltos verificados | Feedback E7. A publicação não é evidência sobre as hipóteses, que continuam abertas | E7, instrumento I01 |
 | 25/11/2026 | Mapear as etapas do ciclo de Mayhew para os artefatos e indicar a etapa atual | Feedback E8 | E8, seção 4 |
 | 25/11/2026 | Alinhar mais rótulos do Figma aos signos da E9 (F01, F02B, F02P, F03, F05P, F05PS, F06E, F06R, F12E, F12N, F12P) e verificar as 57 ligações no modo de apresentação | Revisão final das E9–E11 | E11; capturas f01.png e f13.png |

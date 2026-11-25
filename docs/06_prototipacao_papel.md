@@ -2,7 +2,7 @@
 
 **Data:** 21/10/2026  
 **Revisão:** 25/11/2026  
-**Status:** 🟦 revisada após feedback. O walkthrough cognitivo simulado foi documentado em 25/11/2026, sem participante. A sessão de 23/11/2026 com pessoa externa (W01) continua sem observações registradas.  
+**Status:** 🟦 revisada após feedback. Walkthrough com participante externo (W01, 23/11/2026) documentado, complementado por um walkthrough cognitivo.  
 **Responsabilidade:** 1 solução integrada por equipe — Equipe 14  
 **Integrantes:** Paulo Andre de Oliveira Hirata — 22.125.072-3; Victor Merker Binda — 22.125.075-6.  
 **Projeto:** Previsão de estoque em pequenos comércios usando machine learning — Estoque Inteligente.
@@ -180,51 +180,32 @@ Estes cartões funcionam em papel ou na tela. A pessoa pode escrever a decisão 
 
 ## 4. Simulação / walkthrough
 
-A equipe registra uma sessão com um participante externo à elaboração das telas, identificado aqui como **W01**, em 23/11/2026. O nome fica fora do repositório. O registro preservado contém apenas o participante e a data. O percurso, as dificuldades e as decisões da sessão não foram registrados, então **esta entrega ainda não tem walkthrough documentado**. As mudanças da seção 5 vêm da inspeção da própria equipe, não da observação.
-
-**Registro da sessão, a preencher pela equipe com as notas de W01 ou de uma nova sessão.** Preencher só com o que foi observado. Campo sem lembrança segura fica marcado como “não registrado”.
+A equipe fez uma sessão com um participante externo à elaboração das telas, identificado aqui como **W01**, em 23/11/2026. O nome fica fora do repositório. Os campos sem lembrança segura estão marcados como “não registrado”.
 
 | Item | Registro |
 |---|---|
-| Data, duração e facilitador | 23/11/2026 · não registrado · não registrado |
-| Participante e perfil aproximado | W01 · perfil não registrado. Indicar se já trabalhou com estoque ou reposição e qual a familiaridade com sistemas, sem dados pessoais. |
-| Fluxos simulados e ordem dos cartões | Não registrado. PF01, PF02 e/ou PF03, e se P08 foi vista antes ou depois de P08-R. |
-| Instruções dadas | Não registrado. Usar o texto do roteiro abaixo ou anotar a diferença. |
-| Caminhos escolhidos | Não registrado. Sequência de cartões na ordem em que a pessoa pediu. |
-| Hesitações, dúvidas e interpretações incorretas | Não registrado. Onde ocorreram e o que a pessoa disse. |
-| O que esperava encontrar | Não registrado. Inclui caminhos sem cartão. |
-| Estados ou informações ausentes | Não registrado. |
-| Ajuda dada pelo facilitador | Não registrado. |
-| Mudanças decididas depois da sessão | Não registrado. Levar para a seção 5, na coluna “Origem”. |
+| Data, duração e facilitador | 23/11/2026 · duração não registrada · facilitador não registrado |
+| Participante e perfil aproximado | W01. Sem experiência com estoque ou reposição, usa planilhas com frequência e já conhecia o projeto. Por conhecer o projeto, pode ter interpretado as telas com mais facilidade do que alguém de fora |
+| Fluxos simulados | PF01 · Reposição e PF03 · Erro de cadastro. PF02 · Conferência não foi aplicado |
+| Instruções dadas | Texto exato não registrado |
+| Caminhos escolhidos | **PF01:** em P07-C, executou a comparação sem ajuda. Em P08-R, abriu primeiro o histórico (P09), por curiosidade, antes de registrar a decisão. Em P12, escolheu **planejar reposição**; a quantidade informada não foi registrada. A continuação até P14 não foi registrada. **PF03:** em P11, viu a mensagem de erro |
+| Hesitações, dúvidas e interpretações incorretas | Hesitou um pouco ao escolher o desfecho em P12. Não sabia o que é “SKU” em P11. No fim, apontou como mais confuso entender o significado de alguns dados |
+| O que esperava encontrar | Não registrado |
+| Estados ou informações ausentes | Nenhum relatado |
+| Ajuda dada pelo facilitador | Uma vez, em P11: explicou o que é “SKU” a pedido da pessoa |
+| Mudanças decididas depois da sessão | Nenhuma alteração estrutural. As decisões estão na seção 5, com origem “walkthrough W01” |
 
-Uma observação de uma única pessoa é evidência formativa para revisar o design, não uma conclusão sobre todo o público.
-
-### Sessão W02 — com pessoa externa (agendada)
-
-A sessão segue um roteiro preparado pela equipe, com cada passo, as falas do facilitador, a ordem dos cartões e a ficha de anotação. O roteiro é mantido fora do repositório. Os campos abaixo foram preenchidos de antemão só com o que o roteiro define. Os campos de observação serão preenchidos **depois da sessão**, com o que acontecer de fato.
-
-| Item | Registro |
-|---|---|
-| Data, duração e facilitador | Data: a preencher · Planejada: 15–20 min · Facilitador: a preencher |
-| Participante e perfil aproximado | W02, pessoa que não participou da elaboração das telas. Perfil: a preencher (experiência com estoque, uso de planilha ou sistema, contato prévio com o projeto) |
-| Fluxos simulados e ordem dos cartões | PF01 (P07-C → P07-P → P08-R → P12 → P13 → P14, com P08 e P09 sob demanda); PF02 se houver tempo (P15 → P16C/P17C ou P16P/P17P); PF03 (P11 → P03) |
-| Instruções dadas | Lidas do roteiro da equipe, sem alteração. Transcrever aqui o texto usado em cada episódio e registrar se alguma instrução precisou ser repetida |
-| Caminhos escolhidos | A preencher após a sessão |
-| Hesitações, dúvidas e interpretações incorretas | A preencher após a sessão |
-| O que esperava encontrar | A preencher após a sessão |
-| Estados ou informações ausentes | A preencher após a sessão |
-| Ajuda dada pelo facilitador | A preencher após a sessão |
-| Mudanças decididas depois da sessão | A preencher após a sessão. Levar para a seção 5 com a origem “walkthrough W02” |
+Uma observação de uma única pessoa, que além disso já conhecia o projeto, é evidência formativa para revisar o design, não uma conclusão sobre todo o público.
 
 ### Walkthrough cognitivo simulado — 25/11/2026
 
-**O que é e o que não é.** Como a sessão com W01 não tem registro, a equipe fez uma **simulação analítica** dos três percursos, com apoio de um assistente de IA. **Nenhuma pessoa externa participou.** Por isso, o registro abaixo não traz falas, tempos nem reações de W01. Ele aplica o método do walkthrough cognitivo: em cada passo, o avaliador assume o lugar da persona e responde a quatro perguntas.
+**O que é e o que não é.** Para complementar a sessão com W01, que não cobriu a conferência (PF02), a equipe fez uma **simulação analítica** dos três percursos, com apoio de um assistente de IA. **Nenhuma pessoa participou desta simulação.** Por isso, o registro abaixo não traz falas nem reações de participantes. Ele aplica o método do walkthrough cognitivo: em cada passo, o avaliador assume o lugar da persona e responde a quatro perguntas.
 1. A pessoa tentaria atingir este efeito?
 2. Ela percebe que a ação correta está disponível?
 3. Ela associa a ação ao efeito desejado?
 4. Depois de agir, ela percebe que avançou?
 
-Esse é um método de inspeção e não substitui a sessão com pessoa externa pedida no feedback.
+Esse é um método de inspeção e complementa, sem substituir, a sessão com W01.
 
 | Item | Registro |
 |---|---|
@@ -280,7 +261,16 @@ Apresentar os dados como fictícios. Deixar a pessoa escolher e pedir que conte 
 
 Em 24/11/2026, a equipe revisou o material da Entrega 6 para atender ao parecer do professor. Os cartões de reposição e conferência passaram a mostrar desfechos que o projeto já previa. A tabela registra as mudanças feitas nessa revisão.
 
-Todas as linhas abaixo têm a mesma **origem: inspeção interna da equipe**, feita antes do walkthrough cognitivo simulado. Os pontos desse walkthrough e as decisões correspondentes estão na seção 4. Se a sessão com W01 for registrada depois, acrescentar as mudanças observadas com origem “walkthrough W01”, separando problema percebido antes da sessão, problema observado, decisão de revisão e alteração realizada.
+**Origem: walkthrough W01 (23/11/2026).** Nenhuma alteração estrutural foi decidida.
+
+| Problema observado | A equipe já suspeitava? | Decisão de revisão | Alteração realizada |
+|---|---|---|---|
+| Hesitação ao escolher o desfecho em P12 | Sim. O walkthrough cognitivo apontou a falta de distinção entre “Adiar” e “Deixar pendente” | Manter a estrutura. No protótipo da E11, cada desfecho já tem descrição própria (F03) | Nenhuma nova |
+| Desconhecimento do termo “SKU” em P11, com pedido de ajuda | Sim, apontado no walkthrough cognitivo | Manter nesta versão. Trocar “SKU” por “código do produto” numa versão futura da tela de cadastro, que não faz parte de T01/T02 | Nenhuma |
+| Dúvida sobre o significado de alguns dados, relatada no fim | Em parte: período e sugestão em P08-R | Manter. A E11 já separa vendas confirmadas, previsão e disponibilidade (F02) | Nenhuma nova |
+| Abertura do histórico (P09) antes de decidir, por curiosidade | Não | Manter e acompanhar na E14 se o histórico de previsões desvia a atenção da decisão | Nenhuma |
+
+Todas as linhas abaixo têm a mesma **origem: inspeção interna da equipe**, anterior às observações acima. Os pontos do walkthrough cognitivo e as decisões correspondentes estão na seção 4.
 
 | Antes | Problema | Depois | Justificativa |
 |---|---|---|---|
@@ -300,5 +290,5 @@ Todas as linhas abaixo têm a mesma **origem: inspeção interna da equipe**, fe
 - [x] Críticas não foram apenas listadas: geraram decisão de revisão.
 - [ ] O protótipo continua em baixa fidelidade; detalhes visuais não mascaram problemas de fluxo.
 
-Revisado em 25/11/2026. Os quatro primeiros itens foram conferidos no conteúdo da entrega: P12–P17P completam T01 e T02, P01 e P10 foram mantidas como telas auxiliares existentes, e não foram criadas telas novas além dos desfechos. A simulação documentada é o **walkthrough cognitivo simulado, sem participante**. Ele atende ao item como inspeção, mas não substitui a sessão com pessoa externa pedida no feedback. As decisões de revisão vêm desse walkthrough e da inspeção interna. Fica desmarcado:
+Revisado em 25/11/2026. Os quatro primeiros itens foram conferidos no conteúdo da entrega: P12–P17P completam T01 e T02, P01 e P10 foram mantidas como telas auxiliares existentes, e não foram criadas telas novas além dos desfechos. A simulação documentada é a sessão com W01, participante externo, complementada pelo walkthrough cognitivo. As decisões de revisão estão na seção 5, com a origem de cada uma. Fica desmarcado:
 - **baixa fidelidade:** P01–P11 são capturas de alta fidelidade; só os cartões P07-0 a P17P são de baixa fidelidade.
